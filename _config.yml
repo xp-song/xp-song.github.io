@@ -1,4 +1,4 @@
 name: Song, Xiao Ping
 markdown: kramdown
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
