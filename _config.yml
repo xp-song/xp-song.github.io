@@ -1,3 +1,4 @@
 name: Song, Xiao Ping
-theme: jekyll-theme-minimal
+markdown: kramdown
+#theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
