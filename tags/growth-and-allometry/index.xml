@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Growth and allometry on xpsong</title>
-    <link>/tags/growth-and-allometry/</link>
+    <link>https://xp-song.github.io/tags/growth-and-allometry/</link>
     <description>Recent content in Growth and allometry on xpsong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
     <lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/growth-and-allometry/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://xp-song.github.io/tags/growth-and-allometry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tree growth and allometric equations</title>
-      <link>/software/tree-allometry/</link>
+      <link>https://xp-song.github.io/software/tree-allometry/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/software/tree-allometry/</guid>
+      <guid>https://xp-song.github.io/software/tree-allometry/</guid>
       <description>&lt;p&gt;In the works&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The natural capital of city trees</title>
-      <link>/project/street-trees/</link>
+      <link>https://xp-song.github.io/project/street-trees/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/street-trees/</guid>
+      <guid>https://xp-song.github.io/project/street-trees/</guid>
       <description>&lt;p&gt;Over the past decades, there has been intensive effort to &amp;lsquo;green&amp;rsquo; many cities around the world. Increasing the amount of tree cover has been particularly important, as it is associated with numerous benefits through the &amp;lsquo;ecosystem services&amp;rsquo; they provide to city dwellers. For example, trees can lower temperatures by providing shade, mitigate air pollution by adsorbing pollutants, and reduce the risk of flooding by intercepting rainfall. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
@@ -35,7 +35,7 @@
 
 &lt;figure&gt;
 
-&lt;img src=&#34;/img/b-c_overview.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/img/b-c_overview.jpg&#34; width=&#34;100%&#34; /&gt;
 
 
 
@@ -53,7 +53,7 @@
 
 &lt;figure&gt;
 
-&lt;img src=&#34;/img/treestudies_geography.png&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/img/treestudies_geography.png&#34; width=&#34;100%&#34; /&gt;
 
 
 
@@ -69,7 +69,7 @@
 
 &lt;figure&gt;
 
-&lt;img src=&#34;/img/Treemap.png&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/img/Treemap.png&#34; width=&#34;100%&#34; /&gt;
 
 
 

@@ -2,54 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revealed preferences on xpsong</title>
-    <link>/tags/revealed-preferences/</link>
+    <link>https://xp-song.github.io/tags/revealed-preferences/</link>
     <description>Recent content in Revealed preferences on xpsong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Mon, 17 Jun 2019 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/revealed-preferences/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://xp-song.github.io/tags/revealed-preferences/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Automated image classification into content-type categories</title>
-      <link>/posts/photo-classify/2019-06-17-photo-classify/</link>
-      <pubDate>Mon, 17 Jun 2019 21:13:14 -0500</pubDate>
-      
-      <guid>/posts/photo-classify/2019-06-17-photo-classify/</guid>
-      <description>
-
-
-&lt;p&gt;Coming soon!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Using social media user attributes to understand human–environment interactions at urban parks</title>
-      <link>/publication/journal-article/2019_using_social_media/</link>
+      <link>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/journal-article/2019_using_social_media/</guid>
+      <guid>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Park explorer: Interactive map</title>
-      <link>/apps/photo-map/</link>
+      <link>https://xp-song.github.io/apps/photo-map/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/apps/photo-map/</guid>
+      <guid>https://xp-song.github.io/apps/photo-map/</guid>
       <description>&lt;p&gt;Coming soon!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Social media analysis of human–environment interactions</title>
-      <link>/project/social-media/</link>
+      <link>https://xp-song.github.io/project/social-media/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/social-media/</guid>
+      <guid>https://xp-song.github.io/project/social-media/</guid>
       <description>&lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
