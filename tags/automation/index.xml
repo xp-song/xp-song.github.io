@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation on xpsong</title>
-    <link>/tags/automation/</link>
+    <link>https://xp-song.github.io/tags/automation/</link>
     <description>Recent content in Automation on xpsong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
     <lastBuildDate>Mon, 17 Jun 2019 21:13:14 -0500</lastBuildDate>
     
-	    <atom:link href="/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://xp-song.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Automated image classification into content-type categories</title>
-      <link>/posts/photo-classify/2019-06-17-photo-classify/</link>
+      <link>https://xp-song.github.io/posts/photo-classify/2019-06-17-photo-classify/</link>
       <pubDate>Mon, 17 Jun 2019 21:13:14 -0500</pubDate>
       
-      <guid>/posts/photo-classify/2019-06-17-photo-classify/</guid>
+      <guid>https://xp-song.github.io/posts/photo-classify/2019-06-17-photo-classify/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -515,7 +515,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Here are plots of the results across different clustering scenarios:&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;Differences between within- and between-cluster variation, across different clustering scenarios&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;Differences between within- and between-cluster variation, across different clustering scenarios&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Differences between within- and between-cluster variation, across different clustering scenarios&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -540,7 +540,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value where k = &lt;code&gt;11&lt;/code&gt;. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/posts/photo-classify/rmse.png&#34; alt=&#34;Total RMSE of possible pairs of best-fit lines&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/rmse.png&#34; alt=&#34;Total RMSE of possible pairs of best-fit lines&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Total RMSE of possible pairs of best-fit lines&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -561,7 +561,7 @@ photos &amp;lt;- cbind.data.frame(photos, grp, stringsAsFactors = FALSE) #Final 
 ##Plot##
 plot(as.dendrogram(cluz), sub = &amp;quot;&amp;quot;, xlab =&amp;quot;&amp;quot;, ylab = &amp;quot;Height&amp;quot;, main = &amp;quot;Hierarchical clustering of photos into 11 categories&amp;quot;, cex.main = 0.95, leaflab = &amp;quot;none&amp;quot;)
 rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/posts/photo-classify/visual.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/visual.png&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
