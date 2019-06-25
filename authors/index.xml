@@ -7,46 +7,10 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hao Ran Lai</title>
-      <link>https://xp-song.github.io/authors/hao-ran-lai/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/authors/hao-ran-lai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugh TW Tan</title>
-      <link>https://xp-song.github.io/authors/hugh-tw-tan/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/authors/hugh-tw-tan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiao Ping Song</title>
-      <link>https://xp-song.github.io/authors/xiao-ping-song/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/authors/xiao-ping-song/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhongyu Chiam</title>
-      <link>https://xp-song.github.io/authors/zhongyu-chiam/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/authors/zhongyu-chiam/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Daniel Richards</title>
@@ -63,6 +27,15 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/puay-yok-tan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiao Ping Song</title>
+      <link>https://xp-song.github.io/authors/xiao-ping-song/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/xiao-ping-song/</guid>
       <description></description>
     </item>
     
@@ -162,6 +135,15 @@
       <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/yu-zhuang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugh TW Tan</title>
+      <link>https://xp-song.github.io/authors/hugh-tw-tan/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/hugh-tw-tan/</guid>
       <description></description>
     </item>
     
