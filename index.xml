@@ -7,10 +7,43 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A crash course in R programming</title>
+      <link>https://xp-song.github.io/posts/intro2r/2019-07-12-intro2r/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/posts/intro2r/2019-07-12-intro2r/</guid>
+      <description>
+
+
+&lt;p&gt;I was recently asked to conduct a workshop to teach basic coding/programming in R. After slogging away for what seemed like eternity… it’s finished! Yay!&lt;/p&gt;
+&lt;p&gt;It’s meant to be a crash course for those without coding experience, where we dive right into organising, visualising and analysing &lt;em&gt;real&lt;/em&gt; data. While it wasn’t meant to be a self-study course, the slides were designed to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on &lt;a href=&#34;https://github.com/xp-song/Intro2R&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the slides if you’d like to see the potential of the R programming language. I’ve also provided links to useful resources if you’re interested in getting into data science using R.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;workshop-outline&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workshop outline:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Click on the slides and use arrows to navigate&lt;/em&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Getting Started:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/0_Getting_started.html&#34;&gt;Notes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;R Environment and Syntax:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/1_R_environment_and_syntax.html&#34;&gt;Notes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_1/1_R_environment_and_syntax_slides#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Data Wrangling and Visualisation:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/2_Data_wrangling_and_visualisation.html&#34;&gt;Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_2/2_Data_wrangling_and_visualisation_slides#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Particulate matter mitigation via plants: Understanding complex relationships with leaf traits</title>

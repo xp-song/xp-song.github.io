@@ -3,6 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xp-song.github.io/posts/intro2r/2019-07-12-intro2r/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/categories/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/posts/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/r/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/categories/tutorials/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xp-song.github.io/publication_types/2/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -61,12 +102,6 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/tags/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -85,36 +120,12 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/posts/photo-classify/2019-06-17-photo-classify/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xp-song.github.io/tags/automation/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/categories/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/posts/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/r/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -127,12 +138,6 @@
   
   <url>
     <loc>https://xp-song.github.io/tags/social-media/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/categories/tutorials/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
