@@ -32,13 +32,13 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/categories/tutorials/</loc>
+    <loc>https://xp-song.github.io/tags/tutorials/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/tags/tutorials/</loc>
+    <loc>https://xp-song.github.io/categories/tutorials/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -51,19 +51,94 @@
   
   <url>
     <loc>https://xp-song.github.io/publication_types/2/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xp-song.github.io/authors/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xp-song.github.io/tags/cities/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/authors/daniel-richards/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/publication/journal-article/2019_how_do_people_use_parks/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/outdoor-recreation/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/parks/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/phd-thesis/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/photography-behaviour/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/authors/puay-yok-tan/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/publication_types/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/publication/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/revealed-preferences/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/social-media/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/authors/xiao-ping-song/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,24 +172,7 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/publication_types/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/publication/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/authors/xiao-ping-song/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -132,18 +190,6 @@
   
   <url>
     <loc>https://xp-song.github.io/tags/automation/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/revealed-preferences/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/social-media/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -184,47 +230,6 @@
   <url>
     <loc>https://xp-song.github.io/music/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/authors/daniel-richards/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/outdoor-recreation/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/parks/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/phd-thesis/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/photography-behaviour/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/authors/puay-yok-tan/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -434,6 +439,11 @@
   
   <url>
     <loc>https://xp-song.github.io/authors/xpsong/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/publication/journal-article/2019_how_do_people_use_parks/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
