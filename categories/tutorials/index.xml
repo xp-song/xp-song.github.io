@@ -21,8 +21,7 @@
       <description>
 
 
-&lt;p&gt;I was recently asked to conduct a workshop to teach basic coding/programming in R. After slogging away for what seemed like eternity… it’s finished! Yay!&lt;/p&gt;
-&lt;p&gt;It’s meant to be a crash course for those without coding experience, where we dive right into organising, visualising and analysing &lt;em&gt;real&lt;/em&gt; data. While it wasn’t meant to be a self-study course, the slides were designed to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on &lt;a href=&#34;https://github.com/xp-song/Intro2R&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I recently conducted a workshop to teach basic coding/programming in R. It was designed as a crash course for those without coding experience, where we dive right into organising, visualising and analysing &lt;em&gt;real&lt;/em&gt; data. While it wasn’t meant to be a self-study course, the slides were made to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on &lt;a href=&#34;https://github.com/xp-song/Intro2R&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Check out the slides if you’d like to see the potential of the R programming language. I’ve also provided links to useful resources if you’re interested in getting into data science using R.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;hr /&gt;
