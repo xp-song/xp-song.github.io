@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/cities/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using social media user attributes to understand human–environment interactions at urban parks</title>
+      <link>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Particulate matter mitigation via plants: Understanding complex relationships with leaf traits</title>
@@ -42,15 +51,6 @@
     </item>
     
     <item>
-      <title>Using social media user attributes to understand human–environment interactions at urban parks</title>
-      <link>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An ecosystem service design loop for using vegetation to mitigate the urban heat island effect</title>
       <link>https://xp-song.github.io/publication/book-section/2019_an_ecosystem_servic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -69,7 +69,7 @@
     </item>
     
     <item>
-      <title>Social media analysis of human–environment interactions</title>
+      <title>Data-driven approaches to understand human interactions with nature</title>
       <link>https://xp-song.github.io/project/social-media/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       

@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/outdoor-recreation/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,20 @@
     <item>
       <title>Using social media user attributes to understand human–environment interactions at urban parks</title>
       <link>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/publication/journal-article/2019_using_social_media/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Data-driven approaches to understand human interactions with nature</title>
+      <link>https://xp-song.github.io/project/social-media/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/project/social-media/</guid>
+      <description>&lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -28,16 +38,6 @@
       
       <guid>https://xp-song.github.io/apps/photo-map/</guid>
       <description>&lt;p&gt;Coming soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Social media analysis of human–environment interactions</title>
-      <link>https://xp-song.github.io/project/social-media/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/project/social-media/</guid>
-      <description>&lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
