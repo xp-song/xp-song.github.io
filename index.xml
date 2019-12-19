@@ -7,10 +7,48 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analysing spatial patterns of the landscape</title>
+      <link>https://xp-song.github.io/posts/intro2r-spatial/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/posts/intro2r-spatial/</guid>
+      <description>
+
+
+&lt;p&gt;The field of landscape ecology studies interactions between organisms and their surrounding environment. Landscape metrics are useful tools to quantify the physical landscape, by condensing as much inforamtion as possible into a single number. These can be used for further analyses, depending on the research question.&lt;/p&gt;
+&lt;p&gt;My latest teaching commitments have been focused on introducing such concepts to architects and designers. While I’ve used FRAGSTATS and other GIS software for teaching in the past, I’ve always struggled with compatibility/licensing issues that just made the whole analysis really cumbersome.&lt;/p&gt;
+&lt;p&gt;Recently, I came across this R package called &lt;a href=&#34;https://r-spatialecology.github.io/landscapemetrics/index.html&#34;&gt;landscapemetrics&lt;/a&gt;. I was absoultely blown away by the sheer power of this thing. I always wanted to to be able to introduce people to spatial analysis in R, and to show how a seamless, reproducible workflow can make all your problems disappear. This was the tipping point for me, and I decided to give it a shot!&lt;/p&gt;
+&lt;p&gt;In this post, you’ll be able to get a quick preview of the workshop content. The workshop is meant to be a follow-up lesson to the &lt;a href=&#34;https://xp-song.github.io/posts/intro2r/&#34;&gt;Introduction to R&lt;/a&gt; course I’ll be conducting next semester.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;workshop-outline&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workshop outline:&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Why analyse spatial patterns?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Landscape ecology: Conceptual models&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Land cover classification&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Landscape metrics&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I’ve uploaded the slides and data on &lt;a href=&#34;https://github.com/xp-song/Intro2R-spatial&#34;&gt;Github&lt;/a&gt;, so that anyone interested to try out the analysis for themselves will be able to do so. If you’re interested in geospatial analysis, check it out!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slide-deck&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slide deck:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Click on the slides and use arrows to navigate&lt;/em&gt;&lt;/p&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>How do people use urban parks? A city-wide analysis using photograph content on social media</title>
