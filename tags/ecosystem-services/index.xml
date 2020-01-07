@@ -7,10 +7,23 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/ecosystem-services/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Allometree: Interactive Dashboard</title>
+      <link>https://xp-song.github.io/software/allometree/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/software/allometree/</guid>
+      <description>
+
+
+&lt;p&gt;Coming soon!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How do people use urban parks? A city-wide analysis using photograph content on social media</title>
@@ -80,11 +93,11 @@
     
     <item>
       <title>Park explorer: Interactive map</title>
-      <link>https://xp-song.github.io/apps/photo-map/</link>
+      <link>https://xp-song.github.io/software/photo-map/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://xp-song.github.io/apps/photo-map/</guid>
-      <description>&lt;p&gt;Coming soon!&lt;/p&gt;
+      <guid>https://xp-song.github.io/software/photo-map/</guid>
+      <description>&lt;p&gt;In the works&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
@@ -113,16 +126,6 @@
       
       <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Tree growth and allometric equations</title>
-      <link>https://xp-song.github.io/software/tree-allometry/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/software/tree-allometry/</guid>
-      <description>&lt;p&gt;In the works&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
     <item>
