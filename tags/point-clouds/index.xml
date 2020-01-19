@@ -38,6 +38,27 @@
 
 &lt;figure&gt;
 
+&lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;Project lead: Philipp Urech&#34; width=&#34;70%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;&lt;/h4&gt;
+  &lt;p&gt;
+    Project lead: Philipp Urech
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+
+
+&lt;figure&gt;
+
 &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;Project lead: Tze Kwan Fung&#34; width=&#34;70%&#34; /&gt;
 
 
@@ -67,27 +88,6 @@
   &lt;h4&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;&lt;/h4&gt;
   &lt;p&gt;
     Project lead: Rachel Leong
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;Project lead: Philipp Urech&#34; width=&#34;70%&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Philipp Urech
     
     
     
