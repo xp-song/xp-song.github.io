@@ -34,7 +34,7 @@
 
 &lt;p&gt;This tutorial describes the workflow and R code that can be used to classify a large number of images into &lt;em&gt;discrete&lt;/em&gt; categories, based on their content. The source documents are available on &lt;a href=&#34;https://github.com/xp-song/photo-classify&#34;&gt;GitHub&lt;/a&gt;, and the interactive HTML is viewable &lt;a href=&#34;http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo-classification.html&#34;&gt;here&lt;/a&gt;. This tutorial provides supplementary information to the following publication:&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks, Scientific Reports (forthcoming), &lt;a href=&#34;https://doi.org/10.1038/s41598-020-57864-4&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1038/s41598-020-57864-4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks, Scientific Reports &lt;strong&gt;10&lt;/strong&gt;, 808. &lt;a href=&#34;https://doi.org/10.1038/s41598-020-57864-4&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1038/s41598-020-57864-4&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;An earlier iteration of the code was used in &lt;a href=&#34;https://doi.org/10.1016/j.ecoser.2017.09.004&#34;&gt;this publication&lt;/a&gt;. Note that there are &lt;a href=&#34;https://doi.org/10.1016/J.ECOLIND.2018.08.035&#34;&gt;numerous other ways to classify images&lt;/a&gt;, including those that deal with overlapping content.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;hr /&gt;
