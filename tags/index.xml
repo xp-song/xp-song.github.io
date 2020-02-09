@@ -7,10 +7,55 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Geoinformatics</title>
+      <link>https://xp-song.github.io/tags/geoinformatics/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/geoinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landscape design</title>
+      <link>https://xp-song.github.io/tags/landscape-design/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/landscape-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Map</title>
+      <link>https://xp-song.github.io/tags/map/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://xp-song.github.io/tags/r/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://xp-song.github.io/tags/tutorials/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/tutorials/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cities</title>
@@ -27,15 +72,6 @@
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/ecosystem-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geoinformatics</title>
-      <link>https://xp-song.github.io/tags/geoinformatics/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/geoinformatics/</guid>
       <description></description>
     </item>
     
@@ -112,24 +148,6 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://xp-song.github.io/tags/r/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://xp-song.github.io/tags/tutorials/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/tutorials/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dashboard</title>
       <link>https://xp-song.github.io/tags/dashboard/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -144,24 +162,6 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/growth-and-allometry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landscape design</title>
-      <link>https://xp-song.github.io/tags/landscape-design/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/landscape-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Map</title>
-      <link>https://xp-song.github.io/tags/map/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/map/</guid>
       <description></description>
     </item>
     
