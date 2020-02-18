@@ -18,13 +18,29 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/project/social-media/</guid>
-      <description>&lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
+      <description>&lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people&amp;rsquo;s behaviour, sentiment and aesthetic experiences at specific places.&lt;/p&gt;
+
+&lt;p&gt;Many studies have used geo-located social media as a proxy for outdoor recreation, but fewer have examined how experiences of a place vary between different groups of people. Such data are often generated bottom-up, also making it challenging to ensure that all people groups are properly represented. There are thus opportunities to improve the reliability of these data-driven approaches, and build integrated workflows that consider both the effects of &amp;lsquo;place&amp;rsquo; and &amp;lsquo;people&amp;rsquo; across multiple datasets.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residential status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people&amp;rsquo;s behaviour, sentiment and aesthetic experiences at specific places.&lt;/p&gt;
-
-&lt;p&gt;Many studies have used geo-located social media as a proxy for outdoor recreation, but fewer have examined how experiences of a place vary between different groups of people. Such data are often generated bottom-up, also making it challenging to ensure that all people groups properly represented. There are thus opportunities to improve the reliability of these data-driven approaches, and build integrated workflows that consider both the effects of &amp;lsquo;place&amp;rsquo; and &amp;lsquo;people&amp;rsquo; across multiple datasets.&lt;/p&gt;
+&lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -39,7 +55,7 @@
 &lt;p&gt;The design objectives were to:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Assess site conditions in the context of the &amp;lsquo;Kashiwanoha Smart City&amp;rsquo; concept and vision. This includes the current coverage and distribution of green spaces, how such spaces are used (or not used), environmental constraints faced in urban greening, the needs of people, relationships between the site and adjacent neighbourhoods, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assess site conditions in the context of the &amp;lsquo;Kashiwanoha Smart City&amp;rsquo; concept and vision. This included the current coverage and distribution of green spaces, how such spaces were used (or not used), environmental constraints faced in urban greening, the needs of people, relationships between the site and adjacent neighbourhoods, etc.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Identify and articulate key issues that can be addressed through planning and design, keeping in mind current encumbrances.&lt;/p&gt;&lt;/li&gt;
 
@@ -186,7 +202,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/project/street-trees/</guid>
-      <description>&lt;p&gt;Over the past decades, there has been intensive effort to &amp;lsquo;green&amp;rsquo; many cities around the world. Increasing the amount of tree cover has been particularly important, as it is associated with numerous benefits through the &amp;lsquo;ecosystem services&amp;rsquo; they provide to city dwellers. For example, trees can lower temperatures by providing shade, mitigate air pollution by adsorbing pollutants, and reduce the risk of flooding by intercepting rainfall. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
+      <description>&lt;p&gt;Trees are one of the largest components of urban greenery, and contribute significantly to canopy cover in cities&amp;rsquo; urban greening efforts. They are also associated with numerous benefits through the &amp;lsquo;ecosystem services&amp;rsquo; they provide to city dwellers. For example, trees can lower temperatures by providing shade, mitigate air pollution by adsorbing pollutants, and reduce the risk of flooding by intercepting rainfall. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
 
@@ -204,7 +220,7 @@
 
 &lt;/figure&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. However, it is also crucial to weigh these benefits against the costs of tree planting and maintenance. There is also a need to consider the effect of time—specifically, how the growth and mortality of trees affect their associated benefits and costs as they age. A better understanding of these relationships will help us maximise the cost-effectiveness of trees in the long run.&lt;/p&gt;
+&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many downstream benefits rely heavily on a tree&amp;rsquo;s physical structure, which is not constant but changes over its lifespan and between species. However, urban tree inventories in the tropics are few and poorly represented in allometric studies, despite a large diversity of plants in this climate region. While there is a large body of knowledge of tree structure and growth in natural forests, unique conditions in urban areas can result in allometric relationships that vary greatly from those in natural environments.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
 
@@ -221,6 +237,8 @@
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, it is also crucial to weigh the benefits of trees against potential hazards and costs of management, and to assess how these effects change across time. There are also opportunities to examine how other plant traits relate to a tree&amp;rsquo;s physical structure, to provide generalisable findings that overcome the limitations of sampling many under-represented plant species. A better understanding of these relationships can help us maximise the cost-effectiveness of trees in the long run.&lt;/p&gt;
 </description>
     </item>
     
@@ -230,11 +248,11 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/project/ess_external/</guid>
-      <description>&lt;p&gt;Urban vegetation and green spaces provide cities with a number of benefits which are known as ‘ecosystem services’. These include reducing flood risk, cooling urban areas, and providing spaces for recreation.&lt;/p&gt;
+      <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 
-&lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical urban areas can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to better understand how urban greenery can contribute to enhancing the sustainability of such cities.&lt;/p&gt;
+&lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
 
-&lt;p&gt;The main aim of this project is to use new types of data and modelling approaches to improve urban landscape design and obtain the greatest value from ecosystem services. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. The landscape is designed using 3D point cloud data, which produces a representation of the landscape that is highly accurate. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
+&lt;p&gt;This project uses new types of data and modelling approaches to understand how we can improve the ecological performance of urban greenery. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. Landscape design is performed using 3D point cloud data, to achieve highly accurate representations of existing landscapes. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
 
