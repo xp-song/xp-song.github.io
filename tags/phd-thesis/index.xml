@@ -7,19 +7,10 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/phd-thesis/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How do people use urban parks? A city-wide analysis using photograph content on social media</title>
-      <link>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Using social media user attributes to understand human–environment interactions at urban parks</title>
@@ -73,27 +64,9 @@
     </item>
     
     <item>
-      <title>The economic benefits and costs of trees in urban forest stewardship: A systematic review</title>
-      <link>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Benefits of trees in tropical cities</title>
-      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The natural capital of city trees</title>
       <link>https://xp-song.github.io/project/street-trees/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/project/street-trees/</guid>
       <description>&lt;p&gt;Trees are one of the largest components of urban greenery, and contribute significantly to canopy cover in cities&amp;rsquo; urban greening efforts. They are also associated with numerous benefits through the &amp;lsquo;ecosystem services&amp;rsquo; they provide to city dwellers. For example, trees can lower temperatures by providing shade, mitigate air pollution by adsorbing pollutants, and reduce the risk of flooding by intercepting rainfall. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
@@ -134,6 +107,24 @@
 
 &lt;p&gt;Finally, it is also crucial to weigh the benefits of trees against potential hazards and costs of management, and to assess how these effects change across time. There are also opportunities to examine how other plant traits relate to a tree&amp;rsquo;s physical structure, to provide generalisable findings that overcome the limitations of sampling many under-represented plant species. A better understanding of these relationships can help us maximise the cost-effectiveness of trees in the long run.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The economic benefits and costs of trees in urban forest stewardship: A systematic review</title>
+      <link>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefits of trees in tropical cities</title>
+      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
+      <description></description>
     </item>
     
     <item>
