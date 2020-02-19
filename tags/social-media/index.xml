@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How do people use urban parks? A city-wide analysis using photograph content on social media</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social media, nature, and life satisfaction: global evidence of the biophilia hypothesis</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_sm_biophilia/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/publication/journal-article/2020_sm_biophilia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automated image classification into content-type categories</title>
@@ -605,16 +623,6 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Park explorer: Interactive map</title>
-      <link>https://xp-song.github.io/software/photo-map/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/software/photo-map/</guid>
-      <description>&lt;p&gt;In the works&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

@@ -7,17 +7,98 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Cities</title>
+      <link>https://xp-song.github.io/tags/cities/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/cities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecosystem services</title>
+      <link>https://xp-song.github.io/tags/ecosystem-services/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/ecosystem-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Geoinformatics</title>
       <link>https://xp-song.github.io/tags/geoinformatics/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/geoinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outdoor recreation</title>
+      <link>https://xp-song.github.io/tags/outdoor-recreation/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/outdoor-recreation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parks</title>
+      <link>https://xp-song.github.io/tags/parks/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/parks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD Thesis</title>
+      <link>https://xp-song.github.io/tags/phd-thesis/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography behaviour</title>
+      <link>https://xp-song.github.io/tags/photography-behaviour/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/photography-behaviour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revealed preferences</title>
+      <link>https://xp-song.github.io/tags/revealed-preferences/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/revealed-preferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social media</title>
+      <link>https://xp-song.github.io/tags/social-media/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social sensing</title>
+      <link>https://xp-song.github.io/tags/social-sensing/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/social-sensing/</guid>
       <description></description>
     </item>
     
@@ -63,87 +144,6 @@
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cities</title>
-      <link>https://xp-song.github.io/tags/cities/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/cities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ecosystem services</title>
-      <link>https://xp-song.github.io/tags/ecosystem-services/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/ecosystem-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Outdoor recreation</title>
-      <link>https://xp-song.github.io/tags/outdoor-recreation/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/outdoor-recreation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parks</title>
-      <link>https://xp-song.github.io/tags/parks/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/parks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PhD Thesis</title>
-      <link>https://xp-song.github.io/tags/phd-thesis/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/phd-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photography behaviour</title>
-      <link>https://xp-song.github.io/tags/photography-behaviour/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/photography-behaviour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revealed preferences</title>
-      <link>https://xp-song.github.io/tags/revealed-preferences/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/revealed-preferences/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social media</title>
-      <link>https://xp-song.github.io/tags/social-media/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/social-media/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social sensing</title>
-      <link>https://xp-song.github.io/tags/social-sensing/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/social-sensing/</guid>
       <description></description>
     </item>
     
