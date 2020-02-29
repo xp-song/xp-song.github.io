@@ -148,54 +148,18 @@
     </item>
     
     <item>
-      <title>Dashboard</title>
-      <link>https://xp-song.github.io/tags/dashboard/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/dashboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Growth and allometry</title>
-      <link>https://xp-song.github.io/tags/growth-and-allometry/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/growth-and-allometry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Plant traits</title>
       <link>https://xp-song.github.io/tags/plant-traits/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/plant-traits/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shiny</title>
-      <link>https://xp-song.github.io/tags/shiny/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Street trees</title>
-      <link>https://xp-song.github.io/tags/street-trees/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/tags/street-trees/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Urban ecology</title>
       <link>https://xp-song.github.io/tags/urban-ecology/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/urban-ecology/</guid>
       <description></description>
@@ -204,7 +168,7 @@
     <item>
       <title>Urban greenery</title>
       <link>https://xp-song.github.io/tags/urban-greenery/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/urban-greenery/</guid>
       <description></description>
@@ -243,6 +207,24 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/tags/point-clouds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Street trees</title>
+      <link>https://xp-song.github.io/tags/street-trees/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/street-trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Growth and allometry</title>
+      <link>https://xp-song.github.io/tags/growth-and-allometry/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/tags/growth-and-allometry/</guid>
       <description></description>
     </item>
     

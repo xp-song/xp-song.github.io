@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Softwares on xpsong</title>
-    <link>https://xp-song.github.io/software/</link>
+    <link>/software/</link>
     <description>Recent content in Softwares on xpsong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://xp-song.github.io/software/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Allometree: Interactive Dashboard</title>
-      <link>https://xp-song.github.io/software/allometree/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <link>/software/allometree/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://xp-song.github.io/software/allometree/</guid>
+      <guid>/software/allometree/</guid>
       <description>
 
 
-&lt;p&gt;Coming soon!&lt;/p&gt;
+
 </description>
     </item>
     

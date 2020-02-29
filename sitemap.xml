@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/authors/gwyneth-jia-yi-cheng/</loc>
+    <loc>https://xp-song.github.io/authors/gwyneth-jy-cheng/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/authors/rachel-rui-ying-oh/</loc>
+    <loc>https://xp-song.github.io/authors/rachel-ry-oh/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -225,59 +225,6 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/software/allometree/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/dashboard/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/growth-and-allometry/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/plant-traits/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/shiny/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/software/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/street-trees/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/urban-ecology/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/posts/intro2r/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -297,6 +244,24 @@
   <url>
     <loc>https://xp-song.github.io/publication/journal-article/2019_particulate_matter/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/plant-traits/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/urban-ecology/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -407,6 +372,12 @@
   </url>
   
   <url>
+    <loc>https://xp-song.github.io/tags/street-trees/</loc>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xp-song.github.io/authors/teng-zhong/</loc>
     <lastmod>2018-10-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -439,6 +410,12 @@
   <url>
     <loc>https://xp-song.github.io/project/social-media/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/growth-and-allometry/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
