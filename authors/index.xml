@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://xp-song.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Daniel Richards</title>
       <link>https://xp-song.github.io/authors/daniel-richards/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/daniel-richards/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Peijun He</title>
       <link>https://xp-song.github.io/authors/peijun-he/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/peijun-he/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Puay Yok Tan</title>
       <link>https://xp-song.github.io/authors/puay-yok-tan/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/puay-yok-tan/</guid>
       <description></description>
@@ -42,9 +42,72 @@
     <item>
       <title>Xiao Ping Song</title>
       <link>https://xp-song.github.io/authors/xiao-ping-song/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/xiao-ping-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adrienne Grêt-Regamey</title>
+      <link>https://xp-song.github.io/authors/adrienne-gr%C3%AAt-regamey/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/adrienne-gr%C3%AAt-regamey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jahson Alemu</title>
+      <link>https://xp-song.github.io/authors/jahson-alemu/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/jahson-alemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jingyuan Zhang</title>
+      <link>https://xp-song.github.io/authors/jingyuan-zhang/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/jingyuan-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justine Saunders</title>
+      <link>https://xp-song.github.io/authors/justine-saunders/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/justine-saunders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lynn Wong</title>
+      <link>https://xp-song.github.io/authors/lynn-wong/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/lynn-wong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mahyar Masoudi</title>
+      <link>https://xp-song.github.io/authors/mahyar-masoudi/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/mahyar-masoudi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peter Edwards</title>
+      <link>https://xp-song.github.io/authors/peter-edwards/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xp-song.github.io/authors/peter-edwards/</guid>
       <description></description>
     </item>
     
@@ -139,15 +202,6 @@
     </item>
     
     <item>
-      <title>Peter Edwards</title>
-      <link>https://xp-song.github.io/authors/peter-edwards/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/authors/peter-edwards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Philipp Urech</title>
       <link>https://xp-song.github.io/authors/philipp-urech/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -225,7 +279,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xp-song.github.io/authors/xpsong/</guid>
-      <description>&lt;p&gt;Hello, my name is Xiao Ping (XP). I&amp;rsquo;m currently at the Singapore-ETH Centre working under a research project on &amp;lsquo;ecosystem services&amp;rsquo;, which aims to understand how we can improve the ecological performance of urban greenery through landscape design. Outside of research, I enjoy playing the drums and going for adventure sports. Feel free to contact me via &lt;a href=&#34;#contact&#34;&gt;email&lt;/a&gt; or on social media if you&amp;rsquo;re interested to connect!&lt;/p&gt;
+      <description>&lt;p&gt;Hello, my name is Xiao Ping (XP). I&amp;rsquo;m an environmental researcher and educator, with experience in interdisciplinary projects involving scientists, designers and city planners. Broadly speaking, my &lt;a href=&#34;https://xp-song.github.io/academia/&#34; target=&#34;_blank&#34;&gt;research&lt;/a&gt; seeks to improve the social and ecological performance of urban greenery. As an educator, my &lt;a href=&#34;https://xp-song.github.io/academia/#teaching&#34; target=&#34;_blank&#34;&gt;teaching&lt;/a&gt; covers topics ranging from statistical computing and geospatial analysis, to &lt;a href=&#34;https://xp-song.github.io/music/&#34; target=&#34;_blank&#34;&gt;music&lt;/a&gt;. I&amp;rsquo;m a big fan of R. Outside of work, I enjoy playing the drums and going for adventure sports. Feel free to contact me via &lt;a href=&#34;#contact&#34;&gt;email&lt;/a&gt; or on social media if you&amp;rsquo;re interested to connect!&lt;/p&gt;
 </description>
     </item>
     
