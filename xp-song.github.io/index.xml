@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>../Xp-Song.github.io | xpsong</title>
+    <link>https://xp-song.github.io/../xp-song.github.io/</link>
+      <atom:link href="https://xp-song.github.io/../xp-song.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>../Xp-Song.github.io</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>../Xp-Song.github.io</title>
+      <link>https://xp-song.github.io/../xp-song.github.io/</link>
+    </image>
+    
+  </channel>
+</rss>

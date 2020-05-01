@@ -3,13 +3,14 @@
   <channel>
     <title>xpsong</title>
     <link>https://xp-song.github.io/authors/xpsong/</link>
-    <description>Recent content on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    
-	    <atom:link href="https://xp-song.github.io/authors/xpsong/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/authors/xpsong/index.xml" rel="self" type="application/rss+xml" />
+    <description>xpsong</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>xpsong</title>
+      <link>https://xp-song.github.io/authors/xpsong/</link>
+    </image>
     
   </channel>
 </rss>

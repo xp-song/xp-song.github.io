@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peter Edwards on xpsong</title>
+    <title>Peter Edwards | xpsong</title>
     <link>https://xp-song.github.io/authors/peter-edwards/</link>
-    <description>Recent content in Peter Edwards on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/authors/peter-edwards/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/authors/peter-edwards/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter Edwards</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>Peter Edwards</title>
+      <link>https://xp-song.github.io/authors/peter-edwards/</link>
+    </image>
     
     <item>
       <title>A conceptual framework to untangle the concept of urban ecosystem services</title>
       <link>https://xp-song.github.io/publication/journal-article/2020_ues/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/publication/journal-article/2020_ues/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>An ecosystem service design loop for using vegetation to mitigate the urban heat island effect</title>
       <link>https://xp-song.github.io/publication/book-section/2019_an_ecosystem_servic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/publication/book-section/2019_an_ecosystem_servic/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>The economic benefits and costs of trees in urban forest stewardship: A systematic review</title>
       <link>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/publication/journal-article/2018_the_economic_benefi/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Benefits of trees in tropical cities</title>
       <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
       <description></description>
     </item>

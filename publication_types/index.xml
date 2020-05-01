@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on xpsong</title>
+    <title>Publication_types | xpsong</title>
     <link>https://xp-song.github.io/publication_types/</link>
-    <description>Recent content in Publication_types on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>2</title>
-      <link>https://xp-song.github.io/publication_types/2/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>6</title>
-      <link>https://xp-song.github.io/publication_types/6/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication_types/6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>0</title>
-      <link>https://xp-song.github.io/publication_types/0/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://xp-song.github.io/publication_types/0/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://xp-song.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>Publication_types</title>
+      <link>https://xp-song.github.io/publication_types/</link>
+    </image>
     
   </channel>
 </rss>

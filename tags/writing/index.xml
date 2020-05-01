@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Writing on xpsong</title>
+    <title>Writing | xpsong</title>
     <link>https://xp-song.github.io/tags/writing/</link>
-    <description>Recent content in Writing on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Fri, 14 Jun 2019 21:13:14 -0500</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Writing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Fri, 14 Jun 2019 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>Writing</title>
+      <link>https://xp-song.github.io/tags/writing/</link>
+    </image>
     
     <item>
       <title>How to clean up &#39;tracked changes&#39; in Word without going insane</title>
       <link>https://xp-song.github.io/posts/trackchange-word/</link>
       <pubDate>Fri, 14 Jun 2019 21:13:14 -0500</pubDate>
-      
       <guid>https://xp-song.github.io/posts/trackchange-word/</guid>
       <description>
 

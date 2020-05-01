@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on xpsong</title>
+    <title>Design | xpsong</title>
     <link>https://xp-song.github.io/tags/design/</link>
-    <description>Recent content in Design on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Design</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>Design</title>
+      <link>https://xp-song.github.io/tags/design/</link>
+    </image>
     
     <item>
       <title>Ecological Landscapes in the Development of Kashiwanoha Smart City</title>
       <link>https://xp-song.github.io/project/kashiwanoha/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/project/kashiwanoha/</guid>
       <description>&lt;p&gt;This design project was part of a workshop held from 17–25 Feb 2017 at the Center for Environment, Health and Field Sciences, Chiba University, Japan. It was conducted as part of a collaboration between Tsinghua University (China), National University of Singapore (Singapore), and Chiba University (Japan).&lt;/p&gt;
 &lt;p&gt;The design objectives were to:&lt;/p&gt;
@@ -36,123 +35,280 @@
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Chosen site: LALAPORT Plaza&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-chosen-site-lalaport-plaza&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; data-caption=&#34;Chosen site: LALAPORT Plaza&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Chosen site: LALAPORT Plaza&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Proposed design&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-proposed-design&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; data-caption=&#34;Proposed design&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Proposed design&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Improve multi-functionality of the site&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-improve-multi-functionality-of-the-site&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; data-caption=&#34;Improve multi-functionality of the site&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Improve multi-functionality of the site&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Enhance site usage and versatility&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-enhance-site-usage-and-versatility&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; data-caption=&#34;Enhance site usage and versatility&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Enhance site usage and versatility&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Enhance ecological performance: Hydrology&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-enhance-ecological-performance-hydrology&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; data-caption=&#34;Enhance ecological performance: Hydrology&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Enhance ecological performance: Hydrology&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Solar shading and light availability for plants&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-solar-shading-and-light-availability-for-plants&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; data-caption=&#34;Solar shading and light availability for plants&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Solar shading and light availability for plants&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Leverage on seasonality for choice of plant species&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-leverage-on-seasonality-for-choice-of-plant-species&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; data-caption=&#34;Leverage on seasonality for choice of plant species&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Leverage on seasonality for choice of plant species&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Use of site as a communal and educational space&lt;/em&gt;&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-use-of-site-as-a-communal-and-educational-space&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; data-caption=&#34;Use of site as a communal and educational space&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Use of site as a communal and educational space&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 </description>
     </item>
     
@@ -160,7 +316,6 @@
       <title>Ecosystem services in urban landscapes</title>
       <link>https://xp-song.github.io/project/ess_external/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/project/ess_external/</guid>
       <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 &lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
@@ -168,78 +323,139 @@
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;Project lead: Philipp Urech&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Philipp Urech
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;Project lead: Tze Kwan Fung&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Assisting with soil collection at sampling sites across Singapore&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Tze Kwan Fung
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;Project lead: Rachel Leong&#34; width=&#34;100%&#34; /&gt;
+&lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design&#34;&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Rachel Leong
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&#34;&gt;
 
 
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; width=&#34;100%&#34; /&gt;
+  &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;The full team in Singapore&lt;/em&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;Assisting with soil collection at sampling sites across Singapore&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Assisting with soil collection at sampling sites across Singapore&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;Measuring the interception of rainfall by the tree canopy&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;The full team in Singapore&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;The full team in Singapore&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 </description>
     </item>
     

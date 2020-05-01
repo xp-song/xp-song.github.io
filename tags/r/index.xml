@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on xpsong</title>
+    <title>R | xpsong</title>
     <link>https://xp-song.github.io/tags/r/</link>
-    <description>Recent content in R on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>R</title>
+      <link>https://xp-song.github.io/tags/r/</link>
+    </image>
     
     <item>
       <title>Allometree: Interactive Dashboard</title>
       <link>https://xp-song.github.io/software/allometree/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/software/allometree/</guid>
       <description>
 
@@ -29,7 +28,6 @@
       <title>Analysing spatial patterns of the landscape</title>
       <link>https://xp-song.github.io/posts/intro2r-spatial/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/posts/intro2r-spatial/</guid>
       <description>
 
@@ -67,7 +65,6 @@
       <title>Automated image classification into content-type categories</title>
       <link>https://xp-song.github.io/posts/photo-classify/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/posts/photo-classify/</guid>
       <description>
 &lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
@@ -622,7 +619,6 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
       <title>A crash course in R programming</title>
       <link>https://xp-song.github.io/posts/intro2r/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/posts/intro2r/</guid>
       <description>
 

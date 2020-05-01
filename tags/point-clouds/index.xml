@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Point clouds on xpsong</title>
+    <title>Point clouds | xpsong</title>
     <link>https://xp-song.github.io/tags/point-clouds/</link>
-    <description>Recent content in Point clouds on xpsong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} xpsong</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://xp-song.github.io/tags/point-clouds/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://xp-song.github.io/tags/point-clouds/index.xml" rel="self" type="application/rss+xml" />
+    <description>Point clouds</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 xpsong</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <title>Point clouds</title>
+      <link>https://xp-song.github.io/tags/point-clouds/</link>
+    </image>
     
     <item>
       <title>An ecosystem service design loop for using vegetation to mitigate the urban heat island effect</title>
       <link>https://xp-song.github.io/publication/book-section/2019_an_ecosystem_servic/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/publication/book-section/2019_an_ecosystem_servic/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Ecosystem services in urban landscapes</title>
       <link>https://xp-song.github.io/project/ess_external/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://xp-song.github.io/project/ess_external/</guid>
       <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 &lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
@@ -33,78 +31,139 @@
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;Project lead: Philipp Urech&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Philipp Urech
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;Project lead: Tze Kwan Fung&#34; width=&#34;100%&#34; /&gt;
 
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Assisting with soil collection at sampling sites across Singapore&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Tze Kwan Fung
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;Project lead: Rachel Leong&#34; width=&#34;100%&#34; /&gt;
+&lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design&#34;&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;&lt;/h4&gt;
-  &lt;p&gt;
-    Project lead: Rachel Leong
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&#34;&gt;
 
 
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; width=&#34;100%&#34; /&gt;
+  &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;em&gt;The full team in Singapore&lt;/em&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;Assisting with soil collection at sampling sites across Singapore&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Assisting with soil collection at sampling sites across Singapore&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;Measuring the interception of rainfall by the tree canopy&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;The full team in Singapore&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;The full team in Singapore&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 </description>
     </item>
     
