@@ -33,14 +33,126 @@
 &lt;/ol&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Team members:&lt;/strong&gt; Song Xiao Ping, Hiroshi Ichikawa, Ye Jing, Liu Yuehua, Pang Yu Rong&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Chosen site: LALAPORT Plaza&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Proposed design&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Improve multi-functionality of the site&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Enhance site usage and versatility&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Enhance ecological performance: Hydrology&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Solar shading and light availability for plants&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Leverage on seasonality for choice of plant species&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Use of site as a communal and educational space&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 </description>
     </item>
     
@@ -53,10 +165,81 @@
       <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 &lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
 &lt;p&gt;This project uses new types of data and modelling approaches to understand how we can improve the ecological performance of urban greenery. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. Landscape design is performed using 3D point cloud data, to achieve highly accurate representations of existing landscapes. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;Project lead: Philipp Urech&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design&lt;/em&gt;&lt;/h4&gt;
+  &lt;p&gt;
+    Project lead: Philipp Urech
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;Project lead: Tze Kwan Fung&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Assisting with soil collection at sampling sites across Singapore&lt;/em&gt;&lt;/h4&gt;
+  &lt;p&gt;
+    Project lead: Tze Kwan Fung
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;Project lead: Rachel Leong&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy&lt;/em&gt;&lt;/h4&gt;
+  &lt;p&gt;
+    Project lead: Rachel Leong
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; width=&#34;100%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;em&gt;The full team in Singapore&lt;/em&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 </description>
     </item>
     
