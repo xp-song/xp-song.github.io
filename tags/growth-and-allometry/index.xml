@@ -37,11 +37,11 @@
     </item>
     
     <item>
-      <title>The natural capital of city trees</title>
+      <title>The performance of city trees</title>
       <link>https://xp-song.github.io/project/street-trees/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/street-trees/</guid>
-      <description>&lt;p&gt;Trees are one of the largest components of urban greenery, and contribute significantly to canopy cover in cities&amp;rsquo; urban greening efforts. They are also associated with numerous benefits through the &amp;lsquo;ecosystem services&amp;rsquo; they provide to city dwellers. For example, trees can lower temperatures by providing shade, mitigate air pollution by adsorbing pollutants, and reduce the risk of flooding by intercepting rainfall. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
+      <description>&lt;p&gt;Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
 
 
 
@@ -76,7 +76,6 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many downstream benefits rely heavily on a tree&amp;rsquo;s physical structure, which is not constant but changes over its lifespan and between species. However, urban tree inventories in the tropics are few and poorly represented in allometric studies, despite a large diversity of plants in this climate region. While there is a large body of knowledge of tree structure and growth in natural forests, unique conditions in urban areas can result in allometric relationships that vary greatly from those in natural environments.&lt;/p&gt;
 
 
 
@@ -111,7 +110,8 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;Finally, it is also crucial to weigh the benefits of trees against potential hazards and costs of management, and to assess how these effects change across time. There are also opportunities to examine how other plant traits relate to a tree&amp;rsquo;s physical structure, to provide generalisable findings that overcome the limitations of sampling many under-represented plant species. A better understanding of these relationships can help us maximise the cost-effectiveness of trees in the long run.&lt;/p&gt;
+&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter.&lt;/p&gt;
+&lt;p&gt;Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree planting and management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.&lt;/p&gt;
 </description>
     </item>
     
