@@ -5,12 +5,52 @@
     <link>https://xp-song.github.io/tags/urban-greenery/</link>
       <atom:link href="https://xp-song.github.io/tags/urban-greenery/index.xml" rel="self" type="application/rss+xml" />
     <description>Urban greenery</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/img/share.jpeg</url>
       <title>Urban greenery</title>
       <link>https://xp-song.github.io/tags/urban-greenery/</link>
     </image>
+    
+    <item>
+      <title>PhD Defence: Exploring big data applications for urban greening</title>
+      <link>https://xp-song.github.io/posts/phd-defence/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/posts/phd-defence/</guid>
+      <description>
+
+
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;p&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/Qsn3Mds6N0c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Zoom with Drums Part 1&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;br /&gt;
+Research on urban greening is inherently multi-disciplinary. Plants and green spaces in cities are part of a complex interplay of environmental and social factors, and have the potential to moderate the negative impacts of urbanisation. In recent years, vast quantities of electronic data—often referred to as ‘big data’—offer new opportunities to extract insights about our environment and human activities. This has generated much enthusiasm in the industry and research community, but the application of such methods to urban greening has been relatively slow. This talk explores the use of novel data and techniques for understanding the social, economic and ecological impacts of urban greening. Two main topics are examined: the performance of urban trees using data from tree inventories; and preferences for outdoor recreation based on the count and content of social media photographs. The potential and shortcomings of applying such techniques to urban greening practice will be discussed.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time tags&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation&lt;/em&gt;&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=18&#34;&gt;0:18&lt;/a&gt; Introduction&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=266&#34;&gt;4:26&lt;/a&gt; Topic 1: Performance of city trees using data from tree inventories&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=897&#34;&gt;14:57&lt;/a&gt; Topic 2: Preferences for outdoor recreation using social media photographs&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=1569&#34;&gt;26:09&lt;/a&gt; Synthesis of results: Applications to urban greening&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Q&amp;amp;A&lt;/em&gt;&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=2450&#34;&gt;40:50&lt;/a&gt; Examiner 1: Associate Prof. Dr Enrico Di Minin&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=4277&#34;&gt;1:11:17&lt;/a&gt; Examiner 2: Assistant Prof. Dr Chao Yuan&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=4862&#34;&gt;1:21:02&lt;/a&gt; Examiner 3: Assistant Prof. Dr Ye Zhang&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=5953&#34;&gt;1:39:13&lt;/a&gt; Conclusion&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring big data applications for urban greening</title>
+      <link>https://xp-song.github.io/publication/other/2020_thesis/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/other/2020_thesis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A conceptual framework to untangle the concept of urban ecosystem services</title>

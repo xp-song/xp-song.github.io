@@ -5,12 +5,20 @@
     <link>https://xp-song.github.io/publication/</link>
       <atom:link href="https://xp-song.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/img/share.jpeg</url>
       <title>Publications</title>
       <link>https://xp-song.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Exploring big data applications for urban greening</title>
+      <link>https://xp-song.github.io/publication/other/2020_thesis/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/other/2020_thesis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>
