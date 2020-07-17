@@ -515,7 +515,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Here are plots of the results across different clustering scenarios:&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;Differences between within- and between-cluster variation, across different clustering scenarios&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Differences between within- and between-cluster variation, across different clustering scenarios&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -540,7 +540,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value where k = &lt;code&gt;11&lt;/code&gt;. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/rmse.png&#34; alt=&#34;Total RMSE of possible pairs of best-fit lines&#34; /&gt;
+&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/rmse.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Total RMSE of possible pairs of best-fit lines&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;

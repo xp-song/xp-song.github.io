@@ -48,14 +48,6 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
     </item>
     
     <item>
-      <title>Development of a biodiversity index for residential towns</title>
-      <link>https://xp-song.github.io/project/birt/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/project/birt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Exploring big data applications for urban greening</title>
       <link>https://xp-song.github.io/publication/other/2020_thesis/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
@@ -190,6 +182,14 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 &lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter.&lt;/p&gt;
 &lt;p&gt;Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Development of a biodiversity index for residential towns</title>
+      <link>https://xp-song.github.io/project/birt/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/project/birt/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -34,7 +34,7 @@
     Next    
     ActiveDocument.TrackRevisions = tempState
 End Sub&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you’d rather change the font color, you can use a slightly different version shown below. Different font colors can also be assigned based on the RGB color code (e.g. &lt;code&gt;RGB(0, 0, 255)&lt;/code&gt;), under the field ‘&lt;code&gt;myRange.Font.Color&lt;/code&gt;’.&lt;/p&gt;
+&lt;p&gt;If you’d rather change the font color, you can use a slightly different version shown below. Different font colors can also be assigned based on the RGB color code (e.g. &lt;code&gt;RGB(0, 0, 255)&lt;/code&gt;), under the field ‘&lt;code&gt;myRange.Font.Color&lt;/code&gt;’.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Sub tracked_to_bluefont()           
     tempState = ActiveDocument.TrackRevisions
     ActiveDocument.TrackRevisions = False    
