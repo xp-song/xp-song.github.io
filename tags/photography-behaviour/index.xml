@@ -5,12 +5,20 @@
     <link>https://xp-song.github.io/tags/photography-behaviour/</link>
       <atom:link href="https://xp-song.github.io/tags/photography-behaviour/index.xml" rel="self" type="application/rss+xml" />
     <description>Photography behaviour</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/img/share.jpeg</url>
       <title>Photography behaviour</title>
       <link>https://xp-song.github.io/tags/photography-behaviour/</link>
     </image>
+    
+    <item>
+      <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PhD Defence: Exploring big data applications for urban greening</title>
@@ -52,14 +60,6 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/publication/other/2020_thesis/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/other/2020_thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>
-      <link>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/journal-article/2020_how_do_people_use_parks/</guid>
       <description></description>
     </item>
     
