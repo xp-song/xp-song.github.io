@@ -5,12 +5,20 @@
     <link>https://xp-song.github.io/publication/</link>
       <atom:link href="https://xp-song.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/img/share.jpeg</url>
       <title>Publications</title>
       <link>https://xp-song.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Height–diameter allometry for the management of city trees in the tropics</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_allometree/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_allometree/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>

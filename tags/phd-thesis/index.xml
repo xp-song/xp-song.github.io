@@ -5,12 +5,20 @@
     <link>https://xp-song.github.io/tags/phd-thesis/</link>
       <atom:link href="https://xp-song.github.io/tags/phd-thesis/index.xml" rel="self" type="application/rss+xml" />
     <description>PhD Thesis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/img/share.jpeg</url>
       <title>PhD Thesis</title>
       <link>https://xp-song.github.io/tags/phd-thesis/</link>
     </image>
+    
+    <item>
+      <title>Height–diameter allometry for the management of city trees in the tropics</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_allometree/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_allometree/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>
@@ -195,8 +203,78 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 &lt;/figure&gt;
 
-&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter.&lt;/p&gt;
+&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter (see 
+&lt;a href=&#34;https://xpsong.shinyapps.io/allometree-sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prototype web application&lt;/a&gt; to explore data and allometric models, and R package 
+&lt;a href=&#34;https://xp-song.github.io/allometree&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;allometree&lt;/a&gt; for code to develop such allometric equations).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-street-trees-in-singapore-mapped-according-to-summarised-metrics-within-hexagonal-regions-a-c-and-mapped-individually-according-to-the-extent-that-they-are-abnormally-tallershorter-than-predicted-by-their-measured-diameter-d-figure-from-song-et-al-2020&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; data-caption=&#34;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-examples-showing-a-key-inputs-required-for-urban-tree-management-and-b-data-sources-that-can-supplement-inventory-data-for-urban-tree-management-figure-from-song-et-al-2020&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_data.png&#34; data-caption=&#34;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/allometree_data.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 </description>
     </item>
     
