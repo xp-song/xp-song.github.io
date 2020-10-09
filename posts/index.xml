@@ -80,6 +80,7 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/posts/intro2r-spatial/</guid>
       <description>
+&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In landscape ecology, we study interactions between organisms and their surrounding environment. The physical landscape is often quantified using “landscape metrics”, for further analyses alongside other sources of data.&lt;/p&gt;
@@ -104,9 +105,10 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;slide-deck&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slide deck:&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Click on the slides and use arrows to navigate (tap on edges if using mobile device)&lt;/em&gt;&lt;/p&gt;
-&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;100%&#34; height=&#34;400px&#34;&gt;
-&lt;/iframe&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
