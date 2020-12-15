@@ -315,17 +315,228 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/project/birt/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/birt/</guid>
-      <description></description>
+      <description>&lt;p&gt;The rapid growth of urban areas worldwide exposes wildlife to new man-made stresses, and is a selective force that can drastically change the composition of animal communities. Understanding and measuring the impacts of the built environment on biodiversity are thus becoming increasingly important.&lt;/p&gt;
+&lt;p&gt;Environmental metrics or indices can be a useful tool to evaluate the effectiveness of policies and actions aimed at mitigating biodiversity loss or promoting biodiversity conservation. 
+&lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new developments, and serve to protect biodiversity through legislation and guidelines. However, these assessments often rely on raw occurrence records that only provide information where a species has been detected, at a spatial scale that tends to be too coarse for use in urban design and planning.&lt;/p&gt;
+&lt;p&gt;This project aims to develop a probabilistic index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. satellite imagery, LiDAR) and open-source data are used to streamline data collection and generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife will also be assessed.&lt;/p&gt;
+&lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead principal investigator is Dr. Chong Kwek Yan. We are looking to hire a Research Assistant starting Q2 2021, and offer 
+&lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; as well. We appreciate enquiries and would like to hear about your specific interest in our work.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-amphibian-survey-along-bulim-avenue-singapore-pictured-chan-jie-yi-edwin-tan&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dragonfly-survey-along-bulim-avenue-singapore-pictured-edwin-tan&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-plant-species-identification-at-natural-vegetation-patches-in-punggol-singapore-pictured-justin-nai-chan-jie-yi-edwin-tan&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-manual-mapping-of-vegetation-for-validation-of-satellite-imagery-pictured-edwin-tan-justin-nai&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-screenshot-showing-example-of-classified-land-cover-in-singapore-based-on-spectral-indices-derived-from-a-mosaic-of-sentinel-2-satellite-imagery-the-white-borders-denote-the-boundaries-of-the-six-towns-surveyed-in-the-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;Screenshot showing example of classified land cover in Singapore, based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Screenshot showing example of classified land cover in Singapore, based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-spider-wrapping-moth-as-dragonfly-looks-on-fearfully&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-spider.jpeg&#34; data-caption=&#34;Spider wrapping moth as dragonfly looks on fearfully&#34;&gt;
+
+
+  &lt;img src=&#34;https://xp-song.github.io/img/birt-spider.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;em&gt;Spider wrapping moth as dragonfly looks on fearfully&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
       <title>Ecosystem services in urban landscapes</title>
-      <link>https://xp-song.github.io/project/ess_external/</link>
+      <link>https://xp-song.github.io/project/ess/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/project/ess_external/</guid>
+      <guid>https://xp-song.github.io/project/ess/</guid>
       <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 &lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
 &lt;p&gt;This project uses new types of data and modelling approaches to understand how we can improve the ecological performance of urban greenery. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. Landscape design is performed using 3D point cloud data, to achieve highly accurate representations of existing landscapes. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
+&lt;p&gt;The project was funded from 2016–2020 by the Singapore National Research Foundation ($2,256,550), awarded to the Future Cities Laboratory, Singapore-ETH Centre. The lead principal investigator was Prof. Peter Edwards.&lt;/p&gt;
 
 
 
