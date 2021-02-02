@@ -42,7 +42,8 @@
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/posts/intro2r-spatial/</guid>
       <description>
-&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r-spatial/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r-spatial/index_files/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In landscape ecology, we study interactions between organisms and their surrounding environment. The physical landscape is often quantified using “landscape metrics”, for further analyses alongside other sources of data.&lt;/p&gt;
@@ -635,7 +636,8 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/posts/intro2r/</guid>
       <description>
-&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r/index_files/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I recently conducted a workshop to teach basic coding/programming in R. It was designed as a crash course for those without coding experience, where we dive right into organising, visualising and analysing &lt;em&gt;real&lt;/em&gt; data. While it wasn’t meant to be a self-study course, the slides were made to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on &lt;a href=&#34;https://github.com/xp-song/Intro2R&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
