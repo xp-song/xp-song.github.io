@@ -5,9 +5,9 @@
     <link>https://xp-song.github.io/tags/cities/</link>
       <atom:link href="https://xp-song.github.io/tags/cities/index.xml" rel="self" type="application/rss+xml" />
     <description>Cities</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Cities</title>
       <link>https://xp-song.github.io/tags/cities/</link>
     </image>
@@ -29,19 +29,20 @@
     </item>
     
     <item>
-      <title>Development of a biodiversity index for residential towns</title>
+      <title>Development of a Biodiversity Index for Residential Towns</title>
       <link>https://xp-song.github.io/project/birt/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/birt/</guid>
       <description>&lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
-&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. 
-&lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
+&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
 &lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. satellite imagery, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
 &lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer 
-&lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer &lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+
+
+
 
 
 
@@ -60,7 +61,7 @@
 &lt;figure id=&#34;figure-amphibian-survey-along-bulim-avenue-singapore-pictured-chan-jie-yi-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -91,10 +92,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-dragonfly-survey-along-bulim-avenue-singapore-pictured-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -125,10 +129,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-plant-species-identification-at-natural-vegetation-patches-in-punggol-singapore-pictured-justin-nai-chan-jie-yi-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -159,10 +166,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-manual-mapping-of-vegetation-for-validation-of-satellite-imagery-pictured-edwin-tan-justin-nai&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -193,10 +203,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-screenshot-showing-examples-of-land-cover-types-in-singapore-classified-based-on-spectral-indices-derived-from-a-mosaic-of-sentinel-2-satellite-imagery-the-white-borders-denote-the-boundaries-of-the-six-towns-surveyed-in-the-project&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -227,10 +240,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-screenshot-showing-examples-of-manually-mapped-vegetation-in-punggol-singapore-the-black-circles-denote-sampling-points-with-radii-of-50m&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; data-caption=&#34;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -344,10 +360,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-wind-tunnel-set-up&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;Wind tunnel set up&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Wind tunnel set up&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/setup.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -383,7 +402,7 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
     </item>
     
     <item>
-      <title>Outdoor recreation in cities</title>
+      <title>Outdoor Recreation in Cities</title>
       <link>https://xp-song.github.io/project/park-recreation/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/park-recreation/</guid>
@@ -404,10 +423,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-variation-across-parks-in-singapore-according-to-the-kinds-of-social-media-users-they-attract-user-groups-were-based-on-a-residency-status-as-well-as-the-relative-amounts-of-b-landscapespeople-and-c-wildlifecity-content-within-favourited-photographs-figure-from-song-et-al-2020&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; data-caption=&#34;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -426,14 +448,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 &lt;p&gt;There is also a need to ensure that people have equitable access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via 
-&lt;a href=&#34;https://xp-song.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via &lt;a href=&#34;https://xp-song.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;hr&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;/div&gt;
 
 </description>
     </item>
@@ -463,7 +484,7 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
     </item>
     
     <item>
-      <title>Ecosystem services in urban landscapes</title>
+      <title>Ecosystem Services in Urban Landscapes</title>
       <link>https://xp-song.github.io/project/ess/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/ess/</guid>
@@ -486,10 +507,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design-project-lead-philipp-urech&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;LiDAR (Light detection &amp;amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -520,10 +544,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore-project-lead-tze-kwan-fung&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -554,10 +581,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy-project-lead-rachel-leong&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -588,10 +618,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;The full team in Singapore&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;The full team in Singapore&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -611,7 +644,7 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
     </item>
     
     <item>
-      <title>Feasibility of urban farming in a compact city</title>
+      <title>Feasibility of Urban Farming in a Compact City</title>
       <link>https://xp-song.github.io/project/urban-agriculture/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/urban-agriculture/</guid>
@@ -632,10 +665,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-vegetable-crops-grown-in-the-plant-nursery&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/nursery.JPG&#34; data-caption=&#34;Vegetable crops grown in the plant nursery&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/nursery.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Vegetable crops grown in the plant nursery&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/nursery.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -666,10 +702,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-measurement-of-photosynthesis-under-varying-light-conditions-using-the-licor-li-6400-gas-exchange-system&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/licor.JPG&#34; data-caption=&#34;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/licor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/licor.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -700,10 +739,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-light-sensor-within-the-built-environment-used-to-measure-specific-wavelengths-suitable-for-plant-growth&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; data-caption=&#34;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
@@ -734,10 +776,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-the-daily-light-integral-dli-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-average-unshaded-dli-in-singapore-is-293-mol-msup2sup-dsup1sup-horizontal-dashed-line-figure-from-song-et-al-2018&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; data-caption=&#34;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m−2 d−1 (horizontal dashed line). Figure from Song et al. (2018).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&amp;lt;sup&amp;gt;−2&amp;lt;/sup&amp;gt; d&amp;lt;sup&amp;gt;−1&amp;lt;/sup&amp;gt; (horizontal dashed line). Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
@@ -768,10 +813,13 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 
 
+
+
+
 &lt;figure id=&#34;figure-variation-in-light-conditions-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-light-requirements-of-plant-crops-are-shown-as-horizontal-lines-figure-from-song-et-al-2018&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; data-caption=&#34;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;

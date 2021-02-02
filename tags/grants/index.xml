@@ -5,27 +5,28 @@
     <link>https://xp-song.github.io/tags/grants/</link>
       <atom:link href="https://xp-song.github.io/tags/grants/index.xml" rel="self" type="application/rss+xml" />
     <description>Grants</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Grants</title>
       <link>https://xp-song.github.io/tags/grants/</link>
     </image>
     
     <item>
-      <title>Development of a biodiversity index for residential towns</title>
+      <title>Development of a Biodiversity Index for Residential Towns</title>
       <link>https://xp-song.github.io/project/birt/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/birt/</guid>
       <description>&lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
-&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. 
-&lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
+&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
 &lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. satellite imagery, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
 &lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer 
-&lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer &lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+
+
+
 
 
 
@@ -44,7 +45,7 @@
 &lt;figure id=&#34;figure-amphibian-survey-along-bulim-avenue-singapore-pictured-chan-jie-yi-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -75,10 +76,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-dragonfly-survey-along-bulim-avenue-singapore-pictured-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -109,10 +113,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-plant-species-identification-at-natural-vegetation-patches-in-punggol-singapore-pictured-justin-nai-chan-jie-yi-edwin-tan&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -143,10 +150,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-manual-mapping-of-vegetation-for-validation-of-satellite-imagery-pictured-edwin-tan-justin-nai&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -177,10 +187,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-screenshot-showing-examples-of-land-cover-types-in-singapore-classified-based-on-spectral-indices-derived-from-a-mosaic-of-sentinel-2-satellite-imagery-the-white-borders-denote-the-boundaries-of-the-six-towns-surveyed-in-the-project&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -211,10 +224,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-screenshot-showing-examples-of-manually-mapped-vegetation-in-punggol-singapore-the-black-circles-denote-sampling-points-with-radii-of-50m&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; data-caption=&#34;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -234,7 +250,7 @@
     </item>
     
     <item>
-      <title>Ecosystem services in urban landscapes</title>
+      <title>Ecosystem Services in Urban Landscapes</title>
       <link>https://xp-song.github.io/project/ess/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/ess/</guid>
@@ -257,10 +273,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design-project-lead-philipp-urech&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;LiDAR (Light detection &amp;amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -291,10 +310,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore-project-lead-tze-kwan-fung&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -325,10 +347,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy-project-lead-rachel-leong&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -359,10 +384,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;The full team in Singapore&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;The full team in Singapore&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;

@@ -2,8 +2,8 @@
   "name": "XP",
   "short_name": "XP",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#1565c0",
+  "background_color": "#1565c0",
   "icons": [{
     "src": "/images/icon_hu4a4c2a0a8909509138582bd6421b58d6_27400_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",

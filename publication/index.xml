@@ -5,9 +5,9 @@
     <link>https://xp-song.github.io/publication/</link>
       <atom:link href="https://xp-song.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Publications</title>
       <link>https://xp-song.github.io/publication/</link>
     </image>
@@ -88,10 +88,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-wind-tunnel-set-up&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;Wind tunnel set up&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Wind tunnel set up&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/setup.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;

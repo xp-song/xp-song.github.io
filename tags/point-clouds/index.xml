@@ -5,9 +5,9 @@
     <link>https://xp-song.github.io/tags/point-clouds/</link>
       <atom:link href="https://xp-song.github.io/tags/point-clouds/index.xml" rel="self" type="application/rss+xml" />
     <description>Point clouds</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Point clouds</title>
       <link>https://xp-song.github.io/tags/point-clouds/</link>
     </image>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Ecosystem services in urban landscapes</title>
+      <title>Ecosystem Services in Urban Landscapes</title>
       <link>https://xp-song.github.io/project/ess/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/ess/</guid>
@@ -44,10 +44,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design-project-lead-philipp-urech&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;LiDAR (Light detection &amp;amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -78,10 +81,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore-project-lead-tze-kwan-fung&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -112,10 +118,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy-project-lead-rachel-leong&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -146,10 +155,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;The full team in Singapore&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;The full team in Singapore&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;

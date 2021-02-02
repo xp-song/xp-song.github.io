@@ -5,9 +5,9 @@
     <link>https://xp-song.github.io/tags/urban-agriculture/</link>
       <atom:link href="https://xp-song.github.io/tags/urban-agriculture/index.xml" rel="self" type="application/rss+xml" />
     <description>Urban agriculture</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Urban agriculture</title>
       <link>https://xp-song.github.io/tags/urban-agriculture/</link>
     </image>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Feasibility of urban farming in a compact city</title>
+      <title>Feasibility of Urban Farming in a Compact City</title>
       <link>https://xp-song.github.io/project/urban-agriculture/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/urban-agriculture/</guid>
@@ -42,10 +42,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-vegetable-crops-grown-in-the-plant-nursery&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/nursery.JPG&#34; data-caption=&#34;Vegetable crops grown in the plant nursery&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/nursery.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Vegetable crops grown in the plant nursery&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/nursery.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -76,10 +79,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-measurement-of-photosynthesis-under-varying-light-conditions-using-the-licor-li-6400-gas-exchange-system&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/licor.JPG&#34; data-caption=&#34;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/licor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/licor.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -110,10 +116,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-light-sensor-within-the-built-environment-used-to-measure-specific-wavelengths-suitable-for-plant-growth&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; data-caption=&#34;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
@@ -144,10 +153,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-the-daily-light-integral-dli-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-average-unshaded-dli-in-singapore-is-293-mol-msup2sup-dsup1sup-horizontal-dashed-line-figure-from-song-et-al-2018&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; data-caption=&#34;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m−2 d−1 (horizontal dashed line). Figure from Song et al. (2018).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&amp;lt;sup&amp;gt;−2&amp;lt;/sup&amp;gt; d&amp;lt;sup&amp;gt;−1&amp;lt;/sup&amp;gt; (horizontal dashed line). Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
@@ -178,10 +190,13 @@
 
 
 
+
+
+
 &lt;figure id=&#34;figure-variation-in-light-conditions-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-light-requirements-of-plant-crops-are-shown-as-horizontal-lines-figure-from-song-et-al-2018&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; data-caption=&#34;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;

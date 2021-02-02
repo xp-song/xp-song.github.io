@@ -5,9 +5,9 @@
     <link>https://xp-song.github.io/tags/revealed-preferences/</link>
       <atom:link href="https://xp-song.github.io/tags/revealed-preferences/index.xml" rel="self" type="application/rss+xml" />
     <description>Revealed preferences</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/img/share.jpeg</url>
+      <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Revealed preferences</title>
       <link>https://xp-song.github.io/tags/revealed-preferences/</link>
     </image>
@@ -634,7 +634,7 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
     </item>
     
     <item>
-      <title>Outdoor recreation in cities</title>
+      <title>Outdoor Recreation in Cities</title>
       <link>https://xp-song.github.io/project/park-recreation/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/park-recreation/</guid>
@@ -655,10 +655,13 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 
 
 
+
+
+
 &lt;figure id=&#34;figure-variation-across-parks-in-singapore-according-to-the-kinds-of-social-media-users-they-attract-user-groups-were-based-on-a-residency-status-as-well-as-the-relative-amounts-of-b-landscapespeople-and-c-wildlifecity-content-within-favourited-photographs-figure-from-song-et-al-2020&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; data-caption=&#34;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
 
 
   &lt;img src=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
@@ -677,14 +680,13 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;p&gt;There is also a need to ensure that people have equitable access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via 
-&lt;a href=&#34;https://xp-song.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via &lt;a href=&#34;https://xp-song.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;hr&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/283597449&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;/div&gt;
 
 </description>
     </item>
