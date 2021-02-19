@@ -5,12 +5,20 @@
     <link>https://xp-song.github.io/publication/</link>
       <atom:link href="https://xp-song.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/media/share.jpeg</url>
       <title>Publications</title>
       <link>https://xp-song.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Global urban reforestation can be an important natural climate solution</title>
+      <link>https://xp-song.github.io/publication/journal-article/2021_urban_reforestation/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2021_urban_reforestation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Height–diameter allometry for the management of city trees in the tropics</title>

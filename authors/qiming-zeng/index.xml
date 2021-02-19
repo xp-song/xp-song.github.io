@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tze Kwan Fung | XP</title>
-    <link>https://xp-song.github.io/authors/tze-kwan-fung/</link>
-      <atom:link href="https://xp-song.github.io/authors/tze-kwan-fung/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tze Kwan Fung</description>
+    <title>Qiming Zeng | XP</title>
+    <link>https://xp-song.github.io/authors/qiming-zeng/</link>
+      <atom:link href="https://xp-song.github.io/authors/qiming-zeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qiming Zeng</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/media/share.jpeg</url>
-      <title>Tze Kwan Fung</title>
-      <link>https://xp-song.github.io/authors/tze-kwan-fung/</link>
+      <title>Qiming Zeng</title>
+      <link>https://xp-song.github.io/authors/qiming-zeng/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://xp-song.github.io/publication/journal-article/2021_urban_reforestation/</link>
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2021_urban_reforestation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An ecosystem service design loop for using vegetation to mitigate the urban heat island effect</title>
-      <link>https://xp-song.github.io/publication/book-section/2019_fcl_indicia_2/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/book-section/2019_fcl_indicia_2/</guid>
       <description></description>
     </item>
     
