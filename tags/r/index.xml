@@ -7,7 +7,7 @@
     <description>R</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/media/share.jpeg</url>
+      <url>https://xp-song.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
       <link>https://xp-song.github.io/tags/r/</link>
     </image>
@@ -69,7 +69,7 @@
 &lt;div id=&#34;slide-deck&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slide deck:&lt;/h2&gt;
 &lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
-&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r-spatial/assets/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -82,12 +82,15 @@
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/posts/photo-classify/</guid>
       <description>
-&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/photo-classify/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/photo-classify/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://xp-song.github.io/posts/photo-classify/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#generate-keywords&#34;&gt;Generate Keywords&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#classify-photos&#34;&gt;Classify Photos&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#classify-photos&#34;&gt;Classify Photos&lt;/a&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#A&#34;&gt;A. Distance matrix and clustering&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#B&#34;&gt;B. How many clusters?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -579,7 +582,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Here are plots of the results across different clustering scenarios:&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;assets/cluster_results.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Differences between within- and between-cluster variation, across different clustering scenarios&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -604,7 +607,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value where k = &lt;code&gt;11&lt;/code&gt;. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/rmse.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;assets/rmse.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Total RMSE of possible pairs of best-fit lines&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -625,7 +628,7 @@ photos &amp;lt;- cbind.data.frame(photos, grp, stringsAsFactors = FALSE) #Final 
 ##Plot##
 plot(as.dendrogram(cluz), sub = &amp;quot;&amp;quot;, xlab =&amp;quot;&amp;quot;, ylab = &amp;quot;Height&amp;quot;, main = &amp;quot;Hierarchical clustering of photos into 11 categories&amp;quot;, cex.main = 0.95, leaflab = &amp;quot;none&amp;quot;)
 rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/visual.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;assets/visual.png&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -650,7 +653,7 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;li&gt;&lt;strong&gt;R Environment and Syntax:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/1_R_environ_and_syntax.html&#34;&gt;Notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
-&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_1/1_R_environ_and_syntax_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r/assets/Intro2r_1/1_R_environ_and_syntax_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -658,7 +661,7 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;li&gt;&lt;strong&gt;Data Wrangling and Visualisation:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/2_Data_wrangling_and_visualisation.html&#34;&gt;Notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
-&lt;iframe src=&#34;https://xp-song.github.io/files/slides/Intro2r_2/2_Data_wrangling_and_visualisation_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r/assets/Intro2r_2/2_Data_wrangling_and_visualisation_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
 &lt;/div&gt;

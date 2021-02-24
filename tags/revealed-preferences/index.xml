@@ -7,7 +7,7 @@
     <description>Revealed preferences</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/media/share.jpeg</url>
+      <url>https://xp-song.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Revealed preferences</title>
       <link>https://xp-song.github.io/tags/revealed-preferences/</link>
     </image>
@@ -78,12 +78,15 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/posts/photo-classify/</guid>
       <description>
-&lt;script src=&#34;https://xp-song.github.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/photo-classify/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/photo-classify/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://xp-song.github.io/posts/photo-classify/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#generate-keywords&#34;&gt;Generate Keywords&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#classify-photos&#34;&gt;Classify Photos&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#classify-photos&#34;&gt;Classify Photos&lt;/a&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#A&#34;&gt;A. Distance matrix and clustering&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#B&#34;&gt;B. How many clusters?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -575,7 +578,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Here are plots of the results across different clustering scenarios:&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/cluster_results.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;assets/cluster_results.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Differences between within- and between-cluster variation, across different clustering scenarios&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -600,7 +603,7 @@ colnames(scenarios) &amp;lt;- c(&amp;quot;k&amp;quot;,&amp;quot;distance&amp;quo
 &lt;p&gt;Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value where k = &lt;code&gt;11&lt;/code&gt;. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/rmse.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;assets/rmse.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Total RMSE of possible pairs of best-fit lines&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -621,7 +624,7 @@ photos &amp;lt;- cbind.data.frame(photos, grp, stringsAsFactors = FALSE) #Final 
 ##Plot##
 plot(as.dendrogram(cluz), sub = &amp;quot;&amp;quot;, xlab =&amp;quot;&amp;quot;, ylab = &amp;quot;Height&amp;quot;, main = &amp;quot;Hierarchical clustering of photos into 11 categories&amp;quot;, cex.main = 0.95, leaflab = &amp;quot;none&amp;quot;)
 rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://xp-song.github.io/posts/photo-classify/visual.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;assets/visual.png&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -639,50 +642,25 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
       <link>https://xp-song.github.io/project/park-recreation/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/park-recreation/</guid>
-      <description>&lt;p&gt;Parks and green spaces are important places for outdoor recreation in cities. They also provide opportunities for city dwellers to experience nature, and contribute to health and well-being in numerous ways.&lt;/p&gt;
-&lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people&amp;rsquo;s behaviour, sentiment and aesthetic experiences at specific places. Many studies have used geo-located social media as a proxy for outdoor recreation, but such data are often generated bottom-up, making it challenging to ensure that all people groups are properly represented.&lt;/p&gt;
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/park-recreation/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-variation-across-parks-in-singapore-according-to-the-kinds-of-social-media-users-they-attract-user-groups-were-based-on-a-residency-status-as-well-as-the-relative-amounts-of-b-landscapespeople-and-c-wildlifecity-content-within-favourited-photographs-figure-from-song-et-al-2020&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/parkuserpref.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;p&gt;Parks and green spaces are important places for outdoor recreation in cities. They also provide opportunities for city dwellers to experience nature, and contribute to health and well-being in numerous ways.&lt;/p&gt;
+&lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people’s behaviour, sentiment and aesthetic experiences at specific places. Many studies have used geo-located social media as a proxy for outdoor recreation, but such data are often generated bottom-up, making it challenging to ensure that all people groups are properly represented.&lt;/p&gt;
 &lt;p&gt;There is also a need to ensure that people have equitable access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via &lt;a href=&#34;https://xp-song.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/parks_userpref.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;opportunities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Opportunities&lt;/h2&gt;
+&lt;p&gt;We offer projects for motivated students interested in this topic, depending on availability per semester. Prospective students may contact me via &lt;a href=&#34;mailto:xpsong.connect@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

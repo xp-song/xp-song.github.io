@@ -7,7 +7,7 @@
     <description>Urban greenery</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/media/share.jpeg</url>
+      <url>https://xp-song.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Urban greenery</title>
       <link>https://xp-song.github.io/tags/urban-greenery/</link>
     </image>
@@ -33,235 +33,46 @@
       <link>https://xp-song.github.io/project/birt/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/birt/</guid>
-      <description>&lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
-&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
-&lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. satellite imagery, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
-&lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer &lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-amphibian-survey-along-bulim-avenue-singapore-pictured-chan-jie-yi-edwin-tan&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-night-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-dragonfly-survey-along-bulim-avenue-singapore-pictured-edwin-tan&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-bulim.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-plant-species-identification-at-natural-vegetation-patches-in-punggol-singapore-pictured-justin-nai-chan-jie-yi-edwin-tan&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-nat-veg-survey.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-manual-mapping-of-vegetation-for-validation-of-satellite-imagery-pictured-edwin-tan-justin-nai&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapping.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-screenshot-showing-examples-of-land-cover-types-in-singapore-classified-based-on-spectral-indices-derived-from-a-mosaic-of-sentinel-2-satellite-imagery-the-white-borders-denote-the-boundaries-of-the-six-towns-surveyed-in-the-project&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-sentinel-landcover.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-screenshot-showing-examples-of-manually-mapped-vegetation-in-punggol-singapore-the-black-circles-denote-sampling-points-with-radii-of-50m&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/birt-habitat-mapped.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/birt/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
+&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
+&lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. satellite imagery, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
+&lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;opportunities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Opportunities&lt;/h2&gt;
+&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer &lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/student-projects-on-offer/&#34;&gt;student projects&lt;/a&gt; on topics relating to community ecology and remote sensing. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_night-survey.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_bulim.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_nat-veg-survey.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_habitat-mapping.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_sentinel-landcover.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_habitat-mapped.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -319,9 +130,9 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
     
     <item>
       <title>A conceptual framework to untangle the concept of urban ecosystem services</title>
-      <link>https://xp-song.github.io/publication/journal-article/2020_ues/</link>
+      <link>https://xp-song.github.io/publication/journal-article/2020_urban_ess/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/journal-article/2020_ues/</guid>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_urban_ess/</guid>
       <description></description>
     </item>
     
@@ -355,41 +166,8 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2019_particulate_matter/</guid>
       <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2019_particulate_matter/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-wind-tunnel-set-up&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Wind tunnel set up&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/setup.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Wind tunnel set up&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
 
 </description>
     </item>
@@ -415,157 +193,37 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/project/street-trees/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/street-trees/</guid>
-      <description>&lt;p&gt;Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-a-benefits-associated-with-individual-trees-and-how-often-they-are-assessed-as-well-as-b-their-corresponding-value-in-monetary-terms-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/b-c_overview.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/b-c_overview.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-species-distribution-of-benefitcost-assessments-performed-worldwide-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/Treemap.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/Treemap.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter (see &lt;a href=&#34;https://xpsong.shinyapps.io/allometree-sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prototype web application&lt;/a&gt; to explore data and allometric models, and R package &lt;a href=&#34;https://xp-song.github.io/allometree&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;allometree&lt;/a&gt; for code to develop such allometric equations).&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-street-trees-in-singapore-mapped-according-to-summarised-metrics-within-hexagonal-regions-a-c-and-mapped-individually-according-to-the-extent-that-they-are-abnormally-tallershorter-than-predicted-by-their-measured-diameter-d-figure-from-song-et-al-2020&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/street-trees/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of ‘natural capital’ that produce value for people.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_benefits-costs.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_treemap.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree’s trunk diameter (see &lt;a href=&#34;https://xpsong.shinyapps.io/allometree-sg/&#34;&gt;prototype web application&lt;/a&gt; to explore data and allometric models, and R package &lt;a href=&#34;https://xp-song.github.io/allometree&#34;&gt;allometree&lt;/a&gt; for code to develop such allometric equations).&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_allometree-maps.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-examples-showing-a-key-inputs-required-for-urban-tree-management-and-b-data-sources-that-can-supplement-inventory-data-for-urban-tree-management-figure-from-song-et-al-2020&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_data.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/allometree_data.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_workflow.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 </description>
     </item>
     
@@ -574,7 +232,11 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</guid>
-      <description></description>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
     </item>
     
     <item>
@@ -582,14 +244,18 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/</guid>
-      <description></description>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
     </item>
     
     <item>
       <title>Benefits of trees in tropical cities</title>
-      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</link>
+      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
+      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</guid>
       <description></description>
     </item>
     
@@ -598,322 +264,55 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/project/kashiwanoha/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/kashiwanoha/</guid>
-      <description>&lt;p&gt;This design project was part of a workshop held from 17–25 Feb 2017 at the Center for Environment, Health and Field Sciences, Chiba University, Japan. It was conducted as part of a collaboration between Tsinghua University (China), National University of Singapore (Singapore), and Chiba University (Japan).&lt;/p&gt;
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/kashiwanoha/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This design project was part of a workshop held from 17–25 Feb 2017 at the Center for Environment, Health and Field Sciences, Chiba University, Japan. It was conducted as part of a collaboration between Tsinghua University, National University of Singapore, and Chiba University.&lt;/p&gt;
 &lt;p&gt;The design objectives were to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Assess site conditions in the context of the &amp;lsquo;Kashiwanoha Smart City&amp;rsquo; concept and vision. This included the current coverage and distribution of green spaces, how such spaces were used, environmental constraints faced in urban greening, the needs of people, relationships between the site and adjacent neighbourhoods, etc.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Identify and articulate key issues that can be addressed through planning and design, keeping in mind current encumbrances.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Develop a conceptual design for how green spaces can be improved, added or amalgamated to deliver more functions, either in improving environmental performance (biophysical or biodiversity), or to better meet the needs of people.&lt;/p&gt;
-&lt;/li&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Assess site conditions in the context of the ‘Kashiwanoha Smart City’ concept and vision. This included the current coverage and distribution of green spaces, how such spaces were used, environmental constraints faced in urban greening, the needs of people, relationships between the site and adjacent neighbourhoods, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify and articulate key issues that can be addressed through planning and design, keeping in mind current encumbrances.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Develop a conceptual design for how green spaces can be improved, added or amalgamated to deliver more functions, either in improving environmental performance (biophysical or biodiversity), or to better meet the needs of people.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Team members:&lt;/strong&gt; Song Xiao Ping, Hiroshi Ichikawa, Ye Jing, Liu Yuehua, Pang Yu Rong&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-chosen-site-lalaport-plaza&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Chosen site: LALAPORT Plaza&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_site.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Chosen site: LALAPORT Plaza&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-proposed-design&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Proposed design&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_new.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Proposed design&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-improve-multi-functionality-of-the-site&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Improve multi-functionality of the site&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_function.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Improve multi-functionality of the site&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-enhance-site-usage-and-versatility&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Enhance site usage and versatility&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_social.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Enhance site usage and versatility&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-enhance-ecological-performance-hydrology&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Enhance ecological performance: Hydrology&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_crosssection.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Enhance ecological performance: Hydrology&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-solar-shading-and-light-availability-for-plants&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Solar shading and light availability for plants&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_radiation.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Solar shading and light availability for plants&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-leverage-on-seasonality-for-choice-of-plant-species&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Leverage on seasonality for choice of plant species&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_plants.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Leverage on seasonality for choice of plant species&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-use-of-site-as-a-communal-and-educational-space&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Use of site as a communal and educational space&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/kashiwanoha_dual.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Use of site as a communal and educational space&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_site.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Chosen site: LALAPORT Plaza&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_new.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Proposed design&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_function.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Improve multi-functionality of the site&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_social.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Enhance site usage and versatility&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_crosssection.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Enhance ecological performance: Hydrology&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_radiation.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Solar shading and light availability for plants&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_plants.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Leverage on seasonality for choice of plant species&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/kashiwanoha_dual.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Use of site as a communal and educational space&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 </description>
     </item>
     
@@ -922,353 +321,70 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/project/ess/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/ess/</guid>
-      <description>&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of &amp;lsquo;ecosystem services&amp;rsquo; such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/ess/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of ‘ecosystem services’ such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
 &lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
 &lt;p&gt;This project uses new types of data and modelling approaches to understand how we can improve the ecological performance of urban greenery. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. Landscape design is performed using 3D point cloud data, to achieve highly accurate representations of existing landscapes. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
-&lt;p&gt;The project was funded from 2016–2020 by the Singapore National Research Foundation ($2,256,550), awarded to the Future Cities Laboratory, Singapore-ETH Centre. The lead principal investigator was Prof. Peter Edwards.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-lidar-light-detection--ranging-is-used-to-generate-point-clouds-for-landscape-design-project-lead-philipp-urech&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;LiDAR (Light detection &amp;amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/lidarscanning.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-assisting-with-soil-collection-at-sampling-sites-across-singapore-project-lead-tze-kwan-fung&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/soildata.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/soildata.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-measuring-the-interception-of-rainfall-by-the-tree-canopy-project-lead-rachel-leong&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/rainfallintercaption.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-full-team-in-singapore&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/team.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;The full team in Singapore&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/team.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;The full team in Singapore&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;p&gt;The project was funded from 2016–2020 by the Singapore National Research Foundation ($2,256,550), awarded to the Future Cities Laboratory, Singapore-ETH Centre. The lead principal investigator was Prof. Peter Edwards.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_lidarscanning.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_soildata.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_rainfallintercaption.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_team.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The full team in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 </description>
     </item>
     
     <item>
-      <title>Feasibility of Urban Farming in a Compact City</title>
+      <title>Feasibility of Urban Farming in Compact Cities</title>
       <link>https://xp-song.github.io/project/urban-agriculture/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/urban-agriculture/</guid>
-      <description>&lt;p&gt;Food security is emerging as a serious threat in many parts of the world. In cities, common strategies to improve the resilience of food supplies are to diversify the sources of food, and to optimise local production. In compact cities where land is scarce, vertical and rooftop farming have been explored as alternatives to conventional agriculture. However, the success of such measures rely on their environmental, social and economic feasilibility within the local context.&lt;/p&gt;
-&lt;p&gt;My Honors Thesis assessed the suitability of light conditions along the vertical surfaces of buildings in Singapore, a dense and compact city in the tropics. These conditions were compared against the light requirements of several vegetable crops that require high amounts of light, and that form a significant proportion of the staple diet in many Asian countries. Plant physiological variables such as dark respiration (R&lt;sub&gt;d&lt;/sub&gt;), light compensation point, light saturation point, photosynthetic capacity (A&lt;sub&gt;max&lt;/sub&gt;) and quantum yield (Φ) were derived. These were used to calculate plant light requirements, or the &amp;lsquo;Daily Light Integral&amp;rsquo;, which ranged from 10–30 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;. Depending on the building height, orientation and configuration, light conditions along vertical surfaces ranged from 2–35 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-vegetable-crops-grown-in-the-plant-nursery&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/nursery.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Vegetable crops grown in the plant nursery&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/nursery.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Vegetable crops grown in the plant nursery&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-measurement-of-photosynthesis-under-varying-light-conditions-using-the-licor-li-6400-gas-exchange-system&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/licor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/licor.JPG&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-light-sensor-within-the-built-environment-used-to-measure-specific-wavelengths-suitable-for-plant-growth&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; data-caption=&#34;&amp;lt;em&amp;gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/parsensor.JPG&#34; alt=&#34;&#34; width=&#34;60%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-daily-light-integral-dli-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-average-unshaded-dli-in-singapore-is-293-mol-msup2sup-dsup1sup-horizontal-dashed-line-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&amp;lt;sup&amp;gt;−2&amp;lt;/sup&amp;gt; d&amp;lt;sup&amp;gt;−1&amp;lt;/sup&amp;gt; (horizontal dashed line). Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/lightenviron2.png&#34; alt=&#34;&#34; width=&#34;80%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&lt;sup&gt;−2&lt;/sup&gt; d&lt;sup&gt;−1&lt;/sup&gt; (horizontal dashed line). Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-variation-in-light-conditions-at-different-building-façades-and-heights-on-a-relatively-clear-day-the-light-requirements-of-plant-crops-are-shown-as-horizontal-lines-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/lightenviron1.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/urban-agriculture/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Food security is emerging as a serious threat in many parts of the world. In cities, common strategies to improve the resilience of food supplies are to diversify the sources of food, and to optimise local production. In compact cities where land is scarce, vertical and rooftop farming have been explored as alternatives to conventional agriculture. However, the success of such measures rely on their environmental, social and economic feasilibility within the local context.&lt;/p&gt;
+&lt;p&gt;My Honors Thesis assessed the suitability of light conditions along the vertical surfaces of buildings in Singapore, a dense and compact city in the tropics. These conditions were compared against the light requirements of several vegetable crops that require high amounts of light, and that form a significant proportion of the staple diet in many Asian countries. Plant physiological variables such as dark respiration (R&lt;sub&gt;d&lt;/sub&gt;), light compensation point, light saturation point, photosynthetic capacity (A&lt;sub&gt;max&lt;/sub&gt;) and quantum yield (Φ) were derived. These were used to calculate plant light requirements, or the ‘Daily Light Integral’, which ranged from 10–30 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;. Depending on the building height, orientation and configuration, light conditions along vertical surfaces ranged from 2–35 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_nursery.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Vegetable crops grown in the plant nursery&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_licor.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_parsensor.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_light.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&lt;sup&gt;−2&lt;/sup&gt; d&lt;sup&gt;−1&lt;/sup&gt; (horizontal dashed line). Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_light-realtime.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 </description>
     </item>
     

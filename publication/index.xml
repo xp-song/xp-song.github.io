@@ -7,7 +7,7 @@
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/media/share.jpeg</url>
+      <url>https://xp-song.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://xp-song.github.io/publication/</link>
     </image>
@@ -54,9 +54,9 @@
     
     <item>
       <title>A conceptual framework to untangle the concept of urban ecosystem services</title>
-      <link>https://xp-song.github.io/publication/journal-article/2020_ues/</link>
+      <link>https://xp-song.github.io/publication/journal-article/2020_urban_ess/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/journal-article/2020_ues/</guid>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_urban_ess/</guid>
       <description></description>
     </item>
     
@@ -82,41 +82,8 @@
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2019_particulate_matter/</guid>
       <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2019_particulate_matter/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-wind-tunnel-set-up&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/setup.jpeg&#34; data-caption=&#34;&amp;lt;em&amp;gt;Wind tunnel set up&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/setup.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Wind tunnel set up&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
 
 </description>
     </item>
@@ -142,7 +109,11 @@
       <link>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</guid>
-      <description></description>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
     </item>
     
     <item>
@@ -150,14 +121,18 @@
       <link>https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/</guid>
-      <description></description>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_economic_benefit_of_trees/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
     </item>
     
     <item>
       <title>Benefits of trees in tropical cities</title>
-      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</link>
+      <link>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees_i/</guid>
+      <guid>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</guid>
       <description></description>
     </item>
     

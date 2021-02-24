@@ -7,7 +7,7 @@
     <description>Growth and allometry</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://xp-song.github.io/media/share.jpeg</url>
+      <url>https://xp-song.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Growth and allometry</title>
       <link>https://xp-song.github.io/tags/growth-and-allometry/</link>
     </image>
@@ -93,157 +93,37 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
       <link>https://xp-song.github.io/project/street-trees/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://xp-song.github.io/project/street-trees/</guid>
-      <description>&lt;p&gt;Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of &amp;lsquo;natural capital&amp;rsquo; that produce value for people.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-a-benefits-associated-with-individual-trees-and-how-often-they-are-assessed-as-well-as-b-their-corresponding-value-in-monetary-terms-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/b-c_overview.jpg&#34; data-caption=&#34;&amp;lt;em&amp;gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/b-c_overview.jpg&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-species-distribution-of-benefitcost-assessments-performed-worldwide-figure-from-song-et-al-2018&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/Treemap.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/Treemap.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree&amp;rsquo;s trunk diameter (see &lt;a href=&#34;https://xpsong.shinyapps.io/allometree-sg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prototype web application&lt;/a&gt; to explore data and allometric models, and R package &lt;a href=&#34;https://xp-song.github.io/allometree&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;allometree&lt;/a&gt; for code to develop such allometric equations).&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-street-trees-in-singapore-mapped-according-to-summarised-metrics-within-hexagonal-regions-a-c-and-mapped-individually-according-to-the-extent-that-they-are-abnormally-tallershorter-than-predicted-by-their-measured-diameter-d-figure-from-song-et-al-2020&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/allometree_maps.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Street trees in Singapore mapped according to summarised metrics within hexagonal regions (a-c), and mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter (d). Figure from Song et al. (2020).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/street-trees/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of ‘natural capital’ that produce value for people.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_benefits-costs.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;(a) Benefits associated with individual trees and how often they are assessed, as well as (b) their corresponding value in monetary terms. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_treemap.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Species distribution of benefit–cost assessments performed worldwide. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. Many of the downstream effects associated with trees rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree’s trunk diameter (see &lt;a href=&#34;https://xpsong.shinyapps.io/allometree-sg/&#34;&gt;prototype web application&lt;/a&gt; to explore data and allometric models, and R package &lt;a href=&#34;https://xp-song.github.io/allometree&#34;&gt;allometree&lt;/a&gt; for code to develop such allometric equations).&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_allometree-maps.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-examples-showing-a-key-inputs-required-for-urban-tree-management-and-b-data-sources-that-can-supplement-inventory-data-for-urban-tree-management-figure-from-song-et-al-2020&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://xp-song.github.io/img/allometree_data.png&#34; data-caption=&#34;&amp;lt;em&amp;gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&amp;lt;/em&amp;gt;&#34;&gt;
-
-
-  &lt;img src=&#34;https://xp-song.github.io/img/allometree_data.png&#34; alt=&#34;&#34; width=&#34;100%&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;em&gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&lt;/em&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/trees_workflow.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 </description>
     </item>
     
