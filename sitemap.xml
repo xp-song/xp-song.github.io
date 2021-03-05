@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xp-song.github.io/categories/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/posts/city-landcover-change/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/cities/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/geoinformatics/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/posts/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/r/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/categories/r/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/categories/research/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xp-song.github.io/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xp-song.github.io/publication_types/2/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xp-song.github.io/authors/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/cities/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/tags/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/authors/tasya-vadya-sarira/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url>
@@ -78,17 +123,7 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/tags/urban-greenery/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/authors/xiao-ping-song/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +189,6 @@
   
   <url>
     <loc>https://xp-song.github.io/publication/journal-article/2020_social_media_geolocated/</loc>
-    <lastmod>2020-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/tags/geoinformatics/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,22 +263,7 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/categories/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/posts/phd-defence/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/posts/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/categories/research/</loc>
     <lastmod>2020-06-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,11 +348,6 @@
   </url>
   
   <url>
-    <loc>https://xp-song.github.io/tags/r/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xp-song.github.io/tags/shiny/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
@@ -389,11 +399,6 @@
   
   <url>
     <loc>https://xp-song.github.io/posts/intro2r-spatial/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xp-song.github.io/categories/r/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
