@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research | XP</title>
-    <link>https://xp-song.github.io/categories/research/</link>
-      <atom:link href="https://xp-song.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
-    <description>Research</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <title>R | XP</title>
+    <link>https://xp-song.github.io/categories/r/</link>
+      <atom:link href="https://xp-song.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/media/sharing.jpg</url>
-      <title>Research</title>
-      <link>https://xp-song.github.io/categories/research/</link>
+      <title>R</title>
+      <link>https://xp-song.github.io/categories/r/</link>
     </image>
     
     <item>
-      <title>PhD Defence: Exploring big data applications for urban greening</title>
-      <link>https://xp-song.github.io/posts/phd-defence/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://xp-song.github.io/posts/phd-defence/</guid>
+      <title>Analysing spatial patterns of the landscape</title>
+      <link>https://xp-song.github.io/posts/intro2r-spatial/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/posts/intro2r-spatial/</guid>
       <description>
-&lt;script src=&#34;https://xp-song.github.io/posts/phd-defence/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r-spatial/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r-spatial/index_files/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;center&gt;
+&lt;p&gt;In landscape ecology, we study interactions between organisms and their surrounding environment. The physical landscape is often quantified using “landscape metrics”, for further analyses alongside other sources of data.&lt;/p&gt;
+&lt;p&gt;My recent lectures are focused on introducing such concepts to landscape architects. While I’ve used FRAGSTATS and other GIS software for teaching in the past, I’ve always struggled with compatibility/licensing issues that just made the whole process really cumbersome.&lt;/p&gt;
+&lt;p&gt;Recently, I came across this R package called &lt;a href=&#34;https://r-spatialecology.github.io/landscapemetrics/index.html&#34;&gt;landscapemetrics&lt;/a&gt;. I was absolutely blown away by the sheer power of this thing. I’ve always wanted to introduce people to spatial analysis in R, and to show how a seamless, reproducible workflow in R can be an excellent alternative to conventional software. This was the tipping point for me… I decided to give it a shot!&lt;/p&gt;
+&lt;p&gt;This post provides a quick preview of the workshop content. The workshop is meant to be a follow-up lesson to the &lt;a href=&#34;https://xp-song.github.io/posts/intro2r/&#34;&gt;Introduction to R&lt;/a&gt; series I’ll be conducting next semester.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;workshop-outline&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workshop outline:&lt;/h2&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-&lt;p&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/Qsn3Mds6N0c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Zoom with Drums Part 1&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Why analyse spatial patterns?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Landscape ecology: Conceptual models&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Land cover classification&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Landscape metrics&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I’ve uploaded the slides and data on &lt;a href=&#34;https://github.com/xp-song/Intro2R-spatial&#34;&gt;Github&lt;/a&gt;, so that anyone interested to try out the analysis for themselves will be able to do so. If you’re interested in geospatial analysis, check it out!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slide-deck&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slide deck:&lt;/h2&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r-spatial/assets/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;br /&gt;
-Research on urban greening is inherently multi-disciplinary. Plants and green spaces in cities are part of a complex interplay of environmental and social factors, and have the potential to moderate the negative impacts of urbanisation. In recent years, vast quantities of electronic data—often referred to as ‘big data’—offer new opportunities to extract insights about our environment and human activities. This has generated much enthusiasm in the industry and research community, but the application of such methods to urban greening has been relatively slow. This talk explores the use of novel data and techniques for understanding the social, economic and ecological impacts of urban greening. Two main topics are examined: the performance of urban trees using data from tree inventories; and preferences for outdoor recreation based on the count and content of social media photographs. The potential and shortcomings of applying such techniques to urban greening practice will be discussed.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Supervisors:&lt;/em&gt;&lt;br /&gt;
-Associate Prof. Dr Tan Puay Yok (National University of Singapore)&lt;br /&gt;
-Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Time tags&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Presentation:&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=18&#34;&gt;0:18&lt;/a&gt; Introduction&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=266&#34;&gt;4:26&lt;/a&gt; Topic 1: Performance of city trees using data from tree inventories&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=897&#34;&gt;14:57&lt;/a&gt; Topic 2: Preferences for outdoor recreation using social media photographs&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=1569&#34;&gt;26:09&lt;/a&gt; Synthesis of results: Applications to urban greening&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Q&amp;amp;A:&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=2450&#34;&gt;40:50&lt;/a&gt; Examiner 1: Associate Prof. Dr Enrico Di Minin (University of Helsinki)&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=4277&#34;&gt;1:11:17&lt;/a&gt; Examiner 2: Assistant Prof. Dr Chao Yuan (National University of Singapore)&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=4862&#34;&gt;1:21:02&lt;/a&gt; Examiner 3: Assistant Prof. Dr Ye Zhang (National University of Singapore)&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/Qsn3Mds6N0c?t=5953&#34;&gt;1:39:13&lt;/a&gt; Conclusion&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -601,6 +608,44 @@ photos &amp;lt;- cbind.data.frame(photos, grp, stringsAsFactors = FALSE) #Final 
 plot(as.dendrogram(cluz), sub = &amp;quot;&amp;quot;, xlab =&amp;quot;&amp;quot;, ylab = &amp;quot;Height&amp;quot;, main = &amp;quot;Hierarchical clustering of photos into 11 categories&amp;quot;, cex.main = 0.95, leaflab = &amp;quot;none&amp;quot;)
 rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;assets/visual.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A crash course in R programming</title>
+      <link>https://xp-song.github.io/posts/intro2r/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/posts/intro2r/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://xp-song.github.io/posts/intro2r/index_files/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I recently conducted a workshop to teach basic coding/programming in R. It was designed as a crash course for those without coding experience, where we dive right into organising, visualising and analysing &lt;em&gt;real&lt;/em&gt; data. While it wasn’t meant to be a self-study course, the slides were made to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on &lt;a href=&#34;https://github.com/xp-song/Intro2R&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the slides if you’d like to see the potential of the R programming language. I’ve also provided links to useful resources if you’re interested in getting into data science using R.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;workshop-outline&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workshop outline:&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;R Environment and Syntax:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/1_R_environ_and_syntax.html&#34;&gt;Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r/assets/Intro2r_1/1_R_environ_and_syntax_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Data Wrangling and Visualisation:&lt;/strong&gt; &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/2_Data_wrangling_and_visualisation.html&#34;&gt;Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r/assets/Intro2r_2/2_Data_wrangling_and_visualisation_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;

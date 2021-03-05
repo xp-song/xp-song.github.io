@@ -240,6 +240,9 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 &lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r-spatial/assets/Intro2r_spatial/1_Intro2Rspatial_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -797,6 +800,9 @@ photos &amp;lt;- cbind.data.frame(photos, grp, stringsAsFactors = FALSE) #Final 
 plot(as.dendrogram(cluz), sub = &amp;quot;&amp;quot;, xlab =&amp;quot;&amp;quot;, ylab = &amp;quot;Height&amp;quot;, main = &amp;quot;Hierarchical clustering of photos into 11 categories&amp;quot;, cex.main = 0.95, leaflab = &amp;quot;none&amp;quot;)
 rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;assets/visual.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -840,6 +846,9 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;iframe src=&#34;https://xp-song.github.io/posts/intro2r/assets/Intro2r_2/2_Data_wrangling_and_visualisation_slides#1&#34; width=&#34;400&#34; height=&#34;300&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
