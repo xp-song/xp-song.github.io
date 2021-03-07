@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macros | XP</title>
+    <link>https://xp-song.github.io/tag/macros/</link>
+      <atom:link href="https://xp-song.github.io/tag/macros/index.xml" rel="self" type="application/rss+xml" />
+    <description>Macros</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 14 Jun 2019 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Macros</title>
+      <link>https://xp-song.github.io/tag/macros/</link>
+    </image>
+    
+    <item>
+      <title>How to clean up &#39;tracked changes&#39; in Word without going insane</title>
+      <link>https://xp-song.github.io/posts/trackchange-word/</link>
+      <pubDate>Fri, 14 Jun 2019 21:13:14 -0500</pubDate>
+      <guid>https://xp-song.github.io/posts/trackchange-word/</guid>
+      <description>
+
+
+&lt;p&gt;If you’ve ever had to coordinate the writing of a document with multiple authors, you’ll probably understand the pain of handling everyone’s comments and edits. Once &lt;em&gt;that’s&lt;/em&gt; finally done, it’s often useful to highlight all changes made to the original document. This is common practice in academic writing, for example, when re-submitting a revised manuscript after a round of review.&lt;/p&gt;
+&lt;p&gt;However, most journals don’t accept documents with Microsoft Word’s ‘tracked changes’. I mean… who wants to read through a jungle of strikethroughs, comment bubbles and rainbow-colored text? They want a nice, clean document without the mess. To show changes from the original document, highlighted text or a different font color would be acceptable at most.&lt;/p&gt;
+&lt;p&gt;So, I did some searching online, and found some macros to do just that. I really wish I’d discovered this earlier, rather than manually formatting those texts…&lt;/p&gt;
+&lt;p&gt;The following macro accepts and highlights all changes in yellow. Other highlight colors can be found &lt;a href=&#34;https://word.tips.net/T000253_Changing_Character_Color.html&#34;&gt;here&lt;/a&gt;, in replacement of &lt;code&gt;WdYellow&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sub tracked_to_highlighted()           
+    tempState = ActiveDocument.TrackRevisions
+    ActiveDocument.TrackRevisions = False    
+    For Each Change In ActiveDocument.Revisions        
+        Set myRange = Change.Range
+        myRange.Revisions.AcceptAll
+        myRange.HighlightColorIndex = WdYellow            
+    Next    
+    ActiveDocument.TrackRevisions = tempState
+End Sub&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you’d rather change the font color, you can use a slightly different version shown below. Different font colors can also be assigned based on the RGB color code (e.g. &lt;code&gt;RGB(0, 0, 255)&lt;/code&gt;), under the field ‘&lt;code&gt;myRange.Font.Color&lt;/code&gt;’.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sub tracked_to_bluefont()           
+    tempState = ActiveDocument.TrackRevisions
+    ActiveDocument.TrackRevisions = False    
+    For Each Change In ActiveDocument.Revisions        
+        Set myRange = Change.Range
+        myRange.Revisions.AcceptAll
+        myRange.Font.Color = 12611584         
+    Next    
+    ActiveDocument.TrackRevisions = tempState
+End Sub&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;References&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cybertext.wordpress.com/2018/11/22/word-apply-a-highlight-to-all-tracked-changes/&#34; class=&#34;uri&#34;&gt;https://cybertext.wordpress.com/2018/11/22/word-apply-a-highlight-to-all-tracked-changes/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://superuser.com/questions/813428/convert-tracked-changes-to-highlighted&#34; class=&#34;uri&#34;&gt;https://superuser.com/questions/813428/convert-tracked-changes-to-highlighted&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arbitweb.wordpress.com/2011/02/23/macro-to-highlight-track-changes-in-word/&#34; class=&#34;uri&#34;&gt;https://arbitweb.wordpress.com/2011/02/23/macro-to-highlight-track-changes-in-word/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

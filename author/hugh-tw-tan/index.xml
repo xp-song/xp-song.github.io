@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugh TW Tan | XP</title>
+    <link>https://xp-song.github.io/author/hugh-tw-tan/</link>
+      <atom:link href="https://xp-song.github.io/author/hugh-tw-tan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugh TW Tan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Hugh TW Tan</title>
+      <link>https://xp-song.github.io/author/hugh-tw-tan/</link>
+    </image>
+    
+    <item>
+      <title>Particulate matter mitigation via plants: Understanding complex relationships with leaf traits</title>
+      <link>https://xp-song.github.io/publication/journal-article/2019_particulate_matter/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2019_particulate_matter/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2019_particulate_matter/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Assessment of light adequacy for vertical farming in a tropical city</title>
+      <link>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

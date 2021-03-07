@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grants | XP</title>
+    <link>https://xp-song.github.io/tag/grants/</link>
+      <atom:link href="https://xp-song.github.io/tag/grants/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grants</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Grants</title>
+      <link>https://xp-song.github.io/tag/grants/</link>
+    </image>
+    
+    <item>
+      <title>Development of a Biodiversity Index for Residential Towns</title>
+      <link>https://xp-song.github.io/project/birt/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/project/birt/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/birt/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
+&lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
+&lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change&#34;&gt;satellite imagery&lt;/a&gt;, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
+&lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;opportunities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Opportunities&lt;/h2&gt;
+&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer student projects on topics relating to community ecology and &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change&#34;&gt;remote sensing&lt;/a&gt;. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_night-survey.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Amphibian survey along Bulim Avenue, Singapore. Pictured: Chan Jie Yi, Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_bulim.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Dragonfly survey along Bulim Avenue, Singapore. Pictured: Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_nat-veg-survey.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Plant species identification at natural vegetation patches in Punggol, Singapore. Pictured: Justin Nai, Chan Jie Yi, Edwin Tan&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_habitat-mapping.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Manual mapping of vegetation for validation of satellite imagery. Pictured: Edwin Tan, Justin Nai&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_sentinel-landcover.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Screenshot showing examples of land cover types in Singapore, classified based on spectral indices derived from a mosaic of Sentinel-2 satellite imagery. The white borders denote the boundaries of the six towns surveyed in the project.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/birt_habitat-mapped.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Screenshot showing examples of manually-mapped vegetation in Punggol, Singapore. The black circles denote sampling points with radii of 50m.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ecosystem Services in Urban Landscapes</title>
+      <link>https://xp-song.github.io/project/ess/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/project/ess/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/ess/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Urban greenery can help mitigate the negative impacts of urbanisation, and improve city liveability for urban dwellers. The benefits associated with greenery are realised through the provision of ‘ecosystem services’ such as evaporative cooling, rainfall interception, and green spaces for recreation.&lt;/p&gt;
+&lt;p&gt;Most research on urban ecosystem services has been conducted in temperate Europe and North America, but we know relatively little about how tropical cities can be designed to enhance ecosystem service provision. Tropical areas, particularly Southeast Asia, are rapidly becoming more urban, with cities growing larger and people living in higher densities. It is therefore important to understand how urban greenery can contribute to enhancing the sustainability and resilience of such cities.&lt;/p&gt;
+&lt;p&gt;This project uses new types of data and modelling approaches to understand how we can improve the ecological performance of urban greenery. Physical, ecological and socio-cultural parameters are used as inputs to model various types of ecosystem services. Landscape design is performed using 3D point cloud data, to achieve highly accurate representations of existing landscapes. The iterative process of model simulation and design feedback provides opportunities to improve designs based on scientific results.&lt;/p&gt;
+&lt;p&gt;The project was funded from 2016–2020 by the Singapore National Research Foundation ($2,256,550), awarded to the Future Cities Laboratory, Singapore-ETH Centre. The lead principal investigator was Prof. Peter Edwards.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_lidarscanning.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;LiDAR (Light detection &amp;amp; ranging) is used to generate point clouds for landscape design. Project lead: Philipp Urech&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_soildata.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Assisting with soil collection at sampling sites across Singapore. Project lead: Tze Kwan Fung&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_rainfallintercaption.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Measuring the interception of rainfall by the tree canopy. Project lead: Rachel Leong&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ess_team.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The full team in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

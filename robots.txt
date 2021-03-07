@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://xp-song.github.io/sitemap.xml

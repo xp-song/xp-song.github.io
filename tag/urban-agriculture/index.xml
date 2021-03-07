@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urban agriculture | XP</title>
+    <link>https://xp-song.github.io/tag/urban-agriculture/</link>
+      <atom:link href="https://xp-song.github.io/tag/urban-agriculture/index.xml" rel="self" type="application/rss+xml" />
+    <description>Urban agriculture</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Urban agriculture</title>
+      <link>https://xp-song.github.io/tag/urban-agriculture/</link>
+    </image>
+    
+    <item>
+      <title>Assessment of light adequacy for vertical farming in a tropical city</title>
+      <link>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/publication/journal-article/2018_urban_farming_light_adequacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Feasibility of Urban Farming in Compact Cities</title>
+      <link>https://xp-song.github.io/project/urban-agriculture/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/project/urban-agriculture/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/project/urban-agriculture/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Food security is emerging as a serious threat in many parts of the world. In cities, common strategies to improve the resilience of food supplies are to diversify the sources of food, and to optimise local production. In compact cities where land is scarce, vertical and rooftop farming have been explored as alternatives to conventional agriculture. However, the success of such measures rely on their environmental, social and economic feasilibility within the local context.&lt;/p&gt;
+&lt;p&gt;My Honors Thesis assessed the suitability of light conditions along the vertical surfaces of buildings in Singapore, a dense and compact city in the tropics. These conditions were compared against the light requirements of several vegetable crops that require high amounts of light, and that form a significant proportion of the staple diet in many Asian countries. Plant physiological variables such as dark respiration (R&lt;sub&gt;d&lt;/sub&gt;), light compensation point, light saturation point, photosynthetic capacity (A&lt;sub&gt;max&lt;/sub&gt;) and quantum yield (Φ) were derived. These were used to calculate plant light requirements, or the ‘Daily Light Integral’, which ranged from 10–30 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;. Depending on the building height, orientation and configuration, light conditions along vertical surfaces ranged from 2–35 mol m&lt;sup&gt;-2&lt;/sup&gt; day&lt;sup&gt;-1&lt;/sup&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_nursery.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Vegetable crops grown in the plant nursery&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_licor.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_parsensor.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_light.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m&lt;sup&gt;−2&lt;/sup&gt; d&lt;sup&gt;−1&lt;/sup&gt; (horizontal dashed line). Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/agri_light-realtime.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al. (2018).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

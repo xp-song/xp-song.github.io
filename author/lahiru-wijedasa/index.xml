@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lahiru Wijedasa | XP</title>
+    <link>https://xp-song.github.io/author/lahiru-wijedasa/</link>
+      <atom:link href="https://xp-song.github.io/author/lahiru-wijedasa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lahiru Wijedasa</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Lahiru Wijedasa</title>
+      <link>https://xp-song.github.io/author/lahiru-wijedasa/</link>
+    </image>
+    
+    <item>
+      <title>Height–diameter allometry for the management of city trees in the tropics</title>
+      <link>https://xp-song.github.io/publication/journal-article/2020_allometree/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/journal-article/2020_allometree/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
