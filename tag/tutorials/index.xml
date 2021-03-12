@@ -118,14 +118,14 @@ classified[mosaic &amp;gt;= threshold_value] &amp;lt;- 1 # assign value of 1 for
 &lt;iframe seamless src=&#34;assets/plot_leaflet.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;
 &lt;/iframe&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Based on this comparison of satellite images mosaics captured during 2016–2019 (Survey Round One) and 2019-2020 (Survey Round Two), we find that:&lt;/p&gt;
+&lt;p&gt;Based on this comparison of satellite image mosaics captured during 2016–2019 (Survey Round One) and 2019-2020 (Survey Round Two), we find that:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Sparse vegetation&lt;/strong&gt; increased within the Central Water Catchment and offshore islands. However, &lt;strong&gt;dense vegetation&lt;/strong&gt; decreased substantially within these areas too.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Water cover&lt;/strong&gt; at the eastern (North Eastern Islands) and western (Tuas View Extension) tips of Singapore decreased, but increased at north-western areas, Jurong Island and the Central Water Catchment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Built cover&lt;/strong&gt; decreased substantially within Jurong Island and along the south-western coast of Singapore.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Any ideas why such land cover changes have occurred between these two periods? What other factors may have influenced these measures of land cover? Feel free to leave a comment or get in touch (P.S. We are &lt;a href=&#34;https://xp-song.github.io/project/birt&#34;&gt;hiring&lt;/a&gt;!).&lt;/p&gt;
+&lt;p&gt;What could have resulted in these land cover changes during this period of time? What other interesting patterns do you see? Feel free to reach out to us if you are interested to collaborate (P.S. We are also &lt;a href=&#34;https://xp-song.github.io/project/birt&#34;&gt;hiring&lt;/a&gt;!).&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
