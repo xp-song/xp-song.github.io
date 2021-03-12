@@ -800,7 +800,7 @@ classified &lt;- mosaic # duplicate
 
 classified[mosaic &lt; threshold_value] &lt;- 0 # assign value of 0 for pixels below threshold (e.g. non-vegetated)
 classified[mosaic &gt;= threshold_value] &lt;- 1 # assign value of 1 for pixels above threshold (e.g. vegetated)</code></pre>
-<p>As an example, the following figure shows the distribution of the <a href="https://www.indexdatabase.de/db/i-single.php?id=58">Normalized Difference Vegetation Index</a> (NDVI) values of a raster image. The NDVI is a measure of healthy green vegetation, based on the tendency of plants to reflect NIR &amp; absorb red light. It ranges from -1 (non-vegetated) to 1 (densely vegetated). Pixels that fall within the range of different threshold values (vertical lines) may be classified into discrete land cover types. If we do this for multiple date ranges, we can examine differences between the two. For example, in our project, we are currently comparing image mosaics captured during 2016–2019<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> (Survey Round One) and those captured during 2019-2022<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> (Survey Round Two; ongoing).</p>
+<p>As an example, the following figure shows the distribution of the <a href="https://www.indexdatabase.de/db/i-single.php?id=58">Normalized Difference Vegetation Index</a> (NDVI) values of a raster image. The NDVI is a measure of healthy green vegetation, based on the tendency of plants to reflect NIR &amp; absorb red light. It ranges from -1 (non-vegetated) to 1 (densely vegetated). Pixels that fall within the range of different threshold values (vertical lines) may be classified into discrete land cover types. If we do this for multiple date ranges, we can examine differences between the two. For example, in our project, we are currently comparing image mosaics captured during 2016–2019<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> (Survey Round One) and those captured during 2019-2022<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> (Survey Round Two; ongoing). Each spectral index can be processed in different ways, and often have different threshold values if they are used for land classification. For example, there are numerous other vegetation indices (e.g. NDRE, ARVI), as well as spectral indices used to classify water (e.g. NDWI) and built (e.g. NDBI) cover.</p>
 <center>
 <div class="figure">
 <img src="assets/NDVI.png" alt="" />
@@ -808,12 +808,28 @@ classified[mosaic &gt;= threshold_value] &lt;- 1 # assign value of 1 for pixels 
 </div>
 </center>
 <p><br></p>
-<p>Each spectral index can be processed in different ways, and often have different threshold values if they are used for land classification. For example, there are numerous other vegetation indices (e.g. NDRE, ARVI), as well as spectral indices used to classify water (e.g. NDWI) and built (e.g. NDBI) cover.</p>
+</div>
+<div id="accuracy-assessments" class="section level2">
+<h2>Accuracy assessments</h2>
+<p>How do we know that the land cover classes we have derived are accurate? Some form of ground-truthing is required. In our <a href="/project/birt">project</a>, on-site mapping has been performed at sampling points by Justin Nai, Edwin Tan and other team members over the years.</p>
+<center>
+<div class="figure">
+<img src="assets/ground-truthing.png" alt="" />
+<p class="caption">Figure 3: Screenshot showing vegetation derived from on-site surveys and satellite imagery at sampling points in Punggol, Singapore.</p>
+</div>
+</center>
+<p>The next figure shows a comparison of land cover area between surveyed (x-axes) and satellite (y-axes) data. As we can see, there are positive relationships between the two (particularly for vegetation cover), but the relatively large root-mean-square errors (RMSE) show that low resolution satellite imagery does have its limitations.</p>
+<center>
+<div class="figure">
+<img src="assets/validation.png" alt="" />
+<p class="caption">Figure 4: Area of (a) vegetation, (b) built and (c) water cover derived from Sentinel-2 compared with on-site surveys at sampling points.</p>
+</div>
+</center>
 <p><br></p>
 </div>
 <div id="summarise-per-zone" class="section level2">
 <h2>Summarise per zone</h2>
-<p>One way to assess changes in land cover is to summarise them according to the zones used in city planning. Spectral indices (whether classified or not) can be summarised within each zone, to allow comparisons to be made between these planning units.</p>
+<p>Now that we have land cover classified during different periods of time, one way to compare differences in land cover is to summarise them according to the zones used in city planning. Spectral indices (whether classified or not) can be summarised within each zone, to allow comparisons to be made between these planning units.</p>
 <p>Here’s a map showing the <em>proportional area</em> and <em>change</em> in the basic types of land cover within municipal subzones in Singapore. The <em>image quality</em>, <em>NDVI</em> and <em>classified vegetation</em> for both survey rounds are also viewable. Note that the reported amount of <code>NA</code> pixels have been scaled up substantially (×10<sup>15</sup>) for the purpose of visualisation, so the image quality is actually pretty good (i.e. low cloud cover)! This means that differences between survey rounds are unlikely to be due to differences in image quality. You may toggle the visibility of the different layers within the map.</p>
 <iframe seamless src="assets/plot_leaflet.html" width="100%" height="500">
 </iframe>
