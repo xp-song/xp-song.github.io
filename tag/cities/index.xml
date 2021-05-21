@@ -141,6 +141,22 @@ classified[mosaic &amp;gt;= threshold_value] &amp;lt;- 1 # assign value of 1 for
     </item>
     
     <item>
+      <title>Design green spaces for people</title>
+      <link>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_green_spaces/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_green_spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interconnect urban nature</title>
+      <link>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_urban_nature/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_urban_nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Global urban reforestation can be an important natural climate solution</title>
       <link>https://xp-song.github.io/publication/journal-article/2021_urban_reforestation/</link>
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
@@ -176,11 +192,11 @@ classified[mosaic &amp;gt;= threshold_value] &amp;lt;- 1 # assign value of 1 for
 &lt;p&gt;In a time of rapid urbanisation, plants and wildlife are exposed to man-made stresses that result in drastic changes to the richness and composition of these communities. Understanding the impacts of the urban environment on biodiversity is becoming increasingly important.&lt;/p&gt;
 &lt;p&gt;Environmental indices can be useful tools to evaluate the effectiveness of actions aimed at promoting conservation or mitigating the loss of biodiversity. &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/new-biodiversity-impact-assessment-guidelines-introduced-as-part-of-eia-review&#34;&gt;Environmental impact assessments&lt;/a&gt; are commonly used to measure the impact of new urban developments, and serve to protect biodiversity through legislation. However, these assessments often rely on opportunistic records of species occurrence, collected at geographic scales that tend to be too coarse for spatial planning in cities.&lt;/p&gt;
 &lt;p&gt;This project aims to develop a probabilistic spatial index of biodiversity, based on an understanding of how landscape components impact four animal groups—birds, butterflies, odonates and amphibians. Remotely sensed (e.g. &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change&#34;&gt;satellite imagery&lt;/a&gt;, LiDAR) and open data sources are used to generalise findings across the wider landscape. The efficacy of various national policy tools (e.g. Green Plot Ratio) in enriching wildlife are also assessed.&lt;/p&gt;
-&lt;p&gt;The project is funded from 2016–2022 by the Singapore Housing Development Board ($1,286,980), awarded to the National University of Singapore. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
+&lt;p&gt;The project is funded from 2016–2022 under the Singapore Ministry of National Development Research Fund ($1,286,980). It is awarded to the National University of Singapore, in partnership with the Singapore Housing Development Board. The lead investigator is Dr. Chong Kwek Yan.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div id=&#34;opportunities&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Opportunities&lt;/h2&gt;
-&lt;p&gt;We are looking to hire a Research Assistant in 2021, and offer student projects on topics relating to community ecology and &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change&#34;&gt;remote sensing&lt;/a&gt;. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
+&lt;p&gt;We offer student projects on topics relating to community ecology and &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change&#34;&gt;remote sensing&lt;/a&gt;. We welcome enquiries from motivated students, and would love to hear about your specific interest in our work.&lt;/p&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
@@ -327,12 +343,18 @@ Prof. Dr Peter J. Edwards (ETH Zurich)&lt;/p&gt;
 
 &lt;p&gt;Parks and green spaces are important places for outdoor recreation in cities. They also provide opportunities for city dwellers to experience nature, and contribute to health and well-being in numerous ways.&lt;/p&gt;
 &lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people’s behaviour, sentiment and aesthetic experiences at specific places. Many studies have used geo-located social media as a proxy for outdoor recreation, but such data are often generated bottom-up, making it challenging to ensure that all people groups are properly represented.&lt;/p&gt;
-&lt;p&gt;There is also a need to ensure that people have equitable access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
 &lt;center&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;assets/parks_userpref.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;There is also a need to ensure that people have access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-trails.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Supply of foot/cycle trails to residential buildings in Singapore&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;

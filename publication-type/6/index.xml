@@ -5,12 +5,28 @@
     <link>https://xp-song.github.io/publication-type/6/</link>
       <atom:link href="https://xp-song.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/media/sharing.jpg</url>
       <title>6</title>
       <link>https://xp-song.github.io/publication-type/6/</link>
     </image>
+    
+    <item>
+      <title>Design green spaces for people</title>
+      <link>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_green_spaces/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_green_spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interconnect urban nature</title>
+      <link>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_urban_nature/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_urban_nature/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An ecosystem service design loop for using vegetation to mitigate the urban heat island effect</title>
