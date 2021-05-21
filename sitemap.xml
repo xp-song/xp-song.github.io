@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xp-song.github.io/tag/cities/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/design/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/ecosystem-services/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/grants/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/landscape-design/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/parks/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/point-clouds/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/project/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/research/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tags/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/urban-ecology/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/project/ues/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/urban-greenery/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://xp-song.github.io/tag/biodiversity/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +59,6 @@
     <loc>https://xp-song.github.io/posts/city-landcover-change/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/cities/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/tag/geoinformatics/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,25 +71,13 @@
     <loc>https://xp-song.github.io/category/r/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/research/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/category/research/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tags/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/tutorials/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/category/tutorials/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/urban-greenery/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/publication-type/6/</loc>
@@ -65,13 +92,7 @@
     <loc>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_green_spaces/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/ecosystem-services/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/publication/book-section/2021_fcl_indicia_3_urban_nature/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/landscape-design/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/peter-edwards/</loc>
@@ -87,9 +108,6 @@
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/tze-kwan-fung/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/urban-ecology/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/xiao-ping-song/</loc>
@@ -152,9 +170,6 @@
     <loc>https://xp-song.github.io/tag/outdoor-recreation/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/parks/</loc>
-    <lastmod>2020-07-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/author/peijun-he/</loc>
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -171,12 +186,6 @@
     <lastmod>2020-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/project/birt/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/grants/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/project/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/publication-type/4/</loc>
@@ -320,9 +329,6 @@
     <loc>https://xp-song.github.io/author/philipp-urech/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/point-clouds/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/publication/journal-article/2018_street_level_greenery/</loc>
     <lastmod>2018-10-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -361,9 +367,6 @@
   </url><url>
     <loc>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/design/</loc>
-    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/project/kashiwanoha/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
