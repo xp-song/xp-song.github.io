@@ -5,12 +5,24 @@
     <link>https://xp-song.github.io/tag/outdoor-recreation/</link>
       <atom:link href="https://xp-song.github.io/tag/outdoor-recreation/index.xml" rel="self" type="application/rss+xml" />
     <description>Outdoor recreation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xp-song.github.io/media/sharing.jpg</url>
       <title>Outdoor recreation</title>
       <link>https://xp-song.github.io/tag/outdoor-recreation/</link>
     </image>
+    
+    <item>
+      <title>home2park: R package</title>
+      <link>https://xp-song.github.io/software/home2park/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/software/home2park/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/software/home2park/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
     
     <item>
       <title>Does geo-located social media reflect the visit frequency of urban parks? A city-wide analysis using the count and content of photographs</title>
