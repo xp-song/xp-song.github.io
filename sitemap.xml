@@ -2,13 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xp-song.github.io/tag/cities/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+    <loc>https://xp-song.github.io/publication-type/0/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/design/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+    <loc>https://xp-song.github.io/authors/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/category/blog/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/categories/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/cities/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/ecosystem-services/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/geoinformatics/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/publication/other/2021_home2park/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/author/kwek-yan-chong/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/outdoor-recreation/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/parks/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/population-mapping/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/posts/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/publication_types/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/publication/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/r/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/category/r/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/category/recreation/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/research/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/category/research/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tags/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/posts/home2park/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/urban-greenery/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/author/xiao-ping-song/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xp-song.github.io/tag/design/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/grants/</loc>
@@ -17,19 +86,10 @@
     <loc>https://xp-song.github.io/tag/landscape-design/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/parks/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/tag/point-clouds/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/project/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/research/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tags/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/urban-ecology/</loc>
@@ -38,40 +98,13 @@
     <loc>https://xp-song.github.io/project/ues/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/tag/urban-greenery/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/</loc>
-    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/tag/biodiversity/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/category/birt/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/category/blog/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/categories/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/posts/city-landcover-change/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/geoinformatics/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/posts/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/r/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/category/r/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/category/research/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/tutorials/</loc>
@@ -81,9 +114,6 @@
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/publication-type/6/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/authors/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/daniel-richards/</loc>
@@ -98,19 +128,10 @@
     <loc>https://xp-song.github.io/author/peter-edwards/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xp-song.github.io/publication_types/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/publication/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xp-song.github.io/author/rachel-a.-t.-leong/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/tze-kwan-fung/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/author/xiao-ping-song/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/zuzana-drillet/</loc>
@@ -123,9 +144,6 @@
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/hoong-chen-teo/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/author/kwek-yan-chong/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/author/lian-pin-koh/</loc>
@@ -141,9 +159,6 @@
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/software/home2park/</loc>
-    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/tag/outdoor-recreation/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/tag/r-package/</loc>
@@ -364,9 +379,6 @@
   </url><url>
     <loc>https://xp-song.github.io/tag/urban-agriculture/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xp-song.github.io/publication-type/0/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xp-song.github.io/publication/other/2017_benefits_of_trees/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>

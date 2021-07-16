@@ -649,21 +649,18 @@ rect.hclust(cluz, k = 11, border = &amp;quot;red&amp;quot;)&lt;/code&gt;&lt;/pre
 &lt;script src=&#34;https://xp-song.github.io/project/park-recreation/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;Parks and green spaces are important places for outdoor recreation in cities. They also provide opportunities for city dwellers to experience nature, and contribute to health and well-being in numerous ways.&lt;/p&gt;
-&lt;p&gt;People’s experiences of their surroundings can vary depending on where they are and their personal interests. Today, the internet and geo-located social media have opened up new ways for us to understand these differences. Technologies to interpret text and image content have also been improving, which can be used to assess the effects of the environment on people’s behaviour, sentiment and aesthetic experiences at specific places. Many studies have used geo-located social media as a proxy for outdoor recreation, but such data are often generated bottom-up, making it challenging to ensure that all people groups are properly represented.&lt;/p&gt;
+&lt;p&gt;In the wake of the COVID-19 pandemic, significant changes to human mobility and working environments have prompted a re-think of land use distribution in the city, particularly for office, residential and public spaces such as parks. One prominent trend is a rising demand for the outdoors, as urban dwellers turn to local parks for recreation and leisure. These outdoor spaces also provide opportunities for city dwellers to experience nature, and contribute to health and well-being in numerous ways.&lt;/p&gt;
+&lt;p&gt;Current metrics of park provision tend to focus on summaries of park area within a given region. However, there is a need to ensure that people have access to a variety of parks from their homes. This requires effective ways to characterise different types of parks, and measure their spatial provision to homes (more details in the &lt;a href=&#34;https://ecological-cities.github.io/home2park/&#34;&gt;&lt;code&gt;home2park&lt;/code&gt;&lt;/a&gt; software package). A better understanding of the demand for these different types of parks can also help ensure that their spatial distribution will serve a variety of people and their needs. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
 &lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-trails.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Example showing the supply of foot/cycle trails to residential buildings in Singapore&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;assets/parks_userpref.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Variation across parks in Singapore according to the kinds of social media users they attract. User groups were based on (a) residency status, as well as the relative amounts of (b) Landscapes–People and (c) Wildlife–City content within favourited photographs. Figure from Song et al. (2020).&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/center&gt;
-&lt;p&gt;There is also a need to ensure that people have access to a variety of parks from their homes. This requires effective ways to measure the spatial provision of parks, alongside the expected demand for park use. Ongoing work seeks to integrate these techniques with park planning and design.&lt;/p&gt;
-&lt;center&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;assets/park-trails.png&#34; alt=&#34;&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Supply of foot/cycle trails to residential buildings in Singapore&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div id=&#34;opportunities&#34; class=&#34;section level2&#34;&gt;

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recreation | XP</title>
+    <link>https://xp-song.github.io/category/recreation/</link>
+      <atom:link href="https://xp-song.github.io/category/recreation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recreation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Song, Xiao Ping</copyright><lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xp-song.github.io/media/sharing.jpg</url>
+      <title>Recreation</title>
+      <link>https://xp-song.github.io/category/recreation/</link>
+    </image>
+    
+    <item>
+      <title>Trying to fight cabin fever? The types of parks near your home matters</title>
+      <link>https://xp-song.github.io/posts/home2park/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://xp-song.github.io/posts/home2park/</guid>
+      <description>
+&lt;script src=&#34;https://xp-song.github.io/posts/home2park/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The COVID-19 pandemic is changing the way we work and play&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. As more people work remotely from home, visits to local parks have surged as people look for ways to stay active, find solace and quench their thirst for adventure&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Such opportunities for leisure and recreation play an important part in people’s physical and psychological well-being&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/bishan-amk.JPG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Not all parks are created equal. For example, people seeking solace may be drawn to waterfront or nature parks with open or tranquil landscapes&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. For others who love adventure (like myself), bike trails are great to break a sweat while having fun with friends. But most of the bike trails in Singapore&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; are really hard to get to from where I live (not to mention figuring out bike transport). So, instead of heading out for some adventure, I tend to visit the open field and playground closest to home, going out for short walks with my son (still waiting for my next adrenaline fix!).&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/upper-peirce-reservoir.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Waterfront landscapes at Upper Peirce Reservoir in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/canal.jpeg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;A very different kind of ‘waterfront’ closer to home&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In city planning, park provision is typically measured by summarising the park area within a given region&lt;a href=&#34;#fn6&#34; class=&#34;footnote-ref&#34; id=&#34;fnref6&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt;. Beyond the area of parks, however, there is a need to characterise the wide variety of parks that serve different groups of people. Understanding such nuances in park access can benefit both residents and city planners, for instance, when considering the location of a new home, or when planning for new parks in the city.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-type.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as &lt;a href=&#34;https://ecological-cities.github.io/home2park/docs/reference/get_beaches_osm.html&#34;&gt;beaches&lt;/a&gt; and &lt;a href=&#34;https://ecological-cities.github.io/home2park/docs/reference/get_informalnature_osm.html&#34;&gt;informal nature areas&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The new R package &lt;a href=&#34;https://ecological-cities.github.io/home2park&#34;&gt;&lt;code&gt;home2park&lt;/code&gt;&lt;/a&gt; provides ways to measure a variety of park features related to recreation such as foot/cycle trails, waterfronts, forests, open spaces, playgrounds and sport/fitness amenities. It includes functions to download such data from OSM. Alternatively, you may supply your own datasets for analyses. Summarising these features at each park allows us to make quantitative comparisons between parks. Some examples are shown below for the city of Singapore, based on OSM data in the year 2020. For instance, parks with extensive trails provide opportunities for running/wheeled sports:&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-trails.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Length of &lt;a href=&#34;https://ecological-cities.github.io/home2park/docs/reference/get_trails_osm.html&#34;&gt;trails&lt;/a&gt; (foot- and cycle-ways) in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/marina-barrage.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Cycling with our little one along East Coast Park (a rather rare occasion)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Other features such as water and vegetation are associated with visual relief, as well as restorative effects on people’s psychological well-being&lt;a href=&#34;#fn7&#34; class=&#34;footnote-ref&#34; id=&#34;fnref7&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt;. If such data (e.g. &lt;a href=&#34;https://xp-song.github.io/posts/city-landcover-change/&#34;&gt;satellite imagery&lt;/a&gt;) are available, they can also be &lt;a href=&#34;https://ecological-cities.github.io/home2park/docs/reference/parks_calc_attributes.html&#34;&gt;summarised&lt;/a&gt; at each park:&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-waterfronts.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Length of waterfronts within &amp;amp; near parks in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/park-forests.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Area of dense vegetation within parks in Singapore&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/upper-peirce-reservoir2.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Large water bodies and forest patches are present at Upper Peirce Reservoir Park&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;To calculate the ‘supply’ of these parks features to homes city-wide, these summarised values per park can then be assigned to each residential building. Since people are less likely to visit parks further away from their homes, a ‘distance decay’ parameter can be included. This reduces the supply value originating from parks further away. The ‘distance decay’ for walking to urban parks was empirically determined in Tu et al.&lt;a href=&#34;#fn8&#34; class=&#34;footnote-ref&#34; id=&#34;fnref8&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt; to fit a negative exponential curve with a coefficient &lt;em&gt;c&lt;/em&gt; value of &lt;em&gt;0.661&lt;/em&gt; (see &lt;a href=&#34;https://ecological-cities.github.io/home2park&#34;&gt;home2park&lt;/a&gt; package for details). The example below shows the supply of park area to residential buildings in Singapore.&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ss-park-area-buildings.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient &lt;em&gt;c&lt;/em&gt; value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the &lt;a href=&#34;https://ecological-cities.github.io/home2park/&#34;&gt;package website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Notice how the largest parks in Singapore tend to be centrally located, especially since we include informal nature areas (e.g. Central Catchment Nature Reserve). Buildings closer to these huge parks would thus have a much larger ‘supply’ of park area. However, each of the residential buildings would have different numbers of people living in them. A large park next to high-rise apartments would benefit a lot more people compared to low-rise housing. If we take into account the number of residents living within each building, a very different picture emerges!&lt;/p&gt;
+&lt;center&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;assets/ss-park-area-residents.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the &lt;a href=&#34;https://ecological-cities.github.io/home2park/&#34;&gt;package website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;These building-level metrics can subsequently be summarised across larger regions, for example, based on &lt;a href=&#34;https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea&#34;&gt;zones&lt;/a&gt; used in city planning. Not surprisingly, the supply metric for park area derived from individual buildings is vastly different from conventional metrics used today (examples in Tan and Samsudin&lt;a href=&#34;#fn9&#34; class=&#34;footnote-ref&#34; id=&#34;fnref9&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/a&gt;). Feel free to explore these metrics for the provision of park area in the interactive map below.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe seamless src=&#34;assets/plot_leaflet.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;
+&lt;/iframe&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;Map: Supply of park area in Singapore based on OSM data (2020).&lt;/strong&gt; Each building is denoted as a point (a random subset is shown). The colour palettes were binned according to quantile values.&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In these unprecedented times, significant changes to human mobility and working environments will require us to rethink land use distribution in the city, particularly for office, residential and public spaces such as parks. Some evidence also point to shifting preferences, for example, toward wilder green areas&lt;a href=&#34;#fn10&#34; class=&#34;footnote-ref&#34; id=&#34;fnref10&#34;&gt;&lt;sup&gt;10&lt;/sup&gt;&lt;/a&gt;. These issues are starting to become a part of the national conversation in Singapore &lt;a href=&#34;#fn11&#34; class=&#34;footnote-ref&#34; id=&#34;fnref11&#34;&gt;&lt;sup&gt;11&lt;/sup&gt;&lt;/a&gt;, which is important considering that the city has major plans for sustainable development and greening over the next decade&lt;a href=&#34;#fn12&#34; class=&#34;footnote-ref&#34; id=&#34;fnref12&#34;&gt;&lt;sup&gt;12&lt;/sup&gt;&lt;/a&gt;. As part of the Singapore Green Plan 2030, there will be 1,000 ha (more than 1,800 football fields!) more parks and park connectors, and every household will live just a 10-minute walk away from a park&lt;a href=&#34;#fn13&#34; class=&#34;footnote-ref&#34; id=&#34;fnref13&#34;&gt;&lt;sup&gt;13&lt;/sup&gt;&lt;/a&gt;. In view of these major plans, there is a need to move beyond basic summaries of area, and consider the variety of parks features that are important for outdoor recreation. The R package &lt;a href=&#34;https://ecological-cities.github.io/home2park&#34;&gt;&lt;code&gt;home2park&lt;/code&gt;&lt;/a&gt; represents a part of our effort to contribute to a more nuanced understanding of outdoor recreation and its spatial provision in cities. Note that the package is still experimental, so do reach out if you would like to &lt;a href=&#34;https://ecological-cities.github.io/home2park/CONTRIBUTING.html&#34;&gt;contribute&lt;/a&gt; to improvements, or to report any &lt;a href=&#34;https://github.com/ecological-cities/home2park/issues&#34;&gt;bugs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;I’d like to gratefully acknowledge &lt;a href=&#34;https://kwekings.wordpress.com/about-me/about/&#34;&gt;Kwek Yan&lt;/a&gt; for his valuable inputs and help to re-fine these ideas we are working on here, as well as Edwin Tan and Justin Nai for the useful discussions. The analyses shown in this blog post is part of a larger &lt;a href=&#34;https://xp-song.github.io/project/park-recreation/&#34;&gt;project&lt;/a&gt; that investigates the balance of park supply and demand in cities between different groups of people, as well as how the ‘distance decay’ affects their use. Do reach out if you are keen to collaborate on related topics. Finally, to cite &lt;a href=&#34;https://ecological-cities.github.io/home2park/&#34;&gt;&lt;code&gt;home2park&lt;/code&gt;&lt;/a&gt; or acknowledge its use, please use the following:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Song, X. P., Chong, K. Y. (2021), home2park: An R package to assess the spatial provision of urban parks. &lt;a href=&#34;https://doi.org/10.5281/zenodo.5090644&#34; class=&#34;uri&#34;&gt;https://doi.org/10.5281/zenodo.5090644&lt;/a&gt;. &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;This post is also shared on &lt;a href=&#34;https://r-bloggers.com&#34;&gt;R-bloggers.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Hoffower, H. (2021, June 23). &lt;a href=&#34;https://www.businessinsider.com/marc-andreessen-remote-work-more-important-than-internet-civilizational-shift-2021-6&#34;&gt;Tech legend Marc Andreessen says the rise of remote work might be more important than the internet: ‘A permanent civilizational shift’&lt;/a&gt;. &lt;em&gt;Business Insider.&lt;/em&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Geng, D. C., Innes, J., Wu, W., &amp;amp; Wang, G. (2021). Impacts of COVID-19 pandemic on urban park visitation: a global analysis. &lt;em&gt;Journal of forestry research&lt;/em&gt;, 32(2), 553-567.&lt;br /&gt;
+Ting, W. P. (2020, November 1). &lt;a href=&#34;https://www.todayonline.com/singapore/hiking-boom-singapore-more-turn-their-backyard-cope-covid-19-travel-restrictions&#34;&gt;Hiking boom in Singapore as more turn to their backyard to cope with Covid-19 travel restrictions&lt;/a&gt;. &lt;em&gt;Today&lt;/em&gt;. &lt;a href=&#34;https://www.todayonline.com&#34; class=&#34;uri&#34;&gt;https://www.todayonline.com&lt;/a&gt;&lt;br /&gt;
+Nadarajan, R. (2020, April 2). &lt;a href=&#34;https://www.todayonline.com/singapore/covid-19-seeking-fun-and-solace-worries-wide-open-spaces-singaporeans-turn-outdoors&#34;&gt;Covid-19: Seeking fun and solace from worries in wide open spaces, Singaporeans turn to the outdoors&lt;/a&gt;. &lt;em&gt;Today&lt;/em&gt;.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Wood, L., Hooper, P., Foster, S., &amp;amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. &lt;em&gt;Health &amp;amp; place&lt;/em&gt;, 48, 63-71.&lt;br /&gt;
+Rajoo, K. S., Karam, D. S., &amp;amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. &lt;em&gt;Urban Forestry &amp;amp; Urban Greening&lt;/em&gt;, 126744.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Examples in Singapore include &lt;a href=&#34;https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/east-coast-park&#34;&gt;East Coast Park&lt;/a&gt;, &lt;a href=&#34;https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/upper-peirce-reservoir-park&#34;&gt;Upper Peirce Reservoir&lt;/a&gt;, &lt;a href=&#34;https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/bukit-batok-nature-park&#34;&gt;Bukit Batok Nature Park&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://shimanocyclingworld.com/5-best-mountain-bike-trails-in-singapore/&#34; class=&#34;uri&#34;&gt;http://shimanocyclingworld.com/5-best-mountain-bike-trails-in-singapore/&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;Tan, P. Y., &amp;amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. &lt;em&gt;Landscape and Urban Planning&lt;/em&gt;, 158, 139-154.&lt;a href=&#34;#fnref6&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;Wood, L., Hooper, P., Foster, S., &amp;amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. &lt;em&gt;Health &amp;amp; place&lt;/em&gt;, 48, 63-71.&lt;br /&gt;
+Rajoo, K. S., Karam, D. S., &amp;amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. &lt;em&gt;Urban Forestry &amp;amp; Urban Greening&lt;/em&gt;, 126744.&lt;a href=&#34;#fnref7&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;Tu, X., Huang, G., Wu, J., &amp;amp; Guo, X. (2020). How do travel distance and park size influence urban park visits?. &lt;em&gt;Urban Forestry &amp;amp; Urban Greening&lt;/em&gt;, 52, 126689.&lt;a href=&#34;#fnref8&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn9&#34;&gt;&lt;p&gt;Tan, P. Y., &amp;amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. &lt;em&gt;Landscape and Urban Planning&lt;/em&gt;, 158, 139-154.&lt;a href=&#34;#fnref9&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn10&#34;&gt;&lt;p&gt;Grzyb, T., Kulczyk, S., Derek, M., &amp;amp; Woźniak, E. (2021). Using social media to assess recreation across urban green spaces in times of abrupt change. &lt;em&gt;Ecosystem Services&lt;/em&gt;, 49, 101297.&lt;a href=&#34;#fnref10&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn11&#34;&gt;&lt;p&gt;Ng, K. G. (2021, June 23). &lt;a href=&#34;https://www.straitstimes.com/singapore/understand-quality-not-just-quantity-of-green-spaces-expert&#34;&gt;Understand quality, not just quantity, of green spaces:Expert&lt;/a&gt;. &lt;em&gt;The Straits Times.&lt;/em&gt;&lt;a href=&#34;#fnref11&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn12&#34;&gt;&lt;p&gt;Tan, A. (2021, February 10). &lt;a href=&#34;https://www.straitstimes.com/singapore/environment/singapore-green-plan-2030-to-change-the-way-people-live-work-study-and-play&#34;&gt;Singapore Green Plan 2030 to change the way people live, work, study and play&lt;/a&gt;. &lt;em&gt;The Straits Times&lt;/em&gt;.&lt;br /&gt;
+Lin, C. (2021, March 4). &lt;a href=&#34;https://www.channelnewsasia.com/news/singapore/nparks-new-trails-cross-island-corridor-parks-14332300&#34;&gt;NParks to develop Singapore’s longest cross-island trail and 3 new recreational routes&lt;/a&gt;. &lt;em&gt;Channel News Asia&lt;/em&gt;.&lt;a href=&#34;#fnref12&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn13&#34;&gt;&lt;p&gt;Au-Yong, R. (2019, March 28). &lt;a href=&#34;https://www.straitstimes.com/singapore/spore-to-have-1000ha-more-parks-and-park-connectors&#34;&gt;Singapore to have 1,000ha more parks and park connectors&lt;/a&gt;. &lt;em&gt;The Straits Times&lt;/em&gt;.&lt;br /&gt;
+Singapore Green Plan 2030 (2021). &lt;a href=&#34;https://www.greenplan.gov.sg/key-focus-areas/city-in-nature/&#34;&gt;City in Nature&lt;/a&gt;.&lt;a href=&#34;#fnref13&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
