@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="XP Song">
+<meta name="dcterms.date" content="2022-08-01">
+<meta name="description" content="We need a predictive approach that compares between present and future scenarios">
+
+<title>XP Song - Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/icon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
+</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      color: #242F36;
+background-image: url(featured_transparent.jpg);
+background-size: cover;
+    }
+    </style>
+
+
+<meta property="og:title" content="XP Song - Biodiversity in cities: How can we assess the ‘performance’ of urban developments?">
+<meta property="og:description" content="We need a predictive approach that compares between present and future scenarios">
+<meta property="og:image" content="https://xp-song.github.io/posts/biodivercity/featured.jpg">
+<meta property="og:site-name" content="XP's Website">
+<meta property="og:image:alt" content="Image by Ivan Bandura from Unsplash">
+<meta name="twitter:title" content="XP Song - Biodiversity in cities: How can we assess the ‘performance’ of urban developments?">
+<meta name="twitter:description" content="We need a predictive approach that compares between present and future scenarios">
+<meta name="twitter:image" content="https://xp-song.github.io/images/icon.png">
+<meta name="twitter:creator" content="@song_xiaoping">
+<meta name="twitter:image-height" content="512">
+<meta name="twitter:image-width" content="512">
+<meta name="twitter:image:alt" content="Image by Ivan Bandura from Unsplash">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="biodivercity: An R package for spatial assessment of biodiversity across city landscapes">
+<meta name="citation_author" content="Song, X. P.">
+<meta name="citation_author" content="Tan, E. Y. W.">
+<meta name="citation_author" content="Lee, S. K. R.">
+<meta name="citation_author" content="Sim, H. J.">
+<meta name="citation_author" content="Nai, J.">
+<meta name="citation_author" content="Chong, K. Y.">
+<meta name="citation_publication_date" content="2022">
+<meta name="citation_cover_date" content="2022">
+<meta name="citation_year" content="2022">
+<meta name="citation_online_date" content="2022-08-01">
+<meta name="citation_fulltext_html_url" content="https://xp-song.github.io/posts/biodivercity">
+<meta name="citation_doi" content="10.5281/zenodo.7410414">
+<meta name="citation_language" content="en">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../academia.html">
+ <span class="menu-text">Academia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../music.html">
+ <span class="menu-text">Music</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</h1>
+                  <div>
+        <div class="description">
+          We need a predictive approach that compares between present and future scenarios
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Research</div>
+                <div class="quarto-category">Software</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>XP Song </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 1, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#current-industry-practices" id="toc-current-industry-practices" class="nav-link active" data-scroll-target="#current-industry-practices">Current industry practices</a></li>
+  <li><a href="#a-predictive-approach-is-needed" id="toc-a-predictive-approach-is-needed" class="nav-link" data-scroll-target="#a-predictive-approach-is-needed">A predictive approach is needed</a></li>
+  <li><a href="#filling-the-gap-in-current-methods" id="toc-filling-the-gap-in-current-methods" class="nav-link" data-scroll-target="#filling-the-gap-in-current-methods">Filling the gap in current methods</a></li>
+  <li><a href="#biodiversity-in-the-future" id="toc-biodiversity-in-the-future" class="nav-link" data-scroll-target="#biodiversity-in-the-future">Biodiversity in the future</a></li>
+  <li><a href="#summing-it-up" id="toc-summing-it-up" class="nav-link" data-scroll-target="#summing-it-up">Summing it up</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><br></p>
+<section id="current-industry-practices" class="level3">
+<h3 class="anchored" data-anchor-id="current-industry-practices">Current industry practices</h3>
+<p><a href="https://www.ura.gov.sg/Corporate/Planning/Our-Planning-Process/Bringing-plans-to-Reality/Environmental-Impact-Assessment">Environmental impact assessments</a> are commonly used to assess the impact of new urban developments on biodiversity, and serve to protect natural areas through legislation. In cities such as Singapore, independent consultancies often conduct the assessments and produce reports that are used as points of reference when engaging stakeholders (e.g., government agencies, nature groups) and the general public.</p>
+<p>As a part of these assessments, on-site surveys of plants and animals are conducted within the area slated for development. These opportunistic records can provide a general picture of biodiversity and potential ways to mitigate environmental impact. However, the recommendations provided tend to be qualitative and too coarse for planning at fine spatial scales (see examples in Fig. 1). In current practice, there is no way to quantitatively scrutinise between proposed design scenarios, and to compare between present and future ‘performance’.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/aecom-2022.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Recommendations to mitigate the impact of urban development on biodiversity in a consultancy report (Source: <a href="https://www.hdb.gov.sg/cs/infoweb/-/media/doc/RPG/Keppel-Club-Site-EIS-Report.ashx">AECOM, 2022</a>).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<hr>
+</section>
+<section id="a-predictive-approach-is-needed" class="level3">
+<h3 class="anchored" data-anchor-id="a-predictive-approach-is-needed">A predictive approach is needed</h3>
+<p>Predictive spatial modelling can address the shortcomings of opportunistic sampling, and is able to assess biodiversity at spatial scales required to inform planning decisions (0.1–100 hectares). For example, <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13782">species distribution modelling (SDM)</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> is a technique that can be used to predict the distribution of a species across geographic space and time, based on environmental conditions such as climate and the physical landscape (Fig. 2). Such SDM frameworks have the potential to provide much better rigour and spatial precision if integrated into the urban development process.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/sdm.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 2: How species distribution modelling (SDM) generally works (Source: <a href="https://damariszurell.github.io/SDM-Intro/">Damaris Zurell, 2020</a>).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>One limitation of SDMs, however, is their focus on only a single species of interest. Information about the number of species (<em>species richness</em>) observed at a location are not considered. For instance, natural forests may support a lot more species (high <em>species richness</em>) each in greater numbers (high <em>species abundances</em>) compared to urban areas (see Fig. 3). However, SDMs would only convey the probability of occurrence for a chosen species (e.g., habitat suitability map in Fig. 2). While SDMs can be applied to a <a href="https://link.springer.com/chapter/10.1007/978-3-642-58001-7_11">‘keystone’ species</a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, there are challenges in identifying such species<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and ensuring that the chosen species accurately represents the ‘total biodiversity’ of an urban area.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/species-richness-vs-abundance.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 3: Illustration showing the difference between <em>species richness</em> and <em>species abundance</em>.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p><em>Community structure</em> is another aspect of biodiversity that is still an active area of research, which SDMs do not represent well. While it is possible to combine <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12841">multiple SDMs</a><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> to produce a community-level model, the diversity of species communities between different areas (<em>Beta</em> diversity; see Fig. 4) is not represented in such models. For example, two urban regions may both have the same total number of species (<em>Gamma</em> diversity; see Fig. 4), but the presence of large water bodies in one may result in diverse communities of water-loving species that can not be found elsewhere. SDMs are not able to highlight the presence of such distinct communities (e.g., <em>Beta</em> diversity map in Fig. 5), which is crucial when prioritising areas for conservation and urban development.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/alpha-beta-gamma.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 4: <em>Gamma</em> (total) diversity across a larger region is composed of <em>Alpha</em> (local) diversity or species richness at single sites, as well as the <em>Beta</em> (community) diversity representing the differences in species compositions between sites.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<hr>
+</section>
+<section id="filling-the-gap-in-current-methods" class="level3">
+<h3 class="anchored" data-anchor-id="filling-the-gap-in-current-methods">Filling the gap in current methods</h3>
+<p>As part of a research project, our team has been developing methods to incorporate these missing elements (e.g., <em>Alpha</em>, <em>Beta</em>, and <em>Gamma</em> diversity) into predictive spatial modelling of biodiversity. We’ve also been working on an R package <a href="https://ecological-cities.github.io/biodivercity"><code>biodivercity</code></a> which will allow users to develop and apply such models for their own use cases, and validate model results based on data that they collect. Our method assesses the habitat suitability of landscapes based on their physical characteristics (e.g.&nbsp;<a href="../../posts/Intro2R-spatial">spatial patterns of land cover</a> from <a href="../../posts/city-landcover-change">satellite imagery</a> &amp; LiDAR data, built elements from OpenStreetMap). However, instead of examining the effect of landscapes on individual species, we instead examine their effect on four major animal groups (birds, butterflies, odonates and amphibians) found in Singapore (Fig. 5).</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/framework.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 5: Broad overview of the data workflow for a chosen animal group (e.g., birds). The <em>Alpha</em> diversity heat map represents the number of species, while the <em>Beta</em> diversity colour map represents unique species communities within a given area.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>If models are built using remotely sensed landscape data, we can easily predict the diversity of each animal group across time and geographical space (Fig. 5). For example, the interactive map below shows the <em>Alpha</em> (local) diversity of odonates predicted across all <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">subzones</a><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> in Singapore during the year 2020, at a coarse pixel resolution of 100 hectares. Depending on the level of detail required, the pixel resolution can be adjusted accordingly (e.g., 0.1 hectares).</p>
+<iframe seamless="" src="assets/plot_leaflet.html" width="100%" height="500">
+</iframe>
+<p><br></p>
+<p>Pixel values can be subsequently summarised within the zones used in city planning, to allow comparisons to be made between these planning units (Fig. 5). The resulting distribution of the summarised values can subsequently be used to compare the ‘performance’ of each planning unit relative to others in the city, or to a set a benchmark/target for the desired level of ‘performance’ (Fig. 6). For example, subzones in Singapore could be benchmarked against the mean of the distribution, as shown below:</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/subzone-distribution-odonates.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 6: Histogram showing the distribution of values for the average number of odonate species (<em>Alpha</em> diversity) per pixel within each of the 332 subzones in Singapore. Subzones were assigned an arbitrary score of -2 to 2 based on standard deviations from the mean (i.e., performance of the ‘average’ subzone).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>If spatial predictions were made for multiple snapshots in time, benchmarking could be based on whether the average pixel value for a particular planning unit increases or decreases between two time periods (Fig. 5). For example, if ‘no net loss’ in biodiversity is set as a target, a negative score could be assigned if the average pixel value is reduced, while a positive score could be assigned if the average pixel value increases.</p>
+<p>Finally, it is worth noting that our method allows full customisation of both the pixel size and boundaries within which to summarise the pixel values. This provides flexibility according to the level of analysis (e.g., geographical scale) required by the user. By summarising pixel values within zones used in city planning, animal diversity may be assessed alongside other indices also summarised at the level of these planning units, thus providing a more comprehensive view of components related to biodiversity and beyond (Fig. 5).</p>
+<p><br></p>
+<hr>
+</section>
+<section id="biodiversity-in-the-future" class="level3">
+<h3 class="anchored" data-anchor-id="biodiversity-in-the-future">Biodiversity in the future</h3>
+<p>Landscape data from remotely sensed sources allow biodiversity to be monitored in the past and present. However, there is also a need to assess future urban developments, for instance, to see if proposed designs can effectively mitigate the loss of biodiversity. But since such landscapes do not exist, snapshots of remotely sensed data can not be used. It is therefore important to carefully consider data compatibility between these different use cases when building and using the predictive models.</p>
+<p>Urban design and planning involves the consideration of multiple design scenarios. Manually generated landscape elements (e.g., vector data for vegetation and water) may be produced from prospective designs, but the format and types of such data must be compatible with those used in the predictive models. For instance, when selecting landscape predictors to build the models, land cover classification as discrete rasters would be more compatible with manually generated data, compared to continuous rasters that cannot be feasibly calculated (e.g., spectral indices such as NDVI). Vegetation generated in design scenarios can be rasterized into discrete land cover-types (Fig. 7), and used to replace the remotely sensed data within regions of interest (Fig. 8). Such amendments to landscape data can be made across a site slated for urban development, and then used to make spatial predictions for that particular design scenario (see maps in Fig. 5).</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/data-compatibility-rasterize.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 7: Example showing how manually generated vector data (points, polygons) of vegetation can be converted to a classified raster of vegetation types used in the predictive models.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/data-compatibility-amend.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 8: Example showing how a classified raster of remotely sensed vegetation can be amended with the manually generated vector data (rasterised). The dark green areas represent canopy cover, while the light green areas represent short vegetation.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>While such data conversions may allow similar predictors (and hence models) to be used for different use cases, it should be noted that potential mismatches between different data sources may result in inaccurate predictions. For instance, the level of detail in design scenarios may not include the exact locations of planted trees, and their estimated canopy projection areas may vary greatly from reality after planting. Furthermore, the remotely sensed data represents a top-down view of the landscape, and the effect of multi-tiered planting is not accounted for within the landscape predictors. Collaboration between researchers and practitioners is needed to ensure that model workflows align with the data formats and outputs used in design practice, and that suitable methods are used to ensure that artificially generated datasets are both compatible and accurate to reality after implementation.</p>
+<p><br></p>
+<hr>
+</section>
+<section id="summing-it-up" class="level3">
+<h3 class="anchored" data-anchor-id="summing-it-up">Summing it up</h3>
+<p>Environmental impact assessments help keep governments and companies accountable as they embark on urban development projects. However, current methods do not provide the level of precision required to make quantitative comparisons between places and across time, especially into the future. We also need a much higher level of nuance when prioritising areas for development/conservation, in terms of the number (<em>Alpha</em> diversity) and communities (<em>Beta</em> diversity) of species spatially distributed across the landscape. We will soon be releasing the first version of our R package <a href="https://ecological-cities.github.io/biodivercity"><code>biodivercity</code></a>, which we hope will contribute to the larger toolbox of methods used to assess biodiversity in cities. Stay tuned!</p>
+<p><br></p>
+<p><br></p>
+<hr>
+</section>
+<section id="acknowledgements" class="level3">
+<h3 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h3>
+<p>This blog post showcases some of the work undertaken in a research project to develop a biodiversity index for residential towns. It was funded from 2016–2022 under the Singapore Ministry of National Development Research Fund, awarded to the National University of Singapore in partnership with the Singapore Housing &amp; Development Board. The lead investigator is Dr.&nbsp;Chong Kwek Yan, with co-investigators Dr.&nbsp;Hugh Tan and Dr.&nbsp;Darren Yeo. The working team includes Justin Nai, Edwin Tan, Hong Jhun Sim, Rachel Lee, and other members of the field team.</p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+<p><br></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Baker, D. J., Maclean, I. M., Goodall, M., &amp; Gaston, K. J. (2021). Species distribution modelling is needed to support ecological impact assessments. <em>Journal of Applied Ecology</em>, <em>58</em>(1), 21-26.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Bond, W. J. (1994). Keystone species. In <em>Biodiversity and ecosystem function</em> (pp.&nbsp;237-253). Springer, Berlin, Heidelberg.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Power, M. E., Tilman, D., Estes, J. A., Menge, B. A., Bond, W. J., Mills, L. S., … &amp; Paine, R. T. (1996). Challenges in the quest for keystones: identifying keystone species is difficult—but essential to understanding how loss of species will affect ecosystems. <em>BioScience</em>, <em>46</em>(8), 609-620.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Schmitt, S., Pouteau, R., Justeau, D., De Boissieu, F., &amp; Birnbaum, P. (2017). ssdm: An r package to predict distribution of species richness and composition based on stacked species distribution models. <em>Methods in Ecology and Evolution</em>, <em>8</em>(12), 1795-1803.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Government of Singapore (2020). <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019 Subzone Boundary (No Sea)</a>. <em>data.gov.sg</em>. Released under the terms of the <a href="https://data.gov.sg/open-data-licence">Singapore Open Data Licence version 1.0</a>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2022,
+  author = {Song, X. P. and Tan, E. Y. W. and Lee, S. K. R. and Sim, H.
+    J. and Nai, J. and Chong, K. Y.},
+  title = {Biodivercity: {An} {R} Package for Spatial Assessment of
+    Biodiversity Across City Landscapes},
+  date = {2022},
+  url = {https://xp-song.github.io/posts/biodivercity},
+  doi = {10.5281/zenodo.7410414},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2022" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Song, X. P., Tan, E. Y. W., Lee, S. K. R., Sim, H. J., Nai, J., and
+Chong, K. Y. 2022. <span>“Biodivercity: An R Package for Spatial
+Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/zenodo.7410414">https://doi.org/10.5281/zenodo.7410414</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="xp-song/xpsong_giscus" data-repo-id="R_kgDOH9R2Fw" data-category="Announcements" data-category-id="DIC_kwDOH9R2F84CRT77" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light_protanopia" data-lang="en" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2022 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:xpsong.connect@gmail.com">Contact</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-sa/4.0/">License</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../blog.xml">RSS</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

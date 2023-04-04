@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>XP&#39;s Blog</title>
+<link>https://xp-song.github.io/blog.html</link>
+<atom:link href="https://xp-song.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Musings about data science, design, music and more...</description>
+<image>
+<url>https://xp-song.github.io/images/sheep.jpg</url>
+<title>XP&#39;s Blog</title>
+<link>https://xp-song.github.io/blog.html</link>
+</image>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Sun, 31 Jul 2022 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/biodivercity/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br></p>
+<section id="current-industry-practices" class="level3">
+<h3 class="anchored" data-anchor-id="current-industry-practices">Current industry practices</h3>
+<p><a href="https://www.ura.gov.sg/Corporate/Planning/Our-Planning-Process/Bringing-plans-to-Reality/Environmental-Impact-Assessment">Environmental impact assessments</a> are commonly used to assess the impact of new urban developments on biodiversity, and serve to protect natural areas through legislation. In cities such as Singapore, independent consultancies often conduct the assessments and produce reports that are used as points of reference when engaging stakeholders (e.g., government agencies, nature groups) and the general public.</p>
+<p>As a part of these assessments, on-site surveys of plants and animals are conducted within the area slated for development. These opportunistic records can provide a general picture of biodiversity and potential ways to mitigate environmental impact. However, the recommendations provided tend to be qualitative and too coarse for planning at fine spatial scales (see examples in Fig. 1). In current practice, there is no way to quantitatively scrutinise between proposed design scenarios, and to compare between present and future ‘performance’.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/aecom-2022.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Recommendations to mitigate the impact of urban development on biodiversity in a consultancy report (Source: <a href="https://www.hdb.gov.sg/cs/infoweb/-/media/doc/RPG/Keppel-Club-Site-EIS-Report.ashx">AECOM, 2022</a>).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<hr>
+</section>
+<section id="a-predictive-approach-is-needed" class="level3">
+<h3 class="anchored" data-anchor-id="a-predictive-approach-is-needed">A predictive approach is needed</h3>
+<p>Predictive spatial modelling can address the shortcomings of opportunistic sampling, and is able to assess biodiversity at spatial scales required to inform planning decisions (0.1–100 hectares). For example, <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13782">species distribution modelling (SDM)</a><sup>1</sup> is a technique that can be used to predict the distribution of a species across geographic space and time, based on environmental conditions such as climate and the physical landscape (Fig. 2). Such SDM frameworks have the potential to provide much better rigour and spatial precision if integrated into the urban development process.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/sdm.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 2: How species distribution modelling (SDM) generally works (Source: <a href="https://damariszurell.github.io/SDM-Intro/">Damaris Zurell, 2020</a>).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>One limitation of SDMs, however, is their focus on only a single species of interest. Information about the number of species (<em>species richness</em>) observed at a location are not considered. For instance, natural forests may support a lot more species (high <em>species richness</em>) each in greater numbers (high <em>species abundances</em>) compared to urban areas (see Fig. 3). However, SDMs would only convey the probability of occurrence for a chosen species (e.g., habitat suitability map in Fig. 2). While SDMs can be applied to a <a href="https://link.springer.com/chapter/10.1007/978-3-642-58001-7_11">‘keystone’ species</a><sup>2</sup>, there are challenges in identifying such species<sup>3</sup> and ensuring that the chosen species accurately represents the ‘total biodiversity’ of an urban area.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/species-richness-vs-abundance.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 3: Illustration showing the difference between <em>species richness</em> and <em>species abundance</em>.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p><em>Community structure</em> is another aspect of biodiversity that is still an active area of research, which SDMs do not represent well. While it is possible to combine <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12841">multiple SDMs</a><sup>4</sup> to produce a community-level model, the diversity of species communities between different areas (<em>Beta</em> diversity; see Fig. 4) is not represented in such models. For example, two urban regions may both have the same total number of species (<em>Gamma</em> diversity; see Fig. 4), but the presence of large water bodies in one may result in diverse communities of water-loving species that can not be found elsewhere. SDMs are not able to highlight the presence of such distinct communities (e.g., <em>Beta</em> diversity map in Fig. 5), which is crucial when prioritising areas for conservation and urban development.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/alpha-beta-gamma.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 4: <em>Gamma</em> (total) diversity across a larger region is composed of <em>Alpha</em> (local) diversity or species richness at single sites, as well as the <em>Beta</em> (community) diversity representing the differences in species compositions between sites.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<hr>
+</section>
+<section id="filling-the-gap-in-current-methods" class="level3">
+<h3 class="anchored" data-anchor-id="filling-the-gap-in-current-methods">Filling the gap in current methods</h3>
+<p>As part of a research project, our team has been developing methods to incorporate these missing elements (e.g., <em>Alpha</em>, <em>Beta</em>, and <em>Gamma</em> diversity) into predictive spatial modelling of biodiversity. We’ve also been working on an R package <a href="https://ecological-cities.github.io/biodivercity"><code>biodivercity</code></a> which will allow users to develop and apply such models for their own use cases, and validate model results based on data that they collect. Our method assesses the habitat suitability of landscapes based on their physical characteristics (e.g.&nbsp;<a href="../../posts/Intro2R-spatial">spatial patterns of land cover</a> from <a href="../../posts/city-landcover-change">satellite imagery</a> &amp; LiDAR data, built elements from OpenStreetMap). However, instead of examining the effect of landscapes on individual species, we instead examine their effect on four major animal groups (birds, butterflies, odonates and amphibians) found in Singapore (Fig. 5).</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/framework.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 5: Broad overview of the data workflow for a chosen animal group (e.g., birds). The <em>Alpha</em> diversity heat map represents the number of species, while the <em>Beta</em> diversity colour map represents unique species communities within a given area.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>If models are built using remotely sensed landscape data, we can easily predict the diversity of each animal group across time and geographical space (Fig. 5). For example, the interactive map below shows the <em>Alpha</em> (local) diversity of odonates predicted across all <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">subzones</a><sup>5</sup> in Singapore during the year 2020, at a coarse pixel resolution of 100 hectares. Depending on the level of detail required, the pixel resolution can be adjusted accordingly (e.g., 0.1 hectares).</p>
+<iframe seamless="" src="assets/plot_leaflet.html" width="100%" height="500">
+</iframe>
+<p><br></p>
+<p>Pixel values can be subsequently summarised within the zones used in city planning, to allow comparisons to be made between these planning units (Fig. 5). The resulting distribution of the summarised values can subsequently be used to compare the ‘performance’ of each planning unit relative to others in the city, or to a set a benchmark/target for the desired level of ‘performance’ (Fig. 6). For example, subzones in Singapore could be benchmarked against the mean of the distribution, as shown below:</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/subzone-distribution-odonates.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 6: Histogram showing the distribution of values for the average number of odonate species (<em>Alpha</em> diversity) per pixel within each of the 332 subzones in Singapore. Subzones were assigned an arbitrary score of -2 to 2 based on standard deviations from the mean (i.e., performance of the ‘average’ subzone).</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>If spatial predictions were made for multiple snapshots in time, benchmarking could be based on whether the average pixel value for a particular planning unit increases or decreases between two time periods (Fig. 5). For example, if ‘no net loss’ in biodiversity is set as a target, a negative score could be assigned if the average pixel value is reduced, while a positive score could be assigned if the average pixel value increases.</p>
+<p>Finally, it is worth noting that our method allows full customisation of both the pixel size and boundaries within which to summarise the pixel values. This provides flexibility according to the level of analysis (e.g., geographical scale) required by the user. By summarising pixel values within zones used in city planning, animal diversity may be assessed alongside other indices also summarised at the level of these planning units, thus providing a more comprehensive view of components related to biodiversity and beyond (Fig. 5).</p>
+<p><br></p>
+<hr>
+</section>
+<section id="biodiversity-in-the-future" class="level3">
+<h3 class="anchored" data-anchor-id="biodiversity-in-the-future">Biodiversity in the future</h3>
+<p>Landscape data from remotely sensed sources allow biodiversity to be monitored in the past and present. However, there is also a need to assess future urban developments, for instance, to see if proposed designs can effectively mitigate the loss of biodiversity. But since such landscapes do not exist, snapshots of remotely sensed data can not be used. It is therefore important to carefully consider data compatibility between these different use cases when building and using the predictive models.</p>
+<p>Urban design and planning involves the consideration of multiple design scenarios. Manually generated landscape elements (e.g., vector data for vegetation and water) may be produced from prospective designs, but the format and types of such data must be compatible with those used in the predictive models. For instance, when selecting landscape predictors to build the models, land cover classification as discrete rasters would be more compatible with manually generated data, compared to continuous rasters that cannot be feasibly calculated (e.g., spectral indices such as NDVI). Vegetation generated in design scenarios can be rasterized into discrete land cover-types (Fig. 7), and used to replace the remotely sensed data within regions of interest (Fig. 8). Such amendments to landscape data can be made across a site slated for urban development, and then used to make spatial predictions for that particular design scenario (see maps in Fig. 5).</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-rasterize.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 7: Example showing how manually generated vector data (points, polygons) of vegetation can be converted to a classified raster of vegetation types used in the predictive models.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-amend.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 8: Example showing how a classified raster of remotely sensed vegetation can be amended with the manually generated vector data (rasterised). The dark green areas represent canopy cover, while the light green areas represent short vegetation.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<p>While such data conversions may allow similar predictors (and hence models) to be used for different use cases, it should be noted that potential mismatches between different data sources may result in inaccurate predictions. For instance, the level of detail in design scenarios may not include the exact locations of planted trees, and their estimated canopy projection areas may vary greatly from reality after planting. Furthermore, the remotely sensed data represents a top-down view of the landscape, and the effect of multi-tiered planting is not accounted for within the landscape predictors. Collaboration between researchers and practitioners is needed to ensure that model workflows align with the data formats and outputs used in design practice, and that suitable methods are used to ensure that artificially generated datasets are both compatible and accurate to reality after implementation.</p>
+<p><br></p>
+<hr>
+</section>
+<section id="summing-it-up" class="level3">
+<h3 class="anchored" data-anchor-id="summing-it-up">Summing it up</h3>
+<p>Environmental impact assessments help keep governments and companies accountable as they embark on urban development projects. However, current methods do not provide the level of precision required to make quantitative comparisons between places and across time, especially into the future. We also need a much higher level of nuance when prioritising areas for development/conservation, in terms of the number (<em>Alpha</em> diversity) and communities (<em>Beta</em> diversity) of species spatially distributed across the landscape. We will soon be releasing the first version of our R package <a href="https://ecological-cities.github.io/biodivercity"><code>biodivercity</code></a>, which we hope will contribute to the larger toolbox of methods used to assess biodiversity in cities. Stay tuned!</p>
+<p><br></p>
+<p><br></p>
+<hr>
+</section>
+<section id="acknowledgements" class="level3">
+<h3 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h3>
+<p>This blog post showcases some of the work undertaken in a research project to develop a biodiversity index for residential towns. It was funded from 2016–2022 under the Singapore Ministry of National Development Research Fund, awarded to the National University of Singapore in partnership with the Singapore Housing &amp; Development Board. The lead investigator is Dr.&nbsp;Chong Kwek Yan, with co-investigators Dr.&nbsp;Hugh Tan and Dr.&nbsp;Darren Yeo. The working team includes Justin Nai, Edwin Tan, Hong Jhun Sim, Rachel Lee, and other members of the field team.</p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+<p><br></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Baker, D. J., Maclean, I. M., Goodall, M., &amp; Gaston, K. J. (2021). Species distribution modelling is needed to support ecological impact assessments. <em>Journal of Applied Ecology</em>, <em>58</em>(1), 21-26.↩︎</p></li>
+<li id="fn2"><p>Bond, W. J. (1994). Keystone species. In <em>Biodiversity and ecosystem function</em> (pp.&nbsp;237-253). Springer, Berlin, Heidelberg.↩︎</p></li>
+<li id="fn3"><p>Power, M. E., Tilman, D., Estes, J. A., Menge, B. A., Bond, W. J., Mills, L. S., … &amp; Paine, R. T. (1996). Challenges in the quest for keystones: identifying keystone species is difficult—but essential to understanding how loss of species will affect ecosystems. <em>BioScience</em>, <em>46</em>(8), 609-620.↩︎</p></li>
+<li id="fn4"><p>Schmitt, S., Pouteau, R., Justeau, D., De Boissieu, F., &amp; Birnbaum, P. (2017). ssdm: An r package to predict distribution of species richness and composition based on stacked species distribution models. <em>Methods in Ecology and Evolution</em>, <em>8</em>(12), 1795-1803.↩︎</p></li>
+<li id="fn5"><p>Government of Singapore (2020). <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019 Subzone Boundary (No Sea)</a>. <em>data.gov.sg</em>. Released under the terms of the <a href="https://data.gov.sg/open-data-licence">Singapore Open Data Licence version 1.0</a>.↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2022,
+  author = {Song, X. P. and Tan, E. Y. W. and Lee, S. K. R. and Sim, H.
+    J. and Nai, J. and Chong, K. Y.},
+  title = {Biodivercity: {An} {R} Package for Spatial Assessment of
+    Biodiversity Across City Landscapes},
+  date = {2022},
+  url = {https://xp-song.github.io/posts/biodivercity},
+  doi = {10.5281/zenodo.7410414},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2022" class="csl-entry quarto-appendix-citeas">
+Song, X. P., Tan, E. Y. W., Lee, S. K. R., Sim, H. J., Nai, J., and
+Chong, K. Y. 2022. <span>“Biodivercity: An R Package for Spatial
+Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/zenodo.7410414">https://doi.org/10.5281/zenodo.7410414</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Research</category>
+  <category>Software</category>
+  <guid>https://xp-song.github.io/posts/biodivercity/index.html</guid>
+  <pubDate>Sun, 31 Jul 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/biodivercity/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Nathan’s first drumset</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/nathans-first-drumset/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Sample it before it gets wrecked!</p>
+<center>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/i90zVvyJaZk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Nathan's First Drumset">
+</iframe>
+</div>
+</center>
+<p><br></p>
+
+
+
+ ]]></description>
+  <category>Music</category>
+  <guid>https://xp-song.github.io/posts/nathans-first-drumset/index.html</guid>
+  <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/nathans-first-drumset/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Trying to fight cabin fever? The types of parks near your home matters</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/home2park/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The COVID-19 pandemic is changing the way we work and play<sup>1</sup>. As more people work remotely from home, visits to local parks have surged as people look for ways to stay active, find solace and quench their thirst for adventure<sup>2</sup>. Such opportunities for leisure and recreation play an important part in people’s physical and psychological well-being<sup>3</sup>.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>Not all parks are created equal. For example, people seeking solace may be drawn to waterfront or nature parks with open or tranquil landscapes<sup>4</sup>. For others who love adventure (like myself), bike trails are great to break a sweat while having fun with friends. But most of the bike trails in Singapore<sup>5</sup> are really hard to get to from where I live (not to mention figuring out bike transport). So, instead of heading out for some adventure, I tend to visit the open field and playground closest to home, going out for short walks with my son (still waiting for my next adrenaline fix!).</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/canal.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>In city planning, park provision is typically measured by summarising the park area within a given region<sup>6</sup>. Beyond the area of parks, however, there is a need to characterise the wide variety of parks that serve different groups of people. Understanding such nuances in park access can benefit both residents and city planners, for instance, when considering the location of a new home, or when planning for new parks in the city.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/park-type.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>Our new R package <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> provides ways to measure a variety of park features related to recreation such as foot/cycle trails, waterfronts, forests, open spaces, playgrounds and sport/fitness amenities. It includes functions to download such data from OSM. Alternatively, you may supply your own proprietary datasets, or use new data for the purpose of future scenario planning. Summarising these features at each park allows us to make quantitative comparisons between parks. Some examples are shown below for the city of Singapore, based on OSM data in the year 2020. For instance, parks with extensive trails provide opportunities for running/wheeled sports:</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/park-trails.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>Other features such as water and vegetation are associated with visual relief, as well as restorative effects on people’s psychological well-being<sup>7</sup>. If such data (e.g., satellite imagery) are available, they can also be <a href="https://ecological-cities.github.io/home2park/reference/parks_calc_attributes.html">summarised</a> at each park:</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/park-waterfronts.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/park-forests.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>To calculate the ‘supply’ of these parks features to homes city-wide, these summarised values per park can then be assigned to each residential building. Since people are less likely to visit parks further away from their homes, a ‘distance decay’ parameter can be included. This reduces the supply value originating from parks further away. The ‘distance decay’ for walking to urban parks was empirically determined in Tu et al.<sup>8</sup> to fit a negative exponential curve with a coefficient <em>c</em> value of <em>0.661</em> (see <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> package for details). The example below shows the supply of park area to residential buildings in Singapore.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>Notice how the largest parks in Singapore tend to be centrally located, especially since we include informal nature areas (e.g., Central Catchment Nature Reserve). Buildings closer to these huge parks would thus have a much larger ‘supply’ of park area. However, each of the residential buildings would have different numbers of people living in them. A large park next to high-rise apartments would benefit a lot more people compared to low-rise housing. If we take into account the number of residents living within each building, a very different picture emerges!</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>These building-level metrics can subsequently be summarised across larger regions, for example, based on <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">zones</a> used in city planning. Not surprisingly, the supply metric for park area derived from individual buildings is vastly different from conventional metrics used today (examples in Tan and Samsudin<sup>9</sup>). Feel free to explore these metrics for the provision of park area in the interactive map below.</p>
+<p><br></p>
+<iframe seamless="" src="assets/plot_leaflet.html" width="100%" height="500">
+</iframe>
+<center>
+<strong>Map: Supply of park area in Singapore based on OSM data (2020).</strong> Each building is denoted as a point (a random subset is shown). The colour palettes were binned according to quantile values.
+</center>
+<p><br></p>
+<p>In these unprecedented times, significant changes to human mobility and working environments will require us to rethink land use distribution in the city, particularly for office, residential and public spaces such as parks. Some evidence also point to shifting preferences, for example, toward wilder green areas<sup>10</sup>. These issues are starting to become a part of the national conversation in Singapore <sup>11</sup>, which is important considering that the city has major plans for sustainable development and greening over the next decade<sup>12</sup>. As part of the Singapore Green Plan 2030, there will be 1,000 ha (more than 1,800 football fields!) more parks and park connectors, and every household will live just a 10-minute walk away from a park<sup>13</sup>. In view of these major plans, there is a need to move beyond basic summaries of area, and consider the variety of parks features that are important for outdoor recreation. The R package <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> represents a part of our effort to contribute to a more nuanced understanding of outdoor recreation and its spatial provision in cities. Note that the package is still experimental, so do reach out if you would like to <a href="https://ecological-cities.github.io/home2park/CONTRIBUTING.html">contribute</a> to improvements, or to report any <a href="https://github.com/ecological-cities/home2park/issues">bugs</a>.</p>
+<p><br></p>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>I’d like to gratefully acknowledge Kwek Yan for his valuable inputs and help to re-fine these ideas we are working on here, as well as Edwin Tan and Justin Nai for the useful discussions. The analyses shown in this blog post is part of a larger project that investigates the balance of park supply and demand in cities between different groups of people, as well as how the ‘distance decay’ affects their use. Do reach out if you are keen to collaborate on related topics. Finally, to cite <a href="https://ecological-cities.github.io/home2park/"><code>home2park</code></a> or acknowledge its use, you may use the following reference:</p>
+<blockquote class="blockquote">
+<p>Song, X. P., Chong, K. Y. (2021). home2park: An R package to assess the spatial provision of urban parks. <em>Journal of Open Source Software</em>, <em>6</em>(65), 3609. <a href="https://doi.org/10.21105/joss.03609" class="uri">https://doi.org/10.21105/joss.03609</a></p>
+</blockquote>
+<p><br></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+<p><br></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Hoffower, H. (2021, June 23). <a href="https://www.businessinsider.com/marc-andreessen-remote-work-more-important-than-internet-civilizational-shift-2021-6">Tech legend Marc Andreessen says the rise of remote work might be more important than the internet: ‘A permanent civilizational shift’</a>. <em>Business Insider.</em>↩︎</p></li>
+<li id="fn2"><p>Geng, D. C., Innes, J., Wu, W., &amp; Wang, G. (2021). Impacts of COVID-19 pandemic on urban park visitation: a global analysis. <em>Journal of forestry research</em>, 32(2), 553-567.<br>
+Ting, W. P. (2020, November 1). <a href="https://www.todayonline.com/singapore/hiking-boom-singapore-more-turn-their-backyard-cope-covid-19-travel-restrictions">Hiking boom in Singapore as more turn to their backyard to cope with Covid-19 travel restrictions</a>. <em>Today</em>. https://www.todayonline.com<br>
+Nadarajan, R. (2020, April 2). <a href="https://www.todayonline.com/singapore/covid-19-seeking-fun-and-solace-worries-wide-open-spaces-singaporeans-turn-outdoors">Covid-19: Seeking fun and solace from worries in wide open spaces, Singaporeans turn to the outdoors</a>. <em>Today</em>.↩︎</p></li>
+<li id="fn3"><p>Wood, L., Hooper, P., Foster, S., &amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. <em>Health &amp; place</em>, 48, 63-71.<br>
+Rajoo, K. S., Karam, D. S., &amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. <em>Urban Forestry &amp; Urban Greening</em>, 126744.↩︎</p></li>
+<li id="fn4"><p>Examples in Singapore include <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/east-coast-park">East Coast Park</a>, <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/upper-peirce-reservoir-park">Upper Peirce Reservoir</a>, <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/bukit-batok-nature-park">Bukit Batok Nature Park</a>↩︎</p></li>
+<li id="fn5"><p>http://shimanocyclingworld.com/5-best-mountain-bike-trails-in-singapore/↩︎</p></li>
+<li id="fn6"><p>Tan, P. Y., &amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. <em>Landscape and Urban Planning</em>, 158, 139-154.↩︎</p></li>
+<li id="fn7"><p>Wood, L., Hooper, P., Foster, S., &amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. <em>Health &amp; place</em>, 48, 63-71.<br>
+Rajoo, K. S., Karam, D. S., &amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. <em>Urban Forestry &amp; Urban Greening</em>, 126744.↩︎</p></li>
+<li id="fn8"><p>Tu, X., Huang, G., Wu, J., &amp; Guo, X. (2020). How do travel distance and park size influence urban park visits?. <em>Urban Forestry &amp; Urban Greening</em>, 52, 126689.↩︎</p></li>
+<li id="fn9"><p>Tan, P. Y., &amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. <em>Landscape and Urban Planning</em>, 158, 139-154.↩︎</p></li>
+<li id="fn10"><p>Grzyb, T., Kulczyk, S., Derek, M., &amp; Woźniak, E. (2021). Using social media to assess recreation across urban green spaces in times of abrupt change. <em>Ecosystem Services</em>, 49, 101297.↩︎</p></li>
+<li id="fn11"><p>Ng, K. G. (2021, June 23). <a href="https://www.straitstimes.com/singapore/understand-quality-not-just-quantity-of-green-spaces-expert">Understand quality, not just quantity, of green spaces:Expert</a>. <em>The Straits Times.</em>↩︎</p></li>
+<li id="fn12"><p>Tan, A. (2021, February 10). <a href="https://www.straitstimes.com/singapore/environment/singapore-green-plan-2030-to-change-the-way-people-live-work-study-and-play">Singapore Green Plan 2030 to change the way people live, work, study and play</a>. <em>The Straits Times</em>.<br>
+Lin, C. (2021, March 4). <a href="https://www.channelnewsasia.com/news/singapore/nparks-new-trails-cross-island-corridor-parks-14332300">NParks to develop Singapore’s longest cross-island trail and 3 new recreational routes</a>. <em>Channel News Asia</em>.↩︎</p></li>
+<li id="fn13"><p>Au-Yong, R. (2019, March 28). <a href="https://www.straitstimes.com/singapore/spore-to-have-1000ha-more-parks-and-park-connectors">Singapore to have 1,000ha more parks and park connectors</a>. <em>The Straits Times</em>.<br>
+Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focus-areas/city-in-nature/">City in Nature</a>.↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2021,
+  author = {Song, X. P. and Chong, K. Y.},
+  title = {Home2park: {An} {R} Package to Assess the Spatial Provision
+    of Urban Parks},
+  journal = {Journal of Open Source Software},
+  volume = {6},
+  number = {66},
+  pages = {3609},
+  date = {2021},
+  url = {https://xp-song.github.io/posts/home2park},
+  doi = {10.21105/joss.03609},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas">
+Song, X. P., and Chong, K. Y. 2021. <span>“Home2park: An R Package to
+Assess the Spatial Provision of Urban Parks.”</span> <em>Journal of Open
+Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609">https://doi.org/10.21105/joss.03609</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Research</category>
+  <category>Software</category>
+  <guid>https://xp-song.github.io/posts/home2park/index.html</guid>
+  <pubDate>Thu, 15 Jul 2021 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/home2park/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Changes in a city’s land cover over time</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/city-landcover-change/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>As part of a research project to develop biodiversity indices for city planning, I’ve had to quantify different components of the landscape using satellite data. One of these components is land cover, from which other metrics can be further derived. So far, this has been done for <a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2">Sentinel-2</a> and <a href="https://earth.esa.int/eogateway/missions/skysat">Skysat</a> data. Here is a brief summary of the steps and template R code used to derive land cover classes from publicly-available Sentinel-2 imagery. We’re open to collaborate and explore new applications in remote sensing, so we’d love to hear from you if you have any feedback or ideas!</p>
+<p><br></p>
+<hr>
+<p>First, load the required R packages:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(tidyverse)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;"># sentinel-2 data</span></span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;">library</span>(sen2r)</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;"># image processing</span></span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;">library</span>(EBImage)</span>
+<span id="cb1-8"></span>
+<span id="cb1-9"><span class="co" style="color: #5E5E5E;"># spatial analysis</span></span>
+<span id="cb1-10"><span class="fu" style="color: #4758AB;">library</span>(terra)</span></code></pre></div>
+</div>
+<p><br></p>
+<p>And here’s the raw shape file for our area of interest:</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/city-landcover-change/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="2100"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Singapore subzone boundaries based on the <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019</a>.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+<section id="calculate-spectral-indices" class="level2">
+<h2 class="anchored" data-anchor-id="calculate-spectral-indices">Calculate spectral indices</h2>
+<p>To download Sentinel-2 images, we can use the R package <a href="http://sen2r.ranghetti.info"><code>sen2r</code></a> to programatically download the satellite data within a specified date range. It also allows us to run pre-processing steps such as cloud masking, atmospheric correction and the calculation of spectral indices.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;"># get search parameters</span></span>
+<span id="cb2-2">json_path <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">"&lt;PATH TO YOUR JSON FILE&gt;"</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;"># you can create this file by running 'sen2r()', then using the graphical user interface to specify &amp; save your parameters (e.g. max cloud cover per image, etc.)</span></span>
+<span id="cb2-4"></span>
+<span id="cb2-5"></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;"># download</span></span>
+<span id="cb2-7">out_paths <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sen2r</span>(</span>
+<span id="cb2-8">  <span class="at" style="color: #657422;">param_list =</span> json_path,</span>
+<span id="cb2-9">  <span class="at" style="color: #657422;">extent_as_mask =</span> <span class="cn" style="color: #8f5902;">TRUE</span>, <span class="co" style="color: #5E5E5E;"># mask the image based on your supplied shape file</span></span>
+<span id="cb2-10">  <span class="at" style="color: #657422;">list_rgb =</span> <span class="st" style="color: #20794D;">"RGB432B"</span> <span class="co" style="color: #5E5E5E;"># output RGB image</span></span>
+<span id="cb2-11">  )</span></code></pre></div>
+</div>
+<p>For each data type (e.g., spectral index), we can combine all raster images captured within the specified date range by averaging the pixel values across files (thus forming an image mosaic). This allows us to avoid relying on any one image for our analysis, and to deal with missing data (e.g., due to high cloud cover) during the period of interest. Depending on the data type, we can scale the values and remove outliers prior to forming the image mosaic. You might also want to consider parallelising the code if there are many files. Run the following code for each data type:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">filepaths <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">"&lt;PATHS TO YOUR PROCESSED FILES&gt;"</span></span>
+<span id="cb3-2"></span>
+<span id="cb3-3">images <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lapply</span>(filepaths, rast) <span class="co" style="color: #5E5E5E;"># import rasters as a list</span></span>
+<span id="cb3-4">mosaic <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">do.call</span>(terra<span class="sc" style="color: #5E5E5E;">::</span>mosaic, <span class="fu" style="color: #4758AB;">c</span>(images, <span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">fun =</span> <span class="st" style="color: #20794D;">"mean"</span>)))</span>
+<span id="cb3-5"></span>
+<span id="cb3-6"><span class="co" style="color: #5E5E5E;"># export mosaic</span></span>
+<span id="cb3-7"><span class="fu" style="color: #4758AB;">writeRaster</span>(mosaic, <span class="st" style="color: #20794D;">"&lt;MOSAIC FILE NAME&gt;.tif"</span>,</span>
+<span id="cb3-8">            <span class="at" style="color: #657422;">wopt =</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">gdal=</span><span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"COMPRESS=LZW"</span>)), <span class="co" style="color: #5E5E5E;"># compress output</span></span>
+<span id="cb3-9">            <span class="at" style="color: #657422;">overwrite =</span> <span class="cn" style="color: #8f5902;">TRUE</span>)</span></code></pre></div>
+</div>
+<p><br></p>
+</section>
+<section id="classify-land-cover" class="level2">
+<h2 class="anchored" data-anchor-id="classify-land-cover">Classify land cover</h2>
+<p>At this point, we have a single image mosaic (raster) for each spectral index. While the continuous values from these rasters may be used directly in analyses, there may be instances were we want to work with discrete classes of land cover. One method is to separate pixels into one of two classes (e.g., vegetated or non-vegetated; water or land), based on an adaptively derived threshold value. For example, we use Otsu’s thresholding (<a href="https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf">Otsu, 1979</a>), which tends to outperform other techniques in terms of stability of results and processing speed, even with the presence of &gt; 2 peaks in the histogram of pixel values (<a href="https://www.tandfonline.com/doi/abs/10.1080/10106049.2018.1497094">Bouhennache et al., 2019</a>; see figure below). This may be implemented using the <a href="https://www.rdocumentation.org/packages/EBImage/versions/4.14.2/topics/otsu"><code>otsu()</code></a> function in <code>library(EBImage)</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">threshold_value <span class="ot" style="color: #003B4F;">&lt;-</span> EBImage<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">otsu</span>(mosaic, </span>
+<span id="cb4-2">                                 <span class="at" style="color: #657422;">range =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">1</span>), <span class="co" style="color: #5E5E5E;"># histogram range</span></span>
+<span id="cb4-3">                                 <span class="at" style="color: #657422;">levels =</span> <span class="dv" style="color: #AD0000;">256</span>) <span class="co" style="color: #5E5E5E;"># depends on image bit-depth</span></span>
+<span id="cb4-4"></span>
+<span id="cb4-5">classified <span class="ot" style="color: #003B4F;">&lt;-</span> mosaic <span class="co" style="color: #5E5E5E;"># duplicate</span></span>
+<span id="cb4-6"></span>
+<span id="cb4-7">classified[mosaic <span class="sc" style="color: #5E5E5E;">&lt;</span> threshold_value] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">0</span> <span class="co" style="color: #5E5E5E;"># assign value of 0 for pixels below threshold (e.g. non-vegetated)</span></span>
+<span id="cb4-8">classified[mosaic <span class="sc" style="color: #5E5E5E;">&gt;=</span> threshold_value] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span> <span class="co" style="color: #5E5E5E;"># assign value of 1 for pixels above threshold (e.g. vegetated)</span></span></code></pre></div>
+</div>
+<p>As an example, the following figure shows the distribution of the <a href="https://www.indexdatabase.de/db/i-single.php?id=58">Normalized Difference Vegetation Index</a> (NDVI) values of a raster image. The NDVI is a measure of healthy green vegetation, based on the tendency of plants to reflect NIR &amp; absorb red light. It ranges from -1 (non-vegetated) to 1 (densely vegetated). Pixels that fall within the range of different threshold values (vertical lines) may be classified into discrete land cover types. If we do this for multiple date ranges, we can examine differences between the two. For example, in our project, we are currently comparing image mosaics captured during 2016–2019 (Survey Round One) and those captured during 2019–2022 (Survey Round Two). Each spectral index can be processed in different ways, and often have different threshold values if they are used for land classification. For example, there are numerous other vegetation indices (e.g., NDRE, ARVI), as well as spectral indices used to classify water (e.g., NDWI) and built (e.g., NDBI) cover.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/NDVI.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Figure 2: Distribution of NDVI values across Singapore in Survey Round One (light green bars, dashed vertical lines) and Two (dark green bars, solid vertical lines). Vegetation was classified as pixel with values &gt; 0.35 for Round One and &gt; 0.36 for Round Two. Dense vegetation was classified as pixels with values &gt; 0.62 for Round One and &gt; 0.66 for Round Two, based on a second round of Otsu’s thresholding after the first round of classification.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+</section>
+<section id="accuracy-assessments" class="level2">
+<h2 class="anchored" data-anchor-id="accuracy-assessments">Accuracy assessments</h2>
+<p>How do we know that the land cover classes we have derived are accurate? Some form of ground-truthing is required. In our research project, on-site mapping has been performed at sampling points over the years.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/ground-truthing.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 3: Screenshot showing vegetation derived from on-site surveys and satellite imagery at sampling points in Punggol, Singapore.</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p>The next figure shows a basic comparison of land cover area between surveyed (x-axes) and satellite (y-axes) data. As we can see, there are positive relationships between the two (particularly for vegetation cover), but the relatively large root-mean-square errors (RMSE) show that low resolution satellite imagery does have its limitations.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/validation.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 4: Area of (a) vegetation, (b) built and (c) water cover derived from Sentinel-2 compared with on-site surveys at sampling points.</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+</section>
+<section id="summarise-per-zone" class="level2">
+<h2 class="anchored" data-anchor-id="summarise-per-zone">Summarise per zone</h2>
+<p>Now that we have land cover classified during different periods of time, one way to compare differences in land cover is to summarise them according to the zones used in city planning. Spectral indices (whether classified or not) can be summarised within each zone, to allow comparisons to be made between these planning units.</p>
+<p>Here’s a map showing the <em>proportional area</em> and <em>change</em> in the basic types of land cover within municipal subzones in Singapore. The <em>image quality</em>, <em>NDVI</em> and <em>classified vegetation</em> for both survey rounds are also viewable. Note that the reported amount of <code>NA</code> pixels have been scaled up substantially (×10<sup>15</sup>) for the purpose of visualisation, so the image quality is actually pretty good (i.e., low cloud cover). This means that differences between survey rounds are unlikely to be due to differences in image quality. You may toggle the visibility of the different layers within the map.</p>
+<iframe seamless="" src="assets/plot_leaflet.html" width="100%" height="500">
+</iframe>
+<p><br></p>
+<p>Based on this comparison of satellite images captured between Survey Round One and Two, we find that:</p>
+<ul>
+<li><strong>Sparse vegetation</strong> increased within the Central Water Catchment and offshore islands. However, <strong>dense vegetation</strong> decreased substantially within these areas too.</li>
+<li><strong>Water cover</strong> at the eastern (North Eastern Islands) and western (Tuas View Extension) tips of Singapore decreased, but increased at north-western areas, Jurong Island and the Central Water Catchment.</li>
+<li><strong>Built cover</strong> decreased substantially within Jurong Island and along the south-western coast of Singapore.</li>
+</ul>
+<p><br></p>
+<p>What factors have contributed to land cover changes during this period of time? What other interesting patterns do you see? Feel free to reach out to us if you are interested to collaborate <del>(P.S. We are also hiring!)</del>.</p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+<p><br></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2021,
+  author = {Song, X. P.},
+  title = {Changes in a City’s Land Cover over Time},
+  date = {2021-03-12},
+  url = {https://xp-song.github.io/posts/city-landcover-change},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas">
+Song, X. P. 2021. <span>“Changes in a City’s Land Cover over
+Time.”</span> March 12, 2021. <a href="https://xp-song.github.io/posts/city-landcover-change">https://xp-song.github.io/posts/city-landcover-change</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Research</category>
+  <category>Tutorials</category>
+  <guid>https://xp-song.github.io/posts/city-landcover-change/index.html</guid>
+  <pubDate>Thu, 11 Mar 2021 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/city-landcover-change/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Zoom with Drums</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recent measures to contain the coronavirus outbreak have left many local businesses reeling. I’ve been teaching drums part-time at My Drum School (MDS), but as of tommorrow, all centres will have to shut down their physical premises.</p>
+<p>Thankfully, our school has already been scrambling to move to online lessons since last week. The team has been working hard to set up new equipment and release how-to videos, web resouces and online syllabus material. The complete integration of all these materials and new workflows (in just a few days!) within the MDS mobile app is nothing short of amazing.</p>
+<p>During my first few online lessons, I got to experience first-hand the difficulty in playing to music/click tracks, especially with regard to sound quality. After some experimentation, I was inspired to make a couple of video tutorials showing how these issues may be addressed. Hopefully this will help teachers and students improve their online lesson experience.</p>
+<center>
+<p><b>Part 1</b>:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/TkxKjjTsBQc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Zoom with Drums Part 1">
+</iframe>
+</div>
+<p><br></p>
+<p><b>Part 2</b>:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/clH19NYKYQs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Zoom with Drums Part 2">
+</iframe>
+</div>
+</center>
+<p><br></p>
+<p><em>Note: For an introductory video on how to set-up for online lessons, see the video released by My Drum School <a href="https://youtu.be/Pm9bQqvvu1Y">here</a>.</em></p>
+
+
+
+ ]]></description>
+  <category>Music</category>
+  <guid>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</guid>
+  <pubDate>Sat, 04 Apr 2020 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/zoom-drum-lessons/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Analysing spatial patterns of the landscape</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/intro2r-spatial/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In landscape ecology, we study interactions between organisms and their surrounding environment. The physical landscape is often quantified using ‘landscape metrics’, for further analyses alongside other sources of data.</p>
+<p>My recent lectures are focused on introducing such concepts to landscape architects. While I’ve used FRAGSTATS and other GIS software for teaching in the past, I’ve always struggled with compatibility/licensing issues that just made the whole process really cumbersome.</p>
+<p>Recently, I came across this R package called <a href="https://r-spatialecology.github.io/landscapemetrics/index.html">landscapemetrics</a>—I was blown away. I’ve always wanted to introduce people to spatial analyses in R, and to show how a programmatic, reproducible workflow in R can be an excellent alternative to conventional software. This was the tipping point for me… I decided to give it a shot!</p>
+<p>This post provides a preview of the workshop content. The workshop is meant to be a follow-up lesson to the <a href="https://xp-song.github.io/posts/intro2r/">Introduction to R</a> series I’ll be conducting next semester.</p>
+<p><br></p>
+<section id="workshop-outline" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-outline">Workshop outline</h2>
+<p><br></p>
+<ol type="1">
+<li><p>Why analyse spatial patterns?</p></li>
+<li><p>Landscape ecology: Conceptual models</p></li>
+<li><p>Land cover classification</p></li>
+<li><p>Landscape metrics</p></li>
+</ol>
+<p><br></p>
+<p>I’ve uploaded the slides and data on <a href="https://github.com/xp-song/Intro2R-spatial">Github</a>, so that anyone interested to try out the analysis for themselves will be able to do so. If you’re interested in geospatial analysis, check it out!</p>
+<p><br></p>
+</section>
+<section id="slide-deck" class="level2">
+<h2 class="anchored" data-anchor-id="slide-deck">Slide deck</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://xp-song.github.io/resources/intro2r_spatial/slides#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2020,
+  author = {Song, X. P.},
+  title = {Analysing Spatial Patterns of the Landscape},
+  date = {2020-02-01},
+  url = {https://xp-song.github.io/posts/intro2r-spatial},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
+Song, X. P. 2020. <span>“Analysing Spatial Patterns of the
+Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/intro2r-spatial">https://xp-song.github.io/posts/intro2r-spatial</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Tutorials</category>
+  <guid>https://xp-song.github.io/posts/intro2r-spatial/index.html</guid>
+  <pubDate>Fri, 31 Jan 2020 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/intro2r-spatial/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Automated image classification into content-type categories</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/photo-classify/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+
+</div>
+<p>This tutorial describes the workflow and R code that can be used to classify a large number of images into <em>discrete</em> categories, based on their content. The source documents are available on <a href="https://github.com/xp-song/photo-classify">GitHub</a>. This tutorial provides supplementary information to the following publication:</p>
+<blockquote class="blockquote">
+<p>Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks, <em>Scientific Reports</em>, <em>10</em>, 808. <a href="https://doi.org/10.1038/s41598-020-57864-4" class="uri">https://doi.org/10.1038/s41598-020-57864-4</a></p>
+</blockquote>
+<p>An earlier iteration of the code was used in <a href="https://doi.org/10.1016/j.ecoser.2017.09.004">this publication</a>. Note that there are <a href="https://doi.org/10.1016/J.ECOLIND.2018.08.035">numerous other ways to classify images</a>, including those that deal with overlapping content.</p>
+<p>&nbsp;</p>
+<hr>
+<p>The dataset <code>photos</code> is used as an example. It contains 50 photos with a column of photo <em>source</em> URLs. These are sent to the Google Cloud Vision Application Programming Interface (API), to generate up to ten keyword labels per photo.</p>
+<p>Note that you will need to have signed-up with the Google Cloud Platform and generated your Client ID and Client secret. We will be using the <a href="https://cran.r-project.org/web/packages/googleAuthR/index.html">googleAuthR</a> and <a href="https://github.com/cloudyr/RoogleVision">RoogleVision</a> packages to interact with the API.</p>
+<p>&nbsp;</p>
+<p>First few rows of the <code>photos</code> dataset:</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="table table-striped table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> photoid </th>
+   <th style="text-align:left;"> url </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 29993180834 </td>
+   <td style="text-align:left;"> https://farm6.staticflickr.com/5641/29993180834_8179c87aa7_z.jpg </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 7002246829 </td>
+   <td style="text-align:left;"> https://farm7.staticflickr.com/6240/7002246829_d114f402e7_z.jpg </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 5466070643 </td>
+   <td style="text-align:left;"> https://farm6.staticflickr.com/5216/5466070643_759428f4a5_z.jpg </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 16303185765 </td>
+   <td style="text-align:left;"> https://farm9.staticflickr.com/8571/16303185765_4dd4d48b7b_z.jpg </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 30414187771 </td>
+   <td style="text-align:left;"> https://farm6.staticflickr.com/5503/30414187771_5283977ca6_z.jpg </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 16065397248 </td>
+   <td style="text-align:left;"> https://farm9.staticflickr.com/8593/16065397248_7a6a0666b1_z.jpg </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Plug-in your Google Cloud Platform credentials:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">require</span>(googleAuthR)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.client_id"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"xxx.apps.googleusercontent.com"</span>)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.client_secret"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">""</span>)</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.scopes.selected"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"https://www.googleapis.com/auth/cloud-platform"</span>))</span>
+<span id="cb1-7">googleAuthR<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">gar_auth</span>() <span class="co" style="color: #5E5E5E;">#You will be directed to a weblink to sign-in with your account</span></span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<hr>
+<section id="generate-keywords" class="level1">
+<h1>Generate Keywords</h1>
+<p>Create a loop to send each photo URL to the Google Cloud Vision API, and append the results to <code>photos</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;">require</span>(RoogleVision) </span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;">#add extra columns for 10 x 3 rows of data (keyword, probability score, and topicality score)</span></span>
+<span id="cb2-4">photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">32</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NA</span></span>
+<span id="cb2-5"></span>
+<span id="cb2-6"><span class="do" style="color: #5E5E5E;
+font-style: italic;">##Loop##</span></span>
+<span id="cb2-7"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(photos<span class="sc" style="color: #5E5E5E;">$</span>url)){ </span>
+<span id="cb2-8"></span>
+<span id="cb2-9">  te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">getGoogleVisionResponse</span>(photos<span class="sc" style="color: #5E5E5E;">$</span>url[i], <span class="at" style="color: #657422;">feature=</span><span class="st" style="color: #20794D;">"LABEL_DETECTION"</span>, <span class="at" style="color: #657422;">numResults =</span> <span class="dv" style="color: #AD0000;">10</span>)</span>
+<span id="cb2-10">  </span>
+<span id="cb2-11">  <span class="co" style="color: #5E5E5E;">#If not successful, return NA matrix</span></span>
+<span id="cb2-12">  <span class="cf" style="color: #003B4F;">if</span>(<span class="fu" style="color: #4758AB;">length</span>(te)<span class="sc" style="color: #5E5E5E;">==</span><span class="dv" style="color: #AD0000;">1</span>){ te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="cn" style="color: #8f5902;">NA</span>, <span class="dv" style="color: #AD0000;">10</span>,<span class="dv" style="color: #AD0000;">4</span>)} </span>
+<span id="cb2-13">  <span class="cf" style="color: #003B4F;">if</span> (<span class="fu" style="color: #4758AB;">is.null</span>(te)){ te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="cn" style="color: #8f5902;">NA</span>, <span class="dv" style="color: #AD0000;">10</span>,<span class="dv" style="color: #AD0000;">4</span>)}</span>
+<span id="cb2-14">  </span>
+<span id="cb2-15">  te <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">4</span>]</span>
+<span id="cb2-16">  </span>
+<span id="cb2-17">  <span class="co" style="color: #5E5E5E;">#if successful but no. of keywords &lt;10, put NAs in remaining rows</span></span>
+<span id="cb2-18">  <span class="cf" style="color: #003B4F;">if</span>(<span class="fu" style="color: #4758AB;">length</span>(te[,<span class="dv" style="color: #AD0000;">1</span>])<span class="sc" style="color: #5E5E5E;">&lt;</span><span class="dv" style="color: #AD0000;">10</span>){</span>
+<span id="cb2-19">    te[(<span class="fu" style="color: #4758AB;">length</span>(te[,<span class="dv" style="color: #AD0000;">1</span>])<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>,] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NA</span>}  </span>
+<span id="cb2-20">  </span>
+<span id="cb2-21">  <span class="co" style="color: #5E5E5E;">#Append all data</span></span>
+<span id="cb2-22">  photos[i, <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">1</span>] <span class="co" style="color: #5E5E5E;">#keywords</span></span>
+<span id="cb2-23">  photos[i, <span class="dv" style="color: #AD0000;">13</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">22</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">2</span>] <span class="co" style="color: #5E5E5E;">#probability scores</span></span>
+<span id="cb2-24">  photos[i, <span class="dv" style="color: #AD0000;">23</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">32</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">3</span>] <span class="co" style="color: #5E5E5E;">#topicality scores</span></span>
+<span id="cb2-25">  </span>
+<span id="cb2-26">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"&lt;row"</span>, i, <span class="st" style="color: #20794D;">"/"</span>, <span class="fu" style="color: #4758AB;">length</span>(photos[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="st" style="color: #20794D;">"&gt; "</span>)</span>
+<span id="cb2-27">  }</span></code></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<p>&nbsp;</p>
+<p>Keyword results for the first few rows of the <code>photos</code> dataset:</p>
+<div class="cell" data-rownames.print="false" data-cols.print="5">
+<div class="cell-output-display">
+
+<table class="table table-striped table-condensed table-responsive" style="font-size: 12px; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> w1 </th>
+   <th style="text-align:left;"> w2 </th>
+   <th style="text-align:left;"> w3 </th>
+   <th style="text-align:left;"> w4 </th>
+   <th style="text-align:left;"> w5 </th>
+   <th style="text-align:left;"> w6 </th>
+   <th style="text-align:left;"> w7 </th>
+   <th style="text-align:left;"> w8 </th>
+   <th style="text-align:left;"> w9 </th>
+   <th style="text-align:left;"> w10 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> tree </td>
+   <td style="text-align:left;"> nature </td>
+   <td style="text-align:left;"> vegetation </td>
+   <td style="text-align:left;"> sky </td>
+   <td style="text-align:left;"> borassus flabellifer </td>
+   <td style="text-align:left;"> plant </td>
+   <td style="text-align:left;"> palm tree </td>
+   <td style="text-align:left;"> woody plant </td>
+   <td style="text-align:left;"> arecales </td>
+   <td style="text-align:left;"> tropics </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sea </td>
+   <td style="text-align:left;"> water </td>
+   <td style="text-align:left;"> wave </td>
+   <td style="text-align:left;"> ocean </td>
+   <td style="text-align:left;"> beach </td>
+   <td style="text-align:left;"> square </td>
+   <td style="text-align:left;"> calm </td>
+   <td style="text-align:left;"> surfing equipment and supplies </td>
+   <td style="text-align:left;"> surfboard </td>
+   <td style="text-align:left;"> horizon </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bird </td>
+   <td style="text-align:left;"> fauna </td>
+   <td style="text-align:left;"> beak </td>
+   <td style="text-align:left;"> wren </td>
+   <td style="text-align:left;"> wildlife </td>
+   <td style="text-align:left;"> old world flycatcher </td>
+   <td style="text-align:left;"> piciformes </td>
+   <td style="text-align:left;"> woodpecker </td>
+   <td style="text-align:left;"> twig </td>
+   <td style="text-align:left;"> perching bird </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> plant </td>
+   <td style="text-align:left;"> flora </td>
+   <td style="text-align:left;"> leaf </td>
+   <td style="text-align:left;"> tree </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sitting </td>
+   <td style="text-align:left;"> leg </td>
+   <td style="text-align:left;"> fun </td>
+   <td style="text-align:left;"> vacation </td>
+   <td style="text-align:left;"> human body </td>
+   <td style="text-align:left;"> vehicle </td>
+   <td style="text-align:left;"> car </td>
+   <td style="text-align:left;"> hand </td>
+   <td style="text-align:left;"> muscle </td>
+   <td style="text-align:left;"> recreation </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bird </td>
+   <td style="text-align:left;"> fauna </td>
+   <td style="text-align:left;"> beak </td>
+   <td style="text-align:left;"> finch </td>
+   <td style="text-align:left;"> feather </td>
+   <td style="text-align:left;"> wildlife </td>
+   <td style="text-align:left;"> perching bird </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<p>&nbsp;</p>
+<hr>
+</section>
+<section id="classify-photos" class="level1 tabset tabset-fade tabset-pills">
+<h1 class="tabset tabset-fade tabset-pills">Classify Photos</h1>
+<p>Next, we prepare the keywords to be used to perform hierarchical clustering of photos. Since hierarchical clustering tends to be very memory intensive, you may want to run the following code on a high performance computing cluster (depending on the number of photos you have). Parallel computing can be used to speed up memory-intensive loops, using the R packages <a href="https://cran.r-project.org/web/packages/foreach/index.html">foreach</a> and <a href="https://cran.r-project.org/web/packages/doParallel/index.html">doParallel</a>.</p>
+<p>&nbsp;</p>
+<p>Set-up your machine for parallel computing:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;">require</span>(foreach)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;">require</span>(doParallel)</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;">#setup parallel backend to use many processors</span></span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"Number of cores = "</span>, <span class="fu" style="color: #4758AB;">detectCores</span>())</span>
+<span id="cb3-6">cl <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">makeCluster</span>(<span class="fu" style="color: #4758AB;">detectCores</span>(), <span class="at" style="color: #657422;">outfile=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">'./admin/info_parallel.log'</span>)) <span class="co" style="color: #5E5E5E;">#log file with info</span></span>
+<span id="cb3-7"><span class="fu" style="color: #4758AB;">registerDoParallel</span>(cl)</span>
+<span id="cb3-8"><span class="fu" style="color: #4758AB;">rm</span>(cl)</span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>Before we begin clustering the entire dataset, however, we need to find out how many clusters to group the photos into. If your dataset is large, it may be better to first test the outcomes of different numbers of clusters on a <strong><em>subset</em></strong> of your data. <em>If so, proceed with the following <strong>two</strong> sub-sections on a <strong>random subset</strong> of your data, before re-running the <strong>first</strong> sub-section (<strong>A. Distance matrix and clustering</strong>) the with the <strong>full</strong> dataset.</em></p>
+<p>&nbsp;</p>
+<hr>
+<section id="A" class="level2">
+<h2 class="anchored" data-anchor-id="A">A. Distance matrix and clustering</h2>
+<p>Extract all the unique keywords across <code>photos</code> (or subset of <code>photos</code>):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">words <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">unlist</span>(photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>])</span>
+<span id="cb4-2">words <span class="ot" style="color: #003B4F;">&lt;-</span> words[<span class="sc" style="color: #5E5E5E;">!</span><span class="fu" style="color: #4758AB;">duplicated</span>(words)] <span class="co" style="color: #5E5E5E;">#list of unique keywords</span></span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>Next, we convert <code>photos</code> into a binary format and name it <code>wordscore</code>, with each row representing a photo, and each column representing a keyword. “1” is added if the word is present. We then convert <code>wordscore</code> into a sparse matrix. This will help reduce the load on the computer’s RAM, especially if the photo dataset is very large.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;">#parallel loop:</span></span>
+<span id="cb5-2">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">foreach</span>(<span class="at" style="color: #657422;">i =</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(photos[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="at" style="color: #657422;">.combine=</span>rbind) <span class="sc" style="color: #5E5E5E;">%dopar%</span> {</span>
+<span id="cb5-3">  vec <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">vector</span>(<span class="at" style="color: #657422;">mode =</span> <span class="st" style="color: #20794D;">"integer"</span>,<span class="at" style="color: #657422;">length =</span> <span class="fu" style="color: #4758AB;">length</span>(words))</span>
+<span id="cb5-4">  a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">match</span>(photos[i,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>], words)</span>
+<span id="cb5-5">  vec[a] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span></span>
+<span id="cb5-6">  </span>
+<span id="cb5-7">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">" row "</span>, i), <span class="at" style="color: #657422;">file=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">"admin/log_wordscore.txt"</span>), <span class="at" style="color: #657422;">append=</span><span class="cn" style="color: #8f5902;">TRUE</span>) <span class="co" style="color: #5E5E5E;">#The loop's progress will be printed in this file</span></span>
+<span id="cb5-8">  vec</span>
+<span id="cb5-9">}</span>
+<span id="cb5-10"><span class="fu" style="color: #4758AB;">colnames</span>(wordscore) <span class="ot" style="color: #003B4F;">&lt;-</span> words</span>
+<span id="cb5-11"><span class="fu" style="color: #4758AB;">rownames</span>(wordscore) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NULL</span></span>
+<span id="cb5-12">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> wordscore[,<span class="sc" style="color: #5E5E5E;">!</span><span class="fu" style="color: #4758AB;">is.na</span>(<span class="fu" style="color: #4758AB;">colnames</span>(wordscore))] <span class="co" style="color: #5E5E5E;">#remove 'NA' keyword if present</span></span>
+<span id="cb5-13"></span>
+<span id="cb5-14"><span class="fu" style="color: #4758AB;">library</span>(Matrix) </span>
+<span id="cb5-15">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">Matrix</span>(wordscore, <span class="at" style="color: #657422;">sparse =</span> <span class="cn" style="color: #8f5902;">TRUE</span>)  <span class="co" style="color: #5E5E5E;">#convert to sparseMatrix to save memory</span></span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>In the binary format, <code>wordscore</code> can now be converted into a distance matrix. To have a fair assessment of the similarity (and thus the distance) between two photos, we need to take into account if they have the same number of keywords generated. The Jaccard Index is used in the calculation, where the number of common keywords is divided by the total number of unique keywords between two photos.</p>
+<p>To start with, we find out how many keywords each photo has (up to ten), and save the results as the vector <code>lengword</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">narmlength <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(x){<span class="dv" style="color: #AD0000;">10</span><span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">sum</span>(<span class="fu" style="color: #4758AB;">is.na</span>(x))} <span class="co" style="color: #5E5E5E;">#create function</span></span>
+<span id="cb6-2">lengword <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">apply</span>(photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>], <span class="dv" style="color: #AD0000;">1</span>, narmlength) <span class="co" style="color: #5E5E5E;">#apply function</span></span></code></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<p>&nbsp;</p>
+<p>Next, the similarity between each photo and all other photos is calculated manually in a loop, based on the Jaccard Index. Since most photos do not share keywords, the similarity value will tend to be “0” (less strain on computer’s RAM). The similarity matrix (loop output) is then converted into a distance matrix, and subsequently converted into a ‘<code>dist</code>’ object.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">simimat <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">foreach</span>(<span class="at" style="color: #657422;">i =</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(wordscore[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="at" style="color: #657422;">.packages =</span> <span class="st" style="color: #20794D;">"Matrix"</span>, <span class="at" style="color: #657422;">.combine=</span>cbind) <span class="sc" style="color: #5E5E5E;">%dopar%</span> {</span>
+<span id="cb7-2">  </span>
+<span id="cb7-3">  ws <span class="ot" style="color: #003B4F;">&lt;-</span> wordscore[,<span class="fu" style="color: #4758AB;">which</span>(wordscore[i,] <span class="sc" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">1</span>)] <span class="co" style="color: #5E5E5E;">#for each photo, find the other photos (rows) with its keywords (cols)</span></span>
+<span id="cb7-4">  </span>
+<span id="cb7-5">  simi <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">round</span>(<span class="fu" style="color: #4758AB;">apply</span>(<span class="fu" style="color: #4758AB;">as.matrix</span>(ws),<span class="dv" style="color: #AD0000;">1</span>,sum, <span class="at" style="color: #657422;">na.rm=</span>T)<span class="sc" style="color: #5E5E5E;">/</span>(lengword<span class="sc" style="color: #5E5E5E;">+</span>lengword[i]),<span class="dv" style="color: #AD0000;">2</span>) <span class="co" style="color: #5E5E5E;">#Jaccard index</span></span>
+<span id="cb7-6">  </span>
+<span id="cb7-7">  simi[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span>i] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">0</span> <span class="co" style="color: #5E5E5E;">#only fill half the matrix</span></span>
+<span id="cb7-8">  simi[i] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span></span>
+<span id="cb7-9">  </span>
+<span id="cb7-10">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="fu" style="color: #4758AB;">paste</span>(<span class="st" style="color: #20794D;">"row"</span>,i), <span class="at" style="color: #657422;">file=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">"admin/log_simimat.txt"</span>), <span class="at" style="color: #657422;">append=</span><span class="cn" style="color: #8f5902;">TRUE</span>)</span>
+<span id="cb7-11">  </span>
+<span id="cb7-12">  simi</span>
+<span id="cb7-13">}</span>
+<span id="cb7-14"></span>
+<span id="cb7-15"><span class="fu" style="color: #4758AB;">colnames</span>(simimat) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NULL</span></span>
+<span id="cb7-16"><span class="fu" style="color: #4758AB;">rm</span>(wordscore, lengword)</span>
+<span id="cb7-17"></span>
+<span id="cb7-18"></span>
+<span id="cb7-19"><span class="co" style="color: #5E5E5E;">#convert similarity to distance</span></span>
+<span id="cb7-20">distmat <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span>simimat</span>
+<span id="cb7-21"><span class="fu" style="color: #4758AB;">rm</span>(simimat)</span>
+<span id="cb7-22"></span>
+<span id="cb7-23"><span class="co" style="color: #5E5E5E;">#Convert to a 'dist' object</span></span>
+<span id="cb7-24">dm <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.dist</span>(distmat)</span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>Finally, we perform hierarchical clustering of photos, using Ward’s distance:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">require</span>(fastcluster)</span>
+<span id="cb8-2"><span class="fu" style="color: #4758AB;">require</span>(graphics)</span>
+<span id="cb8-3"></span>
+<span id="cb8-4">cluz <span class="ot" style="color: #003B4F;">&lt;-</span> fastcluster<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">hclust</span>(dm, <span class="st" style="color: #20794D;">"ward.D2"</span>)</span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p><em>Go to ‘<strong>B. How many clusters?</strong>’ if the number of photo categories has not been determined.</em></p>
+<p>&nbsp;</p>
+<hr>
+</section>
+<section id="B" class="level2">
+<h2 class="anchored" data-anchor-id="B">B. How many clusters?</h2>
+<p>This section runs as a separate analysis from the final results. Note that the following script may take a long time to run if you have a large dataset.</p>
+<p>In this analysis, we measure the average difference between within- and between-cluster variation, across different clustering scenarios. Thus, a higher value suggests distinct clusters that are more ‘different’ from each other (i.e.&nbsp;greater variation/distance between clusters). As the number of clusters (<em>k</em>) increases, this value is expected to decrease. We plot these values, and use the L-Method to find the ‘knee’ of the evaluation graph. More information about the L-Method can be found at:</p>
+<blockquote class="blockquote">
+<p>Salvador, S. &amp; Chan, P. Determining the Number of Clusters / Segments in Hierarchical Clustering / Segmentation Algorithms. in 16th <em>IEEE International Conference on Tools with Artificial Intelligence</em> 576-584 (IEEE, 2004). doi:10.1109/ICTAI.2004.50</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>First, decide up to how many clusters (<em>k</em>) to test for. In this example, we test <em>k</em> from 2 to 20, and save it as the vector <code>scenarios</code> (19 scenarios):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">scenarios <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(<span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">20</span>))</span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>Create a function to measure the difference between within- and between-cluster variation across all photos. Run the function for different <em>k</em> values in <code>scenarios</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">differ <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(dist, gr, pos){</span>
+<span id="cb10-2">  <span class="co" style="color: #5E5E5E;">#dist is a single photo's vector of distances with all others</span></span>
+<span id="cb10-3">  <span class="co" style="color: #5E5E5E;">#gr is the vector output of grp membership across all photos</span></span>
+<span id="cb10-4">  <span class="co" style="color: #5E5E5E;">#pos is the position of the single photo in length(distmat[1,])</span></span>
+<span id="cb10-5">  </span>
+<span id="cb10-6">  gr2 <span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(gr)) <span class="co" style="color: #5E5E5E;">#vector of "0"s</span></span>
+<span id="cb10-7">  gr2[gr<span class="sc" style="color: #5E5E5E;">==</span>gr[pos]] <span class="ot" style="color: #003B4F;">&lt;-</span><span class="dv" style="color: #AD0000;">1</span> <span class="co" style="color: #5E5E5E;">#Which photos are in same cluster as the photo of interest?</span></span>
+<span id="cb10-8">  gr3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">tapply</span>(dist,gr2, mean) <span class="co" style="color: #5E5E5E;">#2 values generated: (1) mean distance compared to photos in other clusters, &amp; (2) compared to photos within same cluster. Minus values from one to convert to similarity value.</span></span>
+<span id="cb10-9">  gr3[<span class="dv" style="color: #AD0000;">2</span>]<span class="sc" style="color: #5E5E5E;">-</span>gr3[<span class="dv" style="color: #AD0000;">1</span>] <span class="co" style="color: #5E5E5E;">#within-cluster minus between-cluster similarity (larger value means clusters are very different)</span></span>
+<span id="cb10-10">}</span>
+<span id="cb10-11"></span>
+<span id="cb10-12"></span>
+<span id="cb10-13"><span class="co" style="color: #5E5E5E;">#Run function for different scenarios (numbers of clusters):</span></span>
+<span id="cb10-14"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span>(<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)){</span>
+<span id="cb10-15">  grp <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cutree</span>(cluz, <span class="at" style="color: #657422;">k=</span>i)  <span class="co" style="color: #5E5E5E;">#cutree returns vector of grp memberships across all photos</span></span>
+<span id="cb10-16">  </span>
+<span id="cb10-17">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">&lt;&lt; Working on scenario k ="</span>, i, <span class="st" style="color: #20794D;">"/"</span>, (<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>), <span class="st" style="color: #20794D;">"&gt;&gt;</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">"</span>)</span>
+<span id="cb10-18">  </span>
+<span id="cb10-19">  alldiffer <span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>])) <span class="co" style="color: #5E5E5E;">#vector of "0"s"</span></span>
+<span id="cb10-20">  </span>
+<span id="cb10-21">  <span class="cf" style="color: #003B4F;">for</span>(j <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>])){ <span class="co" style="color: #5E5E5E;">#run function for each photo (across rows)</span></span>
+<span id="cb10-22">    alldiffer[j]<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">differ</span>(distmat[j,], grp, j )</span>
+<span id="cb10-23">    </span>
+<span id="cb10-24">    <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"&lt;row"</span>, j, <span class="st" style="color: #20794D;">"/"</span>, <span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="st" style="color: #20794D;">"photos&gt;"</span>)</span>
+<span id="cb10-25">    </span>
+<span id="cb10-26">  }</span>
+<span id="cb10-27">  scenarios[i<span class="dv" style="color: #AD0000;">-1</span>]<span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">mean</span>(alldiffer) <span class="co" style="color: #5E5E5E;">#find out the mean difference for each scenario (k)</span></span>
+<span id="cb10-28">  </span>
+<span id="cb10-29">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">&lt;&lt; Scenario k ="</span>, i, <span class="st" style="color: #20794D;">"COMPLETE &gt;&gt;"</span>)</span>
+<span id="cb10-30">}</span>
+<span id="cb10-31"></span>
+<span id="cb10-32"></span>
+<span id="cb10-33"><span class="co" style="color: #5E5E5E;">#Create dataframe</span></span>
+<span id="cb10-34">scenarios <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cbind.data.frame</span>(<span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">2</span>,(<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>),<span class="dv" style="color: #AD0000;">1</span>), <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span>scenarios) <span class="co" style="color: #5E5E5E;">#convert to distance</span></span>
+<span id="cb10-35"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>, <span class="st" style="color: #20794D;">"distance"</span>)</span></code></pre></div>
+</div>
+<p>Do note that the small number of photos in our example produces a relatively straight curve. To help with visualisation, we can also calculate the marginal change in the distance:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance)){</span>
+<span id="cb11-2">  scenarios[i,<span class="dv" style="color: #AD0000;">3</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance[i<span class="dv" style="color: #AD0000;">-1</span>]<span class="sc" style="color: #5E5E5E;">-</span>scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance[i]</span>
+<span id="cb11-3">}</span>
+<span id="cb11-4"></span>
+<span id="cb11-5"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>,<span class="st" style="color: #20794D;">"distance"</span>,<span class="st" style="color: #20794D;">"marginalDelta"</span>)</span></code></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<p>Here are plots of the results across different clustering scenarios:</p>
+<div class="cell quarto-layout-panel" data-fig.asp="1" data-fig.ncol="2">
+
+</div>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/photo-classify/assets/cluster_results.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p>&nbsp;</p>
+<p>Since such plots may not always allow us to visually determine the appropriate number of photo clusters, we can also use the L-Method as described in Salvador and Chan (2004). To do so, we plot possible pairs of best-fit lines to the curve, and calculate the total root mean squared error (RMSE) for each pair. The lowest RMSE value is used to determine the number of clusters.</p>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="fu" style="color: #4758AB;">require</span>(rgl)</span>
+<span id="cb12-2"><span class="fu" style="color: #4758AB;">require</span>(qpcR)</span>
+<span id="cb12-3"></span>
+<span id="cb12-4"><span class="co" style="color: #5E5E5E;">#Best-fit line equation:</span></span>
+<span id="cb12-5">mod1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lm</span>(distance <span class="sc" style="color: #5E5E5E;">~</span> k, <span class="at" style="color: #657422;">data =</span> scenarios)</span>
+<span id="cb12-6"></span>
+<span id="cb12-7"></span>
+<span id="cb12-8"><span class="co" style="color: #5E5E5E;">#Equation from Salvador &amp; Chan (2004):</span></span>
+<span id="cb12-9"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">2</span>)){  <span class="co" style="color: #5E5E5E;">#lowest value the 'knee' can be at is 3</span></span>
+<span id="cb12-10">  rmse <span class="ot" style="color: #003B4F;">&lt;-</span>  ((i<span class="dv" style="color: #AD0000;">-1</span>)<span class="sc" style="color: #5E5E5E;">/</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">*</span>(<span class="fu" style="color: #4758AB;">RMSE</span>(mod1, <span class="at" style="color: #657422;">which =</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span>i))) <span class="sc" style="color: #5E5E5E;">+</span> (((<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span>i)<span class="sc" style="color: #5E5E5E;">/</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>))<span class="sc" style="color: #5E5E5E;">*</span><span class="fu" style="color: #4758AB;">RMSE</span>(mod1, <span class="at" style="color: #657422;">which =</span> (i<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)))</span>
+<span id="cb12-11">scenarios[i<span class="dv" style="color: #AD0000;">-1</span>,<span class="dv" style="color: #AD0000;">4</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> rmse</span>
+<span id="cb12-12">}</span>
+<span id="cb12-13"></span>
+<span id="cb12-14"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>,<span class="st" style="color: #20794D;">"distance"</span>, <span class="st" style="color: #20794D;">"marginalDelta"</span>, <span class="st" style="color: #20794D;">"Lrmse"</span>)</span></code></pre></div>
+</div>
+<p>&nbsp;</p>
+<p>Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value is where k = <code>11</code>. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.</p>
+<div class="cell" data-layout-align="center">
+
+</div>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/photo-classify/assets/rmse.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p>&nbsp;</p>
+<p>Now it’s time to classify our photos and visualise the categories for good. <em>Go back to ‘<strong>A. Distance matrix and clustering</strong>’ and re-run the script for the full dataset if a subset of data was used to determine the number of clusters.</em> If not, continue on to the next section…</p>
+<p>&nbsp;</p>
+<hr>
+</section>
+</section>
+<section id="visualise-results" class="level1">
+<h1>Visualise Results</h1>
+<p>Finally, classify the full dataset into <code>11</code> clusters:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">grp <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cutree</span>(cluz, <span class="at" style="color: #657422;">k=</span><span class="dv" style="color: #AD0000;">11</span>)</span>
+<span id="cb13-2">photos <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cbind.data.frame</span>(photos, grp, <span class="at" style="color: #657422;">stringsAsFactors =</span> <span class="cn" style="color: #8f5902;">FALSE</span>) <span class="co" style="color: #5E5E5E;">#Final dataframe</span></span>
+<span id="cb13-3"></span>
+<span id="cb13-4"><span class="do" style="color: #5E5E5E;
+font-style: italic;">##Plot##</span></span>
+<span id="cb13-5"><span class="fu" style="color: #4758AB;">plot</span>(<span class="fu" style="color: #4758AB;">as.dendrogram</span>(cluz), <span class="at" style="color: #657422;">sub =</span> <span class="st" style="color: #20794D;">""</span>, <span class="at" style="color: #657422;">xlab =</span><span class="st" style="color: #20794D;">""</span>, <span class="at" style="color: #657422;">ylab =</span> <span class="st" style="color: #20794D;">"Height"</span>, <span class="at" style="color: #657422;">main =</span> <span class="st" style="color: #20794D;">"Hierarchical clustering of photos into 11 categories"</span>, <span class="at" style="color: #657422;">cex.main =</span> <span class="fl" style="color: #AD0000;">0.95</span>, <span class="at" style="color: #657422;">leaflab =</span> <span class="st" style="color: #20794D;">"none"</span>)</span>
+<span id="cb13-6"><span class="fu" style="color: #4758AB;">rect.hclust</span>(cluz, <span class="at" style="color: #657422;">k =</span> <span class="dv" style="color: #AD0000;">11</span>, <span class="at" style="color: #657422;">border =</span> <span class="st" style="color: #20794D;">"red"</span>)</span></code></pre></div>
+</div>
+<p><img src="https://xp-song.github.io/posts/photo-classify/assets/visual.png" class="img-fluid"></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2020,
+  author = {Song, X. P. and Richards, D.R. and Tan, P.Y.},
+  title = {Using Social Media User Attributes to Understand
+    Human–Environment Interactions at Urban Parks},
+  journal = {Scientific Reports},
+  volume = {10},
+  pages = {808},
+  date = {2020-01-08},
+  url = {https://xp-song.github.io/posts/photo-classify},
+  doi = {10.1038/s41598-020-57864-4},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
+Song, X. P., Richards, D.R., and Tan, P.Y. 2020. <span>“Using Social
+Media User Attributes to Understand Human–Environment Interactions at
+Urban Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https://doi.org/10.1038/s41598-020-57864-4">https://doi.org/10.1038/s41598-020-57864-4</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Research</category>
+  <category>Tutorials</category>
+  <guid>https://xp-song.github.io/posts/photo-classify/index.html</guid>
+  <pubDate>Tue, 07 Jan 2020 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/photo-classify/featured.png" medium="image" type="image/png" height="85" width="144"/>
+</item>
+<item>
+  <title>A crash course in R programming</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/intro2r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I recently conducted a workshop to teach basic programming in R. It was designed as a crash course for those without coding experience, where we dive right into organising, visualising and analysing data. While it wasn’t meant to be a self-study course, the slides were made to go along with the notes, so anyone should be able to follow along quite nicely. I’ve decided to make the materials freely available on <a href="https://github.com/xp-song/Intro2R">Github</a>.</p>
+<p>Check out the slides if you’d like to see the potential of the R programming language. I’ve also provided links to useful resources if you’re interested in getting into data science using R.</p>
+<p><br></p>
+<section id="workshop-outline" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-outline">Workshop outline</h2>
+<ol type="1">
+<li><strong>R Environment and Syntax:</strong> <a href="https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/1_R_environ_and_syntax.html">Notes</a></li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://xp-song.github.io/resources/intro2r_1/slides#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<ol start="2" type="1">
+<li><strong>Data Wrangling and Visualisation:</strong> <a href="https://htmlpreview.github.io/?https://github.com/xp-song/Intro2R/blob/master/notes/2_Data_wrangling_and_visualisation.html">Notes</a></li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://xp-song.github.io/resources/intro2r_2/slides#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2019,
+  author = {Song, X. P.},
+  title = {A Crash Course in {R} Programming},
+  date = {2019-07-12},
+  url = {https://xp-song.github.io/posts/intro2r},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2019" class="csl-entry quarto-appendix-citeas">
+Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
+12, 2019. <a href="https://xp-song.github.io/posts/intro2r">https://xp-song.github.io/posts/intro2r</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Tutorials</category>
+  <guid>https://xp-song.github.io/posts/intro2r/index.html</guid>
+  <pubDate>Thu, 11 Jul 2019 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/intro2r/featured.png" medium="image" type="image/png" height="126" width="144"/>
+</item>
+<item>
+  <title>How to clean up ‘tracked changes’ in Word without going insane</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/trackchange-word/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>If you’ve ever had to coordinate the writing of a document with multiple authors, you’ll probably understand the pain of handling everyone’s comments and edits. Once <em>that’s</em> finally done, it’s often useful to highlight all changes made to the original document. This is common practice in academic writing, for example, when re-submitting a revised manuscript after a round of review.</p>
+<p>However, most journals don’t accept documents with Microsoft Word’s ‘tracked changes’. I mean… who wants to read through a jungle of strikethroughs, comment bubbles and rainbow-colored text? They want a nice, clean document without the mess. To show changes from the original document, highlighted text or a different font color would be acceptable at most.</p>
+<p>So, I did some searching online, and found some macros to do just that. I really wish I’d discovered this earlier, rather than manually formatting those texts…</p>
+<p>The following macro accepts and highlights all changes in yellow. Other highlight colors can be found <a href="https://word.tips.net/T000253_Changing_Character_Color.html">here</a>, in replacement of <code>WdYellow</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"> Sub <span class="fu" style="color: #4758AB;">tracked_to_highlighted</span>()           </span>
+<span id="cb1-2">        tempState <span class="ot" style="color: #003B4F;">=</span> ActiveDocument.TrackRevisions</span>
+<span id="cb1-3">        ActiveDocument.TrackRevisions <span class="ot" style="color: #003B4F;">=</span> False    </span>
+<span id="cb1-4">        For Each Change In ActiveDocument.Revisions        </span>
+<span id="cb1-5">            Set myRange <span class="ot" style="color: #003B4F;">=</span> Change.Range</span>
+<span id="cb1-6">            myRange.Revisions.AcceptAll</span>
+<span id="cb1-7">            myRange.HighlightColorIndex <span class="ot" style="color: #003B4F;">=</span> WdYellow            </span>
+<span id="cb1-8">        Next    </span>
+<span id="cb1-9">        ActiveDocument.TrackRevisions <span class="ot" style="color: #003B4F;">=</span> tempState</span>
+<span id="cb1-10">    End Sub</span></code></pre></div>
+</div>
+<p><br></p>
+<p>If you’d rather change the font color, you can use a slightly different version shown below. Different font colors can also be assigned based on the RGB color code (e.g.&nbsp;<code>RGB(0, 0, 255)</code>), under the field ‘<code>myRange.Font.Color</code>’.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">    Sub <span class="fu" style="color: #4758AB;">tracked_to_bluefont</span>()           </span>
+<span id="cb2-2">        tempState <span class="ot" style="color: #003B4F;">=</span> ActiveDocument.TrackRevisions</span>
+<span id="cb2-3">        ActiveDocument.TrackRevisions <span class="ot" style="color: #003B4F;">=</span> False    </span>
+<span id="cb2-4">        For Each Change In ActiveDocument.Revisions        </span>
+<span id="cb2-5">            Set myRange <span class="ot" style="color: #003B4F;">=</span> Change.Range</span>
+<span id="cb2-6">            myRange.Revisions.AcceptAll</span>
+<span id="cb2-7">            myRange.Font.Color <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">12611584</span>         </span>
+<span id="cb2-8">        Next    </span>
+<span id="cb2-9">        ActiveDocument.TrackRevisions <span class="ot" style="color: #003B4F;">=</span> tempState</span>
+<span id="cb2-10">    End Sub</span></code></pre></div>
+</div>
+<p><br></p>
+<p><br></p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><p><a href="https://cybertext.wordpress.com/2018/11/22/word-apply-a-highlight-to-all-tracked-changes/" class="uri">https://cybertext.wordpress.com/2018/11/22/word-apply-a-highlight-to-all-tracked-changes/</a></p></li>
+<li><p><a href="https://superuser.com/questions/813428/convert-tracked-changes-to-highlighted" class="uri">https://superuser.com/questions/813428/convert-tracked-changes-to-highlighted</a></p></li>
+<li><p><a href="https://arbitweb.wordpress.com/2011/02/23/macro-to-highlight-track-changes-in-word/" class="uri">https://arbitweb.wordpress.com/2011/02/23/macro-to-highlight-track-changes-in-word/</a></p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Tutorials</category>
+  <guid>https://xp-song.github.io/posts/trackchange-word/index.html</guid>
+  <pubDate>Fri, 14 Jun 2019 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/trackchange-word/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The performance of city trees</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/street-trees/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Trees are often the largest components of landscape greenery, and can help enhance the environmental quality of city landscapes. For example, trees can lower temperatures by providing shade, and reduce the risk of flooding by intercepting rainfall. Such benefits accumulate across wider areas, producing substantial effects that can help make cities more liveable and adaptable to climate change. Trees are thus a form of ‘natural capital’ that produce value for people.</p>
+<p><br></p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<p></p><figcaption class="figure-caption">Tree species within benefit–cost assessments performed worldwide. Figure from Song et al.&nbsp;(2018).</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>Many cities have started to assess the status and health of these natural capital assets, which is an important step to incorporate the environment into holistic, national-scale planning. The downstream effects associated with trees often rely on their size and structure, which varies between species and changes over time. For practical purposes, however, measuring these multiple dimensions is usually not possible. Such values may have to be estimated indirectly using allometric relationships between the quantities of interest and easily-measured parameters such as a tree’s trunk diameter.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_allometree-maps.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al.&nbsp;(2020).</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>As part of my PhD work, I developed the R package <a href="https://xp-song.github.io/allometree"><code>allometree</code></a> to build such allometric relationships, as well as a <a href="https://xpsong.shinyapps.io/allometree-sg/">prototype web application</a> demonstrating how the package may be used. If you’re interested, you may check out the following publication:</p>
+<blockquote class="blockquote">
+<p>Song, X. P., Lai, H. R., Wijedasa, L. S., Tan, P. Y., Edwards, P. J., Richards, D. R. (2020), Height–diameter allometry for the management of city trees in the tropics. <em>Environmental Research Letters</em>, <em>15</em>, 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad" class="uri">https://doi.org/10.1088/1748-9326/abbbad</a></p>
+</blockquote>
+<p><br></p>
+<p>Rapid advances in remote sensing may soon reduce the manual effort required for data collection, and shift research and development toward real-time monitoring for tree management. However, systems and workflows will need to evolve to take advantage of such innovations. Work is needed to streamline data pipelines for analyses, and to integrate multiple datasets and objectives effectively for decision-making.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_workflow.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al.&nbsp;(2020).</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p><br></p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><p>Song, X. P., Lai, H. R., Wijedasa, L. S., Tan, P. Y., Edwards, P. J., Richards, D. R. (2020), Height–diameter allometry for the management of city trees in the tropics. <em>Environmental Research Letters</em>, <em>15</em>, 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad" class="uri">https://doi.org/10.1088/1748-9326/abbbad</a></p></li>
+<li><p>Song, X. P., Tan, P. Y., Edwards, P. J., Richards, D. R. (2018). The economic benefits and costs of trees in urban forest stewardship: A systematic review. <em>Urban Forestry &amp; Urban Greening</em>, <em>29</em>, 162–170. <a href="https://doi.org/10.1016/j.ufug.2017.11.017" class="uri">https://doi.org/10.1016/j.ufug.2017.11.017</a></p></li>
+<li><p>Song, X. P., Richards, D. R., Edwards, P. J., Tan, P. Y. (2017). Benefits of trees in tropical cities. <em>Science</em>, <em>356</em> (634), 1241. <a href="https://doi.org/10.1126/science.aan6642" class="uri">https://doi.org/10.1126/science.aan6642</a></p></li>
+</ul>
+<p><br></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2020,
+  author = {Song, X. P. and Lai, H. R. and Wijedasa, L. S. and Tan, P.
+    Y. and Edwards, P. J. and Richards, D. R.},
+  title = {Height–Diameter Allometry for the Management of City Trees in
+    the Tropics},
+  journal = {Environmental Research Letters},
+  volume = {15},
+  pages = {114017},
+  date = {2020},
+  url = {https://xp-song.github.io/posts/street-trees},
+  doi = {10.1088/1748-9326/abbbad},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
+Song, X. P., Lai, H. R., Wijedasa, L. S., Tan, P. Y., Edwards, P. J.,
+and Richards, D. R. 2020. <span>“Height–Diameter Allometry for the
+Management of City Trees in the Tropics.”</span> <em>Environmental
+Research Letters</em> 15: 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad">https://doi.org/10.1088/1748-9326/abbbad</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Research</category>
+  <category>Software</category>
+  <guid>https://xp-song.github.io/posts/street-trees/index.html</guid>
+  <pubDate>Sat, 31 Mar 2018 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/street-trees/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>‘Kashiwanoha Smart City’ design workshop</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/kashiwanoha/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I recently took part in a design workshop held from 17–25 Feb 2017 at the Center for Environment, Health and Field Sciences, Chiba University, Japan. It was conducted as part of a collaboration between Tsinghua University, National University of Singapore, and Chiba University. Here’s the output that our team produced for local officials at Kashiwanoha city.</p>
+<center>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/kashiwanoha/assets/kashiwanoha_site.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Chosen site: LALAPORT Plaza</em></figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<section id="design-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="design-objectives">Design objectives</h2>
+<ol type="1">
+<li><p>Assess site conditions in the context of the ‘Kashiwanoha Smart City’ concept and vision. Include the current coverage and distribution of green spaces, how such spaces are used, environmental constraints faced in urban greening, the needs of people, relationships between the site and adjacent neighbourhoods, etc.</p></li>
+<li><p>Identify and articulate key issues that can be addressed through planning and design, keeping in mind current encumbrances.</p></li>
+<li><p>Develop a conceptual design for how green spaces can be improved, added or amalgamated to deliver more functions, either in improving environmental performance (biophysical or biodiversity), or to better meet the needs of people.</p></li>
+</ol>
+<p><br></p>
+</section>
+<section id="slide-deck" class="level2">
+<h2 class="anchored" data-anchor-id="slide-deck">Slide deck</h2>
+<iframe width="100%" height="450" src="assets/kashiwanoha_slidedeck.pdf">
+</iframe>
+<p><br></p>
+</section>
+<section id="poster" class="level2">
+<h2 class="anchored" data-anchor-id="poster">Poster</h2>
+<iframe width="100%" height="1000" src="assets/kashiwanoha_poster.pdf">
+</iframe>
+<p><br></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Design</category>
+  <guid>https://xp-song.github.io/posts/kashiwanoha/index.html</guid>
+  <pubDate>Fri, 24 Feb 2017 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/kashiwanoha/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Feasibility of urban farming in compact cities</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/urban-agriculture/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Food security is emerging as a serious threat in many parts of the world. In cities, common strategies to improve the resilience of food supplies are to diversify the sources of food, and to optimise local production. In compact cities where land is scarce, vertical and rooftop farming have been explored as alternatives to conventional agriculture. However, the success of such measures rely on their environmental, social and economic feasilibility within the local context.</p>
+<p>My Honors Thesis assessed the suitability of light conditions along the vertical surfaces of buildings in Singapore, a dense and compact city in the tropics. These conditions were compared against the light requirements of vegetable crops that require high amounts of light, and that form a significant proportion of the staple diet in many Asian countries. Plant physiological variables such as dark respiration (R<sub>d</sub>), light compensation point, light saturation point, photosynthetic capacity (A<sub>max</sub>) and quantum yield (Φ) were derived. These were used to calculate plant light requirements, or the ‘Daily Light Integral’, which ranged from 10–30 mol m<sup>-2</sup> day<sup>-1</sup>. Depending on the building height, orientation and configuration, light conditions along vertical surfaces ranged from 2–35 mol m<sup>-2</sup> day<sup>-1</sup>.</p>
+<center>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/urban-agriculture/assets/agri_nursery.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Vegetable crops grown in the plant nursery</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/urban-agriculture/assets/agri_licor.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/urban-agriculture/assets/agri_parsensor.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/urban-agriculture/assets/agri_light.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<p></p><figcaption class="figure-caption"><em>The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m</em><sup>−2</sup> d<sup>−1</sup> (horizontal dashed line). Figure from Song et al.&nbsp;(2018).</figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://xp-song.github.io/posts/urban-agriculture/assets/agri_light-realtime.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al.&nbsp;(2018).</em></figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p><br></p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Song, X. P., Tan, P. Y., Tan, H. T. W. (2018). Assessment of light adequacy for vertical farming in a tropical city. <em>Urban Forestry &amp; Urban Greening</em>, <em>29</em>, 49–57. <a href="https://doi.org/10.1016/j.ufug.2017.11.004" class="uri">https://doi.org/10.1016/j.ufug.2017.11.004</a></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2018,
+  author = {Song, X. P. and Tan, P. Y. and Tan, H. T. W.},
+  title = {Assessment of Light Adequacy for Vertical Farming in a
+    Tropical City},
+  journal = {Urban Forestry \&amp; Urban Greening},
+  volume = {29},
+  pages = {49–57},
+  date = {2018},
+  url = {https://xp-song.github.io/posts/urban-agriculture},
+  doi = {10.1016/j.ufug.2017.11.004},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2018" class="csl-entry quarto-appendix-citeas">
+Song, X. P., Tan, P. Y., and Tan, H. T. W. 2018. <span>“Assessment of
+Light Adequacy for Vertical Farming in a Tropical City.”</span>
+<em>Urban Forestry &amp; Urban Greening</em> 29: 49–57. <a href="https://doi.org/10.1016/j.ufug.2017.11.004">https://doi.org/10.1016/j.ufug.2017.11.004</a>.
+</div></div></section></div> ]]></description>
+  <category>Research</category>
+  <guid>https://xp-song.github.io/posts/urban-agriculture/index.html</guid>
+  <pubDate>Thu, 31 Mar 2016 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/urban-agriculture/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hello</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/hello/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Having seen many academic CVs and personal websites online, I thought I’d have a go at building a website. I must say, it got really interesting and I decided to take the deep dive… hopefully this’ll help build some online visibility and get my work out there. If you’re also interested in building a website, check out Alistair Bailey’s “<a href="https://ab604.github.io/docs/website_bookdown/">Building a website using blogdown in R</a>”. At first I tried to use Jekyll but changed my mind after reading <a href="https://mikeyharper.uk/migrating-to-blogdown/">this post</a>. I used the two-repository approach to link my website to GitHub pages, following the <a href="https://www.tylerclavelle.com/code/2017/blogdown/">workflow by Tyler Clavelle</a>.</p>
+<p>As for blogging, I think it’s a great way to document the little things I’ve discovered or ideas I’ve had. Blogs have become a go-to for me when seeking answers to various questions (just like building this website), and I think it’ll be nice to contribute to this resource base as well. At the very least, future-me will be happy to have something to refer to when I hit the same obstacle down the road. It’s probably difficult to assign a consistent theme to my blog posts, but expect ramblings about data science, productivity hacks, writing, the environment, design, music…</p>
+<p>Finally, I think websites and blogs are also a refreshing alternative to writing long, academic pieces. It’s often a challenge to make my research relatable to people I talk to, and I feel like what I say doesn’t always do justice to the huge effort put in. Most people aren’t really that interested in the technical details (even my wife! But she tries really hard &lt;3), and digital media definitely helps with science communication. Hopefully you will find the content here interesting and useful.</p>
+
+
+
+ ]]></description>
+  <guid>https://xp-song.github.io/posts/hello/index.html</guid>
+  <pubDate>Thu, 31 Dec 2015 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/hello/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

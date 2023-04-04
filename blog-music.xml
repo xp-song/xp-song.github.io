@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>XP&#39;s Blog</title>
+<link>https://xp-song.github.io/blog.html#category=Music</link>
+<atom:link href="https://xp-song.github.io/blog-music.xml" rel="self" type="application/rss+xml"/>
+<description>Musings about data science, design, music and more...</description>
+<image>
+<url>https://xp-song.github.io/images/sheep.jpg</url>
+<title>XP&#39;s Blog</title>
+<link>https://xp-song.github.io/blog.html#category=Music</link>
+</image>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Sun, 09 Jan 2022 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Nathan’s first drumset</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/nathans-first-drumset/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Sample it before it gets wrecked!</p>
+<center>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/i90zVvyJaZk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Nathan's First Drumset">
+</iframe>
+</div>
+</center>
+<p><br></p>
+
+
+
+ ]]></description>
+  <category>Music</category>
+  <guid>https://xp-song.github.io/posts/nathans-first-drumset/index.html</guid>
+  <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/nathans-first-drumset/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Zoom with Drums</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recent measures to contain the coronavirus outbreak have left many local businesses reeling. I’ve been teaching drums part-time at My Drum School (MDS), but as of tommorrow, all centres will have to shut down their physical premises.</p>
+<p>Thankfully, our school has already been scrambling to move to online lessons since last week. The team has been working hard to set up new equipment and release how-to videos, web resouces and online syllabus material. The complete integration of all these materials and new workflows (in just a few days!) within the MDS mobile app is nothing short of amazing.</p>
+<p>During my first few online lessons, I got to experience first-hand the difficulty in playing to music/click tracks, especially with regard to sound quality. After some experimentation, I was inspired to make a couple of video tutorials showing how these issues may be addressed. Hopefully this will help teachers and students improve their online lesson experience.</p>
+<center>
+<p><b>Part 1</b>:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/TkxKjjTsBQc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Zoom with Drums Part 1">
+</iframe>
+</div>
+<p><br></p>
+<p><b>Part 2</b>:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/clH19NYKYQs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Zoom with Drums Part 2">
+</iframe>
+</div>
+</center>
+<p><br></p>
+<p><em>Note: For an introductory video on how to set-up for online lessons, see the video released by My Drum School <a href="https://youtu.be/Pm9bQqvvu1Y">here</a>.</em></p>
+
+
+
+ ]]></description>
+  <category>Music</category>
+  <guid>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</guid>
+  <pubDate>Sat, 04 Apr 2020 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/zoom-drum-lessons/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

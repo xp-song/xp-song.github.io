@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="XP Song">
+<meta name="dcterms.date" content="2021-07-16">
+<meta name="description" content="We need better ways to measure our access to parks and outdoor spaces">
+
+<title>XP Song - Trying to fight cabin fever? The types of parks near your home matters</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/icon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
+</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      color: #242F36;
+background-image: url(featured_transparent.jpg);
+background-size: cover;
+    }
+    </style>
+
+
+<meta property="og:title" content="XP Song - Trying to fight cabin fever? The types of parks near your home matters">
+<meta property="og:description" content="We need better ways to measure our access to parks and outdoor spaces">
+<meta property="og:image" content="https://xp-song.github.io/posts/home2park/featured.jpg">
+<meta property="og:site-name" content="XP's Website">
+<meta property="og:image:alt" content="Image by Pexels from Pixabay">
+<meta name="twitter:title" content="XP Song - Trying to fight cabin fever? The types of parks near your home matters">
+<meta name="twitter:description" content="We need better ways to measure our access to parks and outdoor spaces">
+<meta name="twitter:image" content="https://xp-song.github.io/images/icon.png">
+<meta name="twitter:creator" content="@song_xiaoping">
+<meta name="twitter:image-height" content="512">
+<meta name="twitter:image-width" content="512">
+<meta name="twitter:image:alt" content="Image by Pexels from Pixabay">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="home2park: An R package to assess the spatial provision of urban parks">
+<meta name="citation_author" content="Song, X. P.">
+<meta name="citation_author" content="Chong, K. Y.">
+<meta name="citation_publication_date" content="2021">
+<meta name="citation_cover_date" content="2021">
+<meta name="citation_year" content="2021">
+<meta name="citation_online_date" content="2021-07-16">
+<meta name="citation_fulltext_html_url" content="https://xp-song.github.io/posts/home2park">
+<meta name="citation_issue" content="66">
+<meta name="citation_doi" content="10.21105/joss.03609">
+<meta name="citation_volume" content="6">
+<meta name="citation_language" content="en">
+<meta name="citation_firstpage" content="3609">
+<meta name="citation_journal_title" content="Journal of Open Source Software">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../academia.html">
+ <span class="menu-text">Academia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../music.html">
+ <span class="menu-text">Music</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Trying to fight cabin fever? The types of parks near your home matters</h1>
+                  <div>
+        <div class="description">
+          We need better ways to measure our access to parks and outdoor spaces
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Research</div>
+                <div class="quarto-category">Software</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>XP Song </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 16, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link active" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>The COVID-19 pandemic is changing the way we work and play<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. As more people work remotely from home, visits to local parks have surged as people look for ways to stay active, find solace and quench their thirst for adventure<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Such opportunities for leisure and recreation play an important part in people’s physical and psychological well-being<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>Not all parks are created equal. For example, people seeking solace may be drawn to waterfront or nature parks with open or tranquil landscapes<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. For others who love adventure (like myself), bike trails are great to break a sweat while having fun with friends. But most of the bike trails in Singapore<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> are really hard to get to from where I live (not to mention figuring out bike transport). So, instead of heading out for some adventure, I tend to visit the open field and playground closest to home, going out for short walks with my son (still waiting for my next adrenaline fix!).</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/canal.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>In city planning, park provision is typically measured by summarising the park area within a given region<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Beyond the area of parks, however, there is a need to characterise the wide variety of parks that serve different groups of people. Understanding such nuances in park access can benefit both residents and city planners, for instance, when considering the location of a new home, or when planning for new parks in the city.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/park-type.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>Our new R package <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> provides ways to measure a variety of park features related to recreation such as foot/cycle trails, waterfronts, forests, open spaces, playgrounds and sport/fitness amenities. It includes functions to download such data from OSM. Alternatively, you may supply your own proprietary datasets, or use new data for the purpose of future scenario planning. Summarising these features at each park allows us to make quantitative comparisons between parks. Some examples are shown below for the city of Singapore, based on OSM data in the year 2020. For instance, parks with extensive trails provide opportunities for running/wheeled sports:</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/park-trails.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>Other features such as water and vegetation are associated with visual relief, as well as restorative effects on people’s psychological well-being<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>. If such data (e.g., satellite imagery) are available, they can also be <a href="https://ecological-cities.github.io/home2park/reference/parks_calc_attributes.html">summarised</a> at each park:</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/park-waterfronts.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/park-forests.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>To calculate the ‘supply’ of these parks features to homes city-wide, these summarised values per park can then be assigned to each residential building. Since people are less likely to visit parks further away from their homes, a ‘distance decay’ parameter can be included. This reduces the supply value originating from parks further away. The ‘distance decay’ for walking to urban parks was empirically determined in Tu et al.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> to fit a negative exponential curve with a coefficient <em>c</em> value of <em>0.661</em> (see <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> package for details). The example below shows the supply of park area to residential buildings in Singapore.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>Notice how the largest parks in Singapore tend to be centrally located, especially since we include informal nature areas (e.g., Central Catchment Nature Reserve). Buildings closer to these huge parks would thus have a much larger ‘supply’ of park area. However, each of the residential buildings would have different numbers of people living in them. A large park next to high-rise apartments would benefit a lot more people compared to low-rise housing. If we take into account the number of residents living within each building, a very different picture emerges!</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption><p></p>
+</figure>
+</div>
+<p><br></p>
+</center>
+<p>These building-level metrics can subsequently be summarised across larger regions, for example, based on <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">zones</a> used in city planning. Not surprisingly, the supply metric for park area derived from individual buildings is vastly different from conventional metrics used today (examples in Tan and Samsudin<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>). Feel free to explore these metrics for the provision of park area in the interactive map below.</p>
+<p><br></p>
+<iframe seamless="" src="assets/plot_leaflet.html" width="100%" height="500">
+</iframe>
+<center>
+<strong>Map: Supply of park area in Singapore based on OSM data (2020).</strong> Each building is denoted as a point (a random subset is shown). The colour palettes were binned according to quantile values.
+</center>
+<p><br></p>
+<p>In these unprecedented times, significant changes to human mobility and working environments will require us to rethink land use distribution in the city, particularly for office, residential and public spaces such as parks. Some evidence also point to shifting preferences, for example, toward wilder green areas<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. These issues are starting to become a part of the national conversation in Singapore <a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>, which is important considering that the city has major plans for sustainable development and greening over the next decade<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>. As part of the Singapore Green Plan 2030, there will be 1,000 ha (more than 1,800 football fields!) more parks and park connectors, and every household will live just a 10-minute walk away from a park<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. In view of these major plans, there is a need to move beyond basic summaries of area, and consider the variety of parks features that are important for outdoor recreation. The R package <a href="https://ecological-cities.github.io/home2park"><code>home2park</code></a> represents a part of our effort to contribute to a more nuanced understanding of outdoor recreation and its spatial provision in cities. Note that the package is still experimental, so do reach out if you would like to <a href="https://ecological-cities.github.io/home2park/CONTRIBUTING.html">contribute</a> to improvements, or to report any <a href="https://github.com/ecological-cities/home2park/issues">bugs</a>.</p>
+<p><br></p>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>I’d like to gratefully acknowledge Kwek Yan for his valuable inputs and help to re-fine these ideas we are working on here, as well as Edwin Tan and Justin Nai for the useful discussions. The analyses shown in this blog post is part of a larger project that investigates the balance of park supply and demand in cities between different groups of people, as well as how the ‘distance decay’ affects their use. Do reach out if you are keen to collaborate on related topics. Finally, to cite <a href="https://ecological-cities.github.io/home2park/"><code>home2park</code></a> or acknowledge its use, you may use the following reference:</p>
+<blockquote class="blockquote">
+<p>Song, X. P., Chong, K. Y. (2021). home2park: An R package to assess the spatial provision of urban parks. <em>Journal of Open Source Software</em>, <em>6</em>(65), 3609. <a href="https://doi.org/10.21105/joss.03609" class="uri">https://doi.org/10.21105/joss.03609</a></p>
+</blockquote>
+<p><br></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+<p><br></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Hoffower, H. (2021, June 23). <a href="https://www.businessinsider.com/marc-andreessen-remote-work-more-important-than-internet-civilizational-shift-2021-6">Tech legend Marc Andreessen says the rise of remote work might be more important than the internet: ‘A permanent civilizational shift’</a>. <em>Business Insider.</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Geng, D. C., Innes, J., Wu, W., &amp; Wang, G. (2021). Impacts of COVID-19 pandemic on urban park visitation: a global analysis. <em>Journal of forestry research</em>, 32(2), 553-567.<br>
+Ting, W. P. (2020, November 1). <a href="https://www.todayonline.com/singapore/hiking-boom-singapore-more-turn-their-backyard-cope-covid-19-travel-restrictions">Hiking boom in Singapore as more turn to their backyard to cope with Covid-19 travel restrictions</a>. <em>Today</em>. https://www.todayonline.com<br>
+Nadarajan, R. (2020, April 2). <a href="https://www.todayonline.com/singapore/covid-19-seeking-fun-and-solace-worries-wide-open-spaces-singaporeans-turn-outdoors">Covid-19: Seeking fun and solace from worries in wide open spaces, Singaporeans turn to the outdoors</a>. <em>Today</em>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Wood, L., Hooper, P., Foster, S., &amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. <em>Health &amp; place</em>, 48, 63-71.<br>
+Rajoo, K. S., Karam, D. S., &amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. <em>Urban Forestry &amp; Urban Greening</em>, 126744.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Examples in Singapore include <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/east-coast-park">East Coast Park</a>, <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/upper-peirce-reservoir-park">Upper Peirce Reservoir</a>, <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/bukit-batok-nature-park">Bukit Batok Nature Park</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>http://shimanocyclingworld.com/5-best-mountain-bike-trails-in-singapore/<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Tan, P. Y., &amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. <em>Landscape and Urban Planning</em>, 158, 139-154.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Wood, L., Hooper, P., Foster, S., &amp; Bull, F. (2017). Public green spaces and positive mental health–investigating the relationship between access, quantity and types of parks and mental wellbeing. <em>Health &amp; place</em>, 48, 63-71.<br>
+Rajoo, K. S., Karam, D. S., &amp; Abdullah, M. Z. (2020). The physiological and psychosocial effects of forest therapy: A systematic review. <em>Urban Forestry &amp; Urban Greening</em>, 126744.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Tu, X., Huang, G., Wu, J., &amp; Guo, X. (2020). How do travel distance and park size influence urban park visits?. <em>Urban Forestry &amp; Urban Greening</em>, 52, 126689.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Tan, P. Y., &amp; Samsudin, R. (2017). Effects of spatial scale on assessment of spatial equity of urban park provision. <em>Landscape and Urban Planning</em>, 158, 139-154.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Grzyb, T., Kulczyk, S., Derek, M., &amp; Woźniak, E. (2021). Using social media to assess recreation across urban green spaces in times of abrupt change. <em>Ecosystem Services</em>, 49, 101297.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Ng, K. G. (2021, June 23). <a href="https://www.straitstimes.com/singapore/understand-quality-not-just-quantity-of-green-spaces-expert">Understand quality, not just quantity, of green spaces:Expert</a>. <em>The Straits Times.</em><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Tan, A. (2021, February 10). <a href="https://www.straitstimes.com/singapore/environment/singapore-green-plan-2030-to-change-the-way-people-live-work-study-and-play">Singapore Green Plan 2030 to change the way people live, work, study and play</a>. <em>The Straits Times</em>.<br>
+Lin, C. (2021, March 4). <a href="https://www.channelnewsasia.com/news/singapore/nparks-new-trails-cross-island-corridor-parks-14332300">NParks to develop Singapore’s longest cross-island trail and 3 new recreational routes</a>. <em>Channel News Asia</em>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Au-Yong, R. (2019, March 28). <a href="https://www.straitstimes.com/singapore/spore-to-have-1000ha-more-parks-and-park-connectors">Singapore to have 1,000ha more parks and park connectors</a>. <em>The Straits Times</em>.<br>
+Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focus-areas/city-in-nature/">City in Nature</a>.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2021,
+  author = {Song, X. P. and Chong, K. Y.},
+  title = {Home2park: {An} {R} Package to Assess the Spatial Provision
+    of Urban Parks},
+  journal = {Journal of Open Source Software},
+  volume = {6},
+  number = {66},
+  pages = {3609},
+  date = {2021},
+  url = {https://xp-song.github.io/posts/home2park},
+  doi = {10.21105/joss.03609},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Song, X. P., and Chong, K. Y. 2021. <span>“Home2park: An R Package to
+Assess the Spatial Provision of Urban Parks.”</span> <em>Journal of Open
+Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609">https://doi.org/10.21105/joss.03609</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="xp-song/xpsong_giscus" data-repo-id="R_kgDOH9R2Fw" data-category="Announcements" data-category-id="DIC_kwDOH9R2F84CRT77" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light_protanopia" data-lang="en" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2022 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:xpsong.connect@gmail.com">Contact</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-sa/4.0/">License</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../blog.xml">RSS</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
