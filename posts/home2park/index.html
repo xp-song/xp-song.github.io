@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
@@ -72,12 +73,23 @@ gtag('js', new Date());
 gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      color: #242F36;
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #242F36;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #242F36;
 background-image: url(featured_transparent.jpg);
 background-size: cover;
-    }
-    </style>
+      }
+</style>
 
 
 <meta property="og:title" content="XP Song - Trying to fight cabin fever? The types of parks near your home matters">
@@ -87,10 +99,8 @@ background-size: cover;
 <meta property="og:image:alt" content="Image by Pexels from Pixabay">
 <meta name="twitter:title" content="XP Song - Trying to fight cabin fever? The types of parks near your home matters">
 <meta name="twitter:description" content="We need better ways to measure our access to parks and outdoor spaces">
-<meta name="twitter:image" content="https://xp-song.github.io/images/icon.png">
+<meta name="twitter:image" content="https://xp-song.github.io/posts/home2park/featured.jpg">
 <meta name="twitter:creator" content="@song_xiaoping">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
 <meta name="twitter:image:alt" content="Image by Pexels from Pixabay">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="home2park: An R package to assess the spatial provision of urban parks">
@@ -120,25 +130,27 @@ background-size: cover;
     <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../academia.html">
+    <a class="nav-link" href="../../academia.html" rel="" target="">
  <span class="menu-text">Academia</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../music.html">
+    <a class="nav-link" href="../../music.html" rel="" target="">
  <span class="menu-text">Music</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -167,7 +179,7 @@ background-size: cover;
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>XP Song </p>
+               <p><a href="https://xp-song.github.io">XP Song</a> </p>
             </div>
     </div>
       
@@ -205,7 +217,7 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption><p></p>
+<figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption>
 </figure>
 </div>
 </center>
@@ -215,13 +227,13 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/canal.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption>
 </figure>
 </div>
 </center>
@@ -231,7 +243,7 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/park-type.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption><p></p>
+<figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption>
 </figure>
 </div>
 </center>
@@ -241,13 +253,13 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/park-trails.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -257,19 +269,19 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/park-waterfronts.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/park-forests.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -279,7 +291,7 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption><p></p>
+<figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -289,7 +301,7 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -342,8 +354,8 @@ Lin, C. (2021, March 4). <a href="https://www.channelnewsasia.com/news/singapore
 <li id="fn13"><p>Au-Yong, R. (2019, March 28). <a href="https://www.straitstimes.com/singapore/spore-to-have-1000ha-more-parks-and-park-connectors">Singapore to have 1,000ha more parks and park connectors</a>. <em>The Straits Times</em>.<br>
 Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focus-areas/city-in-nature/">City in Nature</a>.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2021,
-  author = {Song, X. P. and Chong, K. Y.},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2021,
+  author = {X. P. , Song and K. Y. , Chong},
   title = {Home2park: {An} {R} Package to Assess the Spatial Provision
     of Urban Parks},
   journal = {Journal of Open Source Software},
@@ -355,8 +367,8 @@ Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focu
   doi = {10.21105/joss.03609},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Song, X. P., and Chong, K. Y. 2021. <span>“Home2park: An R Package to
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2021" class="csl-entry quarto-appendix-citeas" role="listitem">
+X. P., Song, and Chong K. Y. 2021. <span>“Home2park: An R Package to
 Assess the Spatial Provision of Urban Parks.”</span> <em>Journal of Open
 Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609">https://doi.org/10.21105/joss.03609</a>.
 </div></div></section></div></main> <!-- /main -->
@@ -387,9 +399,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -454,6 +480,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -498,7 +610,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2022 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-left">© 2023 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

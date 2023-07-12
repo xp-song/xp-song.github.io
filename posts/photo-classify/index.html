@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,9 +20,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -49,43 +50,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -122,7 +93,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
@@ -135,10 +107,21 @@ gtag('js', new Date());
 gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      color: #242F36;
-    }
-    </style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #242F36;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #242F36;
+      }
+</style>
 
 <script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
@@ -152,10 +135,10 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <meta property="og:image:height" content="373">
 <meta name="twitter:title" content="XP Song - Automated image classification into content-type categories">
 <meta name="twitter:description" content="Classify images based on keywords generated from the Google Cloud Vision API">
-<meta name="twitter:image" content="https://xp-song.github.io/images/icon.png">
+<meta name="twitter:image" content="https://xp-song.github.io/posts/photo-classify/featured.png">
 <meta name="twitter:creator" content="@song_xiaoping">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
+<meta name="twitter:image-height" content="373">
+<meta name="twitter:image-width" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Using social media user attributes to understand human–environment interactions at urban parks">
 <meta name="citation_author" content="Song, X. P.">
@@ -184,25 +167,27 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
     <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../academia.html">
+    <a class="nav-link" href="../../academia.html" rel="" target="">
  <span class="menu-text">Academia</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../music.html">
+    <a class="nav-link" href="../../music.html" rel="" target="">
  <span class="menu-text">Music</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -231,7 +216,7 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>XP Song </p>
+               <p><a href="https://xp-song.github.io">XP Song</a> </p>
             </div>
     </div>
       
@@ -270,9 +255,6 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 
 
 
-<div class="cell">
-
-</div>
 <p>This tutorial describes the workflow and R code that can be used to classify a large number of images into <em>discrete</em> categories, based on their content. The source documents are available on <a href="https://github.com/xp-song/photo-classify">GitHub</a>. This tutorial provides supplementary information to the following publication:</p>
 <blockquote class="blockquote">
 <p>Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks, <em>Scientific Reports</em>, <em>10</em>, 808. <a href="https://doi.org/10.1038/s41598-020-57864-4" class="uri">https://doi.org/10.1038/s41598-020-57864-4</a></p>
@@ -286,41 +268,43 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <p>First few rows of the <code>photos</code> dataset:</p>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-striped table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> photoid </th>
-   <th style="text-align:left;"> url </th>
-  </tr>
- </thead>
+<div class="table-responsive">
+<table class="table table-striped table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">photoid</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">url</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> 29993180834 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5641/29993180834_8179c87aa7_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 7002246829 </td>
-   <td style="text-align:left;"> https://farm7.staticflickr.com/6240/7002246829_d114f402e7_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 5466070643 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5216/5466070643_759428f4a5_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 16303185765 </td>
-   <td style="text-align:left;"> https://farm9.staticflickr.com/8571/16303185765_4dd4d48b7b_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 30414187771 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5503/30414187771_5283977ca6_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 16065397248 </td>
-   <td style="text-align:left;"> https://farm9.staticflickr.com/8593/16065397248_7a6a0666b1_z.jpg </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">29993180834</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5641/29993180834_8179c87aa7_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7002246829</td>
+<td style="text-align: left;">https://farm7.staticflickr.com/6240/7002246829_d114f402e7_z.jpg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5466070643</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5216/5466070643_759428f4a5_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16303185765</td>
+<td style="text-align: left;">https://farm9.staticflickr.com/8571/16303185765_4dd4d48b7b_z.jpg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">30414187771</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5503/30414187771_5283977ca6_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16065397248</td>
+<td style="text-align: left;">https://farm9.staticflickr.com/8593/16065397248_7a6a0666b1_z.jpg</td>
+</tr>
 </tbody>
 </table>
+</div>
+
 
 </div>
 </div>
@@ -369,104 +353,103 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"&lt;row"</span>, i, <span class="st">"/"</span>, <span class="fu">length</span>(photos[,<span class="dv">1</span>]), <span class="st">"&gt; "</span>)</span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell">
-
-</div>
 <p>&nbsp;</p>
 <p>Keyword results for the first few rows of the <code>photos</code> dataset:</p>
 <div class="cell" data-rownames.print="false" data-cols.print="5">
 <div class="cell-output-display">
-
-<table class="table table-striped table-condensed table-responsive" style="font-size: 12px; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> w1 </th>
-   <th style="text-align:left;"> w2 </th>
-   <th style="text-align:left;"> w3 </th>
-   <th style="text-align:left;"> w4 </th>
-   <th style="text-align:left;"> w5 </th>
-   <th style="text-align:left;"> w6 </th>
-   <th style="text-align:left;"> w7 </th>
-   <th style="text-align:left;"> w8 </th>
-   <th style="text-align:left;"> w9 </th>
-   <th style="text-align:left;"> w10 </th>
-  </tr>
- </thead>
+<div class="table-responsive">
+<table class="table table-striped table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">w1</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w2</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w3</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w4</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w5</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w6</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w7</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w8</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w9</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w10</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> tree </td>
-   <td style="text-align:left;"> nature </td>
-   <td style="text-align:left;"> vegetation </td>
-   <td style="text-align:left;"> sky </td>
-   <td style="text-align:left;"> borassus flabellifer </td>
-   <td style="text-align:left;"> plant </td>
-   <td style="text-align:left;"> palm tree </td>
-   <td style="text-align:left;"> woody plant </td>
-   <td style="text-align:left;"> arecales </td>
-   <td style="text-align:left;"> tropics </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sea </td>
-   <td style="text-align:left;"> water </td>
-   <td style="text-align:left;"> wave </td>
-   <td style="text-align:left;"> ocean </td>
-   <td style="text-align:left;"> beach </td>
-   <td style="text-align:left;"> square </td>
-   <td style="text-align:left;"> calm </td>
-   <td style="text-align:left;"> surfing equipment and supplies </td>
-   <td style="text-align:left;"> surfboard </td>
-   <td style="text-align:left;"> horizon </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> bird </td>
-   <td style="text-align:left;"> fauna </td>
-   <td style="text-align:left;"> beak </td>
-   <td style="text-align:left;"> wren </td>
-   <td style="text-align:left;"> wildlife </td>
-   <td style="text-align:left;"> old world flycatcher </td>
-   <td style="text-align:left;"> piciformes </td>
-   <td style="text-align:left;"> woodpecker </td>
-   <td style="text-align:left;"> twig </td>
-   <td style="text-align:left;"> perching bird </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> plant </td>
-   <td style="text-align:left;"> flora </td>
-   <td style="text-align:left;"> leaf </td>
-   <td style="text-align:left;"> tree </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sitting </td>
-   <td style="text-align:left;"> leg </td>
-   <td style="text-align:left;"> fun </td>
-   <td style="text-align:left;"> vacation </td>
-   <td style="text-align:left;"> human body </td>
-   <td style="text-align:left;"> vehicle </td>
-   <td style="text-align:left;"> car </td>
-   <td style="text-align:left;"> hand </td>
-   <td style="text-align:left;"> muscle </td>
-   <td style="text-align:left;"> recreation </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> bird </td>
-   <td style="text-align:left;"> fauna </td>
-   <td style="text-align:left;"> beak </td>
-   <td style="text-align:left;"> finch </td>
-   <td style="text-align:left;"> feather </td>
-   <td style="text-align:left;"> wildlife </td>
-   <td style="text-align:left;"> perching bird </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">tree</td>
+<td style="text-align: left;">nature</td>
+<td style="text-align: left;">vegetation</td>
+<td style="text-align: left;">sky</td>
+<td style="text-align: left;">borassus flabellifer</td>
+<td style="text-align: left;">plant</td>
+<td style="text-align: left;">palm tree</td>
+<td style="text-align: left;">woody plant</td>
+<td style="text-align: left;">arecales</td>
+<td style="text-align: left;">tropics</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sea</td>
+<td style="text-align: left;">water</td>
+<td style="text-align: left;">wave</td>
+<td style="text-align: left;">ocean</td>
+<td style="text-align: left;">beach</td>
+<td style="text-align: left;">square</td>
+<td style="text-align: left;">calm</td>
+<td style="text-align: left;">surfing equipment and supplies</td>
+<td style="text-align: left;">surfboard</td>
+<td style="text-align: left;">horizon</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bird</td>
+<td style="text-align: left;">fauna</td>
+<td style="text-align: left;">beak</td>
+<td style="text-align: left;">wren</td>
+<td style="text-align: left;">wildlife</td>
+<td style="text-align: left;">old world flycatcher</td>
+<td style="text-align: left;">piciformes</td>
+<td style="text-align: left;">woodpecker</td>
+<td style="text-align: left;">twig</td>
+<td style="text-align: left;">perching bird</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">plant</td>
+<td style="text-align: left;">flora</td>
+<td style="text-align: left;">leaf</td>
+<td style="text-align: left;">tree</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sitting</td>
+<td style="text-align: left;">leg</td>
+<td style="text-align: left;">fun</td>
+<td style="text-align: left;">vacation</td>
+<td style="text-align: left;">human body</td>
+<td style="text-align: left;">vehicle</td>
+<td style="text-align: left;">car</td>
+<td style="text-align: left;">hand</td>
+<td style="text-align: left;">muscle</td>
+<td style="text-align: left;">recreation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bird</td>
+<td style="text-align: left;">fauna</td>
+<td style="text-align: left;">beak</td>
+<td style="text-align: left;">finch</td>
+<td style="text-align: left;">feather</td>
+<td style="text-align: left;">wildlife</td>
+<td style="text-align: left;">perching bird</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
 </tbody>
 </table>
+</div>
+
 
 </div>
 </div>
@@ -524,9 +507,6 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>narmlength <span class="ot">&lt;-</span> <span class="cf">function</span>(x){<span class="dv">10</span><span class="sc">-</span><span class="fu">sum</span>(<span class="fu">is.na</span>(x))} <span class="co">#create function</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>lengword <span class="ot">&lt;-</span> <span class="fu">apply</span>(photos[,<span class="dv">3</span><span class="sc">:</span><span class="dv">12</span>], <span class="dv">1</span>, narmlength) <span class="co">#apply function</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-
 </div>
 <p>&nbsp;</p>
 <p>Next, the similarity between each photo and all other photos is calculated manually in a loop, based on the Jaccard Index. Since most photos do not share keywords, the similarity value will tend to be “0” (less strain on computer’s RAM). The similarity matrix (loop output) is then converted into a distance matrix, and subsequently converted into a ‘<code>dist</code>’ object.</p>
@@ -628,9 +608,6 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(scenarios) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"k"</span>,<span class="st">"distance"</span>,<span class="st">"marginalDelta"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell">
-
-</div>
 <p>Here are plots of the results across different clustering scenarios:</p>
 <div class="cell quarto-layout-panel" data-fig.asp="1" data-fig.ncol="2">
 
@@ -639,15 +616,12 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/cluster_results.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption><p></p>
+<figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption>
 </figure>
 </div>
 </center>
 <p>&nbsp;</p>
 <p>Since such plots may not always allow us to visually determine the appropriate number of photo clusters, we can also use the L-Method as described in Salvador and Chan (2004). To do so, we plot possible pairs of best-fit lines to the curve, and calculate the total root mean squared error (RMSE) for each pair. The lowest RMSE value is used to determine the number of clusters.</p>
-<div class="cell">
-
-</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(rgl)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(qpcR)</span>
@@ -666,14 +640,11 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 </div>
 <p>&nbsp;</p>
 <p>Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value is where k = <code>11</code>. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.</p>
-<div class="cell" data-layout-align="center">
-
-</div>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/rmse.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption><p></p>
+<figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption>
 </figure>
 </div>
 </center>
@@ -701,8 +672,8 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2020,
-  author = {Song, X. P. and Richards, D.R. and Tan, P.Y.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2020,
+  author = {X. P. , Song and D.R. , Richards and P.Y. , Tan},
   title = {Using Social Media User Attributes to Understand
     Human–Environment Interactions at Urban Parks},
   journal = {Scientific Reports},
@@ -713,10 +684,10 @@ gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
   doi = {10.1038/s41598-020-57864-4},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Song, X. P., Richards, D.R., and Tan, P.Y. 2020. <span>“Using Social
-Media User Attributes to Understand Human–Environment Interactions at
-Urban Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https://doi.org/10.1038/s41598-020-57864-4">https://doi.org/10.1038/s41598-020-57864-4</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2020" class="csl-entry quarto-appendix-citeas" role="listitem">
+X. P., Song, Richards D.R., and Tan P.Y. 2020. <span>“Using Social Media
+User Attributes to Understand Human–Environment Interactions at Urban
+Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https://doi.org/10.1038/s41598-020-57864-4">https://doi.org/10.1038/s41598-020-57864-4</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -745,9 +716,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -812,6 +797,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -856,7 +927,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2022 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-left">© 2023 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

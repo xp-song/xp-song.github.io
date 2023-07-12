@@ -14,7 +14,7 @@
 <title>XP&#39;s Blog</title>
 <link>https://xp-song.github.io/blog.html#category=R</link>
 </image>
-<generator>quarto-1.2.269</generator>
+<generator>quarto-1.3.433</generator>
 <lastBuildDate>Sun, 31 Jul 2022 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</title>
@@ -36,7 +36,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/aecom-2022.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 1: Recommendations to mitigate the impact of urban development on biodiversity in a consultancy report (Source: <a href="https://www.hdb.gov.sg/cs/infoweb/-/media/doc/RPG/Keppel-Club-Site-EIS-Report.ashx">AECOM, 2022</a>).</figcaption><p></p>
+<figcaption class="figure-caption">Figure 1: Recommendations to mitigate the impact of urban development on biodiversity in a consultancy report (Source: <a href="https://www.hdb.gov.sg/cs/infoweb/-/media/doc/RPG/Keppel-Club-Site-EIS-Report.ashx">AECOM, 2022</a>).</figcaption>
 </figure>
 </div>
 </div>
@@ -54,7 +54,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/sdm.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 2: How species distribution modelling (SDM) generally works (Source: <a href="https://damariszurell.github.io/SDM-Intro/">Damaris Zurell, 2020</a>).</figcaption><p></p>
+<figcaption class="figure-caption">Figure 2: How species distribution modelling (SDM) generally works (Source: <a href="https://damariszurell.github.io/SDM-Intro/">Damaris Zurell, 2020</a>).</figcaption>
 </figure>
 </div>
 </div>
@@ -68,7 +68,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/species-richness-vs-abundance.png" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 3: Illustration showing the difference between <em>species richness</em> and <em>species abundance</em>.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 3: Illustration showing the difference between <em>species richness</em> and <em>species abundance</em>.</figcaption>
 </figure>
 </div>
 </div>
@@ -82,7 +82,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/alpha-beta-gamma.png" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 4: <em>Gamma</em> (total) diversity across a larger region is composed of <em>Alpha</em> (local) diversity or species richness at single sites, as well as the <em>Beta</em> (community) diversity representing the differences in species compositions between sites.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 4: <em>Gamma</em> (total) diversity across a larger region is composed of <em>Alpha</em> (local) diversity or species richness at single sites, as well as the <em>Beta</em> (community) diversity representing the differences in species compositions between sites.</figcaption>
 </figure>
 </div>
 </div>
@@ -100,7 +100,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/framework.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 5: Broad overview of the data workflow for a chosen animal group (e.g., birds). The <em>Alpha</em> diversity heat map represents the number of species, while the <em>Beta</em> diversity colour map represents unique species communities within a given area.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 5: Broad overview of the data workflow for a chosen animal group (e.g., birds). The <em>Alpha</em> diversity heat map represents the number of species, while the <em>Beta</em> diversity colour map represents unique species communities within a given area.</figcaption>
 </figure>
 </div>
 </div>
@@ -118,7 +118,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/subzone-distribution-odonates.png" class="img-fluid figure-img" style="width:60.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 6: Histogram showing the distribution of values for the average number of odonate species (<em>Alpha</em> diversity) per pixel within each of the 332 subzones in Singapore. Subzones were assigned an arbitrary score of -2 to 2 based on standard deviations from the mean (i.e., performance of the ‘average’ subzone).</figcaption><p></p>
+<figcaption class="figure-caption">Figure 6: Histogram showing the distribution of values for the average number of odonate species (<em>Alpha</em> diversity) per pixel within each of the 332 subzones in Singapore. Subzones were assigned an arbitrary score of -2 to 2 based on standard deviations from the mean (i.e., performance of the ‘average’ subzone).</figcaption>
 </figure>
 </div>
 </div>
@@ -140,7 +140,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-rasterize.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 7: Example showing how manually generated vector data (points, polygons) of vegetation can be converted to a classified raster of vegetation types used in the predictive models.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 7: Example showing how manually generated vector data (points, polygons) of vegetation can be converted to a classified raster of vegetation types used in the predictive models.</figcaption>
 </figure>
 </div>
 </div>
@@ -153,7 +153,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-amend.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 8: Example showing how a classified raster of remotely sensed vegetation can be amended with the manually generated vector data (rasterised). The dark green areas represent canopy cover, while the light green areas represent short vegetation.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 8: Example showing how a classified raster of remotely sensed vegetation can be amended with the manually generated vector data (rasterised). The dark green areas represent canopy cover, while the light green areas represent short vegetation.</figcaption>
 </figure>
 </div>
 </div>
@@ -191,20 +191,21 @@
 <li id="fn4"><p>Schmitt, S., Pouteau, R., Justeau, D., De Boissieu, F., &amp; Birnbaum, P. (2017). ssdm: An r package to predict distribution of species richness and composition based on stacked species distribution models. <em>Methods in Ecology and Evolution</em>, <em>8</em>(12), 1795-1803.↩︎</p></li>
 <li id="fn5"><p>Government of Singapore (2020). <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019 Subzone Boundary (No Sea)</a>. <em>data.gov.sg</em>. Released under the terms of the <a href="https://data.gov.sg/open-data-licence">Singapore Open Data Licence version 1.0</a>.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2022,
-  author = {Song, X. P. and Tan, E. Y. W. and Lee, S. K. R. and Sim, H.
-    J. and Nai, J. and Chong, K. Y.},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@software{x. p.2022,
+  author = {X. P. , Song and E. Y. W. , Tan and S. K. R. , Lee and H. J.
+    , Sim and J. , Nai and K. Y. , Chong},
   title = {Biodivercity: {An} {R} Package for Spatial Assessment of
     Biodiversity Across City Landscapes},
+  version = {0.1.0},
   date = {2022},
   url = {https://xp-song.github.io/posts/biodivercity},
   doi = {10.5281/zenodo.7410414},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2022" class="csl-entry quarto-appendix-citeas">
-Song, X. P., Tan, E. Y. W., Lee, S. K. R., Sim, H. J., Nai, J., and
-Chong, K. Y. 2022. <span>“Biodivercity: An R Package for Spatial
-Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/zenodo.7410414">https://doi.org/10.5281/zenodo.7410414</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2022" class="csl-entry quarto-appendix-citeas">
+X. P., Song, Tan E. Y. W., Lee S. K. R., Sim H. J., Nai J., and Chong K.
+Y. 2022. <span>“Biodivercity: An R Package for Spatial Assessment of
+Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/zenodo.7410414">https://doi.org/10.5281/zenodo.7410414</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Research</category>
@@ -227,7 +228,7 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption><p></p>
+<figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption>
 </figure>
 </div>
 </center>
@@ -237,13 +238,13 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/canal.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption>
 </figure>
 </div>
 </center>
@@ -253,7 +254,7 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/park-type.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption><p></p>
+<figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption>
 </figure>
 </div>
 </center>
@@ -263,13 +264,13 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/park-trails.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -279,19 +280,19 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/park-waterfronts.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/park-forests.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -301,7 +302,7 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption><p></p>
+<figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -311,7 +312,7 @@ Assessment of Biodiversity Across City Landscapes.”</span> <a href="https://do
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption>
 </figure>
 </div>
 <p><br></p>
@@ -364,8 +365,8 @@ Lin, C. (2021, March 4). <a href="https://www.channelnewsasia.com/news/singapore
 <li id="fn13"><p>Au-Yong, R. (2019, March 28). <a href="https://www.straitstimes.com/singapore/spore-to-have-1000ha-more-parks-and-park-connectors">Singapore to have 1,000ha more parks and park connectors</a>. <em>The Straits Times</em>.<br>
 Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focus-areas/city-in-nature/">City in Nature</a>.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2021,
-  author = {Song, X. P. and Chong, K. Y.},
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2021,
+  author = {X. P. , Song and K. Y. , Chong},
   title = {Home2park: {An} {R} Package to Assess the Spatial Provision
     of Urban Parks},
   journal = {Journal of Open Source Software},
@@ -377,8 +378,8 @@ Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focu
   doi = {10.21105/joss.03609},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas">
-Song, X. P., and Chong, K. Y. 2021. <span>“Home2park: An R Package to
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2021" class="csl-entry quarto-appendix-citeas">
+X. P., Song, and Chong K. Y. 2021. <span>“Home2park: An R Package to
 Assess the Spatial Provision of Urban Parks.”</span> <em>Journal of Open
 Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609">https://doi.org/10.21105/joss.03609</a>.
 </div></div></section></div> ]]></description>
@@ -403,16 +404,30 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <hr>
 <p>First, load the required R packages:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(tidyverse)</span>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
 <span id="cb1-2"></span>
-<span id="cb1-3"><span class="co" style="color: #5E5E5E;"># sentinel-2 data</span></span>
-<span id="cb1-4"><span class="fu" style="color: #4758AB;">library</span>(sen2r)</span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># sentinel-2 data</span></span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sen2r)</span>
 <span id="cb1-5"></span>
-<span id="cb1-6"><span class="co" style="color: #5E5E5E;"># image processing</span></span>
-<span id="cb1-7"><span class="fu" style="color: #4758AB;">library</span>(EBImage)</span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># image processing</span></span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(EBImage)</span>
 <span id="cb1-8"></span>
-<span id="cb1-9"><span class="co" style="color: #5E5E5E;"># spatial analysis</span></span>
-<span id="cb1-10"><span class="fu" style="color: #4758AB;">library</span>(terra)</span></code></pre></div>
+<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># spatial analysis</span></span>
+<span id="cb1-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(terra)</span></code></pre></div>
 </div>
 <p><br></p>
 <p>And here’s the raw shape file for our area of interest:</p>
@@ -422,7 +437,7 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/city-landcover-change/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="2100"></p>
-<p></p><figcaption class="figure-caption">Figure 1: Singapore subzone boundaries based on the <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019</a>.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 1: Singapore subzone boundaries based on the <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019</a>.</figcaption>
 </figure>
 </div>
 </div>
@@ -433,29 +448,103 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <h2 class="anchored" data-anchor-id="calculate-spectral-indices">Calculate spectral indices</h2>
 <p>To download Sentinel-2 images, we can use the R package <a href="http://sen2r.ranghetti.info"><code>sen2r</code></a> to programatically download the satellite data within a specified date range. It also allows us to run pre-processing steps such as cloud masking, atmospheric correction and the calculation of spectral indices.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;"># get search parameters</span></span>
-<span id="cb2-2">json_path <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">"&lt;PATH TO YOUR JSON FILE&gt;"</span></span>
-<span id="cb2-3"><span class="co" style="color: #5E5E5E;"># you can create this file by running 'sen2r()', then using the graphical user interface to specify &amp; save your parameters (e.g. max cloud cover per image, etc.)</span></span>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># get search parameters</span></span>
+<span id="cb2-2">json_path <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;PATH TO YOUR JSON FILE&gt;"</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># you can create this file by running 'sen2r()', then using the graphical user interface to specify &amp; save your parameters (e.g. max cloud cover per image, etc.)</span></span>
 <span id="cb2-4"></span>
 <span id="cb2-5"></span>
-<span id="cb2-6"><span class="co" style="color: #5E5E5E;"># download</span></span>
-<span id="cb2-7">out_paths <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sen2r</span>(</span>
-<span id="cb2-8">  <span class="at" style="color: #657422;">param_list =</span> json_path,</span>
-<span id="cb2-9">  <span class="at" style="color: #657422;">extent_as_mask =</span> <span class="cn" style="color: #8f5902;">TRUE</span>, <span class="co" style="color: #5E5E5E;"># mask the image based on your supplied shape file</span></span>
-<span id="cb2-10">  <span class="at" style="color: #657422;">list_rgb =</span> <span class="st" style="color: #20794D;">"RGB432B"</span> <span class="co" style="color: #5E5E5E;"># output RGB image</span></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># download</span></span>
+<span id="cb2-7">out_paths <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sen2r</span>(</span>
+<span id="cb2-8">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">param_list =</span> json_path,</span>
+<span id="cb2-9">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">extent_as_mask =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># mask the image based on your supplied shape file</span></span>
+<span id="cb2-10">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">list_rgb =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"RGB432B"</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># output RGB image</span></span>
 <span id="cb2-11">  )</span></code></pre></div>
 </div>
 <p>For each data type (e.g., spectral index), we can combine all raster images captured within the specified date range by averaging the pixel values across files (thus forming an image mosaic). This allows us to avoid relying on any one image for our analysis, and to deal with missing data (e.g., due to high cloud cover) during the period of interest. Depending on the data type, we can scale the values and remove outliers prior to forming the image mosaic. You might also want to consider parallelising the code if there are many files. Run the following code for each data type:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">filepaths <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">"&lt;PATHS TO YOUR PROCESSED FILES&gt;"</span></span>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">filepaths <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;PATHS TO YOUR PROCESSED FILES&gt;"</span></span>
 <span id="cb3-2"></span>
-<span id="cb3-3">images <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lapply</span>(filepaths, rast) <span class="co" style="color: #5E5E5E;"># import rasters as a list</span></span>
-<span id="cb3-4">mosaic <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">do.call</span>(terra<span class="sc" style="color: #5E5E5E;">::</span>mosaic, <span class="fu" style="color: #4758AB;">c</span>(images, <span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">fun =</span> <span class="st" style="color: #20794D;">"mean"</span>)))</span>
+<span id="cb3-3">images <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lapply</span>(filepaths, rast) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># import rasters as a list</span></span>
+<span id="cb3-4">mosaic <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">do.call</span>(terra<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span>mosaic, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(images, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mean"</span>)))</span>
 <span id="cb3-5"></span>
-<span id="cb3-6"><span class="co" style="color: #5E5E5E;"># export mosaic</span></span>
-<span id="cb3-7"><span class="fu" style="color: #4758AB;">writeRaster</span>(mosaic, <span class="st" style="color: #20794D;">"&lt;MOSAIC FILE NAME&gt;.tif"</span>,</span>
-<span id="cb3-8">            <span class="at" style="color: #657422;">wopt =</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">gdal=</span><span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"COMPRESS=LZW"</span>)), <span class="co" style="color: #5E5E5E;"># compress output</span></span>
-<span id="cb3-9">            <span class="at" style="color: #657422;">overwrite =</span> <span class="cn" style="color: #8f5902;">TRUE</span>)</span></code></pre></div>
+<span id="cb3-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># export mosaic</span></span>
+<span id="cb3-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">writeRaster</span>(mosaic, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;MOSAIC FILE NAME&gt;.tif"</span>,</span>
+<span id="cb3-8">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">wopt =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">gdal=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"COMPRESS=LZW"</span>)), <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># compress output</span></span>
+<span id="cb3-9">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">overwrite =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span></code></pre></div>
 </div>
 <p><br></p>
 </section>
@@ -463,14 +552,58 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <h2 class="anchored" data-anchor-id="classify-land-cover">Classify land cover</h2>
 <p>At this point, we have a single image mosaic (raster) for each spectral index. While the continuous values from these rasters may be used directly in analyses, there may be instances were we want to work with discrete classes of land cover. One method is to separate pixels into one of two classes (e.g., vegetated or non-vegetated; water or land), based on an adaptively derived threshold value. For example, we use Otsu’s thresholding (<a href="https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bio/otsu.pdf">Otsu, 1979</a>), which tends to outperform other techniques in terms of stability of results and processing speed, even with the presence of &gt; 2 peaks in the histogram of pixel values (<a href="https://www.tandfonline.com/doi/abs/10.1080/10106049.2018.1497094">Bouhennache et al., 2019</a>; see figure below). This may be implemented using the <a href="https://www.rdocumentation.org/packages/EBImage/versions/4.14.2/topics/otsu"><code>otsu()</code></a> function in <code>library(EBImage)</code>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">threshold_value <span class="ot" style="color: #003B4F;">&lt;-</span> EBImage<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">otsu</span>(mosaic, </span>
-<span id="cb4-2">                                 <span class="at" style="color: #657422;">range =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">1</span>), <span class="co" style="color: #5E5E5E;"># histogram range</span></span>
-<span id="cb4-3">                                 <span class="at" style="color: #657422;">levels =</span> <span class="dv" style="color: #AD0000;">256</span>) <span class="co" style="color: #5E5E5E;"># depends on image bit-depth</span></span>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">threshold_value <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> EBImage<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">otsu</span>(mosaic, </span>
+<span id="cb4-2">                                 <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">range =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># histogram range</span></span>
+<span id="cb4-3">                                 <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">levels =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">256</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># depends on image bit-depth</span></span>
 <span id="cb4-4"></span>
-<span id="cb4-5">classified <span class="ot" style="color: #003B4F;">&lt;-</span> mosaic <span class="co" style="color: #5E5E5E;"># duplicate</span></span>
+<span id="cb4-5">classified <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> mosaic <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># duplicate</span></span>
 <span id="cb4-6"></span>
-<span id="cb4-7">classified[mosaic <span class="sc" style="color: #5E5E5E;">&lt;</span> threshold_value] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">0</span> <span class="co" style="color: #5E5E5E;"># assign value of 0 for pixels below threshold (e.g. non-vegetated)</span></span>
-<span id="cb4-8">classified[mosaic <span class="sc" style="color: #5E5E5E;">&gt;=</span> threshold_value] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span> <span class="co" style="color: #5E5E5E;"># assign value of 1 for pixels above threshold (e.g. vegetated)</span></span></code></pre></div>
+<span id="cb4-7">classified[mosaic <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> threshold_value] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># assign value of 0 for pixels below threshold (e.g. non-vegetated)</span></span>
+<span id="cb4-8">classified[mosaic <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> threshold_value] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># assign value of 1 for pixels above threshold (e.g. vegetated)</span></span></code></pre></div>
 </div>
 <p>As an example, the following figure shows the distribution of the <a href="https://www.indexdatabase.de/db/i-single.php?id=58">Normalized Difference Vegetation Index</a> (NDVI) values of a raster image. The NDVI is a measure of healthy green vegetation, based on the tendency of plants to reflect NIR &amp; absorb red light. It ranges from -1 (non-vegetated) to 1 (densely vegetated). Pixels that fall within the range of different threshold values (vertical lines) may be classified into discrete land cover types. If we do this for multiple date ranges, we can examine differences between the two. For example, in our project, we are currently comparing image mosaics captured during 2016–2019 (Survey Round One) and those captured during 2019–2022 (Survey Round Two). Each spectral index can be processed in different ways, and often have different threshold values if they are used for land classification. For example, there are numerous other vegetation indices (e.g., NDRE, ARVI), as well as spectral indices used to classify water (e.g., NDWI) and built (e.g., NDBI) cover.</p>
 <center>
@@ -479,7 +612,7 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/NDVI.png" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption">Figure 2: Distribution of NDVI values across Singapore in Survey Round One (light green bars, dashed vertical lines) and Two (dark green bars, solid vertical lines). Vegetation was classified as pixel with values &gt; 0.35 for Round One and &gt; 0.36 for Round Two. Dense vegetation was classified as pixels with values &gt; 0.62 for Round One and &gt; 0.66 for Round Two, based on a second round of Otsu’s thresholding after the first round of classification.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 2: Distribution of NDVI values across Singapore in Survey Round One (light green bars, dashed vertical lines) and Two (dark green bars, solid vertical lines). Vegetation was classified as pixel with values &gt; 0.35 for Round One and &gt; 0.36 for Round Two. Dense vegetation was classified as pixels with values &gt; 0.62 for Round One and &gt; 0.66 for Round Two, based on a second round of Otsu’s thresholding after the first round of classification.</figcaption>
 </figure>
 </div>
 </div>
@@ -494,7 +627,7 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/ground-truthing.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 3: Screenshot showing vegetation derived from on-site surveys and satellite imagery at sampling points in Punggol, Singapore.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 3: Screenshot showing vegetation derived from on-site surveys and satellite imagery at sampling points in Punggol, Singapore.</figcaption>
 </figure>
 </div>
 </center>
@@ -503,7 +636,7 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/validation.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure 4: Area of (a) vegetation, (b) built and (c) water cover derived from Sentinel-2 compared with on-site surveys at sampling points.</figcaption><p></p>
+<figcaption class="figure-caption">Figure 4: Area of (a) vegetation, (b) built and (c) water cover derived from Sentinel-2 compared with on-site surveys at sampling points.</figcaption>
 </figure>
 </div>
 </center>
@@ -531,15 +664,15 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2021,
-  author = {Song, X. P.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x. p.2021,
+  author = {X. P. , Song},
   title = {Changes in a City’s Land Cover over Time},
   date = {2021-03-12},
   url = {https://xp-song.github.io/posts/city-landcover-change},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2021" class="csl-entry quarto-appendix-citeas">
-Song, X. P. 2021. <span>“Changes in a City’s Land Cover over
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2021" class="csl-entry quarto-appendix-citeas">
+X. P., Song. 2021. <span>“Changes in a City’s Land Cover over
 Time.”</span> March 12, 2021. <a href="https://xp-song.github.io/posts/city-landcover-change">https://xp-song.github.io/posts/city-landcover-change</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
@@ -593,15 +726,15 @@ Time.”</span> March 12, 2021. <a href="https://xp-song.github.io/posts/city-la
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2020,
-  author = {Song, X. P.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x. p.2020,
+  author = {X. P. , Song},
   title = {Analysing Spatial Patterns of the Landscape},
   date = {2020-02-01},
   url = {https://xp-song.github.io/posts/intro2r-spatial},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
-Song, X. P. 2020. <span>“Analysing Spatial Patterns of the
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2020" class="csl-entry quarto-appendix-citeas">
+X. P., Song. 2020. <span>“Analysing Spatial Patterns of the
 Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/intro2r-spatial">https://xp-song.github.io/posts/intro2r-spatial</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
@@ -619,9 +752,6 @@ Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/
 
 
 
-<div class="cell">
-
-</div>
 <p>This tutorial describes the workflow and R code that can be used to classify a large number of images into <em>discrete</em> categories, based on their content. The source documents are available on <a href="https://github.com/xp-song/photo-classify">GitHub</a>. This tutorial provides supplementary information to the following publication:</p>
 <blockquote class="blockquote">
 <p>Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks, <em>Scientific Reports</em>, <em>10</em>, 808. <a href="https://doi.org/10.1038/s41598-020-57864-4" class="uri">https://doi.org/10.1038/s41598-020-57864-4</a></p>
@@ -635,54 +765,90 @@ Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/
 <p>First few rows of the <code>photos</code> dataset:</p>
 <div class="cell">
 <div class="cell-output-display">
-
-<table class="table table-striped table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> photoid </th>
-   <th style="text-align:left;"> url </th>
-  </tr>
- </thead>
+<div class="table-responsive">
+<table class="table table-striped table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">photoid</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">url</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> 29993180834 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5641/29993180834_8179c87aa7_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 7002246829 </td>
-   <td style="text-align:left;"> https://farm7.staticflickr.com/6240/7002246829_d114f402e7_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 5466070643 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5216/5466070643_759428f4a5_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 16303185765 </td>
-   <td style="text-align:left;"> https://farm9.staticflickr.com/8571/16303185765_4dd4d48b7b_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 30414187771 </td>
-   <td style="text-align:left;"> https://farm6.staticflickr.com/5503/30414187771_5283977ca6_z.jpg </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 16065397248 </td>
-   <td style="text-align:left;"> https://farm9.staticflickr.com/8593/16065397248_7a6a0666b1_z.jpg </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">29993180834</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5641/29993180834_8179c87aa7_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7002246829</td>
+<td style="text-align: left;">https://farm7.staticflickr.com/6240/7002246829_d114f402e7_z.jpg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5466070643</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5216/5466070643_759428f4a5_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16303185765</td>
+<td style="text-align: left;">https://farm9.staticflickr.com/8571/16303185765_4dd4d48b7b_z.jpg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">30414187771</td>
+<td style="text-align: left;">https://farm6.staticflickr.com/5503/30414187771_5283977ca6_z.jpg</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16065397248</td>
+<td style="text-align: left;">https://farm9.staticflickr.com/8593/16065397248_7a6a0666b1_z.jpg</td>
+</tr>
 </tbody>
 </table>
+</div>
+
 
 </div>
 </div>
 <p>&nbsp;</p>
 <p>Plug-in your Google Cloud Platform credentials:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">require</span>(googleAuthR)</span>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(googleAuthR)</span>
 <span id="cb1-2"></span>
-<span id="cb1-3"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.client_id"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"xxx.apps.googleusercontent.com"</span>)</span>
-<span id="cb1-4"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.client_secret"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">""</span>)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">options</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"googleAuthR.client_id"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"xxx.apps.googleusercontent.com"</span>)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">options</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"googleAuthR.client_secret"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>)</span>
 <span id="cb1-5"></span>
-<span id="cb1-6"><span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"googleAuthR.scopes.selected"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"https://www.googleapis.com/auth/cloud-platform"</span>))</span>
-<span id="cb1-7">googleAuthR<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">gar_auth</span>() <span class="co" style="color: #5E5E5E;">#You will be directed to a weblink to sign-in with your account</span></span></code></pre></div>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">options</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"googleAuthR.scopes.selected"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://www.googleapis.com/auth/cloud-platform"</span>))</span>
+<span id="cb1-7">googleAuthR<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gar_auth</span>() <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#You will be directed to a weblink to sign-in with your account</span></span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <hr>
@@ -690,133 +856,293 @@ Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/
 <h1>Generate Keywords</h1>
 <p>Create a loop to send each photo URL to the Google Cloud Vision API, and append the results to <code>photos</code>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;">require</span>(RoogleVision) </span>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(RoogleVision) </span>
 <span id="cb2-2"></span>
-<span id="cb2-3"><span class="co" style="color: #5E5E5E;">#add extra columns for 10 x 3 rows of data (keyword, probability score, and topicality score)</span></span>
-<span id="cb2-4">photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">32</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NA</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#add extra columns for 10 x 3 rows of data (keyword, probability score, and topicality score)</span></span>
+<span id="cb2-4">photos[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">32</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span></span>
 <span id="cb2-5"></span>
 <span id="cb2-6"><span class="do" style="color: #5E5E5E;
+background-color: null;
 font-style: italic;">##Loop##</span></span>
-<span id="cb2-7"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(photos<span class="sc" style="color: #5E5E5E;">$</span>url)){ </span>
+<span id="cb2-7"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span>(i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(photos<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>url)){ </span>
 <span id="cb2-8"></span>
-<span id="cb2-9">  te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">getGoogleVisionResponse</span>(photos<span class="sc" style="color: #5E5E5E;">$</span>url[i], <span class="at" style="color: #657422;">feature=</span><span class="st" style="color: #20794D;">"LABEL_DETECTION"</span>, <span class="at" style="color: #657422;">numResults =</span> <span class="dv" style="color: #AD0000;">10</span>)</span>
+<span id="cb2-9">  te <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">getGoogleVisionResponse</span>(photos<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>url[i], <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">feature=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"LABEL_DETECTION"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">numResults =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>)</span>
 <span id="cb2-10">  </span>
-<span id="cb2-11">  <span class="co" style="color: #5E5E5E;">#If not successful, return NA matrix</span></span>
-<span id="cb2-12">  <span class="cf" style="color: #003B4F;">if</span>(<span class="fu" style="color: #4758AB;">length</span>(te)<span class="sc" style="color: #5E5E5E;">==</span><span class="dv" style="color: #AD0000;">1</span>){ te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="cn" style="color: #8f5902;">NA</span>, <span class="dv" style="color: #AD0000;">10</span>,<span class="dv" style="color: #AD0000;">4</span>)} </span>
-<span id="cb2-13">  <span class="cf" style="color: #003B4F;">if</span> (<span class="fu" style="color: #4758AB;">is.null</span>(te)){ te <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="cn" style="color: #8f5902;">NA</span>, <span class="dv" style="color: #AD0000;">10</span>,<span class="dv" style="color: #AD0000;">4</span>)}</span>
+<span id="cb2-11">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#If not successful, return NA matrix</span></span>
+<span id="cb2-12">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(te)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>){ te <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">matrix</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>)} </span>
+<span id="cb2-13">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.null</span>(te)){ te <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">matrix</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>)}</span>
 <span id="cb2-14">  </span>
-<span id="cb2-15">  te <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">4</span>]</span>
+<span id="cb2-15">  te <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>]</span>
 <span id="cb2-16">  </span>
-<span id="cb2-17">  <span class="co" style="color: #5E5E5E;">#if successful but no. of keywords &lt;10, put NAs in remaining rows</span></span>
-<span id="cb2-18">  <span class="cf" style="color: #003B4F;">if</span>(<span class="fu" style="color: #4758AB;">length</span>(te[,<span class="dv" style="color: #AD0000;">1</span>])<span class="sc" style="color: #5E5E5E;">&lt;</span><span class="dv" style="color: #AD0000;">10</span>){</span>
-<span id="cb2-19">    te[(<span class="fu" style="color: #4758AB;">length</span>(te[,<span class="dv" style="color: #AD0000;">1</span>])<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>,] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NA</span>}  </span>
+<span id="cb2-17">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#if successful but no. of keywords &lt;10, put NAs in remaining rows</span></span>
+<span id="cb2-18">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>){</span>
+<span id="cb2-19">    te[(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>}  </span>
 <span id="cb2-20">  </span>
-<span id="cb2-21">  <span class="co" style="color: #5E5E5E;">#Append all data</span></span>
-<span id="cb2-22">  photos[i, <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">1</span>] <span class="co" style="color: #5E5E5E;">#keywords</span></span>
-<span id="cb2-23">  photos[i, <span class="dv" style="color: #AD0000;">13</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">22</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">2</span>] <span class="co" style="color: #5E5E5E;">#probability scores</span></span>
-<span id="cb2-24">  photos[i, <span class="dv" style="color: #AD0000;">23</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">32</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;">3</span>] <span class="co" style="color: #5E5E5E;">#topicality scores</span></span>
+<span id="cb2-21">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Append all data</span></span>
+<span id="cb2-22">  photos[i, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#keywords</span></span>
+<span id="cb2-23">  photos[i, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">13</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">22</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#probability scores</span></span>
+<span id="cb2-24">  photos[i, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">23</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">32</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> te[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#topicality scores</span></span>
 <span id="cb2-25">  </span>
-<span id="cb2-26">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"&lt;row"</span>, i, <span class="st" style="color: #20794D;">"/"</span>, <span class="fu" style="color: #4758AB;">length</span>(photos[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="st" style="color: #20794D;">"&gt; "</span>)</span>
+<span id="cb2-26">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;row"</span>, i, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(photos[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&gt; "</span>)</span>
 <span id="cb2-27">  }</span></code></pre></div>
-</div>
-<div class="cell">
-
 </div>
 <p>&nbsp;</p>
 <p>Keyword results for the first few rows of the <code>photos</code> dataset:</p>
 <div class="cell" data-rownames.print="false" data-cols.print="5">
 <div class="cell-output-display">
-
-<table class="table table-striped table-condensed table-responsive" style="font-size: 12px; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> w1 </th>
-   <th style="text-align:left;"> w2 </th>
-   <th style="text-align:left;"> w3 </th>
-   <th style="text-align:left;"> w4 </th>
-   <th style="text-align:left;"> w5 </th>
-   <th style="text-align:left;"> w6 </th>
-   <th style="text-align:left;"> w7 </th>
-   <th style="text-align:left;"> w8 </th>
-   <th style="text-align:left;"> w9 </th>
-   <th style="text-align:left;"> w10 </th>
-  </tr>
- </thead>
+<div class="table-responsive">
+<table class="table table-striped table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">w1</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w2</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w3</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w4</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w5</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w6</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w7</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w8</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w9</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">w10</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> tree </td>
-   <td style="text-align:left;"> nature </td>
-   <td style="text-align:left;"> vegetation </td>
-   <td style="text-align:left;"> sky </td>
-   <td style="text-align:left;"> borassus flabellifer </td>
-   <td style="text-align:left;"> plant </td>
-   <td style="text-align:left;"> palm tree </td>
-   <td style="text-align:left;"> woody plant </td>
-   <td style="text-align:left;"> arecales </td>
-   <td style="text-align:left;"> tropics </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sea </td>
-   <td style="text-align:left;"> water </td>
-   <td style="text-align:left;"> wave </td>
-   <td style="text-align:left;"> ocean </td>
-   <td style="text-align:left;"> beach </td>
-   <td style="text-align:left;"> square </td>
-   <td style="text-align:left;"> calm </td>
-   <td style="text-align:left;"> surfing equipment and supplies </td>
-   <td style="text-align:left;"> surfboard </td>
-   <td style="text-align:left;"> horizon </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> bird </td>
-   <td style="text-align:left;"> fauna </td>
-   <td style="text-align:left;"> beak </td>
-   <td style="text-align:left;"> wren </td>
-   <td style="text-align:left;"> wildlife </td>
-   <td style="text-align:left;"> old world flycatcher </td>
-   <td style="text-align:left;"> piciformes </td>
-   <td style="text-align:left;"> woodpecker </td>
-   <td style="text-align:left;"> twig </td>
-   <td style="text-align:left;"> perching bird </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> plant </td>
-   <td style="text-align:left;"> flora </td>
-   <td style="text-align:left;"> leaf </td>
-   <td style="text-align:left;"> tree </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sitting </td>
-   <td style="text-align:left;"> leg </td>
-   <td style="text-align:left;"> fun </td>
-   <td style="text-align:left;"> vacation </td>
-   <td style="text-align:left;"> human body </td>
-   <td style="text-align:left;"> vehicle </td>
-   <td style="text-align:left;"> car </td>
-   <td style="text-align:left;"> hand </td>
-   <td style="text-align:left;"> muscle </td>
-   <td style="text-align:left;"> recreation </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> bird </td>
-   <td style="text-align:left;"> fauna </td>
-   <td style="text-align:left;"> beak </td>
-   <td style="text-align:left;"> finch </td>
-   <td style="text-align:left;"> feather </td>
-   <td style="text-align:left;"> wildlife </td>
-   <td style="text-align:left;"> perching bird </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">tree</td>
+<td style="text-align: left;">nature</td>
+<td style="text-align: left;">vegetation</td>
+<td style="text-align: left;">sky</td>
+<td style="text-align: left;">borassus flabellifer</td>
+<td style="text-align: left;">plant</td>
+<td style="text-align: left;">palm tree</td>
+<td style="text-align: left;">woody plant</td>
+<td style="text-align: left;">arecales</td>
+<td style="text-align: left;">tropics</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sea</td>
+<td style="text-align: left;">water</td>
+<td style="text-align: left;">wave</td>
+<td style="text-align: left;">ocean</td>
+<td style="text-align: left;">beach</td>
+<td style="text-align: left;">square</td>
+<td style="text-align: left;">calm</td>
+<td style="text-align: left;">surfing equipment and supplies</td>
+<td style="text-align: left;">surfboard</td>
+<td style="text-align: left;">horizon</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bird</td>
+<td style="text-align: left;">fauna</td>
+<td style="text-align: left;">beak</td>
+<td style="text-align: left;">wren</td>
+<td style="text-align: left;">wildlife</td>
+<td style="text-align: left;">old world flycatcher</td>
+<td style="text-align: left;">piciformes</td>
+<td style="text-align: left;">woodpecker</td>
+<td style="text-align: left;">twig</td>
+<td style="text-align: left;">perching bird</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">plant</td>
+<td style="text-align: left;">flora</td>
+<td style="text-align: left;">leaf</td>
+<td style="text-align: left;">tree</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sitting</td>
+<td style="text-align: left;">leg</td>
+<td style="text-align: left;">fun</td>
+<td style="text-align: left;">vacation</td>
+<td style="text-align: left;">human body</td>
+<td style="text-align: left;">vehicle</td>
+<td style="text-align: left;">car</td>
+<td style="text-align: left;">hand</td>
+<td style="text-align: left;">muscle</td>
+<td style="text-align: left;">recreation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bird</td>
+<td style="text-align: left;">fauna</td>
+<td style="text-align: left;">beak</td>
+<td style="text-align: left;">finch</td>
+<td style="text-align: left;">feather</td>
+<td style="text-align: left;">wildlife</td>
+<td style="text-align: left;">perching bird</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
 </tbody>
 </table>
+</div>
+
 
 </div>
 </div>
@@ -829,14 +1155,44 @@ font-style: italic;">##Loop##</span></span>
 <p>&nbsp;</p>
 <p>Set-up your machine for parallel computing:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;">require</span>(foreach)</span>
-<span id="cb3-2"><span class="fu" style="color: #4758AB;">require</span>(doParallel)</span>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(foreach)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(doParallel)</span>
 <span id="cb3-3"></span>
-<span id="cb3-4"><span class="co" style="color: #5E5E5E;">#setup parallel backend to use many processors</span></span>
-<span id="cb3-5"><span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"Number of cores = "</span>, <span class="fu" style="color: #4758AB;">detectCores</span>())</span>
-<span id="cb3-6">cl <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">makeCluster</span>(<span class="fu" style="color: #4758AB;">detectCores</span>(), <span class="at" style="color: #657422;">outfile=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">'./admin/info_parallel.log'</span>)) <span class="co" style="color: #5E5E5E;">#log file with info</span></span>
-<span id="cb3-7"><span class="fu" style="color: #4758AB;">registerDoParallel</span>(cl)</span>
-<span id="cb3-8"><span class="fu" style="color: #4758AB;">rm</span>(cl)</span></code></pre></div>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#setup parallel backend to use many processors</span></span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Number of cores = "</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">detectCores</span>())</span>
+<span id="cb3-6">cl <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">makeCluster</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">detectCores</span>(), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">outfile=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'./admin/info_parallel.log'</span>)) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#log file with info</span></span>
+<span id="cb3-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">registerDoParallel</span>(cl)</span>
+<span id="cb3-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(cl)</span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Before we begin clustering the entire dataset, however, we need to find out how many clusters to group the photos into. If your dataset is large, it may be better to first test the outcomes of different numbers of clusters on a <strong><em>subset</em></strong> of your data. <em>If so, proceed with the following <strong>two</strong> sub-sections on a <strong>random subset</strong> of your data, before re-running the <strong>first</strong> sub-section (<strong>A. Distance matrix and clustering</strong>) the with the <strong>full</strong> dataset.</em></p>
@@ -846,73 +1202,330 @@ font-style: italic;">##Loop##</span></span>
 <h2 class="anchored" data-anchor-id="A">A. Distance matrix and clustering</h2>
 <p>Extract all the unique keywords across <code>photos</code> (or subset of <code>photos</code>):</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">words <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">unlist</span>(photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>])</span>
-<span id="cb4-2">words <span class="ot" style="color: #003B4F;">&lt;-</span> words[<span class="sc" style="color: #5E5E5E;">!</span><span class="fu" style="color: #4758AB;">duplicated</span>(words)] <span class="co" style="color: #5E5E5E;">#list of unique keywords</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">words <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unlist</span>(photos[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>])</span>
+<span id="cb4-2">words <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> words[<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">duplicated</span>(words)] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#list of unique keywords</span></span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Next, we convert <code>photos</code> into a binary format and name it <code>wordscore</code>, with each row representing a photo, and each column representing a keyword. “1” is added if the word is present. We then convert <code>wordscore</code> into a sparse matrix. This will help reduce the load on the computer’s RAM, especially if the photo dataset is very large.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;">#parallel loop:</span></span>
-<span id="cb5-2">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">foreach</span>(<span class="at" style="color: #657422;">i =</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(photos[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="at" style="color: #657422;">.combine=</span>rbind) <span class="sc" style="color: #5E5E5E;">%dopar%</span> {</span>
-<span id="cb5-3">  vec <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">vector</span>(<span class="at" style="color: #657422;">mode =</span> <span class="st" style="color: #20794D;">"integer"</span>,<span class="at" style="color: #657422;">length =</span> <span class="fu" style="color: #4758AB;">length</span>(words))</span>
-<span id="cb5-4">  a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">match</span>(photos[i,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>], words)</span>
-<span id="cb5-5">  vec[a] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span></span>
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#parallel loop:</span></span>
+<span id="cb5-2">wordscore <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">foreach</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">i =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(photos[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">.combine=</span>rbind) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%dopar%</span> {</span>
+<span id="cb5-3">  vec <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">vector</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mode =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"integer"</span>,<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">length =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(words))</span>
+<span id="cb5-4">  a <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">match</span>(photos[i,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>], words)</span>
+<span id="cb5-5">  vec[a] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
 <span id="cb5-6">  </span>
-<span id="cb5-7">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">" row "</span>, i), <span class="at" style="color: #657422;">file=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">"admin/log_wordscore.txt"</span>), <span class="at" style="color: #657422;">append=</span><span class="cn" style="color: #8f5902;">TRUE</span>) <span class="co" style="color: #5E5E5E;">#The loop's progress will be printed in this file</span></span>
+<span id="cb5-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" row "</span>, i), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"admin/log_wordscore.txt"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">append=</span><span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#The loop's progress will be printed in this file</span></span>
 <span id="cb5-8">  vec</span>
 <span id="cb5-9">}</span>
-<span id="cb5-10"><span class="fu" style="color: #4758AB;">colnames</span>(wordscore) <span class="ot" style="color: #003B4F;">&lt;-</span> words</span>
-<span id="cb5-11"><span class="fu" style="color: #4758AB;">rownames</span>(wordscore) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NULL</span></span>
-<span id="cb5-12">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> wordscore[,<span class="sc" style="color: #5E5E5E;">!</span><span class="fu" style="color: #4758AB;">is.na</span>(<span class="fu" style="color: #4758AB;">colnames</span>(wordscore))] <span class="co" style="color: #5E5E5E;">#remove 'NA' keyword if present</span></span>
+<span id="cb5-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(wordscore) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> words</span>
+<span id="cb5-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rownames</span>(wordscore) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span></span>
+<span id="cb5-12">wordscore <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> wordscore[,<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(wordscore))] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#remove 'NA' keyword if present</span></span>
 <span id="cb5-13"></span>
-<span id="cb5-14"><span class="fu" style="color: #4758AB;">library</span>(Matrix) </span>
-<span id="cb5-15">wordscore <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">Matrix</span>(wordscore, <span class="at" style="color: #657422;">sparse =</span> <span class="cn" style="color: #8f5902;">TRUE</span>)  <span class="co" style="color: #5E5E5E;">#convert to sparseMatrix to save memory</span></span></code></pre></div>
+<span id="cb5-14"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(Matrix) </span>
+<span id="cb5-15">wordscore <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Matrix</span>(wordscore, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sparse =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#convert to sparseMatrix to save memory</span></span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>In the binary format, <code>wordscore</code> can now be converted into a distance matrix. To have a fair assessment of the similarity (and thus the distance) between two photos, we need to take into account if they have the same number of keywords generated. The Jaccard Index is used in the calculation, where the number of common keywords is divided by the total number of unique keywords between two photos.</p>
 <p>To start with, we find out how many keywords each photo has (up to ten), and save the results as the vector <code>lengword</code>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">narmlength <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(x){<span class="dv" style="color: #AD0000;">10</span><span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">sum</span>(<span class="fu" style="color: #4758AB;">is.na</span>(x))} <span class="co" style="color: #5E5E5E;">#create function</span></span>
-<span id="cb6-2">lengword <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">apply</span>(photos[,<span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>], <span class="dv" style="color: #AD0000;">1</span>, narmlength) <span class="co" style="color: #5E5E5E;">#apply function</span></span></code></pre></div>
-</div>
-<div class="cell">
-
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">narmlength <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">function</span>(x){<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(x))} <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#create function</span></span>
+<span id="cb6-2">lengword <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apply</span>(photos[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, narmlength) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#apply function</span></span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Next, the similarity between each photo and all other photos is calculated manually in a loop, based on the Jaccard Index. Since most photos do not share keywords, the similarity value will tend to be “0” (less strain on computer’s RAM). The similarity matrix (loop output) is then converted into a distance matrix, and subsequently converted into a ‘<code>dist</code>’ object.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">simimat <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">foreach</span>(<span class="at" style="color: #657422;">i =</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(wordscore[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="at" style="color: #657422;">.packages =</span> <span class="st" style="color: #20794D;">"Matrix"</span>, <span class="at" style="color: #657422;">.combine=</span>cbind) <span class="sc" style="color: #5E5E5E;">%dopar%</span> {</span>
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">simimat <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">foreach</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">i =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(wordscore[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">.packages =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Matrix"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">.combine=</span>cbind) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%dopar%</span> {</span>
 <span id="cb7-2">  </span>
-<span id="cb7-3">  ws <span class="ot" style="color: #003B4F;">&lt;-</span> wordscore[,<span class="fu" style="color: #4758AB;">which</span>(wordscore[i,] <span class="sc" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">1</span>)] <span class="co" style="color: #5E5E5E;">#for each photo, find the other photos (rows) with its keywords (cols)</span></span>
+<span id="cb7-3">  ws <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> wordscore[,<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">which</span>(wordscore[i,] <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#for each photo, find the other photos (rows) with its keywords (cols)</span></span>
 <span id="cb7-4">  </span>
-<span id="cb7-5">  simi <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">round</span>(<span class="fu" style="color: #4758AB;">apply</span>(<span class="fu" style="color: #4758AB;">as.matrix</span>(ws),<span class="dv" style="color: #AD0000;">1</span>,sum, <span class="at" style="color: #657422;">na.rm=</span>T)<span class="sc" style="color: #5E5E5E;">/</span>(lengword<span class="sc" style="color: #5E5E5E;">+</span>lengword[i]),<span class="dv" style="color: #AD0000;">2</span>) <span class="co" style="color: #5E5E5E;">#Jaccard index</span></span>
+<span id="cb7-5">  simi <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">round</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apply</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.matrix</span>(ws),<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,sum, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">na.rm=</span>T)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(lengword<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>lengword[i]),<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Jaccard index</span></span>
 <span id="cb7-6">  </span>
-<span id="cb7-7">  simi[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span>i] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">0</span> <span class="co" style="color: #5E5E5E;">#only fill half the matrix</span></span>
-<span id="cb7-8">  simi[i] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span></span>
+<span id="cb7-7">  simi[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>i] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#only fill half the matrix</span></span>
+<span id="cb7-8">  simi[i] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
 <span id="cb7-9">  </span>
-<span id="cb7-10">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="fu" style="color: #4758AB;">paste</span>(<span class="st" style="color: #20794D;">"row"</span>,i), <span class="at" style="color: #657422;">file=</span><span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">"admin/log_simimat.txt"</span>), <span class="at" style="color: #657422;">append=</span><span class="cn" style="color: #8f5902;">TRUE</span>)</span>
+<span id="cb7-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"row"</span>,i), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"admin/log_simimat.txt"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">append=</span><span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span>
 <span id="cb7-11">  </span>
 <span id="cb7-12">  simi</span>
 <span id="cb7-13">}</span>
 <span id="cb7-14"></span>
-<span id="cb7-15"><span class="fu" style="color: #4758AB;">colnames</span>(simimat) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">NULL</span></span>
-<span id="cb7-16"><span class="fu" style="color: #4758AB;">rm</span>(wordscore, lengword)</span>
+<span id="cb7-15"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(simimat) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span></span>
+<span id="cb7-16"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(wordscore, lengword)</span>
 <span id="cb7-17"></span>
 <span id="cb7-18"></span>
-<span id="cb7-19"><span class="co" style="color: #5E5E5E;">#convert similarity to distance</span></span>
-<span id="cb7-20">distmat <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span>simimat</span>
-<span id="cb7-21"><span class="fu" style="color: #4758AB;">rm</span>(simimat)</span>
+<span id="cb7-19"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#convert similarity to distance</span></span>
+<span id="cb7-20">distmat <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>simimat</span>
+<span id="cb7-21"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(simimat)</span>
 <span id="cb7-22"></span>
-<span id="cb7-23"><span class="co" style="color: #5E5E5E;">#Convert to a 'dist' object</span></span>
-<span id="cb7-24">dm <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.dist</span>(distmat)</span></code></pre></div>
+<span id="cb7-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Convert to a 'dist' object</span></span>
+<span id="cb7-24">dm <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.dist</span>(distmat)</span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Finally, we perform hierarchical clustering of photos, using Ward’s distance:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">require</span>(fastcluster)</span>
-<span id="cb8-2"><span class="fu" style="color: #4758AB;">require</span>(graphics)</span>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(fastcluster)</span>
+<span id="cb8-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(graphics)</span>
 <span id="cb8-3"></span>
-<span id="cb8-4">cluz <span class="ot" style="color: #003B4F;">&lt;-</span> fastcluster<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">hclust</span>(dm, <span class="st" style="color: #20794D;">"ward.D2"</span>)</span></code></pre></div>
+<span id="cb8-4">cluz <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> fastcluster<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hclust</span>(dm, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ward.D2"</span>)</span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p><em>Go to ‘<strong>B. How many clusters?</strong>’ if the number of photo categories has not been determined.</em></p>
@@ -929,57 +1542,284 @@ font-style: italic;">##Loop##</span></span>
 <p>&nbsp;</p>
 <p>First, decide up to how many clusters (<em>k</em>) to test for. In this example, we test <em>k</em> from 2 to 20, and save it as the vector <code>scenarios</code> (19 scenarios):</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">scenarios <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(<span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">20</span>))</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">scenarios <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>))</span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Create a function to measure the difference between within- and between-cluster variation across all photos. Run the function for different <em>k</em> values in <code>scenarios</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">differ <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(dist, gr, pos){</span>
-<span id="cb10-2">  <span class="co" style="color: #5E5E5E;">#dist is a single photo's vector of distances with all others</span></span>
-<span id="cb10-3">  <span class="co" style="color: #5E5E5E;">#gr is the vector output of grp membership across all photos</span></span>
-<span id="cb10-4">  <span class="co" style="color: #5E5E5E;">#pos is the position of the single photo in length(distmat[1,])</span></span>
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">differ <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">function</span>(dist, gr, pos){</span>
+<span id="cb10-2">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#dist is a single photo's vector of distances with all others</span></span>
+<span id="cb10-3">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#gr is the vector output of grp membership across all photos</span></span>
+<span id="cb10-4">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#pos is the position of the single photo in length(distmat[1,])</span></span>
 <span id="cb10-5">  </span>
-<span id="cb10-6">  gr2 <span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(gr)) <span class="co" style="color: #5E5E5E;">#vector of "0"s</span></span>
-<span id="cb10-7">  gr2[gr<span class="sc" style="color: #5E5E5E;">==</span>gr[pos]] <span class="ot" style="color: #003B4F;">&lt;-</span><span class="dv" style="color: #AD0000;">1</span> <span class="co" style="color: #5E5E5E;">#Which photos are in same cluster as the photo of interest?</span></span>
-<span id="cb10-8">  gr3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">tapply</span>(dist,gr2, mean) <span class="co" style="color: #5E5E5E;">#2 values generated: (1) mean distance compared to photos in other clusters, &amp; (2) compared to photos within same cluster. Minus values from one to convert to similarity value.</span></span>
-<span id="cb10-9">  gr3[<span class="dv" style="color: #AD0000;">2</span>]<span class="sc" style="color: #5E5E5E;">-</span>gr3[<span class="dv" style="color: #AD0000;">1</span>] <span class="co" style="color: #5E5E5E;">#within-cluster minus between-cluster similarity (larger value means clusters are very different)</span></span>
+<span id="cb10-6">  gr2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(gr)) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#vector of "0"s</span></span>
+<span id="cb10-7">  gr2[gr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span>gr[pos]] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Which photos are in same cluster as the photo of interest?</span></span>
+<span id="cb10-8">  gr3 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tapply</span>(dist,gr2, mean) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#2 values generated: (1) mean distance compared to photos in other clusters, &amp; (2) compared to photos within same cluster. Minus values from one to convert to similarity value.</span></span>
+<span id="cb10-9">  gr3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>gr3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#within-cluster minus between-cluster similarity (larger value means clusters are very different)</span></span>
 <span id="cb10-10">}</span>
 <span id="cb10-11"></span>
 <span id="cb10-12"></span>
-<span id="cb10-13"><span class="co" style="color: #5E5E5E;">#Run function for different scenarios (numbers of clusters):</span></span>
-<span id="cb10-14"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span>(<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)){</span>
-<span id="cb10-15">  grp <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cutree</span>(cluz, <span class="at" style="color: #657422;">k=</span>i)  <span class="co" style="color: #5E5E5E;">#cutree returns vector of grp memberships across all photos</span></span>
+<span id="cb10-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Run function for different scenarios (numbers of clusters):</span></span>
+<span id="cb10-14"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span>(i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)){</span>
+<span id="cb10-15">  grp <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cutree</span>(cluz, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">k=</span>i)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#cutree returns vector of grp memberships across all photos</span></span>
 <span id="cb10-16">  </span>
-<span id="cb10-17">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">&lt;&lt; Working on scenario k ="</span>, i, <span class="st" style="color: #20794D;">"/"</span>, (<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>), <span class="st" style="color: #20794D;">"&gt;&gt;</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">"</span>)</span>
+<span id="cb10-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">&lt;&lt; Working on scenario k ="</span>, i, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>, (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&gt;&gt;</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
 <span id="cb10-18">  </span>
-<span id="cb10-19">  alldiffer <span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">numeric</span>(<span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>])) <span class="co" style="color: #5E5E5E;">#vector of "0"s"</span></span>
+<span id="cb10-19">  alldiffer <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(distmat[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#vector of "0"s"</span></span>
 <span id="cb10-20">  </span>
-<span id="cb10-21">  <span class="cf" style="color: #003B4F;">for</span>(j <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>])){ <span class="co" style="color: #5E5E5E;">#run function for each photo (across rows)</span></span>
-<span id="cb10-22">    alldiffer[j]<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">differ</span>(distmat[j,], grp, j )</span>
+<span id="cb10-21">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span>(j <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(distmat[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])){ <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#run function for each photo (across rows)</span></span>
+<span id="cb10-22">    alldiffer[j]<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">differ</span>(distmat[j,], grp, j )</span>
 <span id="cb10-23">    </span>
-<span id="cb10-24">    <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"&lt;row"</span>, j, <span class="st" style="color: #20794D;">"/"</span>, <span class="fu" style="color: #4758AB;">length</span>(distmat[,<span class="dv" style="color: #AD0000;">1</span>]), <span class="st" style="color: #20794D;">"photos&gt;"</span>)</span>
+<span id="cb10-24">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;row"</span>, j, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(distmat[,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"photos&gt;"</span>)</span>
 <span id="cb10-25">    </span>
 <span id="cb10-26">  }</span>
-<span id="cb10-27">  scenarios[i<span class="dv" style="color: #AD0000;">-1</span>]<span class="ot" style="color: #003B4F;">&lt;-</span><span class="fu" style="color: #4758AB;">mean</span>(alldiffer) <span class="co" style="color: #5E5E5E;">#find out the mean difference for each scenario (k)</span></span>
+<span id="cb10-27">  scenarios[i<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-1</span>]<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mean</span>(alldiffer) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#find out the mean difference for each scenario (k)</span></span>
 <span id="cb10-28">  </span>
-<span id="cb10-29">  <span class="fu" style="color: #4758AB;">cat</span>(<span class="st" style="color: #20794D;">"</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">&lt;&lt; Scenario k ="</span>, i, <span class="st" style="color: #20794D;">"COMPLETE &gt;&gt;"</span>)</span>
+<span id="cb10-29">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">&lt;&lt; Scenario k ="</span>, i, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"COMPLETE &gt;&gt;"</span>)</span>
 <span id="cb10-30">}</span>
 <span id="cb10-31"></span>
 <span id="cb10-32"></span>
-<span id="cb10-33"><span class="co" style="color: #5E5E5E;">#Create dataframe</span></span>
-<span id="cb10-34">scenarios <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cbind.data.frame</span>(<span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">2</span>,(<span class="fu" style="color: #4758AB;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>),<span class="dv" style="color: #AD0000;">1</span>), <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">-</span>scenarios) <span class="co" style="color: #5E5E5E;">#convert to distance</span></span>
-<span id="cb10-35"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>, <span class="st" style="color: #20794D;">"distance"</span>)</span></code></pre></div>
+<span id="cb10-33"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Create dataframe</span></span>
+<span id="cb10-34">scenarios <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cbind.data.frame</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>,(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(scenarios)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>),<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>scenarios) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#convert to distance</span></span>
+<span id="cb10-35"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"k"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"distance"</span>)</span></code></pre></div>
 </div>
 <p>Do note that the small number of photos in our example produces a relatively straight curve. To help with visualisation, we can also calculate the marginal change in the distance:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">length</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance)){</span>
-<span id="cb11-2">  scenarios[i,<span class="dv" style="color: #AD0000;">3</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance[i<span class="dv" style="color: #AD0000;">-1</span>]<span class="sc" style="color: #5E5E5E;">-</span>scenarios<span class="sc" style="color: #5E5E5E;">$</span>distance[i]</span>
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span>(i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>distance)){</span>
+<span id="cb11-2">  scenarios[i,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>distance[i<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-1</span>]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>distance[i]</span>
 <span id="cb11-3">}</span>
 <span id="cb11-4"></span>
-<span id="cb11-5"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>,<span class="st" style="color: #20794D;">"distance"</span>,<span class="st" style="color: #20794D;">"marginalDelta"</span>)</span></code></pre></div>
-</div>
-<div class="cell">
-
+<span id="cb11-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"k"</span>,<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"distance"</span>,<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"marginalDelta"</span>)</span></code></pre></div>
 </div>
 <p>Here are plots of the results across different clustering scenarios:</p>
 <div class="cell quarto-layout-panel" data-fig.asp="1" data-fig.ncol="2">
@@ -989,41 +1829,147 @@ font-style: italic;">##Loop##</span></span>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/photo-classify/assets/cluster_results.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption><p></p>
+<figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption>
 </figure>
 </div>
 </center>
 <p>&nbsp;</p>
 <p>Since such plots may not always allow us to visually determine the appropriate number of photo clusters, we can also use the L-Method as described in Salvador and Chan (2004). To do so, we plot possible pairs of best-fit lines to the curve, and calculate the total root mean squared error (RMSE) for each pair. The lowest RMSE value is used to determine the number of clusters.</p>
 <div class="cell">
-
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="fu" style="color: #4758AB;">require</span>(rgl)</span>
-<span id="cb12-2"><span class="fu" style="color: #4758AB;">require</span>(qpcR)</span>
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(rgl)</span>
+<span id="cb12-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">require</span>(qpcR)</span>
 <span id="cb12-3"></span>
-<span id="cb12-4"><span class="co" style="color: #5E5E5E;">#Best-fit line equation:</span></span>
-<span id="cb12-5">mod1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lm</span>(distance <span class="sc" style="color: #5E5E5E;">~</span> k, <span class="at" style="color: #657422;">data =</span> scenarios)</span>
+<span id="cb12-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Best-fit line equation:</span></span>
+<span id="cb12-5">mod1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lm</span>(distance <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> k, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> scenarios)</span>
 <span id="cb12-6"></span>
 <span id="cb12-7"></span>
-<span id="cb12-8"><span class="co" style="color: #5E5E5E;">#Equation from Salvador &amp; Chan (2004):</span></span>
-<span id="cb12-9"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">2</span>)){  <span class="co" style="color: #5E5E5E;">#lowest value the 'knee' can be at is 3</span></span>
-<span id="cb12-10">  rmse <span class="ot" style="color: #003B4F;">&lt;-</span>  ((i<span class="dv" style="color: #AD0000;">-1</span>)<span class="sc" style="color: #5E5E5E;">/</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">*</span>(<span class="fu" style="color: #4758AB;">RMSE</span>(mod1, <span class="at" style="color: #657422;">which =</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span>i))) <span class="sc" style="color: #5E5E5E;">+</span> (((<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span>i)<span class="sc" style="color: #5E5E5E;">/</span>(<span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)<span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">1</span>))<span class="sc" style="color: #5E5E5E;">*</span><span class="fu" style="color: #4758AB;">RMSE</span>(mod1, <span class="at" style="color: #657422;">which =</span> (i<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span>)<span class="sc" style="color: #5E5E5E;">:</span><span class="fu" style="color: #4758AB;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;">$</span>k)))</span>
-<span id="cb12-11">scenarios[i<span class="dv" style="color: #AD0000;">-1</span>,<span class="dv" style="color: #AD0000;">4</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> rmse</span>
+<span id="cb12-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Equation from Salvador &amp; Chan (2004):</span></span>
+<span id="cb12-9"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span>(i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>k)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)){  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#lowest value the 'knee' can be at is 3</span></span>
+<span id="cb12-10">  rmse <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span>  ((i<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-1</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>k)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">RMSE</span>(mod1, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">which =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>i))) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> (((<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>k)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>i)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>k)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>))<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">RMSE</span>(mod1, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">which =</span> (i<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(scenarios<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>k)))</span>
+<span id="cb12-11">scenarios[i<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">-1</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> rmse</span>
 <span id="cb12-12">}</span>
 <span id="cb12-13"></span>
-<span id="cb12-14"><span class="fu" style="color: #4758AB;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"k"</span>,<span class="st" style="color: #20794D;">"distance"</span>, <span class="st" style="color: #20794D;">"marginalDelta"</span>, <span class="st" style="color: #20794D;">"Lrmse"</span>)</span></code></pre></div>
+<span id="cb12-14"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(scenarios) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"k"</span>,<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"distance"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"marginalDelta"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Lrmse"</span>)</span></code></pre></div>
 </div>
 <p>&nbsp;</p>
 <p>Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value is where k = <code>11</code>. This is the ‘knee’ of the graph. Note that there are a roughly balanced number of points on either side of this value.</p>
-<div class="cell" data-layout-align="center">
-
-</div>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/photo-classify/assets/rmse.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption><p></p>
+<figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption>
 </figure>
 </div>
 </center>
@@ -1037,13 +1983,70 @@ font-style: italic;">##Loop##</span></span>
 <h1>Visualise Results</h1>
 <p>Finally, classify the full dataset into <code>11</code> clusters:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">grp <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cutree</span>(cluz, <span class="at" style="color: #657422;">k=</span><span class="dv" style="color: #AD0000;">11</span>)</span>
-<span id="cb13-2">photos <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">cbind.data.frame</span>(photos, grp, <span class="at" style="color: #657422;">stringsAsFactors =</span> <span class="cn" style="color: #8f5902;">FALSE</span>) <span class="co" style="color: #5E5E5E;">#Final dataframe</span></span>
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">grp <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cutree</span>(cluz, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">k=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>)</span>
+<span id="cb13-2">photos <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cbind.data.frame</span>(photos, grp, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">stringsAsFactors =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Final dataframe</span></span>
 <span id="cb13-3"></span>
 <span id="cb13-4"><span class="do" style="color: #5E5E5E;
+background-color: null;
 font-style: italic;">##Plot##</span></span>
-<span id="cb13-5"><span class="fu" style="color: #4758AB;">plot</span>(<span class="fu" style="color: #4758AB;">as.dendrogram</span>(cluz), <span class="at" style="color: #657422;">sub =</span> <span class="st" style="color: #20794D;">""</span>, <span class="at" style="color: #657422;">xlab =</span><span class="st" style="color: #20794D;">""</span>, <span class="at" style="color: #657422;">ylab =</span> <span class="st" style="color: #20794D;">"Height"</span>, <span class="at" style="color: #657422;">main =</span> <span class="st" style="color: #20794D;">"Hierarchical clustering of photos into 11 categories"</span>, <span class="at" style="color: #657422;">cex.main =</span> <span class="fl" style="color: #AD0000;">0.95</span>, <span class="at" style="color: #657422;">leaflab =</span> <span class="st" style="color: #20794D;">"none"</span>)</span>
-<span id="cb13-6"><span class="fu" style="color: #4758AB;">rect.hclust</span>(cluz, <span class="at" style="color: #657422;">k =</span> <span class="dv" style="color: #AD0000;">11</span>, <span class="at" style="color: #657422;">border =</span> <span class="st" style="color: #20794D;">"red"</span>)</span></code></pre></div>
+<span id="cb13-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.dendrogram</span>(cluz), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sub =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Height"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Hierarchical clustering of photos into 11 categories"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">cex.main =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.95</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">leaflab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"none"</span>)</span>
+<span id="cb13-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rect.hclust</span>(cluz, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">k =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">border =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"red"</span>)</span></code></pre></div>
 </div>
 <p><img src="https://xp-song.github.io/posts/photo-classify/assets/visual.png" class="img-fluid"></p>
 <p><br></p>
@@ -1052,8 +2055,8 @@ font-style: italic;">##Plot##</span></span>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2020,
-  author = {Song, X. P. and Richards, D.R. and Tan, P.Y.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2020,
+  author = {X. P. , Song and D.R. , Richards and P.Y. , Tan},
   title = {Using Social Media User Attributes to Understand
     Human–Environment Interactions at Urban Parks},
   journal = {Scientific Reports},
@@ -1064,10 +2067,10 @@ font-style: italic;">##Plot##</span></span>
   doi = {10.1038/s41598-020-57864-4},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
-Song, X. P., Richards, D.R., and Tan, P.Y. 2020. <span>“Using Social
-Media User Attributes to Understand Human–Environment Interactions at
-Urban Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https://doi.org/10.1038/s41598-020-57864-4">https://doi.org/10.1038/s41598-020-57864-4</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2020" class="csl-entry quarto-appendix-citeas">
+X. P., Song, Richards D.R., and Tan P.Y. 2020. <span>“Using Social Media
+User Attributes to Understand Human–Environment Interactions at Urban
+Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https://doi.org/10.1038/s41598-020-57864-4">https://doi.org/10.1038/s41598-020-57864-4</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Research</category>
@@ -1120,15 +2123,15 @@ Urban Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="h
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x.p.2019,
-  author = {Song, X. P.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{x. p.2019,
+  author = {X. P. , Song},
   title = {A Crash Course in {R} Programming},
   date = {2019-07-12},
   url = {https://xp-song.github.io/posts/intro2r},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2019" class="csl-entry quarto-appendix-citeas">
-Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2019" class="csl-entry quarto-appendix-citeas">
+X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
 12, 2019. <a href="https://xp-song.github.io/posts/intro2r">https://xp-song.github.io/posts/intro2r</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
@@ -1152,7 +2155,7 @@ Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
-<p></p><figcaption class="figure-caption">Tree species within benefit–cost assessments performed worldwide. Figure from Song et al.&nbsp;(2018).</figcaption><p></p>
+<figcaption class="figure-caption">Tree species within benefit–cost assessments performed worldwide. Figure from Song et al.&nbsp;(2018).</figcaption>
 </figure>
 </div>
 </center>
@@ -1162,7 +2165,7 @@ Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_allometree-maps.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al.&nbsp;(2020).</figcaption><p></p>
+<figcaption class="figure-caption">Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al.&nbsp;(2020).</figcaption>
 </figure>
 </div>
 </center>
@@ -1177,7 +2180,7 @@ Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_workflow.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al.&nbsp;(2020).</figcaption><p></p>
+<figcaption class="figure-caption">Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al.&nbsp;(2020).</figcaption>
 </figure>
 </div>
 </center>
@@ -1195,9 +2198,9 @@ Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2020,
-  author = {Song, X. P. and Lai, H. R. and Wijedasa, L. S. and Tan, P.
-    Y. and Edwards, P. J. and Richards, D. R.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2020,
+  author = {X. P. , Song and H. R. , Lai and L. S. , Wijedasa and P. Y.
+    , Tan and P. J. , Edwards and D. R. , Richards},
   title = {Height–Diameter Allometry for the Management of City Trees in
     the Tropics},
   journal = {Environmental Research Letters},
@@ -1208,11 +2211,11 @@ Song, X. P. 2019. <span>“A Crash Course in R Programming.”</span> July
   doi = {10.1088/1748-9326/abbbad},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2020" class="csl-entry quarto-appendix-citeas">
-Song, X. P., Lai, H. R., Wijedasa, L. S., Tan, P. Y., Edwards, P. J.,
-and Richards, D. R. 2020. <span>“Height–Diameter Allometry for the
-Management of City Trees in the Tropics.”</span> <em>Environmental
-Research Letters</em> 15: 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad">https://doi.org/10.1088/1748-9326/abbbad</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2020" class="csl-entry quarto-appendix-citeas">
+X. P., Song, Lai H. R., Wijedasa L. S., Tan P. Y., Edwards P. J., and
+Richards D. R. 2020. <span>“Height–Diameter Allometry for the Management
+of City Trees in the Tropics.”</span> <em>Environmental Research
+Letters</em> 15: 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad">https://doi.org/10.1088/1748-9326/abbbad</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Research</category>

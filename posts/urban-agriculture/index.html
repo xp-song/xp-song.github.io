@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
@@ -72,12 +73,23 @@ gtag('js', new Date());
 gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
 </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      color: #242F36;
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #242F36;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #242F36;
 background-image: url(featured_transparent.jpg);
 background-size: cover;
-    }
-    </style>
+      }
+</style>
 
 
 <meta property="og:title" content="XP Song - Feasibility of urban farming in compact cities">
@@ -87,10 +99,8 @@ background-size: cover;
 <meta property="og:image:alt" content="Image by BrightAgrotech from Pixabay">
 <meta name="twitter:title" content="XP Song - Feasibility of urban farming in compact cities">
 <meta name="twitter:description" content="Done with the Honours Thesis!">
-<meta name="twitter:image" content="https://xp-song.github.io/images/icon.png">
+<meta name="twitter:image" content="https://xp-song.github.io/posts/urban-agriculture/featured.jpg">
 <meta name="twitter:creator" content="@song_xiaoping">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
 <meta name="twitter:image:alt" content="Image by BrightAgrotech from Pixabay">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -106,25 +116,27 @@ background-size: cover;
     <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../academia.html">
+    <a class="nav-link" href="../../academia.html" rel="" target="">
  <span class="menu-text">Academia</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../music.html">
+    <a class="nav-link" href="../../music.html" rel="" target="">
  <span class="menu-text">Music</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -151,7 +163,7 @@ background-size: cover;
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>XP Song </p>
+               <p><a href="https://xp-song.github.io">XP Song</a> </p>
             </div>
     </div>
       
@@ -191,35 +203,35 @@ background-size: cover;
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/agri_nursery.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption"><em>Vegetable crops grown in the plant nursery</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Vegetable crops grown in the plant nursery</em></figcaption>
 </figure>
 </div>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/agri_licor.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption"><em>Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Measurement of photosynthesis under varying light conditions using the LICOR LI-6400 gas exchange system</em></figcaption>
 </figure>
 </div>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/agri_parsensor.JPG" class="img-fluid figure-img" style="width:70.0%"></p>
-<p></p><figcaption class="figure-caption"><em>Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Light sensor within the built environment, used to measure specific wavelengths suitable for plant growth</em></figcaption>
 </figure>
 </div>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/agri_light.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<p></p><figcaption class="figure-caption"><em>The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m</em><sup>−2</sup> d<sup>−1</sup> (horizontal dashed line). Figure from Song et al.&nbsp;(2018).</figcaption><p></p>
+<figcaption class="figure-caption"><em>The Daily Light Integral (DLI) at different building façades and heights on a relatively clear day. The average unshaded DLI in Singapore is 29.3 mol m</em><sup>−2</sup> d<sup>−1</sup> (horizontal dashed line). Figure from Song et al.&nbsp;(2018).</figcaption>
 </figure>
 </div>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/agri_light-realtime.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<p></p><figcaption class="figure-caption"><em>Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al.&nbsp;(2018).</em></figcaption><p></p>
+<figcaption class="figure-caption"><em>Variation in light conditions at different building façades and heights on a relatively clear day. The light requirements of plant crops are shown as horizontal lines. Figure from Song et al.&nbsp;(2018).</em></figcaption>
 </figure>
 </div>
 </center>
@@ -232,8 +244,8 @@ background-size: cover;
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x.p.2018,
-  author = {Song, X. P. and Tan, P. Y. and Tan, H. T. W.},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{x. p.2018,
+  author = {X. P. , Song and P. Y. , Tan and H. T. W. , Tan},
   title = {Assessment of Light Adequacy for Vertical Farming in a
     Tropical City},
   journal = {Urban Forestry \&amp; Urban Greening},
@@ -244,8 +256,8 @@ background-size: cover;
   doi = {10.1016/j.ufug.2017.11.004},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x.p.2018" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Song, X. P., Tan, P. Y., and Tan, H. T. W. 2018. <span>“Assessment of
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2018" class="csl-entry quarto-appendix-citeas" role="listitem">
+X. P., Song, Tan P. Y., and Tan H. T. W. 2018. <span>“Assessment of
 Light Adequacy for Vertical Farming in a Tropical City.”</span>
 <em>Urban Forestry &amp; Urban Greening</em> 29: 49–57. <a href="https://doi.org/10.1016/j.ufug.2017.11.004">https://doi.org/10.1016/j.ufug.2017.11.004</a>.
 </div></div></section></div></main> <!-- /main -->
@@ -276,9 +288,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -343,6 +369,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -387,7 +499,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2022 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-left">© 2023 Xiao Ping Song. Built with <a href="https://quarto.org/">Quarto</a>.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
