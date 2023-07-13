@@ -4,21 +4,22 @@
     <title>Intro2R-spatial</title>
     <meta charset="utf-8" />
     <meta name="author" content="Song, Xiao Ping" />
+    <script src="libs/header-attrs-2.23/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
     <meta name="github-repo" content="xp-song/Intro2R-spatial"/>
     <meta name="twitter:title" content="Intro2R-spatial"/>
     <meta name="twitter:description" content="Analysing spatial patterns of the landscape Using R to classify land cover and quantify landscape composition/configuration"/>
-    <meta name="twitter:url" content="https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1"/>
-    <meta name="twitter:image:src" content="https://xp-song.github.io/posts/intro2r/featured_hub18f42c231d1dcf61ff6eada67bf7802_70593_150x0_resize_lanczos_2.png"/>
+    <meta name="twitter:url" content="https://xp-song.github.io/resources/intro2r_spatial/slides#1"/>
+    <meta name="twitter:image" content="https://xp-song.github.io/posts/intro2r-spatial/featured.jpg"/>
     <meta name="twitter:image:alt" content="Intro2R-spatial: Analysing spatial patterns of the landscape by Song, Xiao Ping"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:creator" content="@song_xiaoping"/>
     <meta name="twitter:site" content="@song_xiaoping"/>
     <meta property="og:title" content="Intro2R-spatial"/>
     <meta property="og:description" content="Analysing spatial patterns of the landscape Using R to classify land cover and quantify landscape composition/configuration"/>
-    <meta property="og:url" content="https://xp-song.github.io/files/slides/Intro2r_spatial/1_Intro2Rspatial_slides#1"/>
-    <meta property="og:image" content="https://xp-song.github.io/posts/intro2r/featured_hub18f42c231d1dcf61ff6eada67bf7802_70593_150x0_resize_lanczos_2.png"/>
+    <meta property="og:url" content="https://xp-song.github.io/resources/intro2r_spatial/slides#1"/>
+    <meta property="og:image" content="https://xp-song.github.io/posts/intro2r-spatial/featured.jpg"/>
     <meta property="og:image:alt" content="Intro2R-spatial: Analysing spatial patterns of the landscape by Song, Xiao Ping"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_US"/>
@@ -26,9 +27,10 @@
     <script src="libs/clipboard-2.0.6/clipboard.min.js"></script>
     <link href="libs/shareon-1.4.1/shareon.min.css" rel="stylesheet" />
     <script src="libs/shareon-1.4.1/shareon.min.js"></script>
-    <link href="libs/xaringanExtra-shareagain-0.2.3.9000/shareagain.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-shareagain-0.2.3.9000/shareagain.js"></script>
+    <link href="libs/xaringanExtra-shareagain-0.2.6/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain-0.2.6/shareagain.js"></script>
     <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
     <link rel="stylesheet" href="theme-tweaks.css" type="text/css" />
     <link rel="stylesheet" href="custom-fonts.css" type="text/css" />
   </head>
@@ -36,11 +38,21 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide, title-slide
 
+.title[
 # Intro2R-spatial
+]
+.subtitle[
 ## Analysing spatial patterns of the landscape
+]
+.author[
 ### <a href="https://xp-song.github.io">Song, Xiao Ping</a>
+]
+.institute[
 ### <a href="mailto:xp.song@u.nus.edu" class="email">xp.song@u.nus.edu</a> <br><br> Course materials: <a href="https://github.com/xp-song/Intro2R-spatial" class="uri">https://github.com/xp-song/Intro2R-spatial</a>
+]
+.date[
 ### updated 2020-10-09
+]
 
 ---
 
@@ -770,7 +782,7 @@ plotRGB(landsatRGB,
         stretch = "lin")
 ```
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-13-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-13-1.png" style="display: block; margin: auto;" /&gt;
 .center[.small[Landsat-8 true color composite (RGB). Source: U.S. Geological Survey.]]
 ] 
 
@@ -827,8 +839,47 @@ crs(landsat)
 ```
 
 ```
-## CRS arguments:
-##  +proj=utm +zone=48 +datum=WGS84 +units=m +no_defs
+## Coordinate Reference System:
+## Deprecated Proj.4 representation:
+##  +proj=utm +zone=48 +datum=WGS84 +units=m +no_defs 
+## WKT2 2019 representation:
+## PROJCRS["unknown",
+##     BASEGEOGCRS["unknown",
+##         DATUM["World Geodetic System 1984",
+##             ELLIPSOID["WGS 84",6378137,298.257223563,
+##                 LENGTHUNIT["metre",1]],
+##             ID["EPSG",6326]],
+##         PRIMEM["Greenwich",0,
+##             ANGLEUNIT["degree",0.0174532925199433],
+##             ID["EPSG",8901]]],
+##     CONVERSION["UTM zone 48N",
+##         METHOD["Transverse Mercator",
+##             ID["EPSG",9807]],
+##         PARAMETER["Latitude of natural origin",0,
+##             ANGLEUNIT["degree",0.0174532925199433],
+##             ID["EPSG",8801]],
+##         PARAMETER["Longitude of natural origin",105,
+##             ANGLEUNIT["degree",0.0174532925199433],
+##             ID["EPSG",8802]],
+##         PARAMETER["Scale factor at natural origin",0.9996,
+##             SCALEUNIT["unity",1],
+##             ID["EPSG",8805]],
+##         PARAMETER["False easting",500000,
+##             LENGTHUNIT["metre",1],
+##             ID["EPSG",8806]],
+##         PARAMETER["False northing",0,
+##             LENGTHUNIT["metre",1],
+##             ID["EPSG",8807]],
+##         ID["EPSG",16048]],
+##     CS[Cartesian,2],
+##         AXIS["(E)",east,
+##             ORDER[1],
+##             LENGTHUNIT["metre",1,
+##                 ID["EPSG",9001]]],
+##         AXIS["(N)",north,
+##             ORDER[2],
+##             LENGTHUNIT["metre",1,
+##                 ID["EPSG",9001]]]]
 ```
 ]
 ???
@@ -852,7 +903,7 @@ __Use city boundaries to crop out the landscape of interest__
 
 Polygon file in *data* folder, downloaded from [data.gov.sg](https://data.gov.sg/dataset/master-plan-2014-region-boundary-web)   
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-20-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-20-1.png" style="display: block; margin: auto;" /&gt;
 .center[.small[Singapore city boundaries based on Regional Master Plan 2014. Source: Urban Redevelopment Authority (URA)]]
 
 ]
@@ -888,9 +939,7 @@ crs(sgshp)
 ```
 
 ```
-## CRS arguments:
-##  +proj=tmerc +lat_0=1.36666666666667 +lon_0=103.833333333333 +k=1
-## +x_0=28001.642 +y_0=38744.572 +datum=WGS84 +units=m +no_defs
+## [1] "PROJCRS[\"SVY21\",\n    BASEGEOGCRS[\"SVY21[WGS84]\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ID[\"EPSG\",6326]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"unnamed\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",1.36666666666667,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",103.833333333333,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",1,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",28001.642,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",38744.572,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]]]"
 ```
 ]
 
@@ -956,7 +1005,7 @@ plotRGB(landsatRGB,
         stretch = "lin")
 ```
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/landsat rgb-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/landsat rgb-1.png" style="display: block; margin: auto;" /&gt;
 .center[.small[Landsat-8 true color composite (USGS, 2018) cropped to city boundaries (URA, 2014)]]
 ]
 
@@ -1089,7 +1138,7 @@ plot(landsatNDVI,
      axes = FALSE, box = FALSE)
 ```
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/landsat ndvi-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/landsat ndvi-1.png" style="display: block; margin: auto;" /&gt;
 ]
 ???
 - We're plotting a single raster
@@ -1173,7 +1222,7 @@ abline(v=0.2, col="red", lwd=2)
 abline(v=0, col="red", lwd=2)
 ```
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/ndvi histogram-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/ndvi histogram-1.png" style="display: block; margin: auto;" /&gt;
 ]
 ???
 - `hist(landsatNDVI, breaks = 100)` - see in greater detail
@@ -1210,7 +1259,7 @@ plot(landsatGreen, col = "darkgreen",
 --
 .right-column[
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/landsat ndvi green-1.png" alt="Looks like vegetation cover"  /&gt;
+&lt;img src="slides_files/figure-html/landsat ndvi green-1.png" alt="Looks like vegetation cover"  /&gt;
 &lt;p class="caption"&gt;Looks like vegetation cover&lt;/p&gt;
 &lt;/div&gt;
 ]
@@ -1238,7 +1287,7 @@ plot(landsatBlue, col = "blue",
 ```
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/landsat ndvi blue-1.png" alt="Looks like water cover"  /&gt;
+&lt;img src="slides_files/figure-html/landsat ndvi blue-1.png" alt="Looks like water cover"  /&gt;
 &lt;p class="caption"&gt;Looks like water cover&lt;/p&gt;
 &lt;/div&gt;
 ]
@@ -1261,7 +1310,7 @@ class: left
 .right-column[
 __Let's create a new raster with pixels assigned to one of 3 classes__  
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-35-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-35-1.png" style="display: block; margin: auto;" /&gt;
 ]
 ???
 - A Mosaic model with discrete classes 
@@ -1365,7 +1414,7 @@ class: left
 ### Classify
 ]
 .right-column[
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/landsat landcover-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/landsat landcover-1.png" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -1508,7 +1557,7 @@ __3 levels of analyses:__
 - Class `lsm_c_&lt;metric&gt;()`  
 - Landscape `lsm_l_&lt;metric&gt;()`  
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-47-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-47-1.png" style="display: block; margin: auto;" /&gt;
 
 ???
 - Patch: 
@@ -1592,7 +1641,7 @@ class: left
 
 # Landscape metrics 
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-49-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-49-1.png" style="display: block; margin: auto;" /&gt;
 __Patch__  
 
 .small[
@@ -1615,7 +1664,7 @@ class: left
 
 # Landscape metrics 
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-50-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-50-1.png" style="display: block; margin: auto;" /&gt;
 __Class__  
 
 .small[
@@ -1639,7 +1688,7 @@ class: left
 
 # Landscape metrics 
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-51-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-51-1.png" style="display: block; margin: auto;" /&gt;
 __Landscape__  
 
 .small[
@@ -1703,7 +1752,7 @@ __Quick visualisation__
 show_landscape(landsatCover, discrete = TRUE) 
 ```
 
-&lt;img src="1_Intro2Rspatial_slides_files/figure-html/unnamed-chunk-55-1.png" style="display: block; margin: auto auto auto 0;" /&gt;
+&lt;img src="slides_files/figure-html/unnamed-chunk-55-1.png" style="display: block; margin: auto auto auto 0;" /&gt;
 ]
 ???
 - from `library(landscapetools)`
@@ -1730,7 +1779,7 @@ check_landscape(landsatCover)
 
 ```
 ##   layer       crs units   class n_classes OK
-## 1     1 projected     m integer         3  ✓
+## 1     1 projected     m integer         3  ✔
 ```
 ]
 
@@ -1758,20 +1807,20 @@ list_lsm()
 ```
 
 ```
-## # A tibble: 132 x 5
-##    metric name                            type               level function_name
-##    &lt;chr&gt;  &lt;chr&gt;                           &lt;chr&gt;              &lt;chr&gt; &lt;chr&gt;        
-##  1 area   patch area                      area and edge met… patch lsm_p_area   
-##  2 cai    core area index                 core area metric   patch lsm_p_cai    
-##  3 circle related circumscribing circle   shape metric       patch lsm_p_circle 
-##  4 contig contiguity index                shape metric       patch lsm_p_contig 
-##  5 core   core area                       core area metric   patch lsm_p_core   
-##  6 enn    euclidean nearest neighbor dis… aggregation metric patch lsm_p_enn    
-##  7 frac   fractal dimension index         shape metric       patch lsm_p_frac   
-##  8 gyrate radius of gyration              area and edge met… patch lsm_p_gyrate 
-##  9 ncore  number of core areas            core area metric   patch lsm_p_ncore  
-## 10 para   perimeter-area ratio            shape metric       patch lsm_p_para   
-## # … with 122 more rows
+## # A tibble: 133 × 5
+##    metric name                                type           level function_name
+##    &lt;chr&gt;  &lt;chr&gt;                               &lt;chr&gt;          &lt;chr&gt; &lt;chr&gt;        
+##  1 area   patch area                          area and edge… patch lsm_p_area   
+##  2 cai    core area index                     core area met… patch lsm_p_cai    
+##  3 circle related circumscribing circle       shape metric   patch lsm_p_circle 
+##  4 contig contiguity index                    shape metric   patch lsm_p_contig 
+##  5 core   core area                           core area met… patch lsm_p_core   
+##  6 enn    euclidean nearest neighbor distance aggregation m… patch lsm_p_enn    
+##  7 frac   fractal dimension index             shape metric   patch lsm_p_frac   
+##  8 gyrate radius of gyration                  area and edge… patch lsm_p_gyrate 
+##  9 ncore  number of core areas                core area met… patch lsm_p_ncore  
+## 10 para   perimeter-area ratio                shape metric   patch lsm_p_para   
+## # ℹ 123 more rows
 ```
 ]
 ???
@@ -1796,7 +1845,7 @@ list_lsm(level = "patch", type = "area and edge metric")
 ```
 
 ```
-## # A tibble: 3 x 5
+## # A tibble: 3 × 5
 ##   metric name               type                 level function_name
 ##   &lt;chr&gt;  &lt;chr&gt;              &lt;chr&gt;                &lt;chr&gt; &lt;chr&gt;        
 ## 1 area   patch area         area and edge metric patch lsm_p_area   
@@ -1826,7 +1875,7 @@ lsm_p_area(landsatCover)
 ```
 
 ```
-## # A tibble: 12,580 x 6
+## # A tibble: 12,580 × 6
 ##    layer level class    id metric value
 ##    &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;  &lt;dbl&gt;
 ##  1     1 patch     1     1 area   14.6 
@@ -1839,7 +1888,7 @@ lsm_p_area(landsatCover)
 ##  8     1 patch     1     8 area    0.09
 ##  9     1 patch     1     9 area    0.09
 ## 10     1 patch     1    10 area    0.09
-## # … with 12,570 more rows
+## # ℹ 12,570 more rows
 ```
 
 .small[*Note:* Use `?lsm_p_area` for more info on the function]  
@@ -1868,7 +1917,7 @@ lsm_c_ca(landsatCover) #total class area
 ```
 
 ```
-## # A tibble: 3 x 6
+## # A tibble: 3 × 6
 ##   layer level class    id metric  value
 ##   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;
 ## 1     1 class     1    NA ca      6742.
@@ -1881,7 +1930,7 @@ lsm_c_area_mn(landsatCover) #mean area
 ```
 
 ```
-## # A tibble: 3 x 6
+## # A tibble: 3 × 6
 ##   layer level class    id metric  value
 ##   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;
 ## 1     1 class     1    NA area_mn  3.22
@@ -1908,7 +1957,7 @@ lsm_c_pland(landsatCover) #percentage of landscape
 ```
 
 ```
-## # A tibble: 3 x 6
+## # A tibble: 3 × 6
 ##   layer level class    id metric value
 ##   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;  &lt;dbl&gt;
 ## 1     1 class     1    NA pland   8.62
@@ -1954,7 +2003,7 @@ lsm_l_ta(landsatCover) #total area of landscape
 ```
 
 ```
-## # A tibble: 1 x 6
+## # A tibble: 1 × 6
 ##   layer level     class    id metric  value
 ##   &lt;int&gt; &lt;chr&gt;     &lt;int&gt; &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;
 ## 1     1 landscape    NA    NA ta     78170.
@@ -1985,16 +2034,16 @@ calculate_lsm(landsatCover,
 ```
 
 ```
-## # A tibble: 7 x 9
-##   layer level   class    id metric   value name         type       function_name
-##   &lt;int&gt; &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;      &lt;chr&gt;        
-## 1     1 class       1    NA ca      6.74e3 total (clas… area and … lsm_c_ca     
-## 2     1 class       2    NA ca      2.85e4 total (clas… area and … lsm_c_ca     
-## 3     1 class       3    NA ca      4.29e4 total (clas… area and … lsm_c_ca     
-## 4     1 class       1    NA pland   8.62e0 percentage … area and … lsm_c_pland  
-## 5     1 class       2    NA pland   3.65e1 percentage … area and … lsm_c_pland  
-## 6     1 class       3    NA pland   5.49e1 percentage … area and … lsm_c_pland  
-## 7     1 landsc…    NA    NA ta      7.82e4 total area   area and … lsm_l_ta
+## # A tibble: 7 × 9
+##   layer level     class    id metric    value name           type  function_name
+##   &lt;int&gt; &lt;chr&gt;     &lt;int&gt; &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt; &lt;chr&gt;        
+## 1     1 class         1    NA ca      6742.   total (class)… area… lsm_c_ca     
+## 2     1 class         2    NA ca     28496.   total (class)… area… lsm_c_ca     
+## 3     1 class         3    NA ca     42933.   total (class)… area… lsm_c_ca     
+## 4     1 class         1    NA pland      8.62 percentage of… area… lsm_c_pland  
+## 5     1 class         2    NA pland     36.5  percentage of… area… lsm_c_pland  
+## 6     1 class         3    NA pland     54.9  percentage of… area… lsm_c_pland  
+## 7     1 landscape    NA    NA ta     78170.   total area     area… lsm_l_ta
 ```
 .small[
 __Note:__ use `options(scipen=999)` to disable scientific notation for reported values
@@ -2024,20 +2073,20 @@ calculate_lsm(landsatCover,
 ```
 
 ```
-## # A tibble: 45 x 9
-##    layer level class    id metric   value name         type        function_name
-##    &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;       &lt;chr&gt;        
-##  1     1 class     1    NA ai      88.4   aggregation… aggregatio… lsm_c_ai     
-##  2     1 class     2    NA ai      79.5   aggregation… aggregatio… lsm_c_ai     
-##  3     1 class     3    NA ai      87.8   aggregation… aggregatio… lsm_c_ai     
-##  4     1 class     1    NA clumpy   0.889 clumpiness … aggregatio… lsm_c_clumpy 
-##  5     1 class     2    NA clumpy   0.687 clumpiness … aggregatio… lsm_c_clumpy 
-##  6     1 class     3    NA clumpy   0.735 clumpiness … aggregatio… lsm_c_clumpy 
-##  7     1 class     1    NA cohesi… 95.5   patch cohes… aggregatio… lsm_c_cohesi…
-##  8     1 class     2    NA cohesi… 99.2   patch cohes… aggregatio… lsm_c_cohesi…
-##  9     1 class     3    NA cohesi… 99.8   patch cohes… aggregatio… lsm_c_cohesi…
-## 10     1 class     1    NA divisi…  1.00  division in… aggregatio… lsm_c_divisi…
-## # … with 35 more rows
+## # A tibble: 45 × 9
+##    layer level class    id metric    value name              type  function_name
+##    &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt; &lt;chr&gt;             &lt;chr&gt; &lt;chr&gt;        
+##  1     1 class     1    NA ai       88.4   aggregation index aggr… lsm_c_ai     
+##  2     1 class     2    NA ai       79.5   aggregation index aggr… lsm_c_ai     
+##  3     1 class     3    NA ai       87.8   aggregation index aggr… lsm_c_ai     
+##  4     1 class     1    NA clumpy    0.889 clumpiness index  aggr… lsm_c_clumpy 
+##  5     1 class     2    NA clumpy    0.687 clumpiness index  aggr… lsm_c_clumpy 
+##  6     1 class     3    NA clumpy    0.735 clumpiness index  aggr… lsm_c_clumpy 
+##  7     1 class     1    NA cohesion 95.5   patch cohesion i… aggr… lsm_c_cohesi…
+##  8     1 class     2    NA cohesion 99.2   patch cohesion i… aggr… lsm_c_cohesi…
+##  9     1 class     3    NA cohesion 99.8   patch cohesion i… aggr… lsm_c_cohesi…
+## 10     1 class     1    NA division  1.00  division index    aggr… lsm_c_divisi…
+## # ℹ 35 more rows
 ```
 ]
 
@@ -2065,15 +2114,15 @@ calculate_lsm(landsatCover,
 ```
 
 ```
-## # A tibble: 6 x 9
-##   layer level   class    id metric    value name          type     function_name
-##   &lt;int&gt; &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt; &lt;chr&gt;         &lt;chr&gt;    &lt;chr&gt;        
-## 1     1 landsc…    NA    NA msidi   0.817   modified sim… diversi… lsm_l_msidi  
-## 2     1 landsc…    NA    NA msiei   0.743   modified sim… diversi… lsm_l_msiei  
-## 3     1 landsc…    NA    NA pr      3       patch richne… diversi… lsm_l_pr     
-## 4     1 landsc…    NA    NA prd     0.00384 patch richne… diversi… lsm_l_prd    
-## 5     1 landsc…    NA    NA rpr    NA       relative pat… diversi… lsm_l_rpr    
-## 6     1 landsc…    NA    NA shdi    0.908   shannon's di… diversi… lsm_l_shdi
+## # A tibble: 6 × 9
+##   layer level     class    id metric    value name           type  function_name
+##   &lt;int&gt; &lt;chr&gt;     &lt;int&gt; &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt; &lt;chr&gt;        
+## 1     1 landscape    NA    NA msidi   0.817   modified simp… dive… lsm_l_msidi  
+## 2     1 landscape    NA    NA msiei   0.743   modified simp… dive… lsm_l_msiei  
+## 3     1 landscape    NA    NA pr      3       patch richness dive… lsm_l_pr     
+## 4     1 landscape    NA    NA prd     0.00384 patch richnes… dive… lsm_l_prd    
+## 5     1 landscape    NA    NA rpr    NA       relative patc… dive… lsm_l_rpr    
+## 6     1 landscape    NA    NA shdi    0.908   shannon's div… dive… lsm_l_shdi
 ```
 ]
 --
@@ -2316,6 +2365,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
