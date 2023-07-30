@@ -7,3 +7,21 @@ a, a > code {
   color: rgb(0, 153, 255);
   text-decoration: none;
 }
+
+.small { font-size: 60% }
+
+div.my-footer {
+    background-color: #00000000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+div.my-footer span {
+    font-size: 8pt;
+    color: #A9A9A9;
+    position: absolute;
+    left: 5px;
+    bottom: 2px;
+}
