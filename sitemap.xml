@@ -2,74 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://xp-song.github.io/index.html</loc>
-    <lastmod>2023-08-02T05:27:59.424Z</lastmod>
+    <lastmod>2023-11-03T09:26:16.770Z</lastmod>
   </url>
   <url>
     <loc>https://xp-song.github.io/blog.html</loc>
-    <lastmod>2023-08-02T05:27:57.522Z</lastmod>
+    <lastmod>2023-11-03T09:26:12.516Z</lastmod>
   </url>
   <url>
-    <loc>https://xp-song.github.io/subscribe.html</loc>
-    <lastmod>2023-08-02T05:27:56.154Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/photo-classify/index.html</loc>
-    <lastmod>2023-08-02T05:27:55.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/intro2r/index.html</loc>
-    <lastmod>2023-08-02T05:27:53.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/biodivercity/index.html</loc>
-    <lastmod>2023-08-02T05:27:50.499Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/trackchange-word/index.html</loc>
-    <lastmod>2023-08-02T05:27:48.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/kashiwanoha/index.html</loc>
-    <lastmod>2023-08-02T05:27:45.772Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/intro2r-spatial/index.html</loc>
-    <lastmod>2023-08-02T05:27:43.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</loc>
-    <lastmod>2023-08-02T05:27:40.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/music.html</loc>
-    <lastmod>2023-08-02T05:27:39.700Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/street-trees/index.html</loc>
-    <lastmod>2023-08-02T05:27:42.109Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/city-landcover-change/index.html</loc>
-    <lastmod>2023-08-02T05:27:44.805Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/urban-agriculture/index.html</loc>
-    <lastmod>2023-08-02T05:27:46.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/hello/index.html</loc>
-    <lastmod>2023-08-02T05:27:48.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xp-song.github.io/posts/home2park/index.html</loc>
-    <lastmod>2023-08-02T05:27:51.970Z</lastmod>
+    <loc>https://xp-song.github.io/courses/geospatial-datascience-r/index.html</loc>
+    <lastmod>2023-11-03T09:26:11.032Z</lastmod>
   </url>
   <url>
     <loc>https://xp-song.github.io/posts/nathans-first-drumset/index.html</loc>
-    <lastmod>2023-08-02T05:27:53.969Z</lastmod>
+    <lastmod>2023-11-03T09:26:08.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/home2park/index.html</loc>
+    <lastmod>2023-11-03T09:26:06.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/hello/index.html</loc>
+    <lastmod>2023-11-03T09:26:03.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/urban-agriculture/index.html</loc>
+    <lastmod>2023-11-03T09:26:01.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/city-landcover-change/index.html</loc>
+    <lastmod>2023-11-03T09:25:58.995Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/street-trees/index.html</loc>
+    <lastmod>2023-11-03T09:25:56.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/courses.html</loc>
+    <lastmod>2023-11-03T09:25:52.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/music.html</loc>
+    <lastmod>2023-11-03T09:25:52.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</loc>
+    <lastmod>2023-11-03T09:25:54.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/intro2r-spatial/index.html</loc>
+    <lastmod>2023-11-03T09:25:57.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/kashiwanoha/index.html</loc>
+    <lastmod>2023-11-03T09:26:00.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/trackchange-word/index.html</loc>
+    <lastmod>2023-11-03T09:26:02.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/biodivercity/index.html</loc>
+    <lastmod>2023-11-03T09:26:04.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/intro2r/index.html</loc>
+    <lastmod>2023-11-03T09:26:07.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/posts/photo-classify/index.html</loc>
+    <lastmod>2023-11-03T09:26:10.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xp-song.github.io/subscribe.html</loc>
+    <lastmod>2023-11-03T09:26:10.620Z</lastmod>
   </url>
   <url>
     <loc>https://xp-song.github.io/academia.html</loc>
-    <lastmod>2023-08-02T05:27:56.639Z</lastmod>
+    <lastmod>2023-11-03T09:26:11.586Z</lastmod>
   </url>
 </urlset>
