@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/geospatial-datascience-r/index.html",
       "/posts/biodivercity/index.html",
       "/posts/nathans-first-drumset/index.html",
       "/posts/home2park/index.html",

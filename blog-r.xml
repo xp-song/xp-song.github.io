@@ -15,7 +15,65 @@
 <link>https://xp-song.github.io/blog.html#category=R</link>
 </image>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Sun, 31 Jul 2022 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 31 Oct 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Online Course: Geospatial Data Science with R</title>
+  <dc:creator>XP Song</dc:creator>
+  <link>https://xp-song.github.io/posts/geospatial-datascience-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’m very excited to announce that I have released a new online course ‘<a href="https://bit.ly/geospatial-datascience-r_udemy"><strong>Geospatial Data Science with R</strong></a>’ on Udemy!</p>
+<p>As part of the opening offer, the <strong>first 100 sign-ups</strong> will have <strong>FREE lifetime access</strong> at the following link. Claim yours today: <a href="https://bit.ly/new-geospatial-course">bit.ly/new-geospatial-course</a></p>
+<p>Check out the video trailer and see if the course is right for you:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/playlist?list=PLn_S1vjm5cr29NH4BwcgG-K31_VG6dgtm" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="Geospatial Data Science with R">
+</iframe>
+</div>
+<p><br></p>
+<p>What sets this course apart from typical data science offerings is its unique focus on spatial problems which offer a visually rich landscape for exploration and analysis. Whether you’re an absolute beginner or a seasoned professional, this course is designed for you to ground your understanding and gain practical skills that can be put into action immediately.</p>
+<p>Finally, feel free to share this post with others that may benefit from the course. If you’ve signed up and have any feedback to offer, leaving a rating and review will also help me out a lot!</p>
+<p>Happy learning!<br>
+Xiao Ping</p>
+<p><br></p>
+<hr>
+<p><br></p>
+<center>
+<section id="more-information" class="level3">
+<h3 class="anchored" data-anchor-id="more-information">More information</h3>
+<p><br></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/2.jpg" width="80%"></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/3.jpg" width="80%"></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/4.jpg" width="80%"></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/5.jpg" width="80%"></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/6.jpg" width="80%"></p>
+<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/7.jpg" width="80%"></p>
+<p><br></p>
+</section></center>
+<p><br></p>
+
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p>➡ Go to course <a href="https://bit.ly/geospatial-datascience-r_udemy">here</a><br>
+➡ Extended Content Preview of Week 1: <a href="https://bit.ly/geospatial-datascience-r_youtube-preview">Introduction to R Programming</a> (YouTube)<br>
+➡ More information and updates on latest offers: <a href="https://xp-song.com/courses">https://xp-song.com/courses</a></p>
+<p><br></p>
+<p><br></p>
+<p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Tutorials</category>
+  <category>Software</category>
+  <category>R</category>
+  <guid>https://xp-song.github.io/posts/geospatial-datascience-r/index.html</guid>
+  <pubDate>Tue, 31 Oct 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://xp-song.github.io/posts/geospatial-datascience-r/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</title>
   <dc:creator>XP Song</dc:creator>
