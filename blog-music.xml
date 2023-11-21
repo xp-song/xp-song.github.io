@@ -6,20 +6,20 @@
       version="2.0">
 <channel>
 <title>XP&#39;s Blog</title>
-<link>https://xp-song.github.io/blog.html#category=Music</link>
-<atom:link href="https://xp-song.github.io/blog-music.xml" rel="self" type="application/rss+xml"/>
+<link>https://xpsong.com/blog.html#category=Music</link>
+<atom:link href="https://xpsong.com/blog-music.xml" rel="self" type="application/rss+xml"/>
 <description>Musings about data science, design, music and more...</description>
 <image>
-<url>https://xp-song.github.io/images/sheep.jpg</url>
+<url>https://xpsong.com/images/sheep.jpg</url>
 <title>XP&#39;s Blog</title>
-<link>https://xp-song.github.io/blog.html#category=Music</link>
+<link>https://xpsong.com/blog.html#category=Music</link>
 </image>
 <generator>quarto-1.3.433</generator>
 <lastBuildDate>Sun, 09 Jan 2022 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Nathan’s first drumset</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/nathans-first-drumset/index.html</link>
+  <link>https://xpsong.com/posts/nathans-first-drumset/index.html</link>
   <description><![CDATA[ 
 
 
@@ -38,14 +38,14 @@
 
  ]]></description>
   <category>Music</category>
-  <guid>https://xp-song.github.io/posts/nathans-first-drumset/index.html</guid>
+  <guid>https://xpsong.com/posts/nathans-first-drumset/index.html</guid>
   <pubDate>Sun, 09 Jan 2022 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/nathans-first-drumset/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/nathans-first-drumset/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Zoom with Drums</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</link>
+  <link>https://xpsong.com/posts/zoom-drum-lessons/index.html</link>
   <description><![CDATA[ 
 
 
@@ -74,9 +74,9 @@
 
  ]]></description>
   <category>Music</category>
-  <guid>https://xp-song.github.io/posts/zoom-drum-lessons/index.html</guid>
+  <guid>https://xpsong.com/posts/zoom-drum-lessons/index.html</guid>
   <pubDate>Sat, 04 Apr 2020 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/zoom-drum-lessons/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/zoom-drum-lessons/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

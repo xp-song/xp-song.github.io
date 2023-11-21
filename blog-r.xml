@@ -6,20 +6,20 @@
       version="2.0">
 <channel>
 <title>XP&#39;s Blog</title>
-<link>https://xp-song.github.io/blog.html#category=R</link>
-<atom:link href="https://xp-song.github.io/blog-r.xml" rel="self" type="application/rss+xml"/>
+<link>https://xpsong.com/blog.html#category=R</link>
+<atom:link href="https://xpsong.com/blog-r.xml" rel="self" type="application/rss+xml"/>
 <description>Musings about data science, design, music and more...</description>
 <image>
-<url>https://xp-song.github.io/images/sheep.jpg</url>
+<url>https://xpsong.com/images/sheep.jpg</url>
 <title>XP&#39;s Blog</title>
-<link>https://xp-song.github.io/blog.html#category=R</link>
+<link>https://xpsong.com/blog.html#category=R</link>
 </image>
 <generator>quarto-1.3.433</generator>
 <lastBuildDate>Tue, 31 Oct 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>New Online Course: Geospatial Data Science with R</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/geospatial-datascience-r/index.html</link>
+  <link>https://xpsong.com/posts/geospatial-datascience-r/index.html</link>
   <description><![CDATA[ 
 
 
@@ -44,12 +44,12 @@ Xiao Ping</p>
 <section id="more-information" class="level3">
 <h3 class="anchored" data-anchor-id="more-information">More information</h3>
 <p><br></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/2.jpg" width="80%"></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/3.jpg" width="80%"></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/4.jpg" width="80%"></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/5.jpg" width="80%"></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/6.jpg" width="80%"></p>
-<p><img src="https://xp-song.github.io/posts/geospatial-datascience-r/assets/7.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/2.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/3.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/4.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/5.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/6.jpg" width="80%"></p>
+<p><img src="https://xpsong.com/posts/geospatial-datascience-r/assets/7.jpg" width="80%"></p>
 <p><br></p>
 </section></center>
 <p><br></p>
@@ -70,14 +70,14 @@ Xiao Ping</p>
   <category>Tutorials</category>
   <category>Software</category>
   <category>R</category>
-  <guid>https://xp-song.github.io/posts/geospatial-datascience-r/index.html</guid>
+  <guid>https://xpsong.com/posts/geospatial-datascience-r/index.html</guid>
   <pubDate>Tue, 31 Oct 2023 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/geospatial-datascience-r/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/geospatial-datascience-r/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Biodiversity in cities: How can we assess the ‘performance’ of urban developments?</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/biodivercity/index.html</link>
+  <link>https://xpsong.com/posts/biodivercity/index.html</link>
   <description><![CDATA[ 
 
 
@@ -93,7 +93,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/aecom-2022.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/aecom-2022.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption class="figure-caption">Figure 1: Recommendations to mitigate the impact of urban development on biodiversity in a consultancy report (Source: <a href="https://www.hdb.gov.sg/cs/infoweb/-/media/doc/RPG/Keppel-Club-Site-EIS-Report.ashx">AECOM, 2022</a>).</figcaption>
 </figure>
 </div>
@@ -111,7 +111,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/sdm.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/sdm.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption class="figure-caption">Figure 2: How species distribution modelling (SDM) generally works (Source: <a href="https://damariszurell.github.io/SDM-Intro/">Damaris Zurell, 2020</a>).</figcaption>
 </figure>
 </div>
@@ -125,7 +125,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/species-richness-vs-abundance.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/species-richness-vs-abundance.png" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption class="figure-caption">Figure 3: Illustration showing the difference between <em>species richness</em> and <em>species abundance</em>.</figcaption>
 </figure>
 </div>
@@ -139,7 +139,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/alpha-beta-gamma.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/alpha-beta-gamma.png" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption class="figure-caption">Figure 4: <em>Gamma</em> (total) diversity across a larger region is composed of <em>Alpha</em> (local) diversity or species richness at single sites, as well as the <em>Beta</em> (community) diversity representing the differences in species compositions between sites.</figcaption>
 </figure>
 </div>
@@ -157,7 +157,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/framework.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/framework.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure 5: Broad overview of the data workflow for a chosen animal group (e.g., birds). The <em>Alpha</em> diversity heat map represents the number of species, while the <em>Beta</em> diversity colour map represents unique species communities within a given area.</figcaption>
 </figure>
 </div>
@@ -175,7 +175,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/subzone-distribution-odonates.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/subzone-distribution-odonates.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <figcaption class="figure-caption">Figure 6: Histogram showing the distribution of values for the average number of odonate species (<em>Alpha</em> diversity) per pixel within each of the 332 subzones in Singapore. Subzones were assigned an arbitrary score of -2 to 2 based on standard deviations from the mean (i.e., performance of the ‘average’ subzone).</figcaption>
 </figure>
 </div>
@@ -197,7 +197,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-rasterize.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/data-compatibility-rasterize.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption class="figure-caption">Figure 7: Example showing how manually generated vector data (points, polygons) of vegetation can be converted to a classified raster of vegetation types used in the predictive models.</figcaption>
 </figure>
 </div>
@@ -210,7 +210,7 @@ Xiao Ping</p>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/biodivercity/assets/data-compatibility-amend.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="https://xpsong.com/posts/biodivercity/assets/data-compatibility-amend.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption class="figure-caption">Figure 8: Example showing how a classified raster of remotely sensed vegetation can be amended with the manually generated vector data (rasterised). The dark green areas represent canopy cover, while the light green areas represent short vegetation.</figcaption>
 </figure>
 </div>
@@ -256,7 +256,7 @@ Xiao Ping</p>
     Biodiversity Across City Landscapes},
   version = {0.1.0},
   date = {2022},
-  url = {https://xp-song.github.io/posts/biodivercity},
+  url = {https://xpsong.com/posts/biodivercity},
   doi = {10.5281/zenodo.7410414},
   langid = {en}
 }
@@ -268,14 +268,14 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
-  <guid>https://xp-song.github.io/posts/biodivercity/index.html</guid>
+  <guid>https://xpsong.com/posts/biodivercity/index.html</guid>
   <pubDate>Sun, 31 Jul 2022 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/biodivercity/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/biodivercity/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Trying to fight cabin fever? The types of parks near your home matters</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/home2park/index.html</link>
+  <link>https://xpsong.com/posts/home2park/index.html</link>
   <description><![CDATA[ 
 
 
@@ -285,7 +285,7 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/bishan-amk.JPG" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">An elderly man sketching the landscape at Bishan-Ang Mo Kio Park in Singapore</figcaption>
 </figure>
 </div>
@@ -295,13 +295,13 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/upper-peirce-reservoir.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Waterfront landscapes at Upper Peirce Reservoir in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/canal.jpeg" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/canal.jpeg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>A very different kind of ‘waterfront’ closer to home</em></figcaption>
 </figure>
 </div>
@@ -311,7 +311,7 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/park-type.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/park-type.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Basic classification of parks in Singapore based on OpenStreetMap (OSM) data in 2020. Includes outdoor spaces such as beaches and informal nature areas.</figcaption>
 </figure>
 </div>
@@ -321,13 +321,13 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/park-trails.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/park-trails.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Length of <a href="https://ecological-cities.github.io/home2park/reference/get_trails_osm.html">trails</a> (foot- and cycle-ways) in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/marina-barrage.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Cycling with our little one along East Coast Park (a rather rare occasion)</em></figcaption>
 </figure>
 </div>
@@ -337,19 +337,19 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/park-waterfronts.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/park-waterfronts.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Length of waterfronts within &amp; near parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/park-forests.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/park-forests.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Area of dense vegetation within parks in Singapore</em></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/upper-peirce-reservoir2.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>Large water bodies and forest patches are present at Upper Peirce Reservoir Park</em></figcaption>
 </figure>
 </div>
@@ -359,7 +359,7 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/ss-park-area-buildings.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>The supply of park area to residential buildings in the year 2020, based on a ‘distance decay’ coefficient c</em> value of 0.661. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</figcaption>
 </figure>
 </div>
@@ -369,7 +369,7 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/home2park/assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/home2park/assets/ss-park-area-residents.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption"><em>The supply of park area to all building residents in the year 2020. Each building is denoted as a point (a random subset is shown). Details in the <a href="https://ecological-cities.github.io/home2park/">package website</a>.</em></figcaption>
 </figure>
 </div>
@@ -432,7 +432,7 @@ Singapore Green Plan 2030 (2021). <a href="https://www.greenplan.gov.sg/key-focu
   number = {66},
   pages = {3609},
   date = {2021},
-  url = {https://xp-song.github.io/posts/home2park},
+  url = {https://xpsong.com/posts/home2park},
   doi = {10.21105/joss.03609},
   langid = {en}
 }
@@ -444,14 +444,14 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
-  <guid>https://xp-song.github.io/posts/home2park/index.html</guid>
+  <guid>https://xpsong.com/posts/home2park/index.html</guid>
   <pubDate>Thu, 15 Jul 2021 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/home2park/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/home2park/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Changes in a city’s land cover over time</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/city-landcover-change/index.html</link>
+  <link>https://xpsong.com/posts/city-landcover-change/index.html</link>
   <description><![CDATA[ 
 
 
@@ -494,7 +494,7 @@ font-style: inherit;">library</span>(terra)</span></code></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/city-landcover-change/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="2100"></p>
+<p><img src="https://xpsong.com/posts/city-landcover-change/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="2100"></p>
 <figcaption class="figure-caption">Figure 1: Singapore subzone boundaries based on the <a href="https://data.gov.sg/dataset/master-plan-2019-subzone-boundary-no-sea">Master Plan 2019</a>.</figcaption>
 </figure>
 </div>
@@ -669,7 +669,7 @@ font-style: inherit;"># assign value of 1 for pixels above threshold (e.g. veget
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/NDVI.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><img src="https://xpsong.com/posts/city-landcover-change/assets/NDVI.png" class="img-fluid figure-img" style="width:70.0%"></p>
 <figcaption class="figure-caption">Figure 2: Distribution of NDVI values across Singapore in Survey Round One (light green bars, dashed vertical lines) and Two (dark green bars, solid vertical lines). Vegetation was classified as pixel with values &gt; 0.35 for Round One and &gt; 0.36 for Round Two. Dense vegetation was classified as pixels with values &gt; 0.62 for Round One and &gt; 0.66 for Round Two, based on a second round of Otsu’s thresholding after the first round of classification.</figcaption>
 </figure>
 </div>
@@ -684,7 +684,7 @@ font-style: inherit;"># assign value of 1 for pixels above threshold (e.g. veget
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/ground-truthing.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/city-landcover-change/assets/ground-truthing.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Figure 3: Screenshot showing vegetation derived from on-site surveys and satellite imagery at sampling points in Punggol, Singapore.</figcaption>
 </figure>
 </div>
@@ -693,7 +693,7 @@ font-style: inherit;"># assign value of 1 for pixels above threshold (e.g. veget
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/city-landcover-change/assets/validation.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/city-landcover-change/assets/validation.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Figure 4: Area of (a) vegetation, (b) built and (c) water cover derived from Sentinel-2 compared with on-site surveys at sampling points.</figcaption>
 </figure>
 </div>
@@ -726,24 +726,24 @@ font-style: inherit;"># assign value of 1 for pixels above threshold (e.g. veget
   author = {X. P. , Song},
   title = {Changes in a City’s Land Cover over Time},
   date = {2021-03-12},
-  url = {https://xp-song.github.io/posts/city-landcover-change},
+  url = {https://xpsong.com/posts/city-landcover-change},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2021" class="csl-entry quarto-appendix-citeas">
 X. P., Song. 2021. <span>“Changes in a City’s Land Cover over
-Time.”</span> March 12, 2021. <a href="https://xp-song.github.io/posts/city-landcover-change">https://xp-song.github.io/posts/city-landcover-change</a>.
+Time.”</span> March 12, 2021. <a href="https://xpsong.com/posts/city-landcover-change">https://xpsong.com/posts/city-landcover-change</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Research</category>
   <category>Tutorials</category>
-  <guid>https://xp-song.github.io/posts/city-landcover-change/index.html</guid>
+  <guid>https://xpsong.com/posts/city-landcover-change/index.html</guid>
   <pubDate>Thu, 11 Mar 2021 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/city-landcover-change/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/city-landcover-change/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Analysing spatial patterns of the landscape</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/intro2r-spatial/index.html</link>
+  <link>https://xpsong.com/posts/intro2r-spatial/index.html</link>
   <description><![CDATA[ 
 
 
@@ -788,23 +788,23 @@ Time.”</span> March 12, 2021. <a href="https://xp-song.github.io/posts/city-la
   author = {X. P. , Song},
   title = {Analysing Spatial Patterns of the Landscape},
   date = {2020-02-01},
-  url = {https://xp-song.github.io/posts/intro2r-spatial},
+  url = {https://xpsong.com/posts/intro2r-spatial},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2020" class="csl-entry quarto-appendix-citeas">
 X. P., Song. 2020. <span>“Analysing Spatial Patterns of the
-Landscape.”</span> February 1, 2020. <a href="https://xp-song.github.io/posts/intro2r-spatial">https://xp-song.github.io/posts/intro2r-spatial</a>.
+Landscape.”</span> February 1, 2020. <a href="https://xpsong.com/posts/intro2r-spatial">https://xpsong.com/posts/intro2r-spatial</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Tutorials</category>
-  <guid>https://xp-song.github.io/posts/intro2r-spatial/index.html</guid>
+  <guid>https://xpsong.com/posts/intro2r-spatial/index.html</guid>
   <pubDate>Fri, 31 Jan 2020 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/intro2r-spatial/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/intro2r-spatial/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Automated image classification into content-type categories</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/photo-classify/index.html</link>
+  <link>https://xpsong.com/posts/photo-classify/index.html</link>
   <description><![CDATA[ 
 
 
@@ -1886,7 +1886,7 @@ font-style: inherit;">"marginalDelta"</span>)</span></code></pre></div>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/photo-classify/assets/cluster_results.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/photo-classify/assets/cluster_results.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Differences between within- and between-cluster variation, across different clustering scenarios</figcaption>
 </figure>
 </div>
@@ -2026,7 +2026,7 @@ font-style: inherit;">"Lrmse"</span>)</span></code></pre></div>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/photo-classify/assets/rmse.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/photo-classify/assets/rmse.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Total RMSE of possible pairs of best-fit lines</figcaption>
 </figure>
 </div>
@@ -2106,7 +2106,7 @@ font-style: inherit;">border =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"red"</span>)</span></code></pre></div>
 </div>
-<p><img src="https://xp-song.github.io/posts/photo-classify/assets/visual.png" class="img-fluid"></p>
+<p><img src="https://xpsong.com/posts/photo-classify/assets/visual.png" class="img-fluid"></p>
 <p><br></p>
 <p>This post is also shared on <a href="https://r-bloggers.com">R-bloggers.com</a>.</p>
 
@@ -2121,7 +2121,7 @@ font-style: inherit;">"red"</span>)</span></code></pre></div>
   volume = {10},
   pages = {808},
   date = {2020-01-08},
-  url = {https://xp-song.github.io/posts/photo-classify},
+  url = {https://xpsong.com/posts/photo-classify},
   doi = {10.1038/s41598-020-57864-4},
   langid = {en}
 }
@@ -2133,14 +2133,14 @@ Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https:/
   <category>R</category>
   <category>Research</category>
   <category>Tutorials</category>
-  <guid>https://xp-song.github.io/posts/photo-classify/index.html</guid>
+  <guid>https://xpsong.com/posts/photo-classify/index.html</guid>
   <pubDate>Tue, 07 Jan 2020 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/photo-classify/featured.png" medium="image" type="image/png" height="85" width="144"/>
+  <media:content url="https://xpsong.com/posts/photo-classify/featured.png" medium="image" type="image/png" height="85" width="144"/>
 </item>
 <item>
   <title>A crash course in R programming</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/intro2r/index.html</link>
+  <link>https://xpsong.com/posts/intro2r/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2167,23 +2167,23 @@ Parks.”</span> <em>Scientific Reports</em> 10 (January): 808. <a href="https:/
   author = {X. P. , Song},
   title = {A Crash Course in {R} Programming},
   date = {2019-07-12},
-  url = {https://xp-song.github.io/posts/intro2r},
+  url = {https://xpsong.com/posts/intro2r},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-x. p.2019" class="csl-entry quarto-appendix-citeas">
 X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
-12, 2019. <a href="https://xp-song.github.io/posts/intro2r">https://xp-song.github.io/posts/intro2r</a>.
+12, 2019. <a href="https://xpsong.com/posts/intro2r">https://xpsong.com/posts/intro2r</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Tutorials</category>
-  <guid>https://xp-song.github.io/posts/intro2r/index.html</guid>
+  <guid>https://xpsong.com/posts/intro2r/index.html</guid>
   <pubDate>Thu, 11 Jul 2019 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/intro2r/featured.png" medium="image" type="image/png" height="126" width="144"/>
+  <media:content url="https://xpsong.com/posts/intro2r/featured.png" medium="image" type="image/png" height="126" width="144"/>
 </item>
 <item>
   <title>The performance of city trees</title>
   <dc:creator>XP Song</dc:creator>
-  <link>https://xp-song.github.io/posts/street-trees/index.html</link>
+  <link>https://xpsong.com/posts/street-trees/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2194,7 +2194,7 @@ X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<p><img src="https://xpsong.com/posts/street-trees/assets/trees_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
 <figcaption class="figure-caption">Tree species within benefit–cost assessments performed worldwide. Figure from Song et al.&nbsp;(2018).</figcaption>
 </figure>
 </div>
@@ -2204,7 +2204,7 @@ X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_allometree-maps.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/street-trees/assets/trees_allometree-maps.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Street trees in Singapore (a-c) mapped according to summarised metrics within hexagonal regions, and (d) mapped individually according to the extent that they are abnormally taller/shorter than predicted by their measured diameter. Figure from Song et al.&nbsp;(2020).</figcaption>
 </figure>
 </div>
@@ -2219,7 +2219,7 @@ X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://xp-song.github.io/posts/street-trees/assets/trees_workflow.png" class="img-fluid figure-img"></p>
+<p><img src="https://xpsong.com/posts/street-trees/assets/trees_workflow.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Examples showing (a) key inputs required for urban tree management, and (b) data sources that can supplement inventory data for urban tree management. Figure from Song et al.&nbsp;(2020).</figcaption>
 </figure>
 </div>
@@ -2247,7 +2247,7 @@ X. P., Song. 2019. <span>“A Crash Course in R Programming.”</span> July
   volume = {15},
   pages = {114017},
   date = {2020},
-  url = {https://xp-song.github.io/posts/street-trees},
+  url = {https://xpsong.com/posts/street-trees},
   doi = {10.1088/1748-9326/abbbad},
   langid = {en}
 }
@@ -2260,9 +2260,9 @@ Letters</em> 15: 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad">http
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
-  <guid>https://xp-song.github.io/posts/street-trees/index.html</guid>
+  <guid>https://xpsong.com/posts/street-trees/index.html</guid>
   <pubDate>Sat, 31 Mar 2018 16:00:00 GMT</pubDate>
-  <media:content url="https://xp-song.github.io/posts/street-trees/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xpsong.com/posts/street-trees/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
