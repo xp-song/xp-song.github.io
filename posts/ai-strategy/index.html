@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="XP Song">
+<meta name="dcterms.date" content="2025-04-13">
+<meta name="description" content="Re-thinking how we work, learn, and organize ourselves">
+
+<title>Vibe Coding with AI Tools in Large Enterprises – XP Song</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/icon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-352d2168f5014ef2ecf06eb4ef66f56e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WS5CZJ06W0"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WS5CZJ06W0', { 'anonymize_ip': true});
+</script>
+
+
+<meta property="og:title" content="Vibe Coding with AI Tools in Large Enterprises">
+<meta property="og:description" content="Re-thinking how we work, learn, and organize ourselves">
+<meta property="og:image" content="https://xpsong.com/posts/ai-strategy/featured.jpg">
+<meta property="og:site_name" content="XP's Website">
+<meta name="twitter:title" content="Vibe Coding with AI Tools in Large Enterprises">
+<meta name="twitter:description" content="Re-thinking how we work, learn, and organize ourselves">
+<meta name="twitter:image" content="https://xpsong.com/posts/ai-strategy/featured.jpg">
+<meta name="twitter:creator" content="@dr_watchnlearn">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/icon.png" alt="XP's Website" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../courses.html"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../academia.html"> 
+<span class="menu-text">Academia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../music.html"> 
+<span class="menu-text">Music</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Vibe Coding with AI Tools in Large Enterprises</h1>
+                  <div>
+        <div class="description">
+          Re-thinking how we work, learn, and organize ourselves
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Software</div>
+                <div class="quarto-category">Technology</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://xp-song.github.io">XP Song</a> <a href="mailto:xpsong.connect@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 13, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-emergence-of-vibe-coding" id="toc-the-emergence-of-vibe-coding" class="nav-link active" data-scroll-target="#the-emergence-of-vibe-coding">The emergence of Vibe Coding</a></li>
+  <li><a href="#the-reality-check" id="toc-the-reality-check" class="nav-link" data-scroll-target="#the-reality-check">The Reality Check</a></li>
+  <li><a href="#strategies-for-working-with-ai" id="toc-strategies-for-working-with-ai" class="nav-link" data-scroll-target="#strategies-for-working-with-ai">Strategies for working with AI</a>
+  <ul class="collapse">
+  <li><a href="#strategy-1-boost-productivity" id="toc-strategy-1-boost-productivity" class="nav-link" data-scroll-target="#strategy-1-boost-productivity">Strategy 1: Boost Productivity</a></li>
+  <li><a href="#strategy-2-codify-guardrails" id="toc-strategy-2-codify-guardrails" class="nav-link" data-scroll-target="#strategy-2-codify-guardrails">Strategy 2: Codify Guardrails</a></li>
+  </ul></li>
+  <li><a href="#looking-ahead-will-every-system-need-to-speak-agent" id="toc-looking-ahead-will-every-system-need-to-speak-agent" class="nav-link" data-scroll-target="#looking-ahead-will-every-system-need-to-speak-agent">Looking Ahead: Will Every System Need to Speak Agent?</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="the-emergence-of-vibe-coding" class="level2">
+<h2 class="anchored" data-anchor-id="the-emergence-of-vibe-coding">The emergence of Vibe Coding</h2>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/timeline.png" class="img-fluid figure-img"></p>
+<figcaption><em>Figure: Simplified timeline</em></figcaption>
+</figure>
+</div>
+</center>
+<p><br></p>
+<p>‘<a href="https://youtu.be/v7UcVPO4y3c?feature=shared">Vibe Coding</a>’ has definitely been one of the biggest hypes in the past month — and nowhere is this more visible than in the startup world. In <em>Mar 2025</em>, Jared Friedman, Managing Partner at leading startup accelerator Y Combinator, noted:</p>
+<blockquote class="blockquote">
+<p>“95% of their codebases (were) generated by AI… Every one of these people is highly technical, completely capable of building their own products from scratch. A year ago, they would have built their product from scratch — but now 95% of it is built by an AI.”</p>
+</blockquote>
+<p><br></p>
+<p>Having tried to keep up with fast-evolving AI tools in both development and creative work, it’s been a whirlwind, to say the least. Personally, tools like <a href="https://www.cursor.com/en">Cursor AI</a> have been a game-changer. It’s dramatically boosted my productivity, lowered the barriers to starting new projects, and enabled just-in-time learning for new tools and languages across the software stack.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/vibe-coding-benefits.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption><em>Image generated by prompting ChatGPT</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+</section>
+<section id="the-reality-check" class="level2">
+<h2 class="anchored" data-anchor-id="the-reality-check">The Reality Check</h2>
+<p>However, in its current state, this now (in)famous meme probably sums up what Vibe Coding looks like today:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/vibe-coding-meme.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Why? Well, here’s a list of <em><strong>AI-induced</strong></em> issues I’ve faced with the current state of technology:</p>
+<p><strong>Table: AI-induced Vibe Coding issues</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 23%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Problem/Pitfall</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>Unintended changes</strong></td>
+<td>Files are rewritten during regeneration, which removes or alters functionality that was previously working</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><strong>Monolithic code</strong></td>
+<td>Generated code often violates clear separation of concerns, leading to tightly-coupled components that are harder to maintain and debug</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><strong>Violates DRY principles</strong></td>
+<td>Generated code repeats logic unnecessarily, increasing technical debt and the risk of bugs</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><strong>Security vulnerabilities</strong></td>
+<td>Code may expose API keys, hardcode credentials, or fail to implement proper authentication</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>Unverified dependencies</strong></td>
+<td>Introducing libraries or frameworks that may not be necessary, or that have known vulnerabilities</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><strong>Limited context window</strong></td>
+<td>Large files (e.g., data) can exceed the model’s context window and affect speed</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><strong>Limitations with complex systems</strong></td>
+<td>Lacks understanding of large-scale production systems with intricate logic, applying patchwork that results in unmaintainable code</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>Some of these issues are already starting to get better as technology improves (for example, no. 6). However, many larger organizations simply cannot afford to take on these risks — especially those operating in regulated environments, critical infrastructure, or with stringent security and compliance requirements. More critically, Vibe Coding also introduces <em><strong>human-induced</strong></em> risks that are arguably even harder to manage. This painfully funny quote from Ars Technica sums it up perfectly:</p>
+<blockquote class="blockquote">
+<p>“Vibe coding is all fun and games until you have to vibe debug.”</p>
+</blockquote>
+<p><strong>Table: Human-induced Vibe Coding issues</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 22%">
+<col style="width: 74%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Problem/Pitfall</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>Lack of Explainability</strong></td>
+<td>Developers often don’t understand the logic or complexities behind AI-generated solutions</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><strong>Blind Trust</strong></td>
+<td>Sloppy checks even by experienced developers can result in flaws that are difficult to detect until they cause real-world failures</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><strong>Amplifies poor organizational alignment</strong></td>
+<td>Unclear strategy and standards (e.g., system architecture, business requirements) can quickly lead to chaos</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>These risks are real — both from the current limitations of AI tooling and human shortcomings that come with a new way of building software. At least from my vantage point, I still see a large gap between what’s working for startups or solo devs, and what’s viable for enterprise teams. This can be visualized as a curve showing the declining <em>utility</em> of AI-generated code as it gets too complex:</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/vibe-coding-graph.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption><em>Figure: Conceptual model showing how the utility of Vibe Coding changes with code complexity</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p>As you can see from the green vs.&nbsp;orange curves, the <em>utility</em> that Vibe Coding provides to an organization will largely depend on the strength of it’s AI strategy. Accordingly, each will have to clearly define the threshold of complexity beyond which Vibe Coding should not be relied on (vertical line). Given how rapidly the landscape and tooling is changing (often in a matter of weeks!), these curves will be constantly shifting as well. Organizations need more than just access to the latest tools to stay competitive. <strong>They need clear strategies and strong organizational alignment for AI adoption.</strong></p>
+<p><br></p>
+</section>
+<section id="strategies-for-working-with-ai" class="level2">
+<h2 class="anchored" data-anchor-id="strategies-for-working-with-ai">Strategies for working with AI</h2>
+<blockquote class="blockquote">
+<p>“Zero to one will be great for vibe coding where founders can ship features very quickly. But once they hit product-market-fit, they’re still going to have really hardcore systems engineering… and you need to hire very different kinds of people.” <em><strong>-Diana Hu, Y Combinator Group Partner</strong></em></p>
+</blockquote>
+<p>A successful AI strategy isn’t just about tools — it’s deeply tied to people, processes, and organizational culture. To make Vibe Coding sustainable, we need to build the scaffolding around it. Below are the core strategies I believe are essential for Vibe Coding to succeed within large enterprises.</p>
+<section id="strategy-1-boost-productivity" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-1-boost-productivity">Strategy 1: Boost Productivity</h3>
+<p>Talking to different developers, I’ve found opinions on Vibe Coding to be pretty polarizing. Some love the speed and creative freedom it unlocks, while others worry about the trade-off — sacrificing understanding for speed. One big concern is that it robs junior developers of the ‘hard work’ needed to build deep expertise — the kind that comes from wrestling with complexity, not skipping past it.</p>
+<p>But like it or not, it is clear the game is changing.</p>
+<p>AI won’t replace developers — it’s changing what being a developer means. As we move into the future, those who use AI effectively will increasingly outperform those who don’t. We’re already seeing the next generation learn in very different ways: coding through projects, exploring the full stack, and learning tools and languages just-in-time.</p>
+<p><br></p>
+<p>Organizations should tap into this momentum to boost productivity across teams. When used right, AI can help developers:</p>
+<ul>
+<li>Build cross-functional skills</li>
+<li>Break down silos</li>
+<li>Reduce friction in collaboration and handovers</li>
+<li>Improve agility by enabling rapid prototyping and iteration</li>
+</ul>
+<p>But to really benefit, teams need to shift their mindset from “I built this from scratch” to “I orchestrated this with precision.” This means that developers need to get comfortable acting as reviewers, editors, and system architects — not just as authors of every line.</p>
+<p><br></p>
+<p>This also means that AI adoption must be more than a bolt-on. It needs to be tightly woven into existing workflows and aligned with the organization’s tech stack and culture. Key considerations include:</p>
+<ul>
+<li>Ensuring compatibility with current infrastructure</li>
+<li>Avoiding tool sprawl and overlapping functionality</li>
+<li>Embedding AI to reduce friction rather than introduce it</li>
+</ul>
+<p>To make this shift practical, organizations need clarity on where AI adds the most value today — and how to support those workflows with the right tools. That means evaluating not just features, but fit: how well these tools integrate into your existing tech stack, respect data privacy, and perform reliably under production conditions. Beyond functionality, enterprise adoption hinges on factors like security, ease of use, and the availability of commercial support. The table below outlines a few AI-ready tasks that are already gaining traction in modern development cycles.</p>
+<p><strong>Table: AI-ready tasks and tooling in software development (Mar 2025)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Task</th>
+<th>Description</th>
+<th>Role</th>
+<th>Suggested Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Gather Requirements</td>
+<td>- Capture and summarize user meetings <br> - Iterative discovery of functionality, architecture, edge cases, and constraints (e.g., security, scalability, compliance)</td>
+<td>Product Manager</td>
+<td><strong><a href="https://fireflies.ai">Fireflies AI</a></strong>: Transcribe and summarize discussions <br> <strong><a href="https://chatgpt.com">ChatGPT</a> / <a href="https://gemini.google.com/app">Gemini</a> / <a href="https://claude.ai">Claude</a></strong>: Technical exploration, generate targeted questions</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Create the Product Requirements Document (PRD)</td>
+<td>- Co-write user stories and technical boundaries <br> - Break down by feature into structured prompts for development</td>
+<td>Product Manager</td>
+<td><strong><a href="https://www.atlassian.com/software/confluence">Confluence</a> / <a href="https://www.notion.com">Notion</a></strong>: Collaborative documentation <br> <strong><a href="https://chatgpt.com">ChatGPT</a></strong>: For prompt structuring and refinement</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Set Up Development Environment</td>
+<td>- Scaffold projects and repositories <br> - Define coding/testing guardrails</td>
+<td>Developer</td>
+<td><strong><a href="https://www.cursor.com">Cursor</a> / <a href="https://windsurf.com/editor">Windsurf</a></strong>: Bootstrapping, configuration, and rules</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Feature Slicing</td>
+<td>- Implement features vertically (end-to-end) in narrow, testable increments <br> - Continuous documentation (e.g., docstrings, commits, READMEs)</td>
+<td>Developer</td>
+<td><strong><a href="https://www.cursor.com">Cursor</a> / <a href="https://windsurf.com/editor">Windsurf</a></strong>: AI-integrated development</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Modularize and Refactor</td>
+<td>- Identify reusable logic and extract into modules <br> - DRY check to detect duplication and suggest abstractions</td>
+<td>Developer</td>
+<td><strong><a href="https://www.cursor.com">Cursor</a> / <a href="https://windsurf.com/editor">Windsurf</a></strong>: AI-integrated development</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Continuous Testing</td>
+<td>- Write and automate unit, integration, and end-to-end tests <br> - Embed testing into CI pipelines</td>
+<td>QA / Test Engineer</td>
+<td><strong><a href="https://www.codium.ai/qodo/">Codium AI (Qodo)</a></strong>: Agentic test generation</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="strategy-2-codify-guardrails" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-2-codify-guardrails">Strategy 2: Codify Guardrails</h3>
+<p>If Strategy 1 is about unlocking speed and creativity, then Strategy 2 is about ensuring stability and safety. To make Vibe Coding sustainable within complex environments, teams need clear rules of the road. This doesn’t mean slowing teams down with bureaucracy. It means scaling good judgment across the organization.</p>
+<blockquote class="blockquote">
+<p>Think of this as installing bumpers on a bowling lane — not to restrict creativity, but to protect the integrity of the game.</p>
+</blockquote>
+<p>Here’s what that could look like in practice:</p>
+<section id="establish-architectural-leadership" class="level4">
+<h4 class="anchored" data-anchor-id="establish-architectural-leadership">Establish Architectural Leadership</h4>
+<p>Strong architectural leadership is essential to guide the development of sustainable and trustworthy solutions. This involves:</p>
+<ul>
+<li><strong>Long-term Perspective</strong>: Avoiding rework by adhering to first principles and designing for longevity</li>
+<li><strong>Flexibility</strong>: Creating modular systems that enable reversible decisions</li>
+<li><strong>Resilience</strong>: Ensuring security and the ability to recover quickly from failures</li>
+</ul>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/strategy-2-prioritize-flexibility.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption><em>Figure: Sustainable solutions need to prioritize flexibility and consider all constraints (security, scalability, compliance)</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p><br></p>
+</section>
+<section id="implement-rule-based-systems" class="level4">
+<h4 class="anchored" data-anchor-id="implement-rule-based-systems">Implement Rule-Based Systems</h4>
+<p>Tools like <a href="https://www.cursor.com">Cursor</a> and <a href="https://windsurf.com/editor">Windsurf</a> offer rule-based systems that can address many AI-induced Vibe Coding issues highlighted earlier. These rules can be applied at various levels:</p>
+<ul>
+<li><strong>Code style and patterns</strong>: Enforce consistent coding standards</li>
+<li><strong>Tech stack usage</strong>: Define approved technologies and frameworks</li>
+<li><strong>Dependency management</strong>: Regulate the inclusion of third-party libraries</li>
+<li><strong>Agent workflows</strong>: Standardize AI agent behaviors and interactions</li>
+</ul>
+<p>Custom rules can also serve as the ‘organizational DNA’ that are ‘automatically applied’ to prompts. These can be tailored to:</p>
+<ul>
+<li>Company-wide standards</li>
+<li>Specific project requirements</li>
+<li>Domain-specific needs (e.g., data engineering, application development)</li>
+<li>Individual repositories</li>
+</ul>
+<p>Regular alignment and reviews are crucial to keep these standards up-to-date. Many curated lists (e.g., <a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a>) have also been sprouting up, and can serve as useful starting points.</p>
+<p><br></p>
+</section>
+</section>
+</section>
+<section id="looking-ahead-will-every-system-need-to-speak-agent" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead-will-every-system-need-to-speak-agent">Looking Ahead: Will Every System Need to Speak Agent?</h2>
+<p>As the landscape of AI tooling matures, another shift is already underway — not just in <em>how</em> we code, but in <em>how our systems communicate</em> with AI agents. This isn’t just about speeding up development anymore; it’s about making software that AI can understand and interact with directly.</p>
+<p>In late 2024, Anthropic introduced the <strong>Model Context Protocol (MCP)</strong> — an open protocol that’s been described as a kind of <strong>USB-C for AI applications</strong>. Much like how REST and GraphQL standardized web APIs, MCP aims to standardize the way systems expose their capabilities to large language models (LLMs) and AI agents.</p>
+<center>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/mcp.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption><em>Figure: Conceptual model for how the Model Context Protocol (MCP) works</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</center>
+<p>At its core, MCP allows a software system to declare “Here’s what I can do” in a machine-readable format — essentially giving agents a playbook they can follow. This opens up massive potential: imagine an LLM agent that can navigate across your enterprise stack, triggering workflows, querying data, and even modifying infrastructure <em>without needing to reverse-engineer your system through prompts</em>.</p>
+<blockquote class="blockquote">
+<p>The rise of MCP is ushering in a new interface paradigm — one where AI doesn’t just read and generate code, but <strong>operates your systems directly.</strong></p>
+</blockquote>
+<p>You can already explore an early library of <a href="https://glama.ai/mcp/servers">MCP Servers</a>, each representing a gateway for AI agents to interact with different apps and services. The implications are wide-ranging:</p>
+<ul>
+<li><strong>Software vendors</strong> may soon be expected to offer MCP compatibility by default</li>
+<li><strong>Internal platforms</strong> could become AI-accessible via standardized interfaces</li>
+<li><strong>New industries</strong> may emerge around MCP infrastructure — not unlike the explosion of web development in the early internet era</li>
+</ul>
+<p>That said, this new frontier comes with real risks. MCP Servers can grant deep access to critical systems — including the ability to make admin-level changes. As with any emerging standard, <strong>security and trust will be critical differentiators</strong>. Look for community-vetted projects with strong reputations (e.g., Discord/Reddit presence, Stars, Contributors) before adopting or deploying MCP integrations.</p>
+<p><br></p>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>While some may dismiss Vibe Coding as a fad, I think it’s a clear signal of how quickly the software development landscape and traditional roles are changing. Just as the “webmaster” role splintered into a range of digital specialties (e.g., UX/UI, SEO, front/back-end developer), developers and managers alike must soon adapt to new expectations.</p>
+<p>Speed alone doesn’t build resilient systems. If organizations want to harness the creative power of AI without descending into chaos, they must evolve not just their tooling, but their thinking. That means investing in:</p>
+<ul>
+<li>Processes that scale trust, not just productivity</li>
+<li>AI fluency across roles, not just in engineering</li>
+<li>Feedback loops that continuously refine both models and mindsets</li>
+</ul>
+<p>So here’s the real question: <strong>What kind of developer — and what kind of organization — do you want to be when AI is no longer the novelty, but the norm?</strong></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/xpsong\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<script src="https://giscus.app/client.js" data-repo="xp-song/xpsong_giscus" data-repo-id="R_kgDOH9R2Fw" data-category="Announcements" data-category-id="DIC_kwDOH9R2F84CRT77" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light_protanopia" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light_protanopia">
+<input type="hidden" id="giscus-alt-theme" value="light_protanopia">
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 XP Song. Built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:xpsong.connect@gmail.com">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../blog.xml">
+<p>RSS</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

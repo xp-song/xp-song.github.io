@@ -8,13 +8,13 @@
 <title>XP&#39;s Blog</title>
 <link>https://xpsong.com/blog.html#category=R</link>
 <atom:link href="https://xpsong.com/blog-r.xml" rel="self" type="application/rss+xml"/>
-<description>Musings about data science, design, music and more...</description>
+<description>Musings about science, technology, design, music and more...</description>
 <image>
 <url>https://xpsong.com/images/sheep.jpg</url>
 <title>XP&#39;s Blog</title>
 <link>https://xpsong.com/blog.html#category=R</link>
 </image>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.7.27</generator>
 <lastBuildDate>Tue, 31 Oct 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>New Online Course: Geospatial Data Science with R</title>
@@ -270,6 +270,7 @@ Biodiversity Across City Landscapes.”</span> <a href="https://doi.org/10.5281/
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
+  <category>Science</category>
   <guid>https://xpsong.com/posts/biodivercity/</guid>
   <pubDate>Sun, 31 Jul 2022 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/biodivercity/featured.jpg" medium="image" type="image/jpeg"/>
@@ -447,6 +448,7 @@ Source Software</em> 6 (66): 3609. <a href="https://doi.org/10.21105/joss.03609"
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
+  <category>Science</category>
   <guid>https://xpsong.com/posts/home2park/</guid>
   <pubDate>Thu, 15 Jul 2021 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/home2park/featured.jpg" medium="image" type="image/jpeg"/>
@@ -740,6 +742,7 @@ Time.”</span> March 12, 2021. <a href="https://xpsong.com/posts/city-landcover
   <category>R</category>
   <category>Research</category>
   <category>Tutorials</category>
+  <category>Science</category>
   <guid>https://xpsong.com/posts/city-landcover-change/</guid>
   <pubDate>Thu, 11 Mar 2021 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/city-landcover-change/featured.jpg" medium="image" type="image/jpeg"/>
@@ -802,6 +805,7 @@ Landscape.”</span> February 1, 2020. <a href="https://xpsong.com/posts/intro2r
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Tutorials</category>
+  <category>Science</category>
   <guid>https://xpsong.com/posts/intro2r-spatial/</guid>
   <pubDate>Fri, 31 Jan 2020 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/intro2r-spatial/featured.jpg" medium="image" type="image/jpeg"/>
@@ -865,8 +869,6 @@ Landscape.”</span> February 1, 2020. <a href="https://xpsong.com/posts/intro2r
 </tbody>
 </table>
 </div>
-
-
 </div>
 </div>
 <p>&nbsp;</p>
@@ -1211,8 +1213,6 @@ font-style: inherit;">"&gt; "</span>)</span>
 </tbody>
 </table>
 </div>
-
-
 </div>
 </div>
 <p>&nbsp;</p>
@@ -1899,10 +1899,7 @@ background-color: null;
 font-style: inherit;">"marginalDelta"</span>)</span></code></pre></div>
 </div>
 <p>Here are plots of the results across different clustering scenarios:</p>
-<div>
-
-</div>
-<div class="cell quarto-layout-panel" data-fig.ncol="2" data-layout-align="center" data-layout-ncol="2" data-fig.asp="1">
+<div class="cell quarto-layout-panel" data-fig.asp="1" data-layout-align="center" data-layout-ncol="2" data-fig.ncol="2">
 
 </div>
 <center>
@@ -2286,6 +2283,7 @@ Letters</em> 15: 114017. <a href="https://doi.org/10.1088/1748-9326/abbbad">http
   <category>R</category>
   <category>Research</category>
   <category>Software</category>
+  <category>Science</category>
   <guid>https://xpsong.com/posts/street-trees/</guid>
   <pubDate>Sat, 31 Mar 2018 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/street-trees/featured.jpg" medium="image" type="image/jpeg"/>

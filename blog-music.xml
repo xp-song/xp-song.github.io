@@ -8,13 +8,13 @@
 <title>XP&#39;s Blog</title>
 <link>https://xpsong.com/blog.html#category=Music</link>
 <atom:link href="https://xpsong.com/blog-music.xml" rel="self" type="application/rss+xml"/>
-<description>Musings about data science, design, music and more...</description>
+<description>Musings about science, technology, design, music and more...</description>
 <image>
 <url>https://xpsong.com/images/sheep.jpg</url>
 <title>XP&#39;s Blog</title>
 <link>https://xpsong.com/blog.html#category=Music</link>
 </image>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.7.27</generator>
 <lastBuildDate>Sun, 09 Jan 2022 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Nathan’s first drumset</title>
@@ -76,6 +76,7 @@
 
  ]]></description>
   <category>Music</category>
+  <category>Technology</category>
   <guid>https://xpsong.com/posts/zoom-drum-lessons/</guid>
   <pubDate>Sat, 04 Apr 2020 16:00:00 GMT</pubDate>
   <media:content url="https://xpsong.com/posts/zoom-drum-lessons/featured.jpg" medium="image" type="image/jpeg"/>

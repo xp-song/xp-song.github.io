@@ -2,6 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/ai-strategy/index.html",
+      "/posts/watch-n-learn/index.html",
       "/posts/geospatial-datascience-r/index.html",
       "/posts/biodivercity/index.html",
       "/posts/nathans-first-drumset/index.html",
