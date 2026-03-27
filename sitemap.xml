@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://xpsong.com/index.html</loc>
-    <lastmod>2025-05-29T13:31:42.796Z</lastmod>
+    <lastmod>2026-03-27T15:47:13.971Z</lastmod>
   </url>
   <url>
     <loc>https://xpsong.com/blog.html</loc>
@@ -21,8 +21,12 @@
     <lastmod>2025-04-19T13:49:47.221Z</lastmod>
   </url>
   <url>
-    <loc>https://xpsong.com/posts/biodivercity/index.html</loc>
-    <lastmod>2025-04-19T13:51:00.386Z</lastmod>
+    <loc>https://xpsong.com/posts/ai-strategy/index.html</loc>
+    <lastmod>2025-11-01T15:05:45.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xpsong.com/posts/hello/index.html</loc>
+    <lastmod>2023-11-29T07:26:28.654Z</lastmod>
   </url>
   <url>
     <loc>https://xpsong.com/posts/trackchange-word/index.html</loc>
@@ -61,8 +65,12 @@
     <lastmod>2025-04-19T12:48:07.603Z</lastmod>
   </url>
   <url>
-    <loc>https://xpsong.com/posts/hello/index.html</loc>
-    <lastmod>2023-11-29T07:26:28.654Z</lastmod>
+    <loc>https://xpsong.com/posts/watch-n-learn/index.html</loc>
+    <lastmod>2025-04-19T12:45:24.193Z</lastmod>
+  </url>
+  <url>
+    <loc>https://xpsong.com/posts/biodivercity/index.html</loc>
+    <lastmod>2025-04-19T13:51:00.386Z</lastmod>
   </url>
   <url>
     <loc>https://xpsong.com/posts/geospatial-datascience-r/index.html</loc>
@@ -83,13 +91,5 @@
   <url>
     <loc>https://xpsong.com/academia.html</loc>
     <lastmod>2025-09-22T08:51:59.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xpsong.com/posts/watch-n-learn/index.html</loc>
-    <lastmod>2025-04-19T12:45:24.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://xpsong.com/posts/ai-strategy/index.html</loc>
-    <lastmod>2025-04-20T18:11:23.144Z</lastmod>
   </url>
 </urlset>
