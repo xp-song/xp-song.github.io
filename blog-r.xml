@@ -1119,7 +1119,7 @@ font-style: inherit;">"&gt; "</span>)</span>
 </div>
 <p>&nbsp;</p>
 <p>Keyword results for the first few rows of the <code>photos</code> dataset:</p>
-<div class="cell" data-rownames.print="false" data-cols.print="5">
+<div class="cell">
 <div class="cell-output-display">
 <div class="table-responsive">
 <table class="table table-striped table-condensed caption-top table-sm small" data-quarto-postprocess="true">
@@ -1898,8 +1898,9 @@ font-style: inherit;">"distance"</span>,<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"marginalDelta"</span>)</span></code></pre></div>
 </div>
+<p>&nbsp;</p>
 <p>Here are plots of the results across different clustering scenarios:</p>
-<div class="cell quarto-layout-panel" data-fig.asp="1" data-layout-align="center" data-layout-ncol="2" data-fig.ncol="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="2" data-layout-align="center">
 
 </div>
 <center>
